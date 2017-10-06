@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 #----------------------------------------------------------
-# odoo cli
+# flectra cli
 #
-# To install your odoo development environement type:
+# To install your flectra development environement type:
 #
-# wget -O- https://raw.githubusercontent.com/odoo/odoo/10.0/setup/setup_dev.py | python
+# wget -O- https://raw.githubusercontent.com/flectra/flectra/10.0/setup/setup_dev.py | python
 #
-# The setup_* subcommands used to boostrap odoo are defined here inline and may
+# The setup_* subcommands used to boostrap flectra are defined here inline and may
 # only depends on the python 2.7 stdlib
 #
-# The rest of subcommands are defined in odoo/cli or in <module>/cli by
+# The rest of subcommands are defined in flectra/cli or in <module>/cli by
 # subclassing the Command object
 #
 #----------------------------------------------------------
@@ -22,13 +22,13 @@ GIT_HOOKS_PRE_PUSH = """
 #!/usr/bin/env python2
 import re
 import sys
-if re.search('github.com[:/]odoo/odoo.git$', sys.argv[2]):
-    print "Pushing to /odoo/odoo.git is forbidden, please push to odoo-dev, use --no-verify to override"
+if re.search('github.com[:/]flectra/flectra.git$', sys.argv[2]):
+    print "Pushing to /flectra/flectra.git is forbidden, please push to flectra-dev, use --no-verify to override"
     sys.exit(1)
 """
 
 def printf(f,*l):
-    print "odoo:" + f % l
+    print "flectra:" + f % l
 
 def run(*l):
     if isinstance(l[0], list):
@@ -40,15 +40,15 @@ def git_locate():
     # Locate git dir
     # TODO add support for os.environ.get('GIT_DIR')
 
-    # check for an odoo child
-    if os.path.isfile('odoo/.git/config'):
-        os.chdir('odoo')
+    # check for an flectra child
+    if os.path.isfile('flectra/.git/config'):
+        os.chdir('flectra')
 
     path = os.getcwd()
     while path != os.path.abspath(os.sep):
         gitconfig_path = os.path.join(path, '.git/config')
         if os.path.isfile(gitconfig_path):
-            release_py = os.path.join(path, 'odoo/release.py')
+            release_py = os.path.join(path, 'flectra/release.py')
             if os.path.isfile(release_py):
                 break
         path = os.path.dirname(path)
@@ -61,8 +61,8 @@ def cmd_setup_git():
     if git_dir:
         printf('git repo found at %s',git_dir)
     else:
-        run("git", "init", "odoo")
-        os.chdir('odoo')
+        run("git", "init", "flectra")
+        os.chdir('flectra')
         git_dir = os.getcwd()
     if git_dir:
         # push sane config for git < 2.0, and hooks
@@ -77,18 +77,18 @@ def cmd_setup_git():
         pre_push_path = os.path.join(git_dir, '.git/hooks/pre-push')
         open(pre_push_path,'w').write(GIT_HOOKS_PRE_PUSH.strip())
         os.chmod(pre_push_path, 0755)
-        # setup odoo remote
-        run('git','config','remote.odoo.url','https://github.com/odoo/odoo.git')
-        run('git','config','remote.odoo.pushurl','git@github.com:odoo/odoo.git')
-        run('git','config','--add','remote.odoo.fetch','dummy')
-        run('git','config','--unset-all','remote.odoo.fetch')
-        run('git','config','--add','remote.odoo.fetch','+refs/heads/*:refs/remotes/odoo/*')
-        # setup odoo-dev remote
-        run('git','config','remote.odoo-dev.url','https://github.com/odoo-dev/odoo.git')
-        run('git','config','remote.odoo-dev.pushurl','git@github.com:odoo-dev/odoo.git')
+        # setup flectra remote
+        run('git','config','remote.flectra.url','https://github.com/flectra/flectra.git')
+        run('git','config','remote.flectra.pushurl','git@github.com:flectra/flectra.git')
+        run('git','config','--add','remote.flectra.fetch','dummy')
+        run('git','config','--unset-all','remote.flectra.fetch')
+        run('git','config','--add','remote.flectra.fetch','+refs/heads/*:refs/remotes/flectra/*')
+        # setup flectra-dev remote
+        run('git','config','remote.flectra-dev.url','https://github.com/flectra-dev/flectra.git')
+        run('git','config','remote.flectra-dev.pushurl','git@github.com:flectra-dev/flectra.git')
         run('git','remote','update')
         # setup 10.0 branch
-        run('git','config','branch.10.0.remote','odoo')
+        run('git','config','branch.10.0.remote','flectra')
         run('git','config','branch.10.0.merge','refs/heads/10.0')
         run('git','checkout','10.0')
     else:
@@ -97,22 +97,22 @@ def cmd_setup_git():
 def cmd_setup_git_dev():
     git_dir = git_locate()
     if git_dir:
-        # setup odoo-dev remote
-        run('git','config','--add','remote.odoo-dev.fetch','dummy')
-        run('git','config','--unset-all','remote.odoo-dev.fetch')
-        run('git','config','--add','remote.odoo-dev.fetch','+refs/heads/*:refs/remotes/odoo-dev/*')
-        run('git','config','--add','remote.odoo-dev.fetch','+refs/pull/*:refs/remotes/odoo-dev/pull/*')
+        # setup flectra-dev remote
+        run('git','config','--add','remote.flectra-dev.fetch','dummy')
+        run('git','config','--unset-all','remote.flectra-dev.fetch')
+        run('git','config','--add','remote.flectra-dev.fetch','+refs/heads/*:refs/remotes/flectra-dev/*')
+        run('git','config','--add','remote.flectra-dev.fetch','+refs/pull/*:refs/remotes/flectra-dev/pull/*')
         run('git','remote','update')
 
 def cmd_setup_git_review():
     git_dir = git_locate()
     if git_dir:
-        # setup odoo-dev remote
-        run('git','config','--add','remote.odoo.fetch','dummy')
-        run('git','config','--unset-all','remote.odoo.fetch')
-        run('git','config','--add','remote.odoo.fetch','+refs/heads/*:refs/remotes/odoo/*')
-        run('git','config','--add','remote.odoo.fetch','+refs/tags/*:refs/remotes/odoo/tags/*')
-        run('git','config','--add','remote.odoo.fetch','+refs/pull/*:refs/remotes/odoo/pull/*')
+        # setup flectra-dev remote
+        run('git','config','--add','remote.flectra.fetch','dummy')
+        run('git','config','--unset-all','remote.flectra.fetch')
+        run('git','config','--add','remote.flectra.fetch','+refs/heads/*:refs/remotes/flectra/*')
+        run('git','config','--add','remote.flectra.fetch','+refs/tags/*:refs/remotes/flectra/tags/*')
+        run('git','config','--add','remote.flectra.fetch','+refs/pull/*:refs/remotes/flectra/pull/*')
 
 def setup_deps_debian(git_dir):
     debian_control_path = os.path.join(git_dir, 'debian/control')

@@ -10,18 +10,18 @@
 #
 # For gunicorn additional globals need to be defined in the Gunicorn section.
 # Then the following command should run:
-#   $ gunicorn odoo:service.wsgi_server.application -c openerp-wsgi.py
+#   $ gunicorn flectra:service.wsgi_server.application -c openerp-wsgi.py
 
-import odoo
+import flectra
 
 #----------------------------------------------------------
 # Common
 #----------------------------------------------------------
-odoo.multi_process = True # Nah!
+flectra.multi_process = True # Nah!
 
 # Equivalent of --load command-line option
-odoo.conf.server_wide_modules = ['web']
-conf = odoo.tools.config
+flectra.conf.server_wide_modules = ['web']
+conf = flectra.tools.config
 
 # Path to the OpenERP Addons repository (comma-separated for
 # multiple locations)
@@ -38,9 +38,9 @@ conf['addons_path'] = '../../addons/trunk,../../web/trunk/addons'
 #----------------------------------------------------------
 # Generic WSGI handlers application
 #----------------------------------------------------------
-application = odoo.service.wsgi_server.application
+application = flectra.service.wsgi_server.application
 
-odoo.service.server.load_server_wide_modules()
+flectra.service.server.load_server_wide_modules()
 
 #----------------------------------------------------------
 # Gunicorn
