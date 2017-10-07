@@ -45,8 +45,8 @@ flectra.service.server.load_server_wide_modules()
 #----------------------------------------------------------
 # Gunicorn
 #----------------------------------------------------------
-# Standard OpenERP XML-RPC port is 8069
-bind = '127.0.0.1:8069'
+# Standard OpenERP XML-RPC port is 7073
+bind = '127.0.0.1:7073'
 pidfile = '.gunicorn.pid'
 workers = 4
 timeout = 240

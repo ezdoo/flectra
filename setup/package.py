@@ -73,7 +73,7 @@ def system(l, chdir=None):
         os.chdir(cwd)
     return rc
 
-def _rpc_count_modules(addr='http://127.0.0.1', port=8069, dbname='mycompany'):
+def _rpc_count_modules(addr='http://127.0.0.1', port=7073, dbname='mycompany'):
     time.sleep(5)
     modules = xmlrpclib.ServerProxy('%s:%s/xmlrpc/object' % (addr, port)).execute(
         dbname, 1, 'admin', 'ir.module.module', 'search', [('state', '=', 'installed')]
@@ -124,7 +124,7 @@ def publish(o, type, extensions):
 class FlectraDocker(object):
     def __init__(self):
         self.log_file = NamedTemporaryFile(mode='w+b', prefix="bash", suffix=".txt", delete=False)
-        self.port = 8069  # TODO sle: reliable way to get a free port?
+        self.port = 7073  # TODO sle: reliable way to get a free port?
         self.prompt_re = '[root@nightly-tests] # '
         self.timeout = 600
 
@@ -137,7 +137,7 @@ class FlectraDocker(object):
         self.pub_dir = pub_dir
 
         self.docker = pexpect.spawn(
-            'docker run -v %s:/opt/release -p 127.0.0.1:%s:8069'
+            'docker run -v %s:/opt/release -p 127.0.0.1:%s:7073'
             ' -t -i %s /bin/bash --noediting' % (self.build_dir, self.port, docker_image),
             timeout=self.timeout,
             searchwindowsize=len(self.prompt_re) + 1,
@@ -185,7 +185,7 @@ class KVM(object):
         os.kill(self.pid,15)
 
     def start(self):
-        l="kvm -cpu core2duo -smp 2,sockets=2,cores=1,threads=1 -net nic,model=rtl8139 -net user,hostfwd=tcp:127.0.0.1:10022-:22,hostfwd=tcp:127.0.0.1:18069-:8069,hostfwd=tcp:127.0.0.1:15432-:5432 -m 1024 -drive".split(" ")
+        l="kvm -cpu core2duo -smp 2,sockets=2,cores=1,threads=1 -net nic,model=rtl8139 -net user,hostfwd=tcp:127.0.0.1:10022-:22,hostfwd=tcp:127.0.0.1:17073-:7073,hostfwd=tcp:127.0.0.1:15432-:5432 -m 1024 -drive".split(" ")
         #l.append('file=%s,if=virtio,index=0,boot=on,snapshot=on'%self.image)
         l.append('file=%s,snapshot=on'%self.image)
         #l.extend(['-vnc','127.0.0.1:1'])
@@ -242,7 +242,7 @@ class KVMWinTestExe(KVM):
         self.ssh('PGPASSWORD=openpgpwd /cygdrive/c/"Program Files"/"Flectra %s"/PostgreSQL/bin/createdb.exe -e -U openpg mycompany' % setupversion)
         self.ssh('/cygdrive/c/"Program Files"/"Flectra %s"/server/flectra-bin.exe -d mycompany -i base --stop-after-init' % setupversion)
         self.ssh('net start %s' % nt_service_name)
-        _rpc_count_modules(port=18069)
+        _rpc_count_modules(port=17073)
 
 #----------------------------------------------------------
 # Stage: building

@@ -2,7 +2,7 @@
 
 set -e
 
-FLECTRA_LIB_DIR=/var/lib/odoo
+FLECTRA_LIB_DIR=/var/lib/flectra
 FLECTRA_USER="flectra"
 FLECTRA_GROUP="flectra"
 
