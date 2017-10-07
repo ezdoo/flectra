@@ -4,9 +4,9 @@ import re
 
 import collections
 
-from odoo import api, fields, models
-from odoo.osv import expression
-from odoo.tools import pycompat
+from flectra import api, fields, models
+from flectra.osv import expression
+from flectra.tools import pycompat
 
 
 def sanitize_account_number(acc_number):

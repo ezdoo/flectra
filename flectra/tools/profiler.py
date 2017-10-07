@@ -5,7 +5,7 @@ import logging
 import sys
 import time
 
-import odoo
+import flectra
 _logger = logging.getLogger(__name__)
 
 
@@ -35,7 +35,7 @@ class _LogTracer(object):
 
         in_self = frame.f_locals['self']
 
-        if isinstance(in_self, (odoo.sql_db.Cursor, odoo.sql_db.TestCursor, odoo.sql_db.LazyCursor)):
+        if isinstance(in_self, (flectra.sql_db.Cursor, flectra.sql_db.TestCursor, flectra.sql_db.LazyCursor)):
             return self.tracer
 
         model = getattr(in_self, '_name', None)
@@ -79,7 +79,7 @@ def profile(method=None, whitelist=None, blacklist=(None,), files=None,
     """
         Decorate an entry point method.
         If profile is used without params, log as shallow mode else, log
-        all methods for all odoo models by applying the optional filters.
+        all methods for all flectra models by applying the optional filters.
 
         :param whitelist: None or list of model names to display in the log
                         (Default: None)
@@ -88,7 +88,7 @@ def profile(method=None, whitelist=None, blacklist=(None,), files=None,
                         (Default: None)
         :type files: list or None
         :param list blacklist: list model names to remove from the log
-                        (Default: remove non odoo model from the log: [None])
+                        (Default: remove non flectra model from the log: [None])
         :param int minimum_time: minimum time (ms) to display a method
                         (Default: 0)
         :param int minimum_queries: minimum sql queries to display a method
@@ -96,7 +96,7 @@ def profile(method=None, whitelist=None, blacklist=(None,), files=None,
         
         .. code-block:: python
 
-          from odoo.tools.profiler import profile
+          from flectra.tools.profiler import profile
 
           class SaleOrder(models.Model):
             ...
@@ -106,13 +106,13 @@ def profile(method=None, whitelist=None, blacklist=(None,), files=None,
             def create(self, vals):
             ...
             @api.multi
-            @profile()                  # log all methods for all odoo models
+            @profile()                  # log all methods for all flectra models
             def unlink(self):
             ...
             @profile(whitelist=['sale.order', 'ir.model.data'])
             def action_quotation_send(self):
             ...
-            @profile(files=['/home/openerp/odoo/odoo/addons/sale/models/sale.py'])
+            @profile(files=['/home/openerp/flectra/flectra/addons/sale/models/sale.py'])
             def write(self):
             ...
 
@@ -121,7 +121,7 @@ def profile(method=None, whitelist=None, blacklist=(None,), files=None,
 
     deep = not method
 
-    def _odooProfile(method, *args, **kwargs):
+    def _flectraProfile(method, *args, **kwargs):
         log_tracer = _LogTracer(whitelist=whitelist, blacklist=blacklist, files=files, deep=deep)
         sys.settrace(log_tracer.tracer)
         try:
@@ -192,7 +192,7 @@ def profile(method=None, whitelist=None, blacklist=(None,), files=None,
         return result
 
     if not method:
-        return lambda method: decorator(_odooProfile, method)
+        return lambda method: decorator(_flectraProfile, method)
 
-    wrapper = decorator(_odooProfile, method)
+    wrapper = decorator(_flectraProfile, method)
     return wrapper

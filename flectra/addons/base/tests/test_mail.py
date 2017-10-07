@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import unittest
 
-from odoo.tools import html_sanitize, append_content_to_html, plaintext2html, email_split, misc
+from flectra.tools import html_sanitize, append_content_to_html, plaintext2html, email_split, misc
 from . import test_mail_examples
 
 

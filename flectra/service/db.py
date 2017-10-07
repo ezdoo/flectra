@@ -16,15 +16,15 @@ from decorator import decorator
 
 import psycopg2
 
-import odoo
-from odoo import SUPERUSER_ID
-from odoo.exceptions import AccessDenied
-import odoo.release
-import odoo.sql_db
-import odoo.tools
-from odoo.sql_db import db_connect
-from odoo.release import version_info
-from odoo.tools import pycompat
+import flectra
+from flectra import SUPERUSER_ID
+from flectra.exceptions import AccessDenied
+import flectra.release
+import flectra.sql_db
+import flectra.tools
+from flectra.sql_db import db_connect
+from flectra.release import version_info
+from flectra.tools import pycompat
 
 _logger = logging.getLogger(__name__)
 
@@ -34,7 +34,7 @@ class DatabaseExists(Warning):
 
 def check_db_management_enabled(method):
     def if_db_mgt_enabled(method, self, *args, **kwargs):
-        if not odoo.tools.config['list_db']:
+        if not flectra.tools.config['list_db']:
             _logger.error('Database management functions blocked, admin disabled database listing')
             raise AccessDenied()
         return method(self, *args, **kwargs)
@@ -45,24 +45,24 @@ def check_db_management_enabled(method):
 #----------------------------------------------------------
 
 def check_super(passwd):
-    if passwd and odoo.tools.config.verify_admin_password(passwd):
+    if passwd and flectra.tools.config.verify_admin_password(passwd):
         return True
-    raise odoo.exceptions.AccessDenied()
+    raise flectra.exceptions.AccessDenied()
 
-# This should be moved to odoo.modules.db, along side initialize().
+# This should be moved to flectra.modules.db, along side initialize().
 def _initialize_db(id, db_name, demo, lang, user_password, login='admin', country_code=None):
     try:
-        db = odoo.sql_db.db_connect(db_name)
+        db = flectra.sql_db.db_connect(db_name)
         with closing(db.cursor()) as cr:
             # TODO this should be removed as it is done by Registry.new().
-            odoo.modules.db.initialize(cr)
-            odoo.tools.config['load_language'] = lang
+            flectra.modules.db.initialize(cr)
+            flectra.tools.config['load_language'] = lang
             cr.commit()
 
-        registry = odoo.modules.registry.Registry.new(db_name, demo, None, update_module=True)
+        registry = flectra.modules.registry.Registry.new(db_name, demo, None, update_module=True)
 
         with closing(db.cursor()) as cr:
-            env = odoo.api.Environment(cr, SUPERUSER_ID, {})
+            env = flectra.api.Environment(cr, SUPERUSER_ID, {})
 
             if lang:
                 modules = env['ir.module.module'].search([('state', '=', 'installed')])
@@ -77,7 +77,7 @@ def _initialize_db(id, db_name, demo, lang, user_password, login='admin', countr
             values = {'password': user_password, 'lang': lang}
             if login:
                 values['login'] = login
-                emails = odoo.tools.email_split(login)
+                emails = flectra.tools.email_split(login)
                 if emails:
                     values['email'] = emails[0]
             env.user.write(values)
@@ -88,9 +88,9 @@ def _initialize_db(id, db_name, demo, lang, user_password, login='admin', countr
         _logger.exception('CREATE DATABASE failed:')
 
 def _create_empty_database(name):
-    db = odoo.sql_db.db_connect('postgres')
+    db = flectra.sql_db.db_connect('postgres')
     with closing(db.cursor()) as cr:
-        chosen_template = odoo.tools.config['db_template']
+        chosen_template = flectra.tools.config['db_template']
         cr.execute("SELECT datname FROM pg_database WHERE datname = %s",
                    (name,), log_exceptions=False)
         if cr.fetchall():
@@ -110,21 +110,21 @@ def exp_create_database(db_name, demo, lang, user_password='admin', login='admin
 @check_db_management_enabled
 def exp_duplicate_database(db_original_name, db_name):
     _logger.info('Duplicate database `%s` to `%s`.', db_original_name, db_name)
-    odoo.sql_db.close_db(db_original_name)
-    db = odoo.sql_db.db_connect('postgres')
+    flectra.sql_db.close_db(db_original_name)
+    db = flectra.sql_db.db_connect('postgres')
     with closing(db.cursor()) as cr:
         cr.autocommit(True)     # avoid transaction block
         _drop_conn(cr, db_original_name)
         cr.execute("""CREATE DATABASE "%s" ENCODING 'unicode' TEMPLATE "%s" """ % (db_name, db_original_name))
 
-    registry = odoo.modules.registry.Registry.new(db_name)
+    registry = flectra.modules.registry.Registry.new(db_name)
     with registry.cursor() as cr:
         # if it's a copy of a database, force generation of a new dbuuid
-        env = odoo.api.Environment(cr, SUPERUSER_ID, {})
+        env = flectra.api.Environment(cr, SUPERUSER_ID, {})
         env['ir.config_parameter'].init(force=True)
 
-    from_fs = odoo.tools.config.filestore(db_original_name)
-    to_fs = odoo.tools.config.filestore(db_name)
+    from_fs = flectra.tools.config.filestore(db_original_name)
+    to_fs = flectra.tools.config.filestore(db_name)
     if os.path.exists(from_fs) and not os.path.exists(to_fs):
         shutil.copytree(from_fs, to_fs)
     return True
@@ -149,10 +149,10 @@ def _drop_conn(cr, db_name):
 def exp_drop(db_name):
     if db_name not in list_dbs(True):
         return False
-    odoo.modules.registry.Registry.delete(db_name)
-    odoo.sql_db.close_db(db_name)
+    flectra.modules.registry.Registry.delete(db_name)
+    flectra.sql_db.close_db(db_name)
 
-    db = odoo.sql_db.db_connect('postgres')
+    db = flectra.sql_db.db_connect('postgres')
     with closing(db.cursor()) as cr:
         cr.autocommit(True) # avoid transaction block
         _drop_conn(cr, db_name)
@@ -165,7 +165,7 @@ def exp_drop(db_name):
         else:
             _logger.info('DROP DB: %s', db_name)
 
-    fs = odoo.tools.config.filestore(db_name)
+    fs = flectra.tools.config.filestore(db_name)
     if os.path.exists(fs):
         shutil.rmtree(fs)
     return True
@@ -183,11 +183,11 @@ def dump_db_manifest(cr):
     cr.execute("SELECT name, latest_version FROM ir_module_module WHERE state = 'installed'")
     modules = dict(cr.fetchall())
     manifest = {
-        'odoo_dump': '1',
+        'flectra_dump': '1',
         'db_name': cr.dbname,
-        'version': odoo.release.version,
-        'version_info': odoo.release.version_info,
-        'major_version': odoo.release.major_version,
+        'version': flectra.release.version,
+        'version_info': flectra.release.version_info,
+        'major_version': flectra.release.major_version,
         'pg_version': pg_version,
         'modules': modules,
     }
@@ -204,26 +204,26 @@ def dump_db(db_name, stream, backup_format='zip'):
     cmd.append(db_name)
 
     if backup_format == 'zip':
-        with odoo.tools.osutil.tempdir() as dump_dir:
-            filestore = odoo.tools.config.filestore(db_name)
+        with flectra.tools.osutil.tempdir() as dump_dir:
+            filestore = flectra.tools.config.filestore(db_name)
             if os.path.exists(filestore):
                 shutil.copytree(filestore, os.path.join(dump_dir, 'filestore'))
             with open(os.path.join(dump_dir, 'manifest.json'), 'w') as fh:
-                db = odoo.sql_db.db_connect(db_name)
+                db = flectra.sql_db.db_connect(db_name)
                 with db.cursor() as cr:
                     json.dump(dump_db_manifest(cr), fh, indent=4)
             cmd.insert(-1, '--file=' + os.path.join(dump_dir, 'dump.sql'))
-            odoo.tools.exec_pg_command(*cmd)
+            flectra.tools.exec_pg_command(*cmd)
             if stream:
-                odoo.tools.osutil.zip_dir(dump_dir, stream, include_dir=False, fnct_sort=lambda file_name: file_name != 'dump.sql')
+                flectra.tools.osutil.zip_dir(dump_dir, stream, include_dir=False, fnct_sort=lambda file_name: file_name != 'dump.sql')
             else:
                 t=tempfile.TemporaryFile()
-                odoo.tools.osutil.zip_dir(dump_dir, t, include_dir=False, fnct_sort=lambda file_name: file_name != 'dump.sql')
+                flectra.tools.osutil.zip_dir(dump_dir, t, include_dir=False, fnct_sort=lambda file_name: file_name != 'dump.sql')
                 t.seek(0)
                 return t
     else:
         cmd.insert(-1, '--format=c')
-        stdin, stdout = odoo.tools.exec_pg_command_pipe(*cmd)
+        stdin, stdout = flectra.tools.exec_pg_command_pipe(*cmd)
         if stream:
             shutil.copyfileobj(stdout, stream)
         else:
@@ -250,7 +250,7 @@ def restore_db(db, dump_file, copy=False):
     _create_empty_database(db)
 
     filestore_path = None
-    with odoo.tools.osutil.tempdir() as dump_dir:
+    with flectra.tools.osutil.tempdir() as dump_dir:
         if zipfile.is_zipfile(dump_file):
             # v8 format
             with zipfile.ZipFile(dump_file, 'r') as z:
@@ -273,12 +273,12 @@ def restore_db(db, dump_file, copy=False):
         args.append('--dbname=' + db)
         pg_args = args + pg_args
 
-        if odoo.tools.exec_pg_command(pg_cmd, *pg_args):
+        if flectra.tools.exec_pg_command(pg_cmd, *pg_args):
             raise Exception("Couldn't restore database")
 
-        registry = odoo.modules.registry.Registry.new(db)
+        registry = flectra.modules.registry.Registry.new(db)
         with registry.cursor() as cr:
-            env = odoo.api.Environment(cr, SUPERUSER_ID, {})
+            env = flectra.api.Environment(cr, SUPERUSER_ID, {})
             if copy:
                 # if it's a copy of a database, force generation of a new dbuuid
                 env['ir.config_parameter'].init(force=True)
@@ -286,7 +286,7 @@ def restore_db(db, dump_file, copy=False):
                 filestore_dest = env['ir.attachment']._filestore()
                 shutil.move(filestore_path, filestore_dest)
 
-            if odoo.tools.config['unaccent']:
+            if flectra.tools.config['unaccent']:
                 try:
                     with cr.savepoint():
                         cr.execute("CREATE EXTENSION unaccent")
@@ -297,10 +297,10 @@ def restore_db(db, dump_file, copy=False):
 
 @check_db_management_enabled
 def exp_rename(old_name, new_name):
-    odoo.modules.registry.Registry.delete(old_name)
-    odoo.sql_db.close_db(old_name)
+    flectra.modules.registry.Registry.delete(old_name)
+    flectra.sql_db.close_db(old_name)
 
-    db = odoo.sql_db.db_connect('postgres')
+    db = flectra.sql_db.db_connect('postgres')
     with closing(db.cursor()) as cr:
         cr.autocommit(True)     # avoid transaction block
         _drop_conn(cr, old_name)
@@ -311,76 +311,76 @@ def exp_rename(old_name, new_name):
             _logger.info('RENAME DB: %s -> %s failed:\n%s', old_name, new_name, e)
             raise Exception("Couldn't rename database %s to %s: %s" % (old_name, new_name, e))
 
-    old_fs = odoo.tools.config.filestore(old_name)
-    new_fs = odoo.tools.config.filestore(new_name)
+    old_fs = flectra.tools.config.filestore(old_name)
+    new_fs = flectra.tools.config.filestore(new_name)
     if os.path.exists(old_fs) and not os.path.exists(new_fs):
         shutil.move(old_fs, new_fs)
     return True
 
 @check_db_management_enabled
 def exp_change_admin_password(new_password):
-    odoo.tools.config.set_admin_password(new_password)
-    odoo.tools.config.save()
+    flectra.tools.config.set_admin_password(new_password)
+    flectra.tools.config.save()
     return True
 
 @check_db_management_enabled
 def exp_migrate_databases(databases):
     for db in databases:
         _logger.info('migrate database %s', db)
-        odoo.tools.config['update']['base'] = True
-        odoo.modules.registry.Registry.new(db, force_demo=False, update_module=True)
+        flectra.tools.config['update']['base'] = True
+        flectra.modules.registry.Registry.new(db, force_demo=False, update_module=True)
     return True
 
 #----------------------------------------------------------
 # No master password required
 #----------------------------------------------------------
 
-@odoo.tools.mute_logger('odoo.sql_db')
+@flectra.tools.mute_logger('flectra.sql_db')
 def exp_db_exist(db_name):
     ## Not True: in fact, check if connection to database is possible. The database may exists
     try:
-        db = odoo.sql_db.db_connect(db_name)
+        db = flectra.sql_db.db_connect(db_name)
         with db.cursor():
             return True
     except Exception:
         return False
 
 def list_dbs(force=False):
-    if not odoo.tools.config['list_db'] and not force:
-        raise odoo.exceptions.AccessDenied()
+    if not flectra.tools.config['list_db'] and not force:
+        raise flectra.exceptions.AccessDenied()
 
-    if not odoo.tools.config['dbfilter'] and odoo.tools.config['db_name']:
-        # In case --db-filter is not provided and --database is passed, Odoo will not
+    if not flectra.tools.config['dbfilter'] and flectra.tools.config['db_name']:
+        # In case --db-filter is not provided and --database is passed, Flectra will not
         # fetch the list of databases available on the postgres server and instead will
         # use the value of --database as comma seperated list of exposed databases.
-        res = sorted(db.strip() for db in odoo.tools.config['db_name'].split(','))
+        res = sorted(db.strip() for db in flectra.tools.config['db_name'].split(','))
         return res
 
-    chosen_template = odoo.tools.config['db_template']
+    chosen_template = flectra.tools.config['db_template']
     templates_list = tuple(set(['postgres', chosen_template]))
-    db = odoo.sql_db.db_connect('postgres')
+    db = flectra.sql_db.db_connect('postgres')
     with closing(db.cursor()) as cr:
         try:
-            db_user = odoo.tools.config["db_user"]
+            db_user = flectra.tools.config["db_user"]
             if not db_user and os.name == 'posix':
                 import pwd
                 db_user = pwd.getpwuid(os.getuid())[0]
             if not db_user:
-                cr.execute("select usename from pg_user where usesysid=(select datdba from pg_database where datname=%s)", (odoo.tools.config["db_name"],))
+                cr.execute("select usename from pg_user where usesysid=(select datdba from pg_database where datname=%s)", (flectra.tools.config["db_name"],))
                 res = cr.fetchone()
                 db_user = res and str(res[0])
             if db_user:
                 cr.execute("select datname from pg_database where datdba=(select usesysid from pg_user where usename=%s) and not datistemplate and datallowconn and datname not in %s order by datname", (db_user, templates_list))
             else:
                 cr.execute("select datname from pg_database where not datistemplate and datallowconn and datname not in %s order by datname", (templates_list,))
-            res = [odoo.tools.ustr(name) for (name,) in cr.fetchall()]
+            res = [flectra.tools.ustr(name) for (name,) in cr.fetchall()]
         except Exception:
             res = []
     res.sort()
     return res
 
 def list_db_incompatible(databases):
-    """"Check a list of databases if they are compatible with this version of Odoo
+    """"Check a list of databases if they are compatible with this version of Flectra
 
         :param databases: A list of existing Postgresql databases
         :return: A list of databases that are incompatible
@@ -389,7 +389,7 @@ def list_db_incompatible(databases):
     server_version = '.'.join(str(v) for v in version_info[:2])
     for database_name in databases:
         with closing(db_connect(database_name).cursor()) as cr:
-            if odoo.tools.table_exists(cr, 'ir_module_module'):
+            if flectra.tools.table_exists(cr, 'ir_module_module'):
                 cr.execute("SELECT latest_version FROM ir_module_module WHERE name=%s", ('base',))
                 base_version = cr.fetchone()
                 if not base_version or not base_version[0]:
@@ -402,21 +402,21 @@ def list_db_incompatible(databases):
             else:
                 incompatible_databases.append(database_name)
         # release connection
-        odoo.sql_db.close_db(database_name)
+        flectra.sql_db.close_db(database_name)
     return incompatible_databases
 
 
 def exp_list(document=False):
-    if not odoo.tools.config['list_db']:
-        raise odoo.exceptions.AccessDenied()
+    if not flectra.tools.config['list_db']:
+        raise flectra.exceptions.AccessDenied()
     return list_dbs()
 
 def exp_list_lang():
-    return odoo.tools.scan_languages()
+    return flectra.tools.scan_languages()
 
 def exp_list_countries():
     list_countries = []
-    root = ET.parse(os.path.join(odoo.tools.config['root_path'], 'addons/base/res/res_country_data.xml')).getroot()
+    root = ET.parse(os.path.join(flectra.tools.config['root_path'], 'addons/base/res/res_country_data.xml')).getroot()
     for country in root.find('data').findall('record[@model="res.country"]'):
         name = country.find('field[@name="name"]').text
         code = country.find('field[@name="code"]').text
@@ -427,7 +427,7 @@ def exp_server_version():
     """ Return the version of the server
         Used by the client to verify the compatibility with its own version
     """
-    return odoo.release.version
+    return flectra.release.version
 
 #----------------------------------------------------------
 # db service dispatch

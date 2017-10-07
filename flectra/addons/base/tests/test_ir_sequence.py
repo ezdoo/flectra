@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from contextlib import contextmanager
 import unittest
@@ -7,8 +7,8 @@ import unittest
 import psycopg2
 import psycopg2.errorcodes
 
-import odoo
-from odoo.tests import common
+import flectra
+from flectra.tests import common
 
 ADMIN_USER_ID = common.ADMIN_USER_ID
 
@@ -17,9 +17,9 @@ def environment():
     """ Return an environment with a new cursor for the current database; the
         cursor is committed and closed after the context block.
     """
-    registry = odoo.registry(common.get_db_name())
+    registry = flectra.registry(common.get_db_name())
     with registry.cursor() as cr:
-        yield odoo.api.Environment(cr, ADMIN_USER_ID, {})
+        yield flectra.api.Environment(cr, ADMIN_USER_ID, {})
         cr.commit()
 
 

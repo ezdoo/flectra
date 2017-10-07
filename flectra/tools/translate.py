@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import codecs
 import fnmatch
 import inspect
@@ -18,7 +18,7 @@ from os.path import join
 from babel.messages import extract
 from lxml import etree, html
 
-import odoo
+import flectra
 from . import config, pycompat
 from .misc import file_open, get_iso_codes, SKIPPED_ELEMENT_TYPES
 from .osutil import walksymlinks
@@ -349,7 +349,7 @@ class GettextAlias(object):
         # find current DB based on thread/worker db name (see netsvc)
         db_name = getattr(threading.currentThread(), 'dbname', None)
         if db_name:
-            return odoo.sql_db.db_connect(db_name)
+            return flectra.sql_db.db_connect(db_name)
 
     def _get_cr(self, frame, allow_create=True):
         # try, in order: cr, cursor, self.env.cr, self.cr,
@@ -364,7 +364,7 @@ class GettextAlias(object):
         if hasattr(s, 'cr'):
             return s.cr, False
         try:
-            from odoo.http import request
+            from flectra.http import request
             return request.env.cr, False
         except RuntimeError:
             pass
@@ -403,7 +403,7 @@ class GettextAlias(object):
                     lang = s.localcontext.get('lang')
             if not lang:
                 try:
-                    from odoo.http import request
+                    from flectra.http import request
                     lang = request.env.lang
                 except RuntimeError:
                     pass
@@ -415,7 +415,7 @@ class GettextAlias(object):
                 (cr, dummy) = self._get_cr(frame, allow_create=False)
                 uid = self._get_uid(frame)
                 if cr and uid:
-                    env = odoo.api.Environment(cr, uid, {})
+                    env = flectra.api.Environment(cr, uid, {})
                     lang = env['res.users'].context_get()['lang']
         return lang
 
@@ -435,7 +435,7 @@ class GettextAlias(object):
                 cr, is_new_cr = self._get_cr(frame)
                 if cr:
                     # Try to use ir.translation to benefit from global cache if possible
-                    env = odoo.api.Environment(cr, odoo.SUPERUSER_ID, {})
+                    env = flectra.api.Environment(cr, flectra.SUPERUSER_ID, {})
                     res = env['ir.translation']._get_source(None, ('code','sql_constraint'), lang, source)
                 else:
                     _logger.debug('no context cursor detected, skipping translation for "%r"', source)
@@ -597,7 +597,7 @@ class PoFile(object):
     __next__ = next
 
     def write_infos(self, modules):
-        import odoo.release as release
+        import flectra.release as release
         self.buffer.write(u"# Translation of %(project)s.\n" \
                           "# This file contains the translation of the following modules:\n" \
                           "%(modules)s" \
@@ -797,7 +797,7 @@ def babel_extract_qweb(fileobj, keywords, comment_tags, options):
 
 
 def trans_generate(lang, modules, cr):
-    env = odoo.api.Environment(cr, odoo.SUPERUSER_ID, {})
+    env = flectra.api.Environment(cr, flectra.SUPERUSER_ID, {})
     to_translate = set()
 
     def push_translation(module, type, name, id, source, comments=None):
@@ -920,7 +920,7 @@ def trans_generate(lang, modules, cr):
         for m in env['ir.module.module'].search_read([('state', '=', 'installed')], fields=['name'])
     ]
 
-    path_list = [(path, True) for path in odoo.modules.module.ad_paths]
+    path_list = [(path, True) for path in flectra.modules.module.ad_paths]
     # Also scan these non-addon paths
     for bin_path in ['osv', 'report', 'modules', 'service', 'tools']:
         path_list.append((os.path.join(config['root_path'], bin_path), True))
@@ -983,7 +983,7 @@ def trans_generate(lang, modules, cr):
             # QWeb template files
             if fnmatch.fnmatch(root, '*/static/src/xml*'):
                 for fname in fnmatch.filter(files, '*.xml'):
-                    babel_extract_terms(fname, path, root, 'odoo.tools.translate:babel_extract_qweb',
+                    babel_extract_terms(fname, path, root, 'flectra.tools.translate:babel_extract_qweb',
                                         extra_comments=[WEB_TRANSLATION_COMMENT])
             if not recursive:
                 # due to topdown, first iteration is in first level
@@ -1016,7 +1016,7 @@ def trans_load_data(cr, fileobj, fileformat, lang, lang_name=None, verbose=True,
     if verbose:
         _logger.info('loading translation file for language %s', lang)
 
-    env = odoo.api.Environment(cr, odoo.SUPERUSER_ID, context or {})
+    env = flectra.api.Environment(cr, flectra.SUPERUSER_ID, context or {})
     Lang = env['res.lang']
     Translation = env['ir.translation']
 
@@ -1191,6 +1191,6 @@ def load_language(cr, lang):
     :param lang: language ISO code with optional _underscore_ and l10n flavor (ex: 'fr', 'fr_BE', but not 'fr-BE')
     :type lang: str
     """
-    env = odoo.api.Environment(cr, odoo.SUPERUSER_ID, {})
+    env = flectra.api.Environment(cr, flectra.SUPERUSER_ID, {})
     installer = env['base.language.install'].create({'lang': lang})
     installer.lang_install()

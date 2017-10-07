@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo.tests import common
-from odoo.tools import pycompat
+from flectra.tests import common
+from flectra.tools import pycompat
 
 ANSWER_TO_ULTIMATE_QUESTION = 42
 

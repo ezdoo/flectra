@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 
 
@@ -65,11 +65,11 @@ class Query(object):
         self.extras = extras or {}
 
     def _get_table_aliases(self):
-        from odoo.osv.expression import get_alias_from_query
+        from flectra.osv.expression import get_alias_from_query
         return [get_alias_from_query(from_statement)[1] for from_statement in self.tables]
 
     def _get_alias_mapping(self):
-        from odoo.osv.expression import get_alias_from_query
+        from flectra.osv.expression import get_alias_from_query
         mapping = {}
         for table in self.tables:
             alias, statement = get_alias_from_query(table)
@@ -108,7 +108,7 @@ class Query(object):
 
             :param extra_params: a list of parameters for the `extra` condition.
         """
-        from odoo.osv.expression import generate_table_alias
+        from flectra.osv.expression import generate_table_alias
         (lhs, table, lhs_col, col, link) = connection
         alias, alias_statement = generate_table_alias(lhs, [(table, link)])
 
@@ -139,7 +139,7 @@ class Query(object):
 
     def get_sql(self):
         """ Returns (query_from, query_where, query_params). """
-        from odoo.osv.expression import get_alias_from_query
+        from flectra.osv.expression import get_alias_from_query
         tables_to_process = list(self.tables)
         alias_mapping = self._get_alias_mapping()
         from_clause = []

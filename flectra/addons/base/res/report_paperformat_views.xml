@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
     <data>
         <!-- report.paperformat -->
         <record id="paperformat_view_tree" model="ir.ui.view">
@@ -70,4 +70,4 @@
             groups="base.group_no_one"
             />
     </data>
-</odoo>
+</flectra>

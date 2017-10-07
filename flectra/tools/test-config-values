@@ -9,10 +9,10 @@ import threading
 import traceback
 import time
 
-import odoo
+import flectra
 
-odoo.tools.config.parse_config(sys.argv[1:])
-config = odoo.tools.config
+flectra.tools.config.parse_config(sys.argv[1:])
+config = flectra.tools.config
 
 for name in [
     'db_name',

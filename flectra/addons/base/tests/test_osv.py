@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import unittest
 
-from odoo.osv.query import Query
+from flectra.osv.query import Query
 
 
 class QueryTestCase(unittest.TestCase):

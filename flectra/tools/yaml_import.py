@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from collections import OrderedDict
 from datetime import datetime, timedelta
@@ -11,11 +11,11 @@ import types
 from lxml import etree
 import yaml
 
-import odoo
+import flectra
 from . import assertion_report, pycompat, yaml_tag
 from .config import config
 from .misc import file_open, DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT
-from odoo import SUPERUSER_ID
+from flectra import SUPERUSER_ID
 
 # YAML import needs both safe and unsafe eval, but let's
 # default to /safe/.
@@ -113,7 +113,7 @@ class YamlInterpreter(object):
                              'time': time,
                              'datetime': datetime,
                              'timedelta': timedelta}
-        self.env = odoo.api.Environment(self.cr, self.uid, self.context)
+        self.env = flectra.api.Environment(self.cr, self.uid, self.context)
         self.sudo_env = self.env
 
     def _log(self, *args, **kwargs):
@@ -572,7 +572,7 @@ class YamlInterpreter(object):
             self.uid = self.get_id(node.uid)
         if node.noupdate:
             self.noupdate = node.noupdate
-        self.env = odoo.api.Environment(self.cr, self.uid, self.context)
+        self.env = flectra.api.Environment(self.cr, self.uid, self.context)
         self.sudo_env = self.env(user=SUPERUSER_ID)
 
     def process_python(self, node):
@@ -594,7 +594,7 @@ class YamlInterpreter(object):
             'uid': self.uid,
             'log': self._log,
             'context': self.context,
-            'openerp': odoo,
+            'openerp': flectra,
         }
         try:
             code_obj = compile(statements, self.filename, 'exec')
@@ -645,7 +645,7 @@ class YamlInterpreter(object):
         else:
             args = self._eval_params(function.model, params)
         # this one still depends on the old API
-        return odoo.api.call_kw(model, function.name, args, {})
+        return flectra.api.call_kw(model, function.name, args, {})
 
     def _set_group_values(self, node, values):
         if node.groups:

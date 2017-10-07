@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from email import encoders
 from email.charset import Charset
@@ -15,12 +15,12 @@ import threading
 
 import html2text
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import except_orm, UserError
-from odoo.tools import ustr, pycompat
+from flectra import api, fields, models, tools, _
+from flectra.exceptions import except_orm, UserError
+from flectra.tools import ustr, pycompat
 
 _logger = logging.getLogger(__name__)
-_test_logger = logging.getLogger('odoo.tests')
+_test_logger = logging.getLogger('flectra.tests')
 
 
 class MailDeliveryException(except_orm):
@@ -367,13 +367,13 @@ class IrMailServer(models.Model):
         joining the parameters "mail.bounce.alias" and
         "mail.catchall.domain".
 
-        If "mail.bounce.alias" is not set it defaults to "postmaster-odoo".
+        If "mail.bounce.alias" is not set it defaults to "postmaster-flectra".
 
         If "mail.catchall.domain" is not set, return None.
 
         '''
         get_param = self.env['ir.config_parameter'].sudo().get_param
-        postmaster = get_param('mail.bounce.alias', default='postmaster-odoo')
+        postmaster = get_param('mail.bounce.alias', default='postmaster-flectra')
         domain = get_param('mail.catchall.domain')
         if postmaster and domain:
             return '%s@%s' % (postmaster, domain)

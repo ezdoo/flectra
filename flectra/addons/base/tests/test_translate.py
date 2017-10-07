@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import unittest
 
-from odoo.tools import pycompat
-from odoo.tools.translate import quote, unquote, xml_translate, html_translate
-from odoo.tests.common import TransactionCase
+from flectra.tools import pycompat
+from flectra.tools.translate import quote, unquote, xml_translate, html_translate
+from flectra.tests.common import TransactionCase
 
 
 class TranslationToolsTestCase(unittest.TestCase):

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
-import odoo
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
+import flectra
+from flectra import api, fields, models, _
+from flectra.exceptions import UserError
 
 
 class BaseModuleUpgrade(models.TransientModel):
@@ -73,7 +73,7 @@ class BaseModuleUpgrade(models.TransientModel):
         # terminate transaction before re-creating cursor below
         self._cr.commit()
         api.Environment.reset()
-        odoo.modules.registry.Registry.new(self._cr.dbname, update_module=True)
+        flectra.modules.registry.Registry.new(self._cr.dbname, update_module=True)
 
         return {'type': 'ir.actions.act_window_close'}
 

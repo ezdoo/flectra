@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 """ Domain expression processing
 
@@ -120,10 +120,10 @@ import traceback
 from functools import partial
 from zlib import crc32
 
-import odoo.modules
-from odoo.tools import pycompat
+import flectra.modules
+from flectra.tools import pycompat
 from ..models import MAGIC_COLUMNS, BaseModel
-import odoo.tools as tools
+import flectra.tools as tools
 
 
 # Domain operators.
@@ -452,7 +452,7 @@ def select_distinct_from_where_not_null(cr, select_field, from_table):
     return [r[0] for r in cr.fetchall()]
 
 def get_unaccent_wrapper(cr):
-    if odoo.registry(cr.dbname).has_unaccent:
+    if flectra.registry(cr.dbname).has_unaccent:
         return lambda x: "unaccent(%s)" % (x,)
     return lambda x: x
 

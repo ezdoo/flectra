@@ -1,4 +1,4 @@
-<odoo>
+<flectra>
     <data>
         <record id="mother_a" model="test.inherit.mother">
             <field name="name">Mother A</field>
@@ -20,4 +20,4 @@
             <field name="state">d</field>
         </record>
     </data>
-</odoo>
+</flectra>

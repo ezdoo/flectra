@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from __future__ import print_function
 import math
 
-from odoo.tools import pycompat
+from flectra.tools import pycompat
 
 if not pycompat.PY2:
     import builtins

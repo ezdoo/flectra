@@ -9,11 +9,11 @@ import textwrap
 import uuid
 from datetime import datetime
 from subprocess import Popen, PIPE
-from odoo import fields, tools
-from odoo.http import request
-from odoo.modules.module import get_resource_path
+from flectra import fields, tools
+from flectra.http import request
+from flectra.modules.module import get_resource_path
 import psycopg2
-from odoo.tools import func, misc
+from flectra.tools import func, misc
 
 import logging
 _logger = logging.getLogger(__name__)
@@ -278,9 +278,9 @@ class AssetsBundle(object):
 
                 document.addEventListener("DOMContentLoaded", function () {
                     var alertTimeout = setTimeout(alert.bind(window, message), 0);
-                    if (typeof odoo === "undefined") return;
+                    if (typeof flectra === "undefined") return;
 
-                    odoo.define("AssetsBundle.ErrorMessage", function (require) {
+                    flectra.define("AssetsBundle.ErrorMessage", function (require) {
                         "use strict";
 
                         var base = require("web_editor.base");

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from psycopg2 import IntegrityError
 
-import odoo
-from odoo.exceptions import UserError, ValidationError
-from odoo.tools import mute_logger
-from odoo.tests import common
+import flectra
+from flectra.exceptions import UserError, ValidationError
+from flectra.tools import mute_logger
+from flectra.tests import common
 
 
 class TestServerActionsBase(common.TransactionCase):
@@ -130,7 +130,7 @@ class TestServerActions(TestServerActionsBase):
         self.assertEqual(len(partner), 1, 'ir_actions_server: TODO')
         self.assertEqual(partner.city, 'OrigCity', 'ir_actions_server: TODO')
 
-    @mute_logger('odoo.addons.base.ir.ir_model', 'odoo.models')
+    @mute_logger('flectra.addons.base.ir.ir_model', 'flectra.models')
     def test_40_multi(self):
         # Data: 2 server actions that will be nested
         action1 = self.action.create({
@@ -232,7 +232,7 @@ class TestCustomFields(common.TransactionCase):
 
     def setUp(self):
         # check that the registry is properly reset
-        registry = odoo.registry()
+        registry = flectra.registry()
         fnames = set(registry[self.MODEL]._fields)
         @self.addCleanup
         def check_registry():
@@ -292,14 +292,14 @@ class TestCustomFields(common.TransactionCase):
     def test_create_unique(self):
         """ one cannot create two fields with the same name on a given model """
         self.create_field('x_foo')
-        with self.assertRaises(IntegrityError), mute_logger('odoo.sql_db'):
+        with self.assertRaises(IntegrityError), mute_logger('flectra.sql_db'):
             self.create_field('x_foo')
 
     def test_rename_unique(self):
         """ one cannot create two fields with the same name on a given model """
         field1 = self.create_field('x_foo')
         field2 = self.create_field('x_bar')
-        with self.assertRaises(IntegrityError), mute_logger('odoo.sql_db'):
+        with self.assertRaises(IntegrityError), mute_logger('flectra.sql_db'):
             field2.name = field1.name
 
     def test_remove_without_view(self):

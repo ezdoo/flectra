@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import logging
 
-from odoo import exceptions
-from odoo.tests.common import TransactionCase
-from odoo.tools import pycompat
+from flectra import exceptions
+from flectra.tests.common import TransactionCase
+from flectra.tools import pycompat
 
 _logger = logging.getLogger(__name__)
 

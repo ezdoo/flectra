@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 """ Modules (also called addons) management.
 
@@ -11,18 +11,18 @@ import sys
 import threading
 import time
 
-import odoo
-import odoo.modules.db
-import odoo.modules.graph
-import odoo.modules.migration
-import odoo.modules.registry
-import odoo.tools as tools
+import flectra
+import flectra.modules.db
+import flectra.modules.graph
+import flectra.modules.migration
+import flectra.modules.registry
+import flectra.tools as tools
 
-from odoo import api, SUPERUSER_ID
-from odoo.modules.module import adapt_version, initialize_sys_path, load_openerp_module
+from flectra import api, SUPERUSER_ID
+from flectra.modules.module import adapt_version, initialize_sys_path, load_openerp_module
 
 _logger = logging.getLogger(__name__)
-_test_logger = logging.getLogger('odoo.tests')
+_test_logger = logging.getLogger('flectra.tests')
 
 
 def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=None, report=None):
@@ -49,7 +49,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
             else:
                 cr.rollback()
                 # avoid keeping stale xml_id, etc. in cache
-                odoo.registry(cr.dbname).clear_caches()
+                flectra.registry(cr.dbname).clear_caches()
 
 
     def _get_files_of_kind(kind):
@@ -98,8 +98,8 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
 
     processed_modules = []
     loaded_modules = []
-    registry = odoo.registry(cr.dbname)
-    migrations = odoo.modules.migration.MigrationManager(cr, graph)
+    registry = flectra.registry(cr.dbname)
+    migrations = flectra.modules.migration.MigrationManager(cr, graph)
     module_count = len(graph)
     _logger.info('loading %d modules...', module_count)
 
@@ -107,7 +107,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
 
     # register, instantiate and initialize models for each modules
     t0 = time.time()
-    t0_sql = odoo.sql_db.sql_counter
+    t0_sql = flectra.sql_db.sql_counter
 
     for index, package in enumerate(graph, 1):
         module_name = package.name
@@ -122,7 +122,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
 
         new_install = package.state == 'to install'
         if new_install:
-            py_module = sys.modules['odoo.addons.%s' % (module_name,)]
+            py_module = sys.modules['flectra.addons.%s' % (module_name,)]
             pre_init = package.info.get('pre_init_hook')
             if pre_init:
                 getattr(py_module, pre_init)(cr)
@@ -163,7 +163,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
             migrations.migrate_module(package, 'post')
 
             # Update translations for all installed languages
-            overwrite = odoo.tools.config["overwrite_existing_translations"]
+            overwrite = flectra.tools.config["overwrite_existing_translations"]
             module.with_context(overwrite=overwrite)._update_translations()
 
             registry._init_modules.add(package.name)
@@ -183,7 +183,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
                     report.record_result(load_test(module_name, idref, mode))
                     # Python tests
                     env['ir.http']._clear_routing_map()     # force routing map to be rebuilt
-                    report.record_result(odoo.modules.module.run_unit_tests(module_name, cr.dbname))
+                    report.record_result(flectra.modules.module.run_unit_tests(module_name, cr.dbname))
                     # tests may have reset the environment
                     env = api.Environment(cr, SUPERUSER_ID, {})
                     module = env['ir.module.module'].browse(module_id)
@@ -204,7 +204,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
         registry._init_modules.add(package.name)
         cr.commit()
 
-    _logger.log(25, "%s modules loaded in %.2fs, %s queries", len(graph), time.time() - t0, odoo.sql_db.sql_counter - t0_sql)
+    _logger.log(25, "%s modules loaded in %.2fs, %s queries", len(graph), time.time() - t0, flectra.sql_db.sql_counter - t0_sql)
 
     registry.clear_caches()
 
@@ -253,9 +253,9 @@ def load_modules(db, force_demo=False, status=None, update_module=False):
 
     cr = db.cursor()
     try:
-        if not odoo.modules.db.is_initialized(cr):
+        if not flectra.modules.db.is_initialized(cr):
             _logger.info("init db")
-            odoo.modules.db.initialize(cr)
+            flectra.modules.db.initialize(cr)
             update_module = True # process auto-installed modules
             tools.config["init"]["all"] = 1
             tools.config['update']['all'] = 1
@@ -263,14 +263,14 @@ def load_modules(db, force_demo=False, status=None, update_module=False):
                 tools.config["demo"]['all'] = 1
 
         # This is a brand new registry, just created in
-        # odoo.modules.registry.Registry.new().
-        registry = odoo.registry(cr.dbname)
+        # flectra.modules.registry.Registry.new().
+        registry = flectra.registry(cr.dbname)
 
         if 'base' in tools.config['update'] or 'all' in tools.config['update']:
             cr.execute("update ir_module_module set state=%s where name=%s and state=%s", ('to upgrade', 'base', 'installed'))
 
         # STEP 1: LOAD BASE (must be done before module dependencies can be computed for later steps)
-        graph = odoo.modules.graph.Graph()
+        graph = flectra.modules.graph.Graph()
         graph.add_module(cr, 'base', force)
         if not graph:
             _logger.critical('module base cannot be loaded! (hint: verify addons-path)')
@@ -344,7 +344,7 @@ def load_modules(db, force_demo=False, status=None, update_module=False):
         registry.setup_models(cr)
 
         # STEP 3.5: execute migration end-scripts
-        migrations = odoo.modules.migration.MigrationManager(cr, graph)
+        migrations = flectra.modules.migration.MigrationManager(cr, graph)
         for package in graph:
             migrations.migrate_module(package, 'end')
 
@@ -391,7 +391,7 @@ def load_modules(db, force_demo=False, status=None, update_module=False):
                 for pkg in pkgs:
                     uninstall_hook = pkg.info.get('uninstall_hook')
                     if uninstall_hook:
-                        py_module = sys.modules['odoo.addons.%s' % (pkg.name,)]
+                        py_module = sys.modules['flectra.addons.%s' % (pkg.name,)]
                         getattr(py_module, uninstall_hook)(cr, registry)
 
                 Module = env['ir.module.module']
@@ -401,7 +401,7 @@ def load_modules(db, force_demo=False, status=None, update_module=False):
                 cr.commit()
                 _logger.info('Reloading registry once more after uninstalling modules')
                 api.Environment.reset()
-                return odoo.modules.registry.Registry.new(cr.dbname, force_demo, status, update_module)
+                return flectra.modules.registry.Registry.new(cr.dbname, force_demo, status, update_module)
 
         # STEP 6: verify custom views on every model
         if update_module:

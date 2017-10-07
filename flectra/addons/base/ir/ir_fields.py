@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import functools
 import itertools
@@ -7,8 +7,8 @@ import itertools
 import psycopg2
 import pytz
 
-from odoo import api, fields, models, _
-from odoo.tools import ustr, pycompat
+from flectra import api, fields, models, _
+from flectra.tools import ustr, pycompat
 
 REFERENCING_FIELDS = {None, 'id', '.id'}
 def only_ref_fields(record):
@@ -51,11 +51,11 @@ class IrFieldsConverter(models.AbstractModel):
     @api.model
     def for_model(self, model, fromtype=str):
         """ Returns a converter object for the model. A converter is a
-        callable taking a record-ish (a dictionary representing an odoo
+        callable taking a record-ish (a dictionary representing an flectra
         record with values of typetag ``fromtype``) and returning a converted
-        records matching what :meth:`odoo.osv.orm.Model.write` expects.
+        records matching what :meth:`flectra.osv.orm.Model.write` expects.
 
-        :param model: :class:`odoo.osv.orm.Model` for the conversion base
+        :param model: :class:`flectra.osv.orm.Model` for the conversion base
         :returns: a converter callable
         :rtype: (record: dict, logger: (field, error) -> None) -> dict
         """
@@ -122,10 +122,10 @@ class IrFieldsConverter(models.AbstractModel):
         as ``ValueError`` above.
 
         :param field: field object to generate a value for
-        :type field: :class:`odoo.fields.Field`
+        :type field: :class:`flectra.fields.Field`
         :param fromtype: type to convert to something fitting for ``field``
         :type fromtype: type | str
-        :param context: odoo request context
+        :param context: flectra request context
         :return: a function (fromtype -> field.write_type), if a converter is found
         :rtype: Callable | None
         """

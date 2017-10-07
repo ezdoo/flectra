@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 """
 safe_eval module - methods intended to provide more restricted alternatives to
@@ -28,7 +28,7 @@ from . import pycompat
 from .misc import ustr
 from . import pycompat
 
-import odoo
+import flectra
 
 unsafe_eval = eval
 
@@ -345,25 +345,25 @@ def safe_eval(expr, globals_dict=None, locals_dict=None, mode="eval", nocopy=Fal
     c = test_expr(expr, _SAFE_OPCODES, mode=mode)
     try:
         return unsafe_eval(c, globals_dict, locals_dict)
-    except odoo.exceptions.except_orm:
+    except flectra.exceptions.except_orm:
         raise
-    except odoo.exceptions.Warning:
+    except flectra.exceptions.Warning:
         raise
-    except odoo.exceptions.RedirectWarning:
+    except flectra.exceptions.RedirectWarning:
         raise
-    except odoo.exceptions.AccessDenied:
+    except flectra.exceptions.AccessDenied:
         raise
-    except odoo.exceptions.AccessError:
+    except flectra.exceptions.AccessError:
         raise
     except werkzeug.exceptions.HTTPException:
         raise
-    except odoo.http.AuthenticationError:
+    except flectra.http.AuthenticationError:
         raise
     except OperationalError:
         # Do not hide PostgreSQL low-level exceptions, to let the auto-replay
         # of serialized transactions work its magic
         raise
-    except odoo.exceptions.MissingError:
+    except flectra.exceptions.MissingError:
         raise
     except Exception as e:
         exc_info = sys.exc_info()

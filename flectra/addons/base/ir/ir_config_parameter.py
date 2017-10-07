@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 """
 Store database-specific configuration parameters
 """
@@ -7,8 +7,8 @@ Store database-specific configuration parameters
 import uuid
 import logging
 
-from odoo import api, fields, models
-from odoo.tools import config, ormcache, mute_logger, pycompat
+from flectra import api, fields, models
+from flectra.tools import config, ormcache, mute_logger, pycompat
 
 _logger = logging.getLogger(__name__)
 
@@ -36,7 +36,7 @@ class IrConfigParameter(models.Model):
     ]
 
     @api.model_cr
-    @mute_logger('odoo.addons.base.ir.ir_config_parameter')
+    @mute_logger('flectra.addons.base.ir.ir_config_parameter')
     def init(self, force=False):
         """
         Initializes the parameters listed in _default_parameters.

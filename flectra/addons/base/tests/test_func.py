@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import functools
 import unittest
 
-from odoo.tools import frozendict, pycompat
-from odoo.tools.func import compose
+from flectra.tools import frozendict, pycompat
+from flectra.tools.func import compose
 
 
 class TestCompose(unittest.TestCase):

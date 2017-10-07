@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import datetime
 
-from odoo import models, fields, api, _
-from odoo.exceptions import AccessError, ValidationError
-from odoo.tools import pycompat
+from flectra import models, fields, api, _
+from flectra.exceptions import AccessError, ValidationError
+from flectra.tools import pycompat
 
 
 class Category(models.Model):

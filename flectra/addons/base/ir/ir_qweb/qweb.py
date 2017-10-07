@@ -15,7 +15,7 @@ from lxml import etree, html
 import werkzeug
 from werkzeug.utils import escape as _escape
 
-from odoo.tools import pycompat, freehash
+from flectra.tools import pycompat, freehash
 
 try:
     import builtins
@@ -527,8 +527,8 @@ class QWeb(object):
         """
         return ast.parse(dedent("""
             from collections import OrderedDict
-            from odoo.tools.pycompat import to_text, string_types
-            from odoo.addons.base.ir.ir_qweb.qweb import escape, foreach_iterator
+            from flectra.tools.pycompat import to_text, string_types
+            from flectra.addons.base.ir.ir_qweb.qweb import escape, foreach_iterator
             """))
 
     def _create_def(self, options, body, prefix='fn', lineno=None):
@@ -1231,7 +1231,7 @@ class QWeb(object):
     # end backward
 
     def _compile_directive_field(self, el, options):
-        """ Compile something like ``<span t-field="record.phone">+1 555 555 8069</span>`` """
+        """ Compile something like ``<span t-field="record.phone">+1 555 555 7073</span>`` """
         node_name = el.tag
         assert node_name not in ("table", "tbody", "thead", "tfoot", "tr", "td",
                                  "li", "ul", "ol", "dl", "dt", "dd"),\

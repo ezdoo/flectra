@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import base64
 import hashlib
 import itertools
@@ -9,10 +9,10 @@ import os
 import re
 from collections import defaultdict
 
-from odoo import api, fields, models, tools, SUPERUSER_ID, _
-from odoo.exceptions import AccessError
-from odoo.tools import config, human_size, ustr, html_escape
-from odoo.tools.mimetypes import guess_mimetype
+from flectra import api, fields, models, tools, SUPERUSER_ID, _
+from flectra.exceptions import AccessError
+from flectra.tools import config, human_size, ustr, html_escape
+from flectra.tools.mimetypes import guess_mimetype
 
 _logger = logging.getLogger(__name__)
 

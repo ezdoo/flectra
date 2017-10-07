@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from contextlib import contextmanager
 import functools
 import logging
 
-from odoo.tests.common import TransactionCase
+from flectra.tests.common import TransactionCase
 
 _logger = logging.getLogger(__name__)
-sql_logger = logging.getLogger('odoo.sql_db')
+sql_logger = logging.getLogger('flectra.sql_db')
 
 
 def queryCount(**counters):

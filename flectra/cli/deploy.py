@@ -11,7 +11,7 @@ import zipfile
 from . import Command
 
 class Deploy(Command):
-    """Deploy a module on an Odoo instance"""
+    """Deploy a module on an Flectra instance"""
     def __init__(self):
         super(Deploy, self).__init__()
         self.session = requests.session()
@@ -77,7 +77,7 @@ class Deploy(Command):
             description=self.__doc__
         )
         parser.add_argument('path', help="Path of the module to deploy")
-        parser.add_argument('url', nargs='?', help='Url of the server (default=http://localhost:8069)', default="http://localhost:8069")
+        parser.add_argument('url', nargs='?', help='Url of the server (default=http://localhost:7073)', default="http://localhost:7073")
         parser.add_argument('--db', dest='db', help='Database to use if server does not use db-filter.')
         parser.add_argument('--login', dest='login', default="admin", help='Login (default=admin)')
         parser.add_argument('--password', dest='password', default="admin", help='Password (default=admin)')

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import ast
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import UserError
+from flectra import api, fields, models, tools, _
+from flectra.exceptions import UserError
 
 
 class IrFilters(models.Model):
@@ -86,7 +86,7 @@ class IrFilters(models.Model):
         This method should only be called if ``vals`` is trying to set
         ``is_default``
 
-        :raises odoo.exceptions.UserError: if there is an existing default and
+        :raises flectra.exceptions.UserError: if there is an existing default and
                                             we're not updating it
         """
         domain = self._get_action_domain(vals.get('action_id'))

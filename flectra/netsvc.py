@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import logging
 import logging.handlers
@@ -12,7 +12,7 @@ import threading
 
 import psycopg2
 
-import odoo
+import flectra
 from . import sql_db
 from . import tools
 
@@ -37,7 +37,7 @@ class PostgreSQLHandler(logging.Handler):
         dbname = tools.config['log_db'] if tools.config['log_db'] and tools.config['log_db'] != '%d' else ct_db
         if not dbname:
             return
-        with tools.ignore(Exception), tools.mute_logger('odoo.sql_db'), sql_db.db_connect(dbname, allow_uri=True).cursor() as cr:
+        with tools.ignore(Exception), tools.mute_logger('flectra.sql_db'), sql_db.db_connect(dbname, allow_uri=True).cursor() as cr:
             cr.autocommit(True)
             msg = tools.ustr(record.msg)
             if record.args:
@@ -171,17 +171,17 @@ def init_logger():
 
 
 DEFAULT_LOG_CONFIGURATION = [
-    'odoo.http.rpc.request:INFO',
-    'odoo.http.rpc.response:INFO',
+    'flectra.http.rpc.request:INFO',
+    'flectra.http.rpc.response:INFO',
     ':INFO',
 ]
 PSEUDOCONFIG_MAPPER = {
-    'debug_rpc_answer': ['odoo:DEBUG', 'odoo.sql_db:INFO', 'odoo.http.rpc:DEBUG'],
-    'debug_rpc': ['odoo:DEBUG', 'odoo.sql_db:INFO', 'odoo.http.rpc.request:DEBUG'],
-    'debug': ['odoo:DEBUG', 'odoo.sql_db:INFO'],
-    'debug_sql': ['odoo.sql_db:DEBUG'],
+    'debug_rpc_answer': ['flectra:DEBUG', 'flectra.sql_db:INFO', 'flectra.http.rpc:DEBUG'],
+    'debug_rpc': ['flectra:DEBUG', 'flectra.sql_db:INFO', 'flectra.http.rpc.request:DEBUG'],
+    'debug': ['flectra:DEBUG', 'flectra.sql_db:INFO'],
+    'debug_sql': ['flectra.sql_db:DEBUG'],
     'info': [],
-    'warn': ['odoo:WARNING', 'werkzeug:WARNING'],
-    'error': ['odoo:ERROR', 'werkzeug:ERROR'],
-    'critical': ['odoo:CRITICAL', 'werkzeug:CRITICAL'],
+    'warn': ['flectra:WARNING', 'werkzeug:WARNING'],
+    'error': ['flectra:ERROR', 'werkzeug:ERROR'],
+    'critical': ['flectra:CRITICAL', 'werkzeug:CRITICAL'],
 }

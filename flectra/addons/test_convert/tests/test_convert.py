@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import collections
 import unittest
 
 from lxml.builder import E
 
-from odoo.tests import common
-from odoo.tools.convert import _eval_xml
+from flectra.tests import common
+from flectra.tools.convert import _eval_xml
 
 Field = E.field
 Value = E.value

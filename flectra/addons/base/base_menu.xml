@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
       <!-- Top menu item -->
           <menuitem id="menu_board_root" name="Dashboards" sequence="305" web_icon="base,static/description/board.png" groups="base.group_user"/>
           <menuitem id="menu_reporting_dashboard" name="Dashboards" parent="menu_board_root" sequence="0"/>
@@ -47,4 +47,4 @@
           <field name="target">self</field>
           <field name="url">/web</field>
       </record>
-</odoo>
+</flectra>

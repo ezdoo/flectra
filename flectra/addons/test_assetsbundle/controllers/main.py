@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
-from odoo import SUPERUSER_ID
-from odoo.http import Controller, request, route
+from flectra import SUPERUSER_ID
+from flectra.http import Controller, request, route
 
 class TestAssetsBundleController(Controller):
     @route('/test_assetsbundle/js', type='http', auth='user')

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import api, fields, models, tools, SUPERUSER_ID, _
-from odoo.exceptions import UserError, AccessError
-from odoo.tools.safe_eval import safe_eval
-from odoo.tools.misc import find_in_path
-from odoo.tools import config
-from odoo.sql_db import TestCursor
-from odoo.http import request
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
+from flectra import api, fields, models, tools, SUPERUSER_ID, _
+from flectra.exceptions import UserError, AccessError
+from flectra.tools.safe_eval import safe_eval
+from flectra.tools.misc import find_in_path
+from flectra.tools import config
+from flectra.sql_db import TestCursor
+from flectra.http import request
 
 import time
 import base64
@@ -30,7 +30,7 @@ _logger = logging.getLogger(__name__)
 # A lock occurs when the user wants to print a report having multiple barcode while the server is
 # started in threaded-mode. The reason is that reportlab has to build a cache of the T1 fonts
 # before rendering a barcode (done in a C extension) and this part is not thread safe. We attempt
-# here to init the T1 fonts cache at the start-up of Odoo so that rendering of barcode in multiple
+# here to init the T1 fonts cache at the start-up of Flectra so that rendering of barcode in multiple
 # thread does not lock the server.
 try:
     createBarcodeDrawing('Code128', value='foo', format='png', width=100, height=100, humanReadable=1).asString('png')
@@ -42,7 +42,7 @@ def _get_wkhtmltopdf_bin():
     return find_in_path('wkhtmltopdf')
 
 
-# Check the presence of Wkhtmltopdf and return its version at Odoo start-up
+# Check the presence of Wkhtmltopdf and return its version at Flectra start-up
 wkhtmltopdf_state = 'install'
 try:
     process = subprocess.Popen(
@@ -63,7 +63,7 @@ else:
             wkhtmltopdf_state = 'ok'
 
         if config['workers'] == 1:
-            _logger.info('You need to start Odoo with at least two workers to print a pdf version of the reports.')
+            _logger.info('You need to start Flectra with at least two workers to print a pdf version of the reports.')
             wkhtmltopdf_state = 'workers'
     else:
         _logger.info('Wkhtmltopdf seems to be broken.')

@@ -7,11 +7,11 @@ import random
 import threading
 import time
 
-import odoo
-from odoo.exceptions import UserError, ValidationError, QWebException
-from odoo.models import check_method_name
-from odoo.tools.translate import translate
-from odoo.tools.translate import _
+import flectra
+from flectra.exceptions import UserError, ValidationError, QWebException
+from flectra.models import check_method_name
+from flectra.tools.translate import translate
+from flectra.tools.translate import _
 
 from . import security
 
@@ -24,7 +24,7 @@ def dispatch(method, params):
     (db, uid, passwd ) = params[0:3]
 
     # set uid tracker - cleaned up at the WSGI
-    # dispatching phase in odoo.service.wsgi_server.application
+    # dispatching phase in flectra.service.wsgi_server.application
     threading.current_thread().uid = uid
 
     params = params[3:]
@@ -33,7 +33,7 @@ def dispatch(method, params):
     if method not in ['execute', 'execute_kw']:
         raise NameError("Method not available %s" % method)
     security.check(db,uid,passwd)
-    registry = odoo.registry(db).check_signaling()
+    registry = flectra.registry(db).check_signaling()
     fn = globals()[method]
     with registry.manage_changes():
         res = fn(db, uid, *params)
@@ -62,7 +62,7 @@ def check(f):
                     ctx = kwargs['kwargs'].get('context')
                 else:
                     try:
-                        from odoo.http import request
+                        from flectra.http import request
                         ctx = request.env.context
                     except Exception:
                         pass
@@ -76,7 +76,7 @@ def check(f):
             cr = False
 
             try:
-                cr = odoo.sql_db.db_connect(dbname).cursor()
+                cr = flectra.sql_db.db_connect(dbname).cursor()
                 res = translate(cr, name=False, source_type=ttype,
                                 lang=lang, source=src)
                 if res:
@@ -92,8 +92,8 @@ def check(f):
         tries = 0
         while True:
             try:
-                if odoo.registry(dbname)._init and not odoo.tools.config['test_enable']:
-                    raise odoo.exceptions.Warning('Currently, this database is not fully loaded and can not be used.')
+                if flectra.registry(dbname)._init and not flectra.tools.config['test_enable']:
+                    raise flectra.exceptions.Warning('Currently, this database is not fully loaded and can not be used.')
                 return f(dbname, *args, **kwargs)
             except (OperationalError, QWebException) as e:
                 if isinstance(e, QWebException):
@@ -113,7 +113,7 @@ def check(f):
                 _logger.info("%s, retry %d/%d in %.04f sec..." % (errorcodes.lookup(e.pgcode), tries, MAX_TRIES_ON_CONCURRENCY_FAILURE, wait_time))
                 time.sleep(wait_time)
             except IntegrityError as inst:
-                registry = odoo.registry(dbname)
+                registry = flectra.registry(dbname)
                 for key in registry._sql_error.keys():
                     if key in inst.pgerror:
                         raise ValidationError(tr(registry._sql_error[key], 'sql_constraint') or inst.pgerror)
@@ -143,10 +143,10 @@ def check(f):
     return wrapper
 
 def execute_cr(cr, uid, obj, method, *args, **kw):
-    recs = odoo.api.Environment(cr, uid, {}).get(obj)
+    recs = flectra.api.Environment(cr, uid, {}).get(obj)
     if recs is None:
         raise UserError(_("Object %s doesn't exist") % obj)
-    return odoo.api.call_kw(recs, method, args, kw)
+    return flectra.api.call_kw(recs, method, args, kw)
 
 
 def execute_kw(db, uid, obj, method, args, kw=None):
@@ -155,7 +155,7 @@ def execute_kw(db, uid, obj, method, args, kw=None):
 @check
 def execute(db, uid, obj, method, *args, **kw):
     threading.currentThread().dbname = db
-    with odoo.registry(db).cursor() as cr:
+    with flectra.registry(db).cursor() as cr:
         check_method_name(method)
         res = execute_cr(cr, uid, obj, method, *args, **kw)
         if res is None:

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
+from flectra import api, fields, models, _
 
 
 class BaseLanguageInstall(models.TransientModel):

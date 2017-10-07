@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import collections
 import copy
 import datetime
@@ -19,17 +19,17 @@ from lxml import etree
 from lxml.etree import LxmlError
 from lxml.builder import E
 
-from odoo import api, fields, models, tools, SUPERUSER_ID, _
-from odoo.exceptions import ValidationError
-from odoo.http import request
-from odoo.modules.module import get_resource_from_path, get_resource_path
-from odoo.osv import orm
-from odoo.tools import config, graph, ConstantMapping, SKIPPED_ELEMENT_TYPES, pycompat
-from odoo.tools.convert import _fix_multiple_roots
-from odoo.tools.parse_version import parse_version
-from odoo.tools.safe_eval import safe_eval
-from odoo.tools.view_validation import valid_view
-from odoo.tools.translate import xml_translate, TRANSLATED_ATTRS
+from flectra import api, fields, models, tools, SUPERUSER_ID, _
+from flectra.exceptions import ValidationError
+from flectra.http import request
+from flectra.modules.module import get_resource_from_path, get_resource_path
+from flectra.osv import orm
+from flectra.tools import config, graph, ConstantMapping, SKIPPED_ELEMENT_TYPES, pycompat
+from flectra.tools.convert import _fix_multiple_roots
+from flectra.tools.parse_version import parse_version
+from flectra.tools.safe_eval import safe_eval
+from flectra.tools.view_validation import valid_view
+from flectra.tools.translate import xml_translate, TRANSLATED_ATTRS
 
 _logger = logging.getLogger(__name__)
 

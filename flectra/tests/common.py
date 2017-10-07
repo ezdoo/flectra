@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-The module :mod:`odoo.tests.common` provides unittest test cases and a few
+The module :mod:`flectra.tests.common` provides unittest test cases and a few
 helpers and classes to write tests.
 
 """
@@ -23,7 +23,7 @@ from pprint import pformat
 
 import requests
 
-from odoo.tools import pycompat
+from flectra.tools import pycompat
 
 try:
     from itertools import zip_longest as izip_longest
@@ -35,21 +35,21 @@ except ImportError:
     # pylint: disable=bad-python3-import
     import xmlrpclib
 
-import odoo
-from odoo import api
+import flectra
+from flectra import api
 
 _logger = logging.getLogger(__name__)
 
-# The odoo library is supposed already configured.
-ADDONS_PATH = odoo.tools.config['addons_path']
+# The flectra library is supposed already configured.
+ADDONS_PATH = flectra.tools.config['addons_path']
 HOST = '127.0.0.1'
-PORT = odoo.tools.config['http_port']
+PORT = flectra.tools.config['http_port']
 # Useless constant, tests are aware of the content of demo data
-ADMIN_USER_ID = odoo.SUPERUSER_ID
+ADMIN_USER_ID = flectra.SUPERUSER_ID
 
 
 def get_db_name():
-    db = odoo.tools.config['db_name']
+    db = flectra.tools.config['db_name']
     # If the database name is not provided on the command-line,
     # use the one on the thread (which means if it is provided on
     # the command-line, this will break when installing another
@@ -137,7 +137,7 @@ class BaseCase(TreeCase):
         :param xid: fully-qualified :term:`external identifier`, in the form
                     :samp:`{module}.{identifier}`
         :raise: ValueError if not found
-        :returns: :class:`~odoo.models.BaseModel`
+        :returns: :class:`~flectra.models.BaseModel`
         """
         assert "." in xid, "this method requires a fully qualified parameter, in the following form: 'module.identifier'"
         return self.env.ref(xid)
@@ -172,11 +172,11 @@ class TransactionCase(BaseCase):
     """
 
     def setUp(self):
-        self.registry = odoo.registry(get_db_name())
+        self.registry = flectra.registry(get_db_name())
         #: current transaction's cursor
         self.cr = self.cursor()
-        self.uid = odoo.SUPERUSER_ID
-        #: :class:`~odoo.api.Environment` for the current test case
+        self.uid = flectra.SUPERUSER_ID
+        #: :class:`~flectra.api.Environment` for the current test case
         self.env = api.Environment(self.cr, self.uid, {})
 
         @self.addCleanup
@@ -209,9 +209,9 @@ class SingleTransactionCase(BaseCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.registry = odoo.registry(get_db_name())
+        cls.registry = flectra.registry(get_db_name())
         cls.cr = cls.registry.cursor()
-        cls.uid = odoo.SUPERUSER_ID
+        cls.uid = flectra.SUPERUSER_ID
         cls.env = api.Environment(cls.cr, cls.uid, {})
 
     @classmethod
@@ -263,10 +263,10 @@ class HttpCase(TransactionCase):
             self.registry.enter_test_mode()
             self.addCleanup(self.registry.leave_test_mode)
         # setup a magic session_id that will be rollbacked
-        self.session = odoo.http.root.session_store.new()
+        self.session = flectra.http.root.session_store.new()
         self.session_id = self.session.sid
         self.session.db = get_db_name()
-        odoo.http.root.session_store.save(self.session)
+        flectra.http.root.session_store.save(self.session)
         # setup an url opener helper
         self.opener = requests.Session()
         self.opener.cookies['session_id'] = self.session_id
@@ -300,7 +300,7 @@ class HttpCase(TransactionCase):
         session.context['uid'] = uid
         session._fix_lang(session.context)
 
-        odoo.http.root.session_store.save(session)
+        flectra.http.root.session_store.save(session)
 
     def phantom_poll(self, phantom, timeout):
         """ Phantomjs Test protocol.
@@ -406,7 +406,7 @@ class HttpCase(TransactionCase):
     def _wait_remaining_requests(self):
         t0 = int(time.time())
         for thread in threading.enumerate():
-            if thread.name.startswith('odoo.service.http.request.'):
+            if thread.name.startswith('flectra.service.http.request.'):
                 join_retry_count = 10
                 while thread.isAlive():
                     # Need a busyloop here as thread.join() masks signals
@@ -421,7 +421,7 @@ class HttpCase(TransactionCase):
                     t1 = int(time.time())
                     if t0 != t1:
                         _logger.info('remaining requests')
-                        odoo.tools.misc.dumpstacks()
+                        flectra.tools.misc.dumpstacks()
                         t0 = t1
 
     def phantom_js(self, url_path, code, ready="window", login=None, timeout=60, **kw):

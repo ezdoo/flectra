@@ -1,4 +1,4 @@
-<odoo>
+<flectra>
 <template id="contact_name">
     <div t-if="'name' in fields">
         <t t-if="object.name">
@@ -43,4 +43,4 @@
         </t>
     </address>
 </template>
-</odoo>
+</flectra>

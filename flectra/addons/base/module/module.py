@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import base64
 from collections import defaultdict
 from decorator import decorator
@@ -14,7 +14,7 @@ import zipfile
 
 import requests
 
-from odoo.tools import pycompat
+from flectra.tools import pycompat
 
 from docutils import nodes
 from docutils.core import publish_string
@@ -22,11 +22,11 @@ from docutils.transforms import Transform, writer_aux
 from docutils.writers.html4css1 import Writer
 import lxml.html
 
-import odoo
-from odoo import api, fields, models, modules, tools, _
-from odoo.exceptions import AccessDenied, UserError
-from odoo.tools.parse_version import parse_version
-from odoo.http import request
+import flectra
+from flectra import api, fields, models, modules, tools, _
+from flectra.exceptions import AccessDenied, UserError
+from flectra.tools.parse_version import parse_version
+from flectra.http import request
 
 _logger = logging.getLogger(__name__)
 
@@ -281,8 +281,8 @@ class Module(models.Model):
         ('AGPL-3', 'Affero GPL-3'),
         ('LGPL-3', 'LGPL Version 3'),
         ('Other OSI approved licence', 'Other OSI Approved Licence'),
-        ('OEEL-1', 'Odoo Enterprise Edition License v1.0'),
-        ('OPL-1', 'Odoo Proprietary License v1.0'),
+        ('OEEL-1', 'Flectra Enterprise Edition License v1.0'),
+        ('OPL-1', 'Flectra Proprietary License v1.0'),
         ('Other proprietary', 'Other Proprietary')
     ], string='License', default='LGPL-3', readonly=True)
     menus_by_module = fields.Text(string='Menus', compute='_get_views', store=True)
@@ -724,7 +724,7 @@ class Module(models.Model):
 
         apps_server = urls.url_parse(self.get_apps_server())
 
-        OPENERP = odoo.release.product_name.lower()
+        OPENERP = flectra.release.product_name.lower()
         tmp = tempfile.mkdtemp()
         _logger.debug('Install from url: %r', urls)
         try:
@@ -766,16 +766,16 @@ class Module(models.Model):
                 # extract path is not the same
                 base_path = os.path.dirname(modules.get_module_path('base'))
 
-                # copy all modules in the SERVER/odoo/addons directory to the new "odoo" module (except base itself)
+                # copy all modules in the SERVER/flectra/addons directory to the new "flectra" module (except base itself)
                 for d in os.listdir(base_path):
                     if d != 'base' and os.path.isdir(os.path.join(base_path, d)):
-                        destdir = os.path.join(tmp, OPENERP, 'addons', d)    # XXX 'odoo' subdirectory ?
+                        destdir = os.path.join(tmp, OPENERP, 'addons', d)    # XXX 'flectra' subdirectory ?
                         shutil.copytree(os.path.join(base_path, d), destdir)
 
                 # then replace the server by the new "base" module
                 server_dir = tools.config['root_path']      # XXX or dirname()
                 bck = backup(server_dir)
-                _logger.info('Copy downloaded module `odoo` to `%s`', server_dir)
+                _logger.info('Copy downloaded module `flectra` to `%s`', server_dir)
                 shutil.move(os.path.join(tmp, OPENERP), server_dir)
                 #if bck:
                 #    shutil.rmtree(bck)
@@ -792,7 +792,7 @@ class Module(models.Model):
             if installed or to_install:
                 # in this case, force server restart to reload python code...
                 self._cr.commit()
-                odoo.service.server.restart()
+                flectra.service.server.restart()
                 return {
                     'type': 'ir.actions.client',
                     'tag': 'home',
@@ -805,7 +805,7 @@ class Module(models.Model):
 
     @api.model
     def get_apps_server(self):
-        return tools.config.get('apps_server', 'https://apps.odoo.com/apps')
+        return tools.config.get('apps_server', 'https://apps.flectrahq.com/apps')
 
     def _update_dependencies(self, depends=None):
         existing = set(dep.name for dep in self.dependencies_id)

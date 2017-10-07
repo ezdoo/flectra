@@ -43,7 +43,7 @@ try:
 except ImportError:
     psutil = None
 
-import odoo
+import flectra
 from .service.server import memory_info
 from .service import security, model as service_model
 from .tools.func import lazy_property
@@ -80,13 +80,13 @@ def replace_request_password(args):
 # don't trigger debugger for those exceptions, they carry user-facing warnings
 # and indications, they're not necessarily indicative of anything being
 # *broken*
-NO_POSTMORTEM = (odoo.osv.orm.except_orm,
-                 odoo.exceptions.AccessError,
-                 odoo.exceptions.ValidationError,
-                 odoo.exceptions.MissingError,
-                 odoo.exceptions.AccessDenied,
-                 odoo.exceptions.Warning,
-                 odoo.exceptions.RedirectWarning)
+NO_POSTMORTEM = (flectra.osv.orm.except_orm,
+                 flectra.exceptions.AccessError,
+                 flectra.exceptions.ValidationError,
+                 flectra.exceptions.MissingError,
+                 flectra.exceptions.AccessDenied,
+                 flectra.exceptions.Warning,
+                 flectra.exceptions.RedirectWarning)
 def dispatch_rpc(service_name, method, params):
     """ Handle a RPC call.
 
@@ -102,18 +102,18 @@ def dispatch_rpc(service_name, method, params):
             if psutil:
                 start_rss, start_vms = memory_info(psutil.Process(os.getpid()))
             if rpc_request and rpc_response_flag:
-                odoo.netsvc.log(rpc_request, logging.DEBUG, '%s.%s' % (service_name, method), replace_request_password(params))
+                flectra.netsvc.log(rpc_request, logging.DEBUG, '%s.%s' % (service_name, method), replace_request_password(params))
 
         threading.current_thread().uid = None
         threading.current_thread().dbname = None
         if service_name == 'common':
-            dispatch = odoo.service.common.dispatch
+            dispatch = flectra.service.common.dispatch
         elif service_name == 'db':
-            dispatch = odoo.service.db.dispatch
+            dispatch = flectra.service.db.dispatch
         elif service_name == 'object':
-            dispatch = odoo.service.model.dispatch
+            dispatch = flectra.service.model.dispatch
         elif service_name == 'report':
-            dispatch = odoo.service.report.dispatch
+            dispatch = flectra.service.report.dispatch
         result = dispatch(method, params)
 
         if rpc_request_flag or rpc_response_flag:
@@ -123,20 +123,20 @@ def dispatch_rpc(service_name, method, params):
                 end_rss, end_vms = memory_info(psutil.Process(os.getpid()))
             logline = '%s.%s time:%.3fs mem: %sk -> %sk (diff: %sk)' % (service_name, method, end_time - start_time, start_vms / 1024, end_vms / 1024, (end_vms - start_vms)/1024)
             if rpc_response_flag:
-                odoo.netsvc.log(rpc_response, logging.DEBUG, logline, result)
+                flectra.netsvc.log(rpc_response, logging.DEBUG, logline, result)
             else:
-                odoo.netsvc.log(rpc_request, logging.DEBUG, logline, replace_request_password(params), depth=1)
+                flectra.netsvc.log(rpc_request, logging.DEBUG, logline, replace_request_password(params), depth=1)
 
         return result
     except NO_POSTMORTEM:
         raise
-    except odoo.exceptions.DeferredException as e:
-        _logger.exception(odoo.tools.exception_to_unicode(e))
-        odoo.tools.debugger.post_mortem(odoo.tools.config, e.traceback)
+    except flectra.exceptions.DeferredException as e:
+        _logger.exception(flectra.tools.exception_to_unicode(e))
+        flectra.tools.debugger.post_mortem(flectra.tools.config, e.traceback)
         raise
     except Exception as e:
-        _logger.exception(odoo.tools.exception_to_unicode(e))
-        odoo.tools.debugger.post_mortem(odoo.tools.config, sys.exc_info())
+        _logger.exception(flectra.tools.exception_to_unicode(e))
+        flectra.tools.debugger.post_mortem(flectra.tools.config, sys.exc_info())
         raise
 
 def local_redirect(path, query=None, keep_hash=False, forward_debug=True, code=303):
@@ -172,7 +172,7 @@ def redirect_with_hash(url, code=303):
     return "<html><head><script>window.location = '%s' + location.hash;</script></head></html>" % url
 
 class WebRequest(object):
-    """ Parent class for all Odoo Web request types, mostly deals with
+    """ Parent class for all Flectra Web request types, mostly deals with
     initialization and setup of the request object (the dispatching itself has
     to be handled by the subclasses)
 
@@ -206,7 +206,7 @@ class WebRequest(object):
         self._failed = None
 
         # set db/uid trackers - they're cleaned up at the WSGI
-        # dispatching phase in odoo.service.wsgi_server.application
+        # dispatching phase in flectra.service.wsgi_server.application
         if self.db:
             threading.current_thread().dbname = self.db
         if self.session.uid:
@@ -214,7 +214,7 @@ class WebRequest(object):
 
     @property
     def cr(self):
-        """ :class:`~odoo.sql_db.Cursor` initialized for the current method call.
+        """ :class:`~flectra.sql_db.Cursor` initialized for the current method call.
 
         Accessing the cursor when the current request uses the ``none``
         authentication will raise an exception.
@@ -250,9 +250,9 @@ class WebRequest(object):
 
     @property
     def env(self):
-        """ The :class:`~odoo.api.Environment` bound to current request. """
+        """ The :class:`~flectra.api.Environment` bound to current request. """
         if self._env is None:
-            self._env = odoo.api.Environment(self.cr, self.uid, self.context)
+            self._env = flectra.api.Environment(self.cr, self.uid, self.context)
         return self._env
 
     @lazy_property
@@ -303,8 +303,8 @@ class WebRequest(object):
         self._failed = exception # prevent tx commit
         if not isinstance(exception, NO_POSTMORTEM) \
                 and not isinstance(exception, werkzeug.exceptions.HTTPException):
-            odoo.tools.debugger.post_mortem(
-                odoo.tools.config, sys.exc_info())
+            flectra.tools.debugger.post_mortem(
+                flectra.tools.config, sys.exc_info())
         # otherwise "no active exception to reraise"
         raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])
 
@@ -372,7 +372,7 @@ class WebRequest(object):
 
             use :attr:`.env`
         """
-        return odoo.registry(self.db)
+        return flectra.registry(self.db)
 
     @property
     def db(self):
@@ -460,7 +460,7 @@ def route(route=None, **kw):
 
         .. versionadded:: 9.0
 
-        Odoo implements token-based `CSRF protection
+        Flectra implements token-based `CSRF protection
         <https://en.wikipedia.org/wiki/CSRF>`_.
 
         CSRF protection is enabled by default and applies to *UNSAFE*
@@ -478,8 +478,8 @@ def route(route=None, **kw):
 
         * if the form is generated in Python, a csrf token is
           available via :meth:`request.csrf_token()
-          <odoo.http.WebRequest.csrf_token`, the
-          :data:`~odoo.http.request` object is available by default
+          <flectra.http.WebRequest.csrf_token`, the
+          :data:`~flectra.http.request` object is available by default
           in QWeb (python) templates, it may have to be added
           explicitly if you are not using QWeb.
 
@@ -493,7 +493,7 @@ def route(route=None, **kw):
               require('web.core').csrf_token
 
         * if the endpoint can be called by external parties (not from
-          Odoo) as e.g. it is a REST API or a `webhook
+          Flectra) as e.g. it is a REST API or a `webhook
           <https://en.wikipedia.org/wiki/Webhook>`_, CSRF protection
           must be disabled on the endpoint. If possible, you may want
           to implement other methods of request validation (to ensure
@@ -647,19 +647,19 @@ class JsonRequest(WebRequest):
         try:
             return super(JsonRequest, self)._handle_exception(exception)
         except Exception:
-            if not isinstance(exception, (odoo.exceptions.Warning, SessionExpiredException, odoo.exceptions.except_orm)):
+            if not isinstance(exception, (flectra.exceptions.Warning, SessionExpiredException, flectra.exceptions.except_orm)):
                 _logger.exception("Exception during JSON request handling.")
             error = {
                     'code': 200,
-                    'message': "Odoo Server Error",
+                    'message': "Flectra Server Error",
                     'data': serialize_exception(exception)
             }
             if isinstance(exception, AuthenticationError):
                 error['code'] = 100
-                error['message'] = "Odoo Session Invalid"
+                error['message'] = "Flectra Session Invalid"
             if isinstance(exception, SessionExpiredException):
                 error['code'] = 100
-                error['message'] = "Odoo Session Expired"
+                error['message'] = "Flectra Session Expired"
             return self._json_response(error=error)
 
     def dispatch(self):
@@ -708,21 +708,21 @@ def serialize_exception(e):
         "arguments": e.args,
         "exception_type": "internal_error"
     }
-    if isinstance(e, odoo.exceptions.UserError):
+    if isinstance(e, flectra.exceptions.UserError):
         tmp["exception_type"] = "user_error"
-    elif isinstance(e, odoo.exceptions.Warning):
+    elif isinstance(e, flectra.exceptions.Warning):
         tmp["exception_type"] = "warning"
-    elif isinstance(e, odoo.exceptions.RedirectWarning):
+    elif isinstance(e, flectra.exceptions.RedirectWarning):
         tmp["exception_type"] = "warning"
-    elif isinstance(e, odoo.exceptions.AccessError):
+    elif isinstance(e, flectra.exceptions.AccessError):
         tmp["exception_type"] = "access_error"
-    elif isinstance(e, odoo.exceptions.MissingError):
+    elif isinstance(e, flectra.exceptions.MissingError):
         tmp["exception_type"] = "missing_error"
-    elif isinstance(e, odoo.exceptions.AccessDenied):
+    elif isinstance(e, flectra.exceptions.AccessDenied):
         tmp["exception_type"] = "access_denied"
-    elif isinstance(e, odoo.exceptions.ValidationError):
+    elif isinstance(e, flectra.exceptions.ValidationError):
         tmp["exception_type"] = "validation_error"
-    elif isinstance(e, odoo.exceptions.except_orm):
+    elif isinstance(e, flectra.exceptions.except_orm):
         tmp["exception_type"] = "except_orm"
     return tmp
 
@@ -795,12 +795,12 @@ class HttpRequest(WebRequest):
                 else:
                     _logger.warn("""No CSRF validation token provided for path '%s'
 
-Odoo URLs are CSRF-protected by default (when accessed with unsafe
+Flectra URLs are CSRF-protected by default (when accessed with unsafe
 HTTP methods). See
-https://www.odoo.com/documentation/9.0/reference/http.html#csrf for
+https://www.flectrahq.com/documentation/9.0/reference/http.html#csrf for
 more details.
 
-* if this endpoint is accessed through Odoo via py-QWeb form, embed a CSRF
+* if this endpoint is accessed through Flectra via py-QWeb form, embed a CSRF
   token in the form, Tokens are available via `request.csrf_token()`
   can be provided through a hidden input and must be POST-ed named
   `csrf_token` e.g. in your form add:
@@ -901,7 +901,7 @@ class ControllerType(type):
         # store the controller in the controllers list
         name_class = ("%s.%s" % (cls.__module__, cls.__name__), cls)
         class_path = name_class[0].split(".")
-        if not class_path[:2] == ["odoo", "addons"]:
+        if not class_path[:2] == ["flectra", "addons"]:
             module = ""
         else:
             # we want to know all modules that have controllers
@@ -933,7 +933,7 @@ def routing_map(modules, nodb_only, converters=None):
 
     def get_subclasses(klass):
         def valid(c):
-            return c.__module__.startswith('odoo.addons.') and c.__module__.split(".")[2] in modules
+            return c.__module__.startswith('flectra.addons.') and c.__module__.split(".")[2] in modules
         subclasses = klass.__subclasses__()
         result = []
         for subclass in subclasses:
@@ -1239,7 +1239,7 @@ class Response(werkzeug.wrappers.Response):
     def render(self):
         """ Renders the Response's template, returns the result
         """
-        env = request.env(user=self.uid or request.uid or odoo.SUPERUSER_ID)
+        env = request.env(user=self.uid or request.uid or flectra.SUPERUSER_ID)
         self.qcontext['request'] = request
         return env["ir.ui.view"].render_template(self.template, self.qcontext)
 
@@ -1282,14 +1282,14 @@ class Root(object):
     @lazy_property
     def session_store(self):
         # Setup http sessions
-        path = odoo.tools.config.session_dir
+        path = flectra.tools.config.session_dir
         _logger.debug('HTTP sessions stored in: %s', path)
         return werkzeug.contrib.sessions.FilesystemSessionStore(path, session_class=OpenERPSession)
 
     @lazy_property
     def nodb_routing_map(self):
         _logger.info("Generating nondb routing")
-        return routing_map([''] + odoo.conf.server_wide_modules, True)
+        return routing_map([''] + flectra.conf.server_wide_modules, True)
 
     def __call__(self, environ, start_response):
         """ Handle a WSGI request
@@ -1304,7 +1304,7 @@ class Root(object):
         controllers and configure them.  """
         # TODO should we move this to ir.http so that only configured modules are served ?
         statics = {}
-        for addons_path in odoo.modules.module.ad_paths:
+        for addons_path in flectra.modules.module.ad_paths:
             for module in sorted(os.listdir(str(addons_path))):
                 if module not in addons_module:
                     mod_path = opj(addons_path, module)
@@ -1317,8 +1317,8 @@ class Root(object):
                             continue
                         manifest['addons_path'] = addons_path
                         _logger.debug("Loading %s", module)
-                        if 'odoo.addons' in sys.modules:
-                            m = __import__('odoo.addons.' + module)
+                        if 'flectra.addons' in sys.modules:
+                            m = __import__('flectra.addons.' + module)
                         else:
                             m = None
                         addons_module[module] = m
@@ -1455,8 +1455,8 @@ class Root(object):
                 db = request.session.db
                 if db:
                     try:
-                        odoo.registry(db).check_signaling()
-                        with odoo.tools.mute_logger('odoo.sql_db'):
+                        flectra.registry(db).check_signaling()
+                        with flectra.tools.mute_logger('flectra.sql_db'):
                             ir_http = request.registry['ir.http']
                     except (AttributeError, psycopg2.OperationalError, psycopg2.ProgrammingError):
                         # psycopg2 error or attribute error while constructing
@@ -1488,7 +1488,7 @@ class Root(object):
         return request.registry['ir.http'].routing_map()
 
 def db_list(force=False, httprequest=None):
-    dbs = odoo.service.db.list_dbs(force)
+    dbs = flectra.service.db.list_dbs(force)
     return db_filter(dbs, httprequest=httprequest)
 
 def db_filter(dbs, httprequest=None):
@@ -1497,13 +1497,13 @@ def db_filter(dbs, httprequest=None):
     d, _, r = h.partition('.')
     if d == "www" and r:
         d = r.partition('.')[0]
-    if odoo.tools.config['dbfilter']:
-        r = odoo.tools.config['dbfilter'].replace('%h', h).replace('%d', d)
+    if flectra.tools.config['dbfilter']:
+        r = flectra.tools.config['dbfilter'].replace('%h', h).replace('%d', d)
         dbs = [i for i in dbs if re.match(r, i)]
-    elif odoo.tools.config['db_name']:
-        # In case --db-filter is not provided and --database is passed, Odoo will
+    elif flectra.tools.config['db_name']:
+        # In case --db-filter is not provided and --database is passed, Flectra will
         # use the value of --database as a comma seperated list of exposed databases.
-        exposed_dbs = set(db.strip() for db in odoo.tools.config['db_name'].split(','))
+        exposed_dbs = set(db.strip() for db in flectra.tools.config['db_name'].split(','))
         dbs = sorted(exposed_dbs.intersection(dbs))
     return dbs
 
@@ -1600,7 +1600,7 @@ def send_file(filepath_or_fp, mimetype=None, as_attachment=False, filename=None,
 
     if isinstance(mtime, str):
         try:
-            server_format = odoo.tools.misc.DEFAULT_SERVER_DATETIME_FORMAT
+            server_format = flectra.tools.misc.DEFAULT_SERVER_DATETIME_FORMAT
             mtime = datetime.datetime.strptime(mtime.split('.')[0], server_format)
         except Exception:
             mtime = None
@@ -1613,7 +1613,7 @@ def send_file(filepath_or_fp, mimetype=None, as_attachment=False, filename=None,
         rv.expires = int(time.time() + cache_timeout)
 
     if add_etags and filename and mtime:
-        rv.set_etag('odoo-%s-%s-%s' % (
+        rv.set_etag('flectra-%s-%s-%s' % (
             mtime,
             size,
             adler32(
@@ -1630,7 +1630,7 @@ def send_file(filepath_or_fp, mimetype=None, as_attachment=False, filename=None,
     return rv
 
 def content_disposition(filename):
-    filename = odoo.tools.ustr(filename)
+    filename = flectra.tools.ustr(filename)
     escaped = urls.url_quote(filename.encode('utf8'))
     browser = request.httprequest.user_agent.browser
     version = int((request.httprequest.user_agent.version or '0').split('.')[0])

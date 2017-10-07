@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import sys
 
@@ -67,7 +67,7 @@ def ustr(value, hint_encoding='utf-8', errors='strict'):
         return value
 
     # special short-circuit for str, as we still needs to support
-    # str subclasses such as `odoo.tools.unquote`
+    # str subclasses such as `flectra.tools.unquote`
     if ttype is bytes or issubclass(ttype, bytes):
 
         # try hint_encoding first, avoids call to get_encoding()

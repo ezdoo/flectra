@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from __future__ import print_function
 import code
@@ -8,8 +8,8 @@ import os
 import signal
 import sys
 
-import odoo
-from odoo.tools import config
+import flectra
+from flectra.tools import config
 from . import Command
 
 _logger = logging.getLogger(__name__)
@@ -52,13 +52,13 @@ class Console(code.InteractiveConsole):
 
 
 class Shell(Command):
-    """Start odoo in an interactive shell"""
+    """Start flectra in an interactive shell"""
     supported_shells = ['ipython', 'ptpython', 'bpython', 'python']
 
     def init(self, args):
         config.parse_config(args)
-        odoo.cli.server.report_configuration()
-        odoo.service.server.start(preload=[], stop=True)
+        flectra.cli.server.report_configuration()
+        flectra.service.server.start(preload=[], stop=True)
         signal.signal(signal.SIGINT, raise_keyboard_interrupt)
 
     def console(self, local_vars):
@@ -102,16 +102,16 @@ class Shell(Command):
 
     def shell(self, dbname):
         local_vars = {
-            'openerp': odoo,
-            'odoo': odoo,
+            'openerp': flectra,
+            'flectra': flectra,
         }
-        with odoo.api.Environment.manage():
+        with flectra.api.Environment.manage():
             if dbname:
-                registry = odoo.registry(dbname)
+                registry = flectra.registry(dbname)
                 with registry.cursor() as cr:
-                    uid = odoo.SUPERUSER_ID
-                    ctx = odoo.api.Environment(cr, uid, {})['res.users'].context_get()
-                    env = odoo.api.Environment(cr, uid, ctx)
+                    uid = flectra.SUPERUSER_ID
+                    ctx = flectra.api.Environment(cr, uid, {})['res.users'].context_get()
+                    env = flectra.api.Environment(cr, uid, ctx)
                     local_vars['env'] = env
                     local_vars['self'] = env.user
                     self.console(local_vars)

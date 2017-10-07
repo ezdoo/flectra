@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import datetime
 import dateutil
 import logging
 import time
 from collections import defaultdict
 
-from odoo import api, fields, models, SUPERUSER_ID, tools,  _
-from odoo.exceptions import AccessError, UserError, ValidationError
-from odoo.modules.registry import Registry
-from odoo.osv import expression
-from odoo.tools import pycompat
-from odoo.tools.safe_eval import safe_eval
+from flectra import api, fields, models, SUPERUSER_ID, tools,  _
+from flectra.exceptions import AccessError, UserError, ValidationError
+from flectra.modules.registry import Registry
+from flectra.osv import expression
+from flectra.tools import pycompat
+from flectra.tools.safe_eval import safe_eval
 
 _logger = logging.getLogger(__name__)
 
@@ -184,7 +184,7 @@ class IrModel(models.Model):
         res = super(IrModel, self).unlink()
 
         # Reload registry for normal unlink only. For module uninstall, the
-        # reload is done independently in odoo.modules.loading.
+        # reload is done independently in flectra.modules.loading.
         if not self._context.get(MODULE_UNINSTALL_FLAG):
             # setup models; this automatically removes model from registry
             self.pool.setup_models(self._cr)
@@ -877,7 +877,7 @@ class IrModelFields(models.Model):
 
 class IrModelConstraint(models.Model):
     """
-    This model tracks PostgreSQL foreign keys and constraints used by Odoo
+    This model tracks PostgreSQL foreign keys and constraints used by Flectra
     models.
     """
     _name = 'ir.model.constraint'
@@ -998,7 +998,7 @@ class IrModelConstraint(models.Model):
 
 class IrModelRelation(models.Model):
     """
-    This model tracks PostgreSQL tables used to implement Odoo many2many
+    This model tracks PostgreSQL tables used to implement Flectra many2many
     relations.
     """
     _name = 'ir.model.relation'
@@ -1226,7 +1226,7 @@ class IrModelData(models.Model):
            * allows easy data integration with third-party systems,
              making import/export/sync of data possible, as records
              can be uniquely identified across multiple systems
-           * allows tracking the origin of data installed by Odoo
+           * allows tracking the origin of data installed by Flectra
              modules themselves, thus making it possible to later
              update them seamlessly.
     """

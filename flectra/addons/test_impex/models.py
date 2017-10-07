@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models
-from odoo.tools import pycompat
+from flectra import api, fields, models
+from flectra.tools import pycompat
 
 
 def selection_fn(model):

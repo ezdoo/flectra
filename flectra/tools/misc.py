@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 
 """
@@ -44,10 +44,10 @@ from .cache import *
 from .parse_version import parse_version 
 from . import pycompat
 
-import odoo
+import flectra
 # get_encodings, ustr and exception_to_unicode were originally from tools.misc.
 # There are moved to loglevels until we refactor tools.
-from odoo.loglevels import get_encodings, ustr, exception_to_unicode     # noqa
+from flectra.loglevels import get_encodings, ustr, exception_to_unicode     # noqa
 
 _logger = logging.getLogger(__name__)
 
@@ -98,7 +98,7 @@ def find_pg_tool(name):
 def exec_pg_environ():
     """
     Force the database PostgreSQL environment variables to the database
-    configuration of Odoo.
+    configuration of Flectra.
 
     Note: On systems where pg_restore/pg_dump require an explicit password
     (i.e.  on Windows where TCP sockets are used), it is necessary to pass the
@@ -108,14 +108,14 @@ def exec_pg_environ():
     See also http://www.postgresql.org/docs/8.4/static/libpq-envars.html
     """
     env = os.environ.copy()
-    if odoo.tools.config['db_host']:
-        env['PGHOST'] = odoo.tools.config['db_host']
-    if odoo.tools.config['db_port']:
-        env['PGPORT'] = str(odoo.tools.config['db_port'])
-    if odoo.tools.config['db_user']:
-        env['PGUSER'] = odoo.tools.config['db_user']
-    if odoo.tools.config['db_password']:
-        env['PGPASSWORD'] = odoo.tools.config['db_password']
+    if flectra.tools.config['db_host']:
+        env['PGHOST'] = flectra.tools.config['db_host']
+    if flectra.tools.config['db_port']:
+        env['PGPORT'] = str(flectra.tools.config['db_port'])
+    if flectra.tools.config['db_user']:
+        env['PGUSER'] = flectra.tools.config['db_user']
+    if flectra.tools.config['db_password']:
+        env['PGPASSWORD'] = flectra.tools.config['db_password']
     return env
 
 def exec_pg_command(name, *args):
@@ -153,7 +153,7 @@ def file_open(name, mode="r", subdir='addons', pathinfo=False):
 
     @return fileobject if pathinfo is False else (fileobject, filepath)
     """
-    import odoo.modules as addons
+    import flectra.modules as addons
     adps = addons.module.ad_paths
     rtp = os.path.normcase(os.path.abspath(config['root_path']))
 
@@ -201,7 +201,7 @@ def file_open(name, mode="r", subdir='addons', pathinfo=False):
 def _fileopen(path, mode, basedir, pathinfo, basename=None):
     name = os.path.normpath(os.path.normcase(os.path.join(basedir, path)))
 
-    import odoo.modules as addons
+    import flectra.modules as addons
     paths = addons.module.ad_paths + [config['root_path']]
     for addons_path in paths:
         addons_path = os.path.normpath(os.path.normcase(addons_path)) + os.sep
@@ -403,7 +403,7 @@ def scan_languages():
     :returns: a list of (lang_code, lang_name) pairs
     :rtype: [(str, unicode)]
     """
-    csvpath = odoo.modules.module.get_resource_path('base', 'res', 'res.lang.csv')
+    csvpath = flectra.modules.module.get_resource_path('base', 'res', 'res.lang.csv')
     try:
         # read (code, name) from languages in base/res/res.lang.csv
         with open(csvpath, 'rb') as csvfile:
@@ -784,11 +784,11 @@ class mute_logger(object):
     """Temporary suppress the logging.
     Can be used as context manager or decorator.
 
-        @mute_logger('odoo.plic.ploc')
+        @mute_logger('flectra.plic.ploc')
         def do_stuff():
             blahblah()
 
-        with mute_logger('odoo.foo.bar'):
+        with mute_logger('flectra.foo.bar'):
             do_suff()
 
     """
@@ -922,7 +922,7 @@ def dumpstacks(sig=None, frame=None):
         for line in extract_stack(stack):
             code.append(line)
 
-    if odoo.evented:
+    if flectra.evented:
         # code from http://stackoverflow.com/questions/12510648/in-gevent-how-can-i-dump-stack-traces-of-all-running-greenlets
         import gc
         from greenlet import greenlet

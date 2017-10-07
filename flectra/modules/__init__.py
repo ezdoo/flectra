@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 """ Modules (also called addons) management.
 
@@ -7,9 +7,9 @@
 
 from . import db, graph, loading, migration, module, registry
 
-from odoo.modules.loading import load_modules
+from flectra.modules.loading import load_modules
 
-from odoo.modules.module import (
+from flectra.modules.module import (
     adapt_version,
     get_module_path,
     get_module_resource,

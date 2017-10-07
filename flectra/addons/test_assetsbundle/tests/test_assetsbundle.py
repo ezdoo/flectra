@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from collections import Counter
 import datetime
@@ -7,11 +7,11 @@ import errno
 from os import utime
 import time
 
-from odoo import api
-from odoo.addons.base.ir.ir_qweb import AssetsBundle
-from odoo.modules.module import get_resource_path
-from odoo.tests import HttpCase
-from odoo.tests.common import TransactionCase
+from flectra import api
+from flectra.addons.base.ir.ir_qweb import AssetsBundle
+from flectra.modules.module import get_resource_path
+from flectra.tests import HttpCase
+from flectra.tests.common import TransactionCase
 
 
 def _touch(filepath, asset, t=None):

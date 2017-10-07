@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import time
 import sys
 
-from odoo import models, api
+from flectra import models, api
 
 class m(models.Model):
     """ This model exposes a few methods that will consume between 'almost no

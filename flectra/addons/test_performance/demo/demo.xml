@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
 
     <record id="object0" model="test_performance.base">
         <field name="name">Object 0</field>
@@ -53,4 +53,4 @@
         <field name="partner_id" ref="base.res_partner_12"/>
     </record>
 
-</odoo>
+</flectra>

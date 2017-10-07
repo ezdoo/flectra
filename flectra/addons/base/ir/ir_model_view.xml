@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
 
         <!-- menu_create from model form -->
         <record id="view_model_menu_create" model="ir.ui.view">
@@ -571,4 +571,4 @@
         </record>
         <menuitem action="ir_access_act" id="menu_ir_access_act" parent="base.menu_security"/>
 
-</odoo>
+</flectra>

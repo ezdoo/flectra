@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
-import odoo
-from odoo import api, fields, models, tools, SUPERUSER_ID, _
-from odoo.exceptions import MissingError, UserError, ValidationError, AccessError
-from odoo.tools.safe_eval import safe_eval, test_python_expr
-from odoo.tools import pycompat
-from odoo.http import request
+import flectra
+from flectra import api, fields, models, tools, SUPERUSER_ID, _
+from flectra.exceptions import MissingError, UserError, ValidationError, AccessError
+from flectra.tools.safe_eval import safe_eval, test_python_expr
+from flectra.tools import pycompat
+from flectra.http import request
 
 from collections import defaultdict
 import datetime
@@ -297,7 +297,7 @@ class IrActionsServer(models.Model):
     action rules, of manually, by adding the action in the 'More' contextual
     menu.
 
-    Since Odoo 8.0 a button 'Create Menu Action' button is available on the
+    Since Flectra 8.0 a button 'Create Menu Action' button is available on the
     action form view. It creates an entry in the More menu of the base model.
     This allows to create server actions and run them in mass mode easily through
     the interface.
@@ -319,8 +319,8 @@ class IrActionsServer(models.Model):
     _order = 'sequence,name'
 
     DEFAULT_PYTHON_CODE = """# Available variables:
-#  - env: Odoo Environment on which the action is triggered
-#  - model: Odoo Model of the record on which the action is triggered; is a void recordset
+#  - env: Flectra Environment on which the action is triggered
+#  - model: Flectra Model of the record on which the action is triggered; is a void recordset
 #  - record: record on which the action is triggered; may be be void
 #  - records: recordset of all records on which the action is triggered in multi-mode; may be void
 #  - time, datetime, dateutil, timezone: useful Python libraries
@@ -498,7 +498,7 @@ class IrActionsServer(models.Model):
             'env': self.env,
             'model': model,
             # Exceptions
-            'Warning': odoo.exceptions.Warning,
+            'Warning': flectra.exceptions.Warning,
             # record
             'record': record,
             'records': records,

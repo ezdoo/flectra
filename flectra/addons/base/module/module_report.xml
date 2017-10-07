@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
     <data>
 
         <report
@@ -11,4 +11,4 @@
             name="base.report_irmodulereference"/>
 
     </data>
-</odoo>
+</flectra>

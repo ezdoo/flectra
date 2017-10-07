@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<odoo>
+<flectra>
     <data>
         <record id="action_server_module_immediate_install" model="ir.actions.server">
             <field name="name">Base: Module Immediate Install</field>
@@ -10,4 +10,4 @@
             <field name="code">records.button_immediate_install()</field>
         </record>
     </data>
-</odoo>
+</flectra>

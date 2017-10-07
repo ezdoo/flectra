@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 """ Modules migration handling. """
 
@@ -9,11 +9,11 @@ import logging
 import os
 from os.path import join as opj
 
-from odoo.modules.module import get_resource_path
-import odoo.release as release
-import odoo.tools as tools
-from odoo.tools.parse_version import parse_version
-from odoo.tools import pycompat
+from flectra.modules.module import get_resource_path
+import flectra.release as release
+import flectra.tools as tools
+from flectra.tools.parse_version import parse_version
+from flectra.tools import pycompat
 
 if pycompat.PY2:
     import imp

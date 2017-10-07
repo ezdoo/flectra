@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import base64
 import datetime
@@ -13,10 +13,10 @@ import requests
 from lxml import etree
 from werkzeug import urls
 
-from odoo import api, fields, models, tools, SUPERUSER_ID, _
-from odoo.modules import get_module_resource
-from odoo.osv.expression import get_unaccent_wrapper
-from odoo.exceptions import UserError, ValidationError
+from flectra import api, fields, models, tools, SUPERUSER_ID, _
+from flectra.modules import get_module_resource
+from flectra.osv.expression import get_unaccent_wrapper
+from flectra.exceptions import UserError, ValidationError
 
 # Global variables used for the warning fields declared on the res.partner
 # in the following modules : sale, purchase, account, stock 

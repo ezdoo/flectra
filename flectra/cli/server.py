@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 """
 OpenERP - Server
@@ -23,15 +23,15 @@ import time
 
 from psycopg2 import ProgrammingError, errorcodes
 
-import odoo
+import flectra
 
 from . import Command
 
-__author__ = odoo.release.author
-__version__ = odoo.release.version
+__author__ = flectra.release.author
+__version__ = flectra.release.version
 
-# Also use the `odoo` logger for the main script.
-_logger = logging.getLogger('odoo')
+# Also use the `flectra` logger for the main script.
+_logger = logging.getLogger('flectra')
 
 def check_root_user():
     """Warn if the process's user is 'root' (on POSIX system)."""
@@ -45,7 +45,7 @@ def check_postgres_user():
 
     This function assumes the configuration has been initialized.
     """
-    config = odoo.tools.config
+    config = flectra.tools.config
     if config['db_user'] == 'postgres':
         sys.stderr.write("Using the database user 'postgres' is a security risk, aborting.")
         sys.exit(1)
@@ -55,18 +55,18 @@ def report_configuration():
 
     This function assumes the configuration has been initialized.
     """
-    config = odoo.tools.config
-    _logger.info("Odoo version %s", __version__)
+    config = flectra.tools.config
+    _logger.info("Flectra version %s", __version__)
     if os.path.isfile(config.rcfile):
         _logger.info("Using configuration file at " + config.rcfile)
-    _logger.info('addons paths: %s', odoo.modules.module.ad_paths)
+    _logger.info('addons paths: %s', flectra.modules.module.ad_paths)
     host = config['db_host'] or os.environ.get('PGHOST', 'default')
     port = config['db_port'] or os.environ.get('PGPORT', 'default')
     user = config['db_user'] or os.environ.get('PGUSER', 'default')
     _logger.info('database: %s@%s:%s', user, host, port)
 
 def rm_pid_file(main_pid):
-    config = odoo.tools.config
+    config = flectra.tools.config
     if config['pidfile'] and main_pid == os.getpid():
         try:
             os.unlink(config['pidfile'])
@@ -78,15 +78,15 @@ def setup_pid_file():
 
     This function assumes the configuration has been initialized.
     """
-    config = odoo.tools.config
-    if not odoo.evented and config['pidfile']:
+    config = flectra.tools.config
+    if not flectra.evented and config['pidfile']:
         pid = os.getpid()
         with open(config['pidfile'], 'w') as fd:
             fd.write(str(pid))
         atexit.register(rm_pid_file, pid)
 
 def export_translation():
-    config = odoo.tools.config
+    config = flectra.tools.config
     dbname = config['db_name']
 
     if config["language"]:
@@ -99,33 +99,33 @@ def export_translation():
     fileformat = os.path.splitext(config["translate_out"])[-1][1:].lower()
 
     with open(config["translate_out"], "w") as buf:
-        registry = odoo.modules.registry.Registry.new(dbname)
-        with odoo.api.Environment.manage():
+        registry = flectra.modules.registry.Registry.new(dbname)
+        with flectra.api.Environment.manage():
             with registry.cursor() as cr:
-                odoo.tools.trans_export(config["language"],
+                flectra.tools.trans_export(config["language"],
                     config["translate_modules"] or ["all"], buf, fileformat, cr)
 
     _logger.info('translation file written successfully')
 
 def import_translation():
-    config = odoo.tools.config
+    config = flectra.tools.config
     context = {'overwrite': config["overwrite_existing_translations"]}
     dbname = config['db_name']
 
-    registry = odoo.modules.registry.Registry.new(dbname)
-    with odoo.api.Environment.manage():
+    registry = flectra.modules.registry.Registry.new(dbname)
+    with flectra.api.Environment.manage():
         with registry.cursor() as cr:
-            odoo.tools.trans_load(
+            flectra.tools.trans_load(
                 cr, config["translate_in"], config["language"], context=context,
             )
 
 def main(args):
     check_root_user()
-    odoo.tools.config.parse_config(args)
+    flectra.tools.config.parse_config(args)
     check_postgres_user()
     report_configuration()
 
-    config = odoo.tools.config
+    config = flectra.tools.config
 
     # the default limit for CSV fields in the module is 128KiB, which is not
     # quite sufficient to import images to store in attachment. 500MiB is a
@@ -137,7 +137,7 @@ def main(args):
         preload = config['db_name'].split(',')
         for db_name in preload:
             try:
-                odoo.service.db._create_empty_database(db_name)
+                flectra.service.db._create_empty_database(db_name)
             except ProgrammingError as err:
                 if err.pgcode == errorcodes.INSUFFICIENT_PRIVILEGE:
                     # We use an INFO loglevel on purpose in order to avoid
@@ -147,7 +147,7 @@ def main(args):
                                  "skipping auto-creation: %s", db_name, err)
                 else:
                     raise err
-            except odoo.service.db.DatabaseExists:
+            except flectra.service.db.DatabaseExists:
                 pass
 
     if config["translate_out"]:
@@ -161,15 +161,15 @@ def main(args):
     # This needs to be done now to ensure the use of the multiprocessing
     # signaling mecanism for registries loaded with -d
     if config['workers']:
-        odoo.multi_process = True
+        flectra.multi_process = True
 
     stop = config["stop_after_init"]
 
     setup_pid_file()
-    rc = odoo.service.server.start(preload=preload, stop=stop)
+    rc = flectra.service.server.start(preload=preload, stop=stop)
     sys.exit(rc)
 
 class Server(Command):
-    """Start the odoo server (default command)"""
+    """Start the flectra server (default command)"""
     def run(self, args):
         main(args)

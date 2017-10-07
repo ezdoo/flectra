@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 """ OpenERP core library."""
 
 #----------------------------------------------------------
-# odoo must be a namespace package for odoo.addons to become one too
+# flectra must be a namespace package for flectra.addons to become one too
 # https://packaging.python.org/guides/packaging-namespace-packages/
 #----------------------------------------------------------
 __path__ = __import__('pkgutil').extend_path(__path__, __name__)
@@ -77,7 +77,7 @@ from . import tools
 from . import models
 from . import fields
 from . import api
-from odoo.tools.translate import _
+from flectra.tools.translate import _
 
 #----------------------------------------------------------
 # Other imports, which may require stuff from above

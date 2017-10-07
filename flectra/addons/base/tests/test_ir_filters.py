@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
-from odoo import exceptions
-from odoo.tests.common import TransactionCase, ADMIN_USER_ID
+from flectra import exceptions
+from flectra.tests.common import TransactionCase, ADMIN_USER_ID
 
 def noid(seq):
     """ Removes values that are not relevant for the test comparisons """

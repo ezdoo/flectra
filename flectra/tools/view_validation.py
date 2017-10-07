@@ -5,7 +5,7 @@ import logging
 import os
 
 from lxml import etree
-from odoo import tools
+from flectra import tools
 
 _logger = logging.getLogger(__name__)
 

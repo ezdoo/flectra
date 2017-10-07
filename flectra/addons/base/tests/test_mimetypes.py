@@ -1,7 +1,7 @@
 import base64
 import unittest
 
-from odoo.tools.mimetypes import guess_mimetype
+from flectra.tools.mimetypes import guess_mimetype
 
 PNG = b'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC'
 GIF = b"R0lGODdhAQABAIAAAP///////ywAAAAAAQABAAACAkQBADs="
@@ -21,7 +21,7 @@ class test_guess_mimetype(unittest.TestCase):
 
     def test_default_mimetype_empty(self):
         mimetype = guess_mimetype(b'')
-        # odoo implementation returns application/octet-stream by default
+        # flectra implementation returns application/octet-stream by default
         # if available, python-magic returns application/x-empty
         self.assertIn(mimetype, ('application/octet-stream', 'application/x-empty'))
 

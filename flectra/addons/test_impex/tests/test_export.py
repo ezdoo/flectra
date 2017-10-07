@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import itertools
 
-from odoo.tests import common
-from odoo.tools import pycompat
+from flectra.tests import common
+from flectra.tools import pycompat
 
 
 class CreatorCase(common.TransactionCase):

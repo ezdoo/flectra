@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import json
 import pkgutil
 import re
 
-from odoo.tests import common
-from odoo.tools.misc import mute_logger
+from flectra.tests import common
+from flectra.tools.misc import mute_logger
 
 def message(msg, type='error', from_=0, to_=0, record=0, field='value', **kwargs):
     return dict(kwargs,
@@ -237,7 +237,7 @@ class test_integer_field(ImporterCase):
             -1, -42, -(2**31 - 1), -(2**31), -12345678
         ], values(self.read()))
 
-    @mute_logger('odoo.sql_db', 'odoo.models')
+    @mute_logger('flectra.sql_db', 'flectra.models')
     def test_out_of_range(self):
         result = self.import_(['value'], [[str(2**31)]])
         self.assertIs(result['ids'], False)
@@ -384,14 +384,14 @@ class test_unbound_string_field(ImporterCase):
 class test_required_string_field(ImporterCase):
     model_name = 'export.string.required'
 
-    @mute_logger('odoo.sql_db', 'odoo.models')
+    @mute_logger('flectra.sql_db', 'flectra.models')
     def test_empty(self):
         result = self.import_(['value'], [[]])
         self.assertEqual(result['messages'], [message(
             u"Missing required value for the field 'Value' (value)")])
         self.assertIs(result['ids'], False)
 
-    @mute_logger('odoo.sql_db', 'odoo.models')
+    @mute_logger('flectra.sql_db', 'flectra.models')
     def test_not_provided(self):
         result = self.import_(['const'], [['12']])
         self.assertEqual(result['messages'], [message(
@@ -623,7 +623,7 @@ class test_m2o(ImporterCase):
             for index, id in enumerate([record1.id, record2.id, record1.id])])
         self.assertIs(result['ids'], False)
 
-    @mute_logger('odoo.sql_db')
+    @mute_logger('flectra.sql_db')
     def test_fail_id_mistype(self):
         result = self.import_(['value/.id'], [["foo"]])
 
@@ -1106,7 +1106,7 @@ class test_datetime(ImporterCase):
 class test_unique(ImporterCase):
     model_name = 'export.unique'
 
-    @mute_logger('odoo.sql_db')
+    @mute_logger('flectra.sql_db')
     def test_unique(self):
         result = self.import_(['value'], [
             ['1'],
@@ -1127,7 +1127,7 @@ class test_unique(ImporterCase):
                  record=4, field='value'),
         ])
 
-    @mute_logger('odoo.sql_db')
+    @mute_logger('flectra.sql_db')
     def test_unique_pair(self):
         result = self.import_(['value2', 'value3'], [
             ['0', '1'],

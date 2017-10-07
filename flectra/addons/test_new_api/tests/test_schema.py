@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo.models import MetaModel
-from odoo.tests import common
+from flectra.models import MetaModel
+from flectra.tests import common
 
 
 class TestReflection(common.TransactionCase):

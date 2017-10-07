@@ -1,5 +1,5 @@
-#odoo.loggers.handlers. -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+#flectra.loggers.handlers. -*- coding: utf-8 -*-
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 try:
     import configparser as ConfigParser
@@ -10,7 +10,7 @@ import logging
 import optparse
 import os
 import sys
-import odoo
+import flectra
 from .. import release, conf, loglevels
 from . import appdirs, pycompat
 
@@ -103,7 +103,7 @@ class configmanager(object):
         group = optparse.OptionGroup(parser, "Common options")
         group.add_option("-c", "--config", dest="config", help="specify alternate config file")
         group.add_option("-s", "--save", action="store_true", dest="save", default=False,
-                          help="save configuration to ~/.odoorc (or to ~/.openerp_serverrc if it exists)")
+                          help="save configuration to ~/.flectrarc (or to ~/.openerp_serverrc if it exists)")
         group.add_option("-i", "--init", dest="init", help="install one or more modules (comma-separated list, use \"all\" for all modules), requires -d")
         group.add_option("-u", "--update", dest="update",
                           help="update one or more modules (comma-separated list, use \"all\" for all modules). Requires -d.")
@@ -119,7 +119,7 @@ class configmanager(object):
         group.add_option("--load", dest="server_wide_modules", help="Comma-separated list of server-wide modules.", my_default='web')
 
         group.add_option("-D", "--data-dir", dest="data_dir", my_default=_get_default_datadir(),
-                         help="Directory where to store Odoo data")
+                         help="Directory where to store Flectra data")
         parser.add_option_group(group)
 
         # HTTP
@@ -127,7 +127,7 @@ class configmanager(object):
         group.add_option("--http-interface", dest="http_interface", my_default='',
                          help="Listen interface address for HTTP services. "
                               "Keep empty to listen on all interfaces (0.0.0.0)")
-        group.add_option("-p", "--http-port", dest="http_port", my_default=8069,
+        group.add_option("-p", "--http-port", dest="http_port", my_default=7073,
                          help="Listen port for the main HTTP service", type="int", metavar="PORT")
         group.add_option("--longpolling-port", dest="longpolling_port", my_default=8072,
                          help="Listen port for the longpolling HTTP service", type="int", metavar="PORT")
@@ -168,11 +168,11 @@ class configmanager(object):
         group.add_option("--logfile", dest="logfile", help="file where the server log will be stored")
         group.add_option("--logrotate", dest="logrotate", action="store_true", my_default=False, help="enable logfile rotation")
         group.add_option("--syslog", action="store_true", dest="syslog", my_default=False, help="Send the log to the syslog server")
-        group.add_option('--log-handler', action="append", default=[], my_default=DEFAULT_LOG_HANDLER, metavar="PREFIX:LEVEL", help='setup a handler at LEVEL for a given PREFIX. An empty PREFIX indicates the root logger. This option can be repeated. Example: "odoo.orm:DEBUG" or "werkzeug:CRITICAL" (default: ":INFO")')
-        group.add_option('--log-request', action="append_const", dest="log_handler", const="odoo.http.rpc.request:DEBUG", help='shortcut for --log-handler=odoo.http.rpc.request:DEBUG')
-        group.add_option('--log-response', action="append_const", dest="log_handler", const="odoo.http.rpc.response:DEBUG", help='shortcut for --log-handler=odoo.http.rpc.response:DEBUG')
-        group.add_option('--log-web', action="append_const", dest="log_handler", const="odoo.http:DEBUG", help='shortcut for --log-handler=odoo.http:DEBUG')
-        group.add_option('--log-sql', action="append_const", dest="log_handler", const="odoo.sql_db:DEBUG", help='shortcut for --log-handler=odoo.sql_db:DEBUG')
+        group.add_option('--log-handler', action="append", default=[], my_default=DEFAULT_LOG_HANDLER, metavar="PREFIX:LEVEL", help='setup a handler at LEVEL for a given PREFIX. An empty PREFIX indicates the root logger. This option can be repeated. Example: "flectra.orm:DEBUG" or "werkzeug:CRITICAL" (default: ":INFO")')
+        group.add_option('--log-request', action="append_const", dest="log_handler", const="flectra.http.rpc.request:DEBUG", help='shortcut for --log-handler=flectra.http.rpc.request:DEBUG')
+        group.add_option('--log-response', action="append_const", dest="log_handler", const="flectra.http.rpc.response:DEBUG", help='shortcut for --log-handler=flectra.http.rpc.response:DEBUG')
+        group.add_option('--log-web', action="append_const", dest="log_handler", const="flectra.http:DEBUG", help='shortcut for --log-handler=flectra.http:DEBUG')
+        group.add_option('--log-sql', action="append_const", dest="log_handler", const="flectra.sql_db:DEBUG", help='shortcut for --log-handler=flectra.sql_db:DEBUG')
         group.add_option('--log-db', dest='log_db', help="Logging database", my_default=False)
         group.add_option('--log-db-level', dest='log_db_level', my_default='warning', help="Logging database level")
         # For backward-compatibility, map the old log levels to something
@@ -225,7 +225,7 @@ class configmanager(object):
         parser.add_option_group(group)
 
         group = optparse.OptionGroup(parser, "Internationalisation options",
-            "Use these options to translate Odoo to another language."
+            "Use these options to translate Flectra to another language."
             "See i18n section of the user manual. Option '-d' is mandatory."
             "Option '-l' is mandatory in case of importation"
             )
@@ -319,7 +319,7 @@ class configmanager(object):
         """ Parse the configuration file (if any) and the command-line
         arguments.
 
-        This method initializes odoo.tools.config and openerp.conf (the
+        This method initializes flectra.tools.config and openerp.conf (the
         former should be removed in the furture) with library-wide
         configuration values.
 
@@ -328,11 +328,11 @@ class configmanager(object):
 
         Typical usage of this method:
 
-            odoo.tools.config.parse_config(sys.argv[1:])
+            flectra.tools.config.parse_config(sys.argv[1:])
         """
         self._parse_config(args)
-        odoo.netsvc.init_logger()
-        odoo.modules.module.initialize_sys_path()
+        flectra.netsvc.init_logger()
+        flectra.modules.module.initialize_sys_path()
 
     def _parse_config(self, args=None):
         if args is None:
@@ -369,20 +369,20 @@ class configmanager(object):
         # else he won't be able to save the configurations, or even to start the server...
         # TODO use appdirs
         if os.name == 'nt':
-            rcfilepath = os.path.join(os.path.abspath(os.path.dirname(sys.argv[0])), 'odoo.conf')
+            rcfilepath = os.path.join(os.path.abspath(os.path.dirname(sys.argv[0])), 'flectra.conf')
         else:
-            rcfilepath = os.path.expanduser('~/.odoorc')
+            rcfilepath = os.path.expanduser('~/.flectrarc')
             old_rcfilepath = os.path.expanduser('~/.openerp_serverrc')
 
             die(os.path.isfile(rcfilepath) and os.path.isfile(old_rcfilepath),
-                "Found '.odoorc' and '.openerp_serverrc' in your path. Please keep only one of "\
-                "them, preferrably '.odoorc'.")
+                "Found '.flectrarc' and '.openerp_serverrc' in your path. Please keep only one of "\
+                "them, preferrably '.flectrarc'.")
 
             if not os.path.isfile(rcfilepath) and os.path.isfile(old_rcfilepath):
                 rcfilepath = old_rcfilepath
 
         self.rcfile = os.path.abspath(
-            self.config_file or opt.config or os.environ.get('ODOO_RC') or os.environ.get('OPENERP_SERVER') or rcfilepath)
+            self.config_file or opt.config or os.environ.get('FLECTRA_RC') or os.environ.get('OPENERP_SERVER') or rcfilepath)
         self.load()
 
         # Verify that we want to log or not, if not the output will go to stdout
@@ -492,7 +492,7 @@ class configmanager(object):
         ]
 
     def _is_addons_path(self, path):
-        from odoo.modules.module import MANIFEST_NAMES
+        from flectra.modules.module import MANIFEST_NAMES
         for f in os.listdir(path):
             modpath = os.path.join(path, f)
             if os.path.isdir(modpath):

@@ -1,4 +1,4 @@
-odoo.define('web.test.x2many', function (require) {
+flectra.define('web.test.x2many', function (require) {
     'use strict';
 
     var tour = require("web_tour.tour");

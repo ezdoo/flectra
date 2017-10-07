@@ -9,12 +9,12 @@ import sys
 
 from . import Command
 from .server import main
-from odoo.modules.module import get_module_root, MANIFEST_NAMES
-from odoo.service.db import _create_empty_database, DatabaseExists
+from flectra.modules.module import get_module_root, MANIFEST_NAMES
+from flectra.service.db import _create_empty_database, DatabaseExists
 
 
 class Start(Command):
-    """Quick start the Odoo server for your project"""
+    """Quick start the Flectra server for your project"""
 
     def get_module_list(self, path):
         mods = itertools.chain.from_iterable(

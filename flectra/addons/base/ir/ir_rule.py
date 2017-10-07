@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import time
 from collections import defaultdict
 
-from odoo import api, fields, models, tools, SUPERUSER_ID, _
-from odoo.exceptions import ValidationError
-from odoo.osv import expression
-from odoo.tools.safe_eval import safe_eval
+from flectra import api, fields, models, tools, SUPERUSER_ID, _
+from flectra.exceptions import ValidationError
+from flectra.osv import expression
+from flectra.tools.safe_eval import safe_eval
 
 
 class IrRule(models.Model):

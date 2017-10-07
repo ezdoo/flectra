@@ -10,12 +10,12 @@ from lxml import html
 from lxml import etree
 from werkzeug import urls
 
-from odoo.tools import pycompat
+from flectra.tools import pycompat
 
-from odoo import api, models, tools
-from odoo.tools.safe_eval import assert_valid_codeobj, _BUILTINS, _SAFE_OPCODES
-from odoo.http import request
-from odoo.modules.module import get_resource_path
+from flectra import api, models, tools
+from flectra.tools.safe_eval import assert_valid_codeobj, _BUILTINS, _SAFE_OPCODES
+from flectra.http import request
+from flectra.modules.module import get_resource_path
 
 from .qweb import QWeb, Contextifier
 from .assetsbundle import AssetsBundle
@@ -210,7 +210,7 @@ class IrQWeb(models.AbstractModel, QWeb):
         #       match the module dependency graph.
         def get_modules_order():
             if request:
-                from odoo.addons.web.controllers.main import module_boot
+                from flectra.addons.web.controllers.main import module_boot
                 return json.dumps(module_boot())
             return '[]'
         template = env['ir.qweb'].render(xmlid, {"get_modules_order": get_modules_order})

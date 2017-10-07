@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
         <!-- ir.cron -->
         <record id="ir_cron_view_form" model="ir.ui.view">
             <field name="name">ir.cron.view.form</field>
@@ -86,4 +86,4 @@
         </record>
         <menuitem id="menu_ir_cron_act" action="ir_cron_act" parent="base.menu_automation"/>
 
-</odoo>
+</flectra>

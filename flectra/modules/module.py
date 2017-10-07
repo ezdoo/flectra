@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import ast
 import functools
@@ -19,11 +19,11 @@ import threading
 from operator import itemgetter
 from os.path import join as opj
 
-import odoo
-import odoo.tools as tools
-import odoo.release as release
-from odoo import SUPERUSER_ID, api
-from odoo.tools import pycompat
+import flectra
+import flectra.tools as tools
+import flectra.release as release
+from flectra import SUPERUSER_ID, api
+from flectra.tools import pycompat
 
 MANIFEST_NAMES = ('__manifest__.py', '__openerp__.py')
 README = ['README.rst', 'README.md', 'README.txt']
@@ -38,10 +38,10 @@ hooked = False
 loaded = []
 
 class AddonsHook(object):
-    """ Makes modules accessible through openerp.addons.* and odoo.addons.* """
+    """ Makes modules accessible through openerp.addons.* and flectra.addons.* """
 
     def find_module(self, name, path=None):
-        if name.startswith(('odoo.addons.', 'openerp.addons.'))\
+        if name.startswith(('flectra.addons.', 'openerp.addons.'))\
                 and name.count('.') == 2:
             return self
 
@@ -49,10 +49,10 @@ class AddonsHook(object):
         assert name not in sys.modules
 
         # get canonical names
-        odoo_name = re.sub(r'^openerp.addons.(\w+)$', r'odoo.addons.\g<1>', name)
-        openerp_name = re.sub(r'^odoo.addons.(\w+)$', r'openerp.addons.\g<1>', odoo_name)
+        flectra_name = re.sub(r'^openerp.addons.(\w+)$', r'flectra.addons.\g<1>', name)
+        openerp_name = re.sub(r'^flectra.addons.(\w+)$', r'openerp.addons.\g<1>', flectra_name)
 
-        assert odoo_name not in sys.modules
+        assert flectra_name not in sys.modules
         assert openerp_name not in sys.modules
 
         # get module name in addons paths
@@ -62,35 +62,35 @@ class AddonsHook(object):
         if f: f.close()
 
         # TODO: fetch existing module from sys.modules if reloads permitted
-        # create empty odoo.addons.* module, set name
-        new_mod = types.ModuleType(odoo_name)
+        # create empty flectra.addons.* module, set name
+        new_mod = types.ModuleType(flectra_name)
         new_mod.__loader__ = self
 
         # module top-level can only be a package
-        assert type_ == imp.PKG_DIRECTORY, "Odoo addon top-level must be a package"
+        assert type_ == imp.PKG_DIRECTORY, "Flectra addon top-level must be a package"
         modfile = opj(path, '__init__.py')
         new_mod.__file__ = modfile
         new_mod.__path__ = [path]
-        new_mod.__package__ = odoo_name
+        new_mod.__package__ = flectra_name
 
         # both base and alias should be in sys.modules to handle recursive and
         # corecursive situations
-        sys.modules[odoo_name] = sys.modules[openerp_name] = new_mod
+        sys.modules[flectra_name] = sys.modules[openerp_name] = new_mod
 
         # execute source in context of module *after* putting everything in
         # sys.modules, so recursive import works
         exec(open(modfile, 'rb').read(), new_mod.__dict__)
 
         # people import openerp.addons and expect openerp.addons.<module> to work
-        setattr(odoo.addons, addon_name, new_mod)
+        setattr(flectra.addons, addon_name, new_mod)
 
         return sys.modules[name]
 # need to register loader with setuptools as Jinja relies on it when using
 # PackageLoader
 pkg_resources.register_loader_type(AddonsHook, pkg_resources.DefaultProvider)
 
-class OdooHook(object):
-    """ Makes odoo package also available as openerp """
+class FlectraHook(object):
+    """ Makes flectra package also available as openerp """
 
     def find_module(self, name, path=None):
         # openerp.addons.<identifier> should already be matched by AddonsHook,
@@ -101,7 +101,7 @@ class OdooHook(object):
     def load_module(self, name):
         assert name not in sys.modules
 
-        canonical = re.sub(r'^openerp(.*)', r'odoo\g<1>', name)
+        canonical = re.sub(r'^openerp(.*)', r'flectra\g<1>', name)
 
         if canonical in sys.modules:
             mod = sys.modules[canonical]
@@ -122,7 +122,7 @@ def initialize_sys_path():
     addons paths.
 
     This ensures something like ``import crm`` (or even
-    ``import odoo.addons.crm``) works even if the addons are not in the
+    ``import flectra.addons.crm``) works even if the addons are not in the
     PYTHONPATH.
     """
     global ad_paths
@@ -142,14 +142,14 @@ def initialize_sys_path():
     if base_path not in ad_paths and os.path.isdir(base_path):
         ad_paths.append(base_path)
 
-    # add odoo.addons.__path__
-    for ad in __import__('odoo.addons').addons.__path__:
+    # add flectra.addons.__path__
+    for ad in __import__('flectra.addons').addons.__path__:
         ad = os.path.abspath(ad)
         if ad not in ad_paths and os.path.isdir(ad):
             ad_paths.append(ad)
 
     if not hooked:
-        sys.meta_path.insert(0, OdooHook())
+        sys.meta_path.insert(0, FlectraHook())
         sys.meta_path.insert(0, AddonsHook())
         hooked = True
 
@@ -185,7 +185,7 @@ def get_module_filetree(module, dir='.'):
     if dir.startswith('..') or (dir and dir[0] == '/'):
         raise Exception('Cannot access file outside the module')
 
-    files = odoo.tools.osutil.listdir(path, True)
+    files = flectra.tools.osutil.listdir(path, True)
 
     tree = {}
     for f in files:
@@ -309,7 +309,7 @@ def load_information_from_description_file(module, mod_path=None):
         # default values for descriptor
         info = {
             'application': False,
-            'author': 'Odoo S.A.',
+            'author': 'FlectraHQ',
             'auto_install': False,
             'category': 'Uncategorized',
             'depends': [],
@@ -320,7 +320,7 @@ def load_information_from_description_file(module, mod_path=None):
             'post_load': None,
             'version': '1.0',
             'web': False,
-            'website': 'https://www.odoo.com',
+            'website': 'https://www.flectrahq.com',
             'sequence': 100,
             'summary': '',
         }
@@ -365,14 +365,14 @@ def load_openerp_module(module_name):
 
     initialize_sys_path()
     try:
-        __import__('odoo.addons.' + module_name)
+        __import__('flectra.addons.' + module_name)
 
         # Call the module's post-load hook. This can done before any model or
         # data has been initialized. This is ok as the post-load hook is for
         # server-wide (instead of registry-specific) functionalities.
         info = load_information_from_description_file(module_name)
         if info['post_load']:
-            getattr(sys.modules['odoo.addons.' + module_name], info['post_load'])()
+            getattr(sys.modules['flectra.addons.' + module_name], info['post_load'])()
 
     except Exception as e:
         msg = "Couldn't load module %s" % (module_name)
@@ -429,7 +429,7 @@ def get_test_modules(module):
     """ Return a list of module for the addons potentially containing tests to
     feed unittest.TestLoader.loadTestsFromModule() """
     # Try to import the module
-    modpath = 'odoo.addons.' + module
+    modpath = 'flectra.addons.' + module
     try:
         mod = importlib.import_module('.tests', modpath)
     except ImportError as e:  # will also catch subclass ModuleNotFoundError of P3.6
@@ -457,7 +457,7 @@ def get_test_modules(module):
 
 # Use a custom stream object to log the test executions.
 class TestStream(object):
-    def __init__(self, logger_name='odoo.tests'):
+    def __init__(self, logger_name='flectra.tests'):
         self.logger = logging.getLogger(logger_name)
         self.r = re.compile(r'^-*$|^ *... *$|^ok$')
     def flush(self):
@@ -508,11 +508,11 @@ def run_unit_tests(module_name, dbname, position=runs_at_install):
 
         if suite.countTestCases():
             t0 = time.time()
-            t0_sql = odoo.sql_db.sql_counter
+            t0_sql = flectra.sql_db.sql_counter
             _logger.info('%s running tests.', m.__name__)
             result = unittest.TextTestRunner(verbosity=2, stream=TestStream(m.__name__)).run(suite)
             if time.time() - t0 > 5:
-                _logger.log(25, "%s tested in %.2fs, %s queries", m.__name__, time.time() - t0, odoo.sql_db.sql_counter - t0_sql)
+                _logger.log(25, "%s tested in %.2fs, %s queries", m.__name__, time.time() - t0, flectra.sql_db.sql_counter - t0_sql)
             if not result.wasSuccessful():
                 r = False
                 _logger.error("Module %s: %d failures, %d errors", module_name, len(result.failures), len(result.errors))

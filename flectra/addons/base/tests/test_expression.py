@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import psycopg2
 
-from odoo.models import BaseModel
-from odoo.tests.common import TransactionCase
-from odoo.tools import mute_logger
-from odoo.osv import expression
+from flectra.models import BaseModel
+from flectra.tests.common import TransactionCase
+from flectra.tools import mute_logger
+from flectra.osv import expression
 
 
 class TestExpression(TransactionCase):
@@ -559,7 +559,7 @@ class TestExpression(TransactionCase):
         self.patch_order('res.company', 'parent_id')
         self.env['res.users'].search([('name', '=', 'test')])
 
-    @mute_logger('odoo.sql_db')
+    @mute_logger('flectra.sql_db')
     def test_invalid(self):
         """ verify that invalid expressions are refused, even for magic fields """
         Country = self.env['res.country']

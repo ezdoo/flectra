@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 
-from odoo.exceptions import AccessError, MissingError
-from odoo.tests.common import TransactionCase
-from odoo.tools import mute_logger, pycompat
+from flectra.exceptions import AccessError, MissingError
+from flectra.tests.common import TransactionCase
+from flectra.tools import mute_logger, pycompat
 
 
 class TestORM(TransactionCase):
     """ test special behaviors of ORM CRUD functions """
 
-    @mute_logger('odoo.models')
+    @mute_logger('flectra.models')
     def test_access_deleted_records(self):
         """ Verify that accessing deleted records works as expected """
         p1 = self.env['res.partner'].create({'name': 'W'})
@@ -39,7 +39,7 @@ class TestORM(TransactionCase):
         with self.assertRaises(MissingError):
             p1.write({'name': 'foo'})
 
-    @mute_logger('odoo.models')
+    @mute_logger('flectra.models')
     def test_access_filtered_records(self):
         """ Verify that accessing filtered records works as expected for non-admin user """
         p1 = self.env['res.partner'].create({'name': 'W'})
@@ -86,7 +86,7 @@ class TestORM(TransactionCase):
         result = partner.read()
         self.assertIsInstance(result, list)
 
-    @mute_logger('odoo.models')
+    @mute_logger('flectra.models')
     def test_search_read(self):
         partner = self.env['res.partner']
 
@@ -213,7 +213,7 @@ class TestInherits(TransactionCase):
         self.assertEqual(user_foo.name, 'Foo')
         self.assertEqual(user_foo.partner_id, partner_foo)
 
-    @mute_logger('odoo.models')
+    @mute_logger('flectra.models')
     def test_read(self):
         """ inherited fields should be read without any indirection """
         user_foo = self.env['res.users'].create({'name': 'Foo', 'login': 'foo'})
@@ -223,7 +223,7 @@ class TestInherits(TransactionCase):
         self.assertEqual(user_values['name'], partner_values['name'])
         self.assertEqual(user_foo.name, user_foo.partner_id.name)
 
-    @mute_logger('odoo.models')
+    @mute_logger('flectra.models')
     def test_copy(self):
         """ copying a user should automatically copy its partner, too """
         user_foo = self.env['res.users'].create({
@@ -245,7 +245,7 @@ class TestInherits(TransactionCase):
         self.assertNotEqual(user_foo.id, user_bar.id)
         self.assertNotEqual(user_foo.partner_id.id, user_bar.partner_id.id)
 
-    @mute_logger('odoo.models')
+    @mute_logger('flectra.models')
     def test_copy_with_ancestor(self):
         """ copying a user with 'parent_id' in defaults should not duplicate the partner """
         user_foo = self.env['res.users'].create({'name': 'Foo', 'login': 'foo', 'password': 'foo',

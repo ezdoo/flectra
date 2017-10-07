@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 from lxml import etree
 
-from odoo.exceptions import AccessError
-from odoo.tests.common import TransactionCase
-from odoo.tools.misc import mute_logger
+from flectra.exceptions import AccessError
+from flectra.tests.common import TransactionCase
+from flectra.tools.misc import mute_logger
 
 # test group that demo user should not have
 USER_DEMO = 'base.user_demo'
@@ -59,7 +59,7 @@ class TestACL(TransactionCase):
         self.assertNotEquals(view_arch.xpath("//field[@name='decimal_places']"), [],
                              "Field 'decimal_places' must be found in view definition again")
 
-    @mute_logger('odoo.models')
+    @mute_logger('flectra.models')
     def test_field_crud_restriction(self):
         "Read/Write RPC access to restricted field should be forbidden"
         partner = self.env['res.partner'].browse(1).sudo(self.demo_user)
@@ -85,7 +85,7 @@ class TestACL(TransactionCase):
         self.assert_(partner.read(['bank_ids']))
         self.assert_(partner.write({'bank_ids': []}))
 
-    @mute_logger('odoo.models')
+    @mute_logger('flectra.models')
     def test_fields_browse_restriction(self):
         """Test access to records having restricted fields"""
         partner = self.env['res.partner'].sudo(self.demo_user)
@@ -96,7 +96,7 @@ class TestACL(TransactionCase):
         partner.name
         # ... except if they are restricted
         with self.assertRaises(AccessError):
-            with mute_logger('odoo.models'):
+            with mute_logger('flectra.models'):
                 partner.email
 
     def test_view_create_edit_button_invisibility(self):

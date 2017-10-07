@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import base64
 import codecs
 import io
@@ -9,7 +9,7 @@ from PIL import ImageEnhance
 from random import randrange
 
 # Preload PIL with the minimal subset of image formats we need
-from odoo.tools import pycompat
+from flectra.tools import pycompat
 
 Image.preinit()
 Image._initialized = 2

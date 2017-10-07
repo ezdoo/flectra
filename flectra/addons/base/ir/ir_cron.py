@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import logging
 import threading
 import time
@@ -8,13 +8,13 @@ import pytz
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-import odoo
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
+import flectra
+from flectra import api, fields, models, _
+from flectra.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
 
-BASE_VERSION = odoo.modules.load_information_from_description_file('base')['version']
+BASE_VERSION = flectra.modules.load_information_from_description_file('base')['version']
 
 
 _intervalTypes = {
@@ -33,7 +33,7 @@ class ir_cron(models.Model):
     # TODO: perhaps in the future we could consider a flag on ir.cron jobs
     # that would cause database wake-up even if the database has not been
     # loaded yet or was already unloaded (e.g. 'force_db_wakeup' or something)
-    # See also odoo.cron
+    # See also flectra.cron
 
     _name = "ir.cron"
     _order = 'cron_name'
@@ -85,7 +85,7 @@ class ir_cron(models.Model):
                 self = self.env()[self._name]
 
             log_depth = (None if _logger.isEnabledFor(logging.DEBUG) else 1)
-            odoo.netsvc.log(_logger, logging.DEBUG, 'cron.object.execute', (self._cr.dbname, self._uid, '*', cron_name, server_action_id), depth=log_depth)
+            flectra.netsvc.log(_logger, logging.DEBUG, 'cron.object.execute', (self._cr.dbname, self._uid, '*', cron_name, server_action_id), depth=log_depth)
             start_time = False
             if _logger.isEnabledFor(logging.DEBUG):
                 start_time = time.time()
@@ -152,7 +152,7 @@ class ir_cron(models.Model):
 
         If a job was processed, returns True, otherwise returns False.
         """
-        db = odoo.sql_db.db_connect(db_name)
+        db = flectra.sql_db.db_connect(db_name)
         threading.current_thread().dbname = db_name
         jobs = []
         try:
@@ -201,7 +201,7 @@ class ir_cron(models.Model):
                 _logger.debug('Starting job `%s`.', job['cron_name'])
                 job_cr = db.cursor()
                 try:
-                    registry = odoo.registry(db_name)
+                    registry = flectra.registry(db_name)
                     registry[cls._name]._process_job(job_cr, job, lock_cr)
                 except Exception:
                     _logger.exception('Unexpected exception while processing cron job %r', job)

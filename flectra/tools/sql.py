@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import logging
 import psycopg2
 
-_schema = logging.getLogger('odoo.schema')
+_schema = logging.getLogger('flectra.schema')
 
 _TABLE_KIND = {
     'BASE TABLE': 'r',

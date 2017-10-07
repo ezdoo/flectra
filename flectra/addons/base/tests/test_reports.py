@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import logging
 
-import odoo
-import odoo.tests
+import flectra
+import flectra.tests
 
 
 _logger = logging.getLogger(__name__)
 
 
-@odoo.tests.common.at_install(False)
-@odoo.tests.common.post_install(True)
-class TestReports(odoo.tests.TransactionCase):
+@flectra.tests.common.at_install(False)
+@flectra.tests.common.post_install(True)
+class TestReports(flectra.tests.TransactionCase):
     def test_reports(self):
         domain = [('report_type', 'like', 'qweb')]
         for report in self.env['ir.actions.report'].search(domain):

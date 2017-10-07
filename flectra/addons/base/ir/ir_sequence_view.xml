@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
         <!-- Sequences -->
         <record id="sequence_view" model="ir.ui.view">
             <field name="model">ir.sequence</field>
@@ -104,4 +104,4 @@
         </record>
         <menuitem action="ir_sequence_form" id="menu_ir_sequence_form" parent="next_id_5"/>
 
-</odoo>
+</flectra>

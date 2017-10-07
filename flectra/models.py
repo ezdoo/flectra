@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 
 """
@@ -42,7 +42,7 @@ import psycopg2
 from lxml import etree
 from lxml.builder import E
 
-import odoo
+import flectra
 from . import SUPERUSER_ID
 from . import api
 from . import tools
@@ -155,12 +155,12 @@ class MetaModel(api.Meta):
                 val.args = dict(val.args, _module=self._module)
 
     def _get_addon_name(self, full_name):
-        # The (OpenERP) module name can be in the ``odoo.addons`` namespace
+        # The (OpenERP) module name can be in the ``flectra.addons`` namespace
         # or not. For instance, module ``sale`` can be imported as
-        # ``odoo.addons.sale`` (the right way) or ``sale`` (for backward
+        # ``flectra.addons.sale`` (the right way) or ``sale`` (for backward
         # compatibility).
         module_parts = full_name.split('.')
-        if len(module_parts) > 2 and module_parts[:2] == ['odoo', 'addons']:
+        if len(module_parts) > 2 and module_parts[:2] == ['flectra', 'addons']:
             addon_name = full_name.split('.')[2]
         else:
             addon_name = full_name.split('.')[0]
@@ -191,9 +191,9 @@ MAGIC_COLUMNS = ['id'] + LOG_ACCESS_COLUMNS
 
 @pycompat.implements_to_string
 class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
-    """ Base class for Odoo models.
+    """ Base class for Flectra models.
 
-    Odoo models are created by inheriting:
+    Flectra models are created by inheriting:
 
     *   :class:`Model` for regular database-persisted models
 
@@ -347,13 +347,13 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
 
     def compute_concurrency_field(self):
         for record in self:
-            record[self.CONCURRENCY_CHECK_FIELD] = odoo.fields.Datetime.now()
+            record[self.CONCURRENCY_CHECK_FIELD] = flectra.fields.Datetime.now()
 
     @api.depends('create_date', 'write_date')
     def compute_concurrency_field_with_access(self):
         for record in self:
             record[self.CONCURRENCY_CHECK_FIELD] = \
-                record.write_date or record.create_date or odoo.fields.Datetime.now()
+                record.write_date or record.create_date or flectra.fields.Datetime.now()
 
     #
     # Goal: try to apply inheritance at the instantiation level and
@@ -803,7 +803,7 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
         return {'ids': ids, 'messages': messages}
 
     def _add_fake_fields(self, fields):
-        from odoo.fields import Char, Integer
+        from flectra.fields import Char, Integer
         fields[None] = Char('rec_name')
         fields['id'] = Char('External ID')
         fields['.id'] = Integer('Database ID')
@@ -1057,7 +1057,7 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
             not preceded by ``!`` and is not member of any of the groups
             preceded by ``!``
         """
-        from odoo.http import request
+        from flectra.http import request
         user = self.env.user
 
         has_groups = []
@@ -2915,32 +2915,32 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
         :raise ValidateError: if user tries to enter invalid value for a field that is not in selection
         :raise UserError: if a loop would be created in a hierarchy of objects a result of the operation (such as setting an object as its own parent)
 
-        * For numeric fields (:class:`~odoo.fields.Integer`,
-          :class:`~odoo.fields.Float`) the value should be of the
+        * For numeric fields (:class:`~flectra.fields.Integer`,
+          :class:`~flectra.fields.Float`) the value should be of the
           corresponding type
-        * For :class:`~odoo.fields.Boolean`, the value should be a
+        * For :class:`~flectra.fields.Boolean`, the value should be a
           :class:`python:bool`
-        * For :class:`~odoo.fields.Selection`, the value should match the
+        * For :class:`~flectra.fields.Selection`, the value should match the
           selection values (generally :class:`python:str`, sometimes
           :class:`python:int`)
-        * For :class:`~odoo.fields.Many2one`, the value should be the
+        * For :class:`~flectra.fields.Many2one`, the value should be the
           database identifier of the record to set
         * Other non-relational fields use a string for value
 
           .. danger::
 
               for historical and compatibility reasons,
-              :class:`~odoo.fields.Date` and
-              :class:`~odoo.fields.Datetime` fields use strings as values
+              :class:`~flectra.fields.Date` and
+              :class:`~flectra.fields.Datetime` fields use strings as values
               (written and read) rather than :class:`~python:datetime.date` or
               :class:`~python:datetime.datetime`. These date strings are
               UTC-only and formatted according to
-              :const:`odoo.tools.misc.DEFAULT_SERVER_DATE_FORMAT` and
-              :const:`odoo.tools.misc.DEFAULT_SERVER_DATETIME_FORMAT`
+              :const:`flectra.tools.misc.DEFAULT_SERVER_DATE_FORMAT` and
+              :const:`flectra.tools.misc.DEFAULT_SERVER_DATETIME_FORMAT`
         * .. _openerp/models/relationals/format:
 
-          :class:`~odoo.fields.One2many` and
-          :class:`~odoo.fields.Many2many` use a special "commands" format to
+          :class:`~flectra.fields.One2many` and
+          :class:`~flectra.fields.Many2many` use a special "commands" format to
           manipulate the set of records stored in/associated with the field.
 
           This format is a list of triplets executed sequentially, where each
@@ -2958,15 +2958,15 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
           ``(3, id, _)``
               removes the record of id ``id`` from the set, but does not
               delete it. Can not be used on
-              :class:`~odoo.fields.One2many`. Can not be used in
+              :class:`~flectra.fields.One2many`. Can not be used in
               :meth:`~.create`.
           ``(4, id, _)``
               adds an existing record of id ``id`` to the set. Can not be
-              used on :class:`~odoo.fields.One2many`.
+              used on :class:`~flectra.fields.One2many`.
           ``(5, _, _)``
               removes all records from the set, equivalent to using the
               command ``3`` on every record explicitly. Can not be used on
-              :class:`~odoo.fields.One2many`. Can not be used in
+              :class:`~flectra.fields.One2many`. Can not be used in
               :meth:`~.create`.
           ``(6, _, ids)``
               replaces all existing records in the set by the ``ids`` list,
@@ -4276,7 +4276,7 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
             delays while re-fetching from the database.
             The returned recordset has the same prefetch object as ``self``.
 
-        :type env: :class:`~odoo.api.Environment`
+        :type env: :class:`~flectra.api.Environment`
         """
         return self._browse(self._ids, env, self._prefetch)
 
@@ -5087,9 +5087,9 @@ class RecordCache(MutableMapping):
 AbstractModel = BaseModel
 
 class Model(AbstractModel):
-    """ Main super-class for regular database-persisted Odoo models.
+    """ Main super-class for regular database-persisted Flectra models.
 
-    Odoo models are created by inheriting from this class::
+    Flectra models are created by inheriting from this class::
 
         class user(Model):
             ...

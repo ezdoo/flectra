@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
 
     <record id="ir_default_form_view" model="ir.ui.view">
         <field name="name">ir.default form view</field>
@@ -59,4 +59,4 @@
     </record>
     <menuitem action="ir_default_menu_action" id="ir_default_menu" parent="next_id_6"/>
 
-</odoo>
+</flectra>

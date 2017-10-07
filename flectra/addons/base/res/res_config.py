@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import json
 import logging
 import re
@@ -7,9 +7,9 @@ import re
 from operator import attrgetter, add
 from lxml import etree
 
-from odoo import api, models, registry, SUPERUSER_ID, _
-from odoo.exceptions import AccessError, RedirectWarning, UserError
-from odoo.tools import ustr
+from flectra import api, models, registry, SUPERUSER_ID, _
+from flectra.exceptions import AccessError, RedirectWarning, UserError
+from flectra.tools import ustr
 
 _logger = logging.getLogger(__name__)
 
@@ -633,7 +633,7 @@ class ResConfigSettings(models.TransientModel, ResConfigModuleInstallationMixin)
 
         Example of use:
         ---------------
-        from odoo.addons.base.res.res_config import get_warning_config
+        from flectra.addons.base.res.res_config import get_warning_config
         raise get_warning_config(cr, _("Error: this action is prohibited. You should check the field %(field:sale.config.settings.fetchmail_lead)s in %(menu:sales_team.menu_sale_config)s."), context=context)
 
         This will return an exception containing the following message:

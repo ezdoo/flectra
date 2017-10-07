@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 """ High-level objects for fields. """
 
@@ -187,7 +187,7 @@ class Field(MetaField('DummyField', (object,), {})):
                 return [('name', operator, value)]
 
         The compute method has to assign the field on all records of the invoked
-        recordset. The decorator :meth:`odoo.api.depends` must be applied on
+        recordset. The decorator :meth:`flectra.api.depends` must be applied on
         the compute method to specify the field dependencies; those dependencies
         are used to determine when to recompute the field; recomputation is
         automatic and guarantees cache/database consistency. Note that the same
@@ -248,7 +248,7 @@ class Field(MetaField('DummyField', (object,), {})):
         .. rubric:: Incremental definition
 
         A field is defined as class attribute on a model class. If the model
-        is extended (see :class:`~odoo.models.Model`), one can also extend
+        is extended (see :class:`~flectra.models.Model`), one can also extend
         the field definition by redefining a field with the same name and same
         type on the subclass. In that case, the attributes of the field are
         taken from the parent class and overridden by the ones given in
@@ -1255,7 +1255,7 @@ class Monetary(Field):
         # cache format: float
         value = float(value or 0.0)
         if validate and record[self.currency_field]:
-            # FIXME @rco-odoo: currency may not be already initialized if it is
+            # FIXME @rco-flectra: currency may not be already initialized if it is
             # a function or related field!
             value = record[self.currency_field].round(value)
         return value
@@ -2489,6 +2489,6 @@ class Id(Field):
         raise TypeError("field 'id' cannot be assigned")
 
 # imported here to avoid dependency cycle issues
-from odoo import SUPERUSER_ID
+from flectra import SUPERUSER_ID
 from .exceptions import AccessError, MissingError, UserError
 from .models import check_pg_name, BaseModel, IdType

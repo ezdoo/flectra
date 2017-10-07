@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import logging
 from collections import defaultdict
 from difflib import get_close_matches
 
-from odoo import api, fields, models, tools, SUPERUSER_ID, _
-from odoo.exceptions import AccessError, UserError, ValidationError
-from odoo.modules import get_module_path, get_module_resource
-from odoo.tools import pycompat
+from flectra import api, fields, models, tools, SUPERUSER_ID, _
+from flectra.exceptions import AccessError, UserError, ValidationError
+from flectra.modules import get_module_path, get_module_resource
+from flectra.tools import pycompat
 
 _logger = logging.getLogger(__name__)
 

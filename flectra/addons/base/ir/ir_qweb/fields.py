@@ -3,10 +3,10 @@ import base64
 import re
 from collections import OrderedDict
 from io import BytesIO
-from odoo import api, fields, models, _
+from flectra import api, fields, models, _
 from PIL import Image
 import babel
-from odoo.tools import html_escape as escape, posix_to_ldml, safe_eval, float_utils, format_date, pycompat
+from flectra.tools import html_escape as escape, posix_to_ldml, safe_eval, float_utils, format_date, pycompat
 
 import logging
 _logger = logging.getLogger(__name__)

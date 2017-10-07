@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
     <data>
 
         <record id="view_test_exceptions_model" model="ir.ui.view">
@@ -120,4 +120,4 @@
             action="action_test_exceptions"
             parent="menu_test_exceptions"/>
     </data>
-</odoo>
+</flectra>

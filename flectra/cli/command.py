@@ -4,8 +4,8 @@ import sys
 import os
 from os.path import join as joinpath, isdir
 
-import odoo
-from odoo.modules import get_modules, get_module_path
+import flectra
+from flectra.modules import get_modules, get_module_path
 
 commands = {}
 
@@ -38,7 +38,7 @@ def main():
     # commands from modules
     if len(args) > 1 and args[0].startswith('--addons-path=') and not args[1].startswith("-"):
         # parse only the addons-path, do not setup the logger...
-        odoo.tools.config._parse_config([args[0]])
+        flectra.tools.config._parse_config([args[0]])
         args = args[1:]
 
     # Default legacy command
@@ -50,7 +50,7 @@ def main():
         logging.disable(logging.CRITICAL)
         for module in get_modules():
             if isdir(joinpath(get_module_path(module), 'cli')):
-                __import__('odoo.addons.' + module)
+                __import__('flectra.addons.' + module)
         logging.disable(logging.NOTSET)
         command = args[0]
         args = args[1:]

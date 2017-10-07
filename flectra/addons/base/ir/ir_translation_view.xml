@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
         <!-- Translations -->
         <record id="view_translation_search" model="ir.ui.view">
             <field name="model">ir.translation</field>
@@ -86,4 +86,4 @@
 
         <menuitem action="action_translation" id="menu_action_translation" parent="base.menu_translation_app" />
 
-</odoo>
+</flectra>

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import base64
 import datetime
 import os
 
-from odoo.tests import common
-from odoo.tools import html_escape as e
+from flectra.tests import common
+from flectra.tools import html_escape as e
 
 directory = os.path.dirname(__file__)
 

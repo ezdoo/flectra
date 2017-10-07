@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import collections
 import logging
@@ -14,9 +14,9 @@ from email.header import decode_header
 from email.utils import getaddresses, formataddr
 from lxml import etree
 
-import odoo
-from odoo.loglevels import ustr
-from odoo.tools import pycompat, misc
+import flectra
+from flectra.loglevels import ustr
+from flectra.tools import pycompat, misc
 
 _logger = logging.getLogger(__name__)
 
@@ -457,13 +457,13 @@ def email_send(email_from, email_to, subject, body, email_cc=None, email_bcc=Non
     if not cr:
         db_name = getattr(threading.currentThread(), 'dbname', None)
         if db_name:
-            local_cr = cr = odoo.registry(db_name).cursor()
+            local_cr = cr = flectra.registry(db_name).cursor()
         else:
             raise Exception("No database cursor found, please pass one explicitly")
 
     # Send Email
     try:
-        mail_server_pool = odoo.registry(cr.dbname)['ir.mail_server']
+        mail_server_pool = flectra.registry(cr.dbname)['ir.mail_server']
         res = False
         # Pack Message into MIME Object
         email_msg = mail_server_pool.build_email(email_from, email_to, subject, body, email_cc, email_bcc, reply_to,

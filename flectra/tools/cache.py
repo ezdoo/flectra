@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 # decorator makes wrappers that have the same API as their wrapped function;
-# this is important for the odoo.api.guess() that relies on signatures
+# this is important for the flectra.api.guess() that relies on signatures
 from collections import defaultdict
 from decorator import decorator
 from inspect import formatargspec, getargspec
@@ -196,7 +196,7 @@ class dummy_cache(object):
 
 def log_ormcache_stats(sig=None, frame=None):
     """ Log statistics of ormcache usage by database, model, and method. """
-    from odoo.modules.registry import Registry
+    from flectra.modules.registry import Registry
     import threading
 
     me = threading.currentThread()

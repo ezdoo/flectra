@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import base64
 import hashlib
 import os
 
-from odoo.tests.common import TransactionCase
+from flectra.tests.common import TransactionCase
 
 HASH_SPLIT = 2      # FIXME: testing implementations detail is not a good idea
 

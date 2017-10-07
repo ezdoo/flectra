@@ -2,7 +2,7 @@ import logging
 import sys
 import os
 
-import odoo
+import flectra
 
 from .command import Command, main
 

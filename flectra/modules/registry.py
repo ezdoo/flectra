@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 """ Models registries.
 
@@ -13,12 +13,12 @@ import logging
 import os
 import threading
 
-import odoo
+import flectra
 from .. import SUPERUSER_ID
-from odoo.tools import (assertion_report, config, existing_tables,
+from flectra.tools import (assertion_report, config, existing_tables,
                         lazy_classproperty, lazy_property, table_exists,
                         topological_sort, OrderedSet)
-from odoo.tools.lru import LRU
+from flectra.tools.lru import LRU
 
 _logger = logging.getLogger(__name__)
 
@@ -61,14 +61,14 @@ class Registry(Mapping):
                 return cls.new(db_name)
             finally:
                 # set db tracker - cleaned up at the WSGI dispatching phase in
-                # odoo.service.wsgi_server.application
+                # flectra.service.wsgi_server.application
                 threading.current_thread().dbname = db_name
 
     @classmethod
     def new(cls, db_name, force_demo=False, status=None, update_module=False):
         """ Create and return a new registry for the given database name. """
         with cls._lock:
-            with odoo.api.Environment.manage():
+            with flectra.api.Environment.manage():
                 registry = object.__new__(cls)
                 registry.init(db_name)
 
@@ -81,7 +81,7 @@ class Registry(Mapping):
                 try:
                     registry.setup_signaling()
                     # This should be a method on Registry
-                    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+                    flectra.modules.load_modules(registry._db, force_demo, status, update_module)
                 except Exception:
                     _logger.exception('Failed to load registry')
                     del cls.registries[db_name]
@@ -117,7 +117,7 @@ class Registry(Mapping):
         self.updated_modules = []       # installed/updated modules
 
         self.db_name = db_name
-        self._db = odoo.sql_db.db_connect(db_name)
+        self._db = flectra.sql_db.db_connect(db_name)
 
         # special cursor for test mode; None means "normal" mode
         self.test_cr = None
@@ -126,7 +126,7 @@ class Registry(Mapping):
         self.loaded = False             # whether all modules are loaded
         self.ready = False              # whether everything is set up
 
-        # Inter-process signaling (used only when odoo.multi_process is True):
+        # Inter-process signaling (used only when flectra.multi_process is True):
         # The `base_registry_signaling` sequence indicates the whole registry
         # must be reloaded.
         # The `base_cache_signaling sequence` indicates all caches must be
@@ -139,10 +139,10 @@ class Registry(Mapping):
         self.cache_invalidated = False
 
         with closing(self.cursor()) as cr:
-            has_unaccent = odoo.modules.db.has_unaccent(cr)
-            if odoo.tools.config['unaccent'] and not has_unaccent:
+            has_unaccent = flectra.modules.db.has_unaccent(cr)
+            if flectra.tools.config['unaccent'] and not has_unaccent:
                 _logger.warning("The option --unaccent was given but no unaccent() function was found in database.")
-            self.has_unaccent = odoo.tools.config['unaccent'] and has_unaccent
+            self.has_unaccent = flectra.tools.config['unaccent'] and has_unaccent
 
     @classmethod
     def delete(cls, db_name):
@@ -204,7 +204,7 @@ class Registry(Mapping):
         return mapping.get
 
     def do_parent_store(self, cr):
-        env = odoo.api.Environment(cr, SUPERUSER_ID, {})
+        env = flectra.api.Environment(cr, SUPERUSER_ID, {})
         for model_name in self._init_parent:
             if model_name in env:
                 env[model_name]._parent_store_compute()
@@ -255,7 +255,7 @@ class Registry(Mapping):
             This must be called after loading modules and before using the ORM.
         """
         lazy_property.reset_all(self)
-        env = odoo.api.Environment(cr, SUPERUSER_ID, {})
+        env = flectra.api.Environment(cr, SUPERUSER_ID, {})
 
         # add manual models
         if self._init_modules:
@@ -295,7 +295,7 @@ class Registry(Mapping):
         if 'module' in context:
             _logger.info('module %s: creating or updating database tables', context['module'])
 
-        env = odoo.api.Environment(cr, SUPERUSER_ID, context)
+        env = flectra.api.Environment(cr, SUPERUSER_ID, context)
         models = [env[model_name] for model_name in model_names]
 
         for model in models:
@@ -346,7 +346,7 @@ class Registry(Mapping):
 
     def setup_signaling(self):
         """ Setup the inter-process signaling on this registry. """
-        if not odoo.multi_process:
+        if not flectra.multi_process:
             return
 
         with self.cursor() as cr:
@@ -372,7 +372,7 @@ class Registry(Mapping):
         """ Check whether the registry has changed, and performs all necessary
         operations to update the registry. Return an up-to-date registry.
         """
-        if not odoo.multi_process:
+        if not flectra.multi_process:
             return self
 
         with closing(self.cursor()) as cr:
@@ -398,7 +398,7 @@ class Registry(Mapping):
 
     def signal_changes(self):
         """ Notifies other processes if registry or cache has been invalidated. """
-        if odoo.multi_process and self.registry_invalidated:
+        if flectra.multi_process and self.registry_invalidated:
             _logger.info("Registry changed, signaling through the database")
             with closing(self.cursor()) as cr:
                 cr.execute("select nextval('base_registry_signaling')")
@@ -406,7 +406,7 @@ class Registry(Mapping):
 
         # no need to notify cache invalidation in case of registry invalidation,
         # because reloading the registry implies starting with an empty cache
-        elif odoo.multi_process and self.cache_invalidated:
+        elif flectra.multi_process and self.cache_invalidated:
             _logger.info("At least one model cache has been invalidated, signaling through the database.")
             with closing(self.cursor()) as cr:
                 cr.execute("select nextval('base_cache_signaling')")

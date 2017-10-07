@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import base64
 import io
 import logging
@@ -14,13 +14,13 @@ from dateutil.relativedelta import relativedelta
 import pytz
 from lxml import etree, builder
 
-import odoo
+import flectra
 from . import assertion_report, pycompat
 from .config import config
 from .misc import file_open, unquote, ustr, SKIPPED_ELEMENT_TYPES
 from .translate import _
 from .yaml_import import convert_yaml_import
-from odoo import SUPERUSER_ID
+from flectra import SUPERUSER_ID
 
 _logger = logging.getLogger(__name__)
 
@@ -57,7 +57,7 @@ def _get_idref(self, env, model_str, idref):
                   datetime=datetime,
                   timedelta=timedelta,
                   relativedelta=relativedelta,
-                  version=odoo.release.major_version,
+                  version=flectra.release.major_version,
                   ref=self.id_get,
                   pytz=pytz)
     if model_str:
@@ -112,7 +112,7 @@ def _eval_xml(self, node, env):
             try:
                 return safe_eval(a_eval, idref2)
             except Exception:
-                logging.getLogger('odoo.tools.convert.init').error(
+                logging.getLogger('flectra.tools.convert.init').error(
                     'Could not eval(%s) for %s in %s', a_eval, node.get('name'), env.context)
                 raise
         def _process(s):
@@ -191,7 +191,7 @@ def _eval_xml(self, node, env):
         model = env[node.get('model')]
         method = node.get('name')
         # this one still depends on the old API
-        return odoo.api.call_kw(model, method, args, {})
+        return flectra.api.call_kw(model, method, args, {})
     elif node.tag == "test":
         return node.text
 
@@ -730,9 +730,9 @@ form: module.record_id""" % (xml_id,)
         return self.env['ir.model.data'].xmlid_to_res_model_res_id(id_str, raise_if_not_found=raise_if_not_found)
 
     def parse(self, de, mode=None):
-        roots = ['openerp','data','odoo']
+        roots = ['openerp','data','flectra']
         if de.tag not in roots:
-            raise Exception("Root xml tag must be <openerp>, <odoo> or <data>.")
+            raise Exception("Root xml tag must be <openerp>, <flectra> or <data>.")
         for rec in de:
             if rec.tag in roots:
                 self.parse(rec, mode)
@@ -752,7 +752,7 @@ form: module.record_id""" % (xml_id,)
     def __init__(self, cr, module, idref, mode, report=None, noupdate=False, xml_filename=None):
         self.mode = mode
         self.module = module
-        self.env = odoo.api.Environment(cr, SUPERUSER_ID, {})
+        self.env = flectra.api.Environment(cr, SUPERUSER_ID, {})
         self.cr = cr
         self.uid = SUPERUSER_ID
         self.idref = idref
@@ -821,7 +821,7 @@ def convert_csv_import(cr, module, fname, csvcontent, idref=None, mode='init',
         'module': module,
         'noupdate': noupdate,
     }
-    env = odoo.api.Environment(cr, SUPERUSER_ID, context)
+    env = flectra.api.Environment(cr, SUPERUSER_ID, context)
     result = env[model].load(fields, datas)
     if any(msg['type'] == 'error' for msg in result['messages']):
         # Report failed import and abort module install

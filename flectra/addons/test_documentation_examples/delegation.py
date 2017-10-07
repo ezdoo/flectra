@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields
+from flectra import models, fields
 
 class Child0(models.Model):
     _name = 'delegation.child0'

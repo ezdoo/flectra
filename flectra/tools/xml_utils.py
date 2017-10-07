@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from lxml import etree
-from odoo.tools.misc import file_open
+from flectra.tools.misc import file_open
 
 
 def check_with_xsd(tree_or_str, stream):
@@ -16,7 +16,7 @@ def _check_with_xsd(tree_or_str, stream):
         xsd_schema.assertValid(tree_or_str)
     except etree.DocumentInvalid as xml_errors:
         #import UserError only here to avoid circular import statements with tools.func being imported in exceptions.py
-        from odoo.exceptions import UserError
+        from flectra.exceptions import UserError
         raise UserError('\n'.join(str(e) for e in xml_errors.error_log))
 
 

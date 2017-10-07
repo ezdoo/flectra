@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import unittest
 
-from odoo.tools import misc
-from odoo.tests.common import TransactionCase
+from flectra.tools import misc
+from flectra.tests.common import TransactionCase
 
 
 class TestCountingStream(unittest.TestCase):

@@ -17,13 +17,13 @@ import werkzeug.routing
 import werkzeug.urls
 import werkzeug.utils
 
-import odoo
-from odoo import api, http, models, tools, SUPERUSER_ID
-from odoo.exceptions import AccessDenied, AccessError
-from odoo.http import request, STATIC_CACHE, content_disposition
-from odoo.tools import pycompat
-from odoo.tools.mimetypes import guess_mimetype
-from odoo.modules.module import get_resource_path, get_module_path
+import flectra
+from flectra import api, http, models, tools, SUPERUSER_ID
+from flectra.exceptions import AccessDenied, AccessError
+from flectra.http import request, STATIC_CACHE, content_disposition
+from flectra.tools import pycompat
+from flectra.tools.mimetypes import guess_mimetype
+from flectra.modules.module import get_resource_path, get_module_path
 
 _logger = logging.getLogger(__name__)
 
@@ -228,9 +228,9 @@ class IrHttp(models.AbstractModel):
         if not hasattr(cls, '_routing_map'):
             _logger.info("Generating routing map")
             installed = request.registry._init_modules - {'web'}
-            if tools.config['test_enable'] and odoo.modules.module.current_test:
-                installed.add(odoo.modules.module.current_test)
-            mods = [''] + odoo.conf.server_wide_modules + sorted(installed)
+            if tools.config['test_enable'] and flectra.modules.module.current_test:
+                installed.add(flectra.modules.module.current_test)
+            mods = [''] + flectra.conf.server_wide_modules + sorted(installed)
             # Note : when routing map is generated, we put it on the class `cls`
             # to make it available for all instance. Since `env` create an new instance
             # of the model, each instance will regenared its own routing map and thus

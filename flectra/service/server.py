@@ -35,12 +35,12 @@ try:
 except ImportError:
     setproctitle = lambda x: None
 
-import odoo
-from odoo.modules.module import run_unit_tests, runs_post_install
-from odoo.modules.registry import Registry
-from odoo.release import nt_service_name
-from odoo.tools import config
-from odoo.tools import stripped_sys_argv, dumpstacks, log_ormcache_stats
+import flectra
+from flectra.modules.module import run_unit_tests, runs_post_install
+from flectra.modules.registry import Registry
+from flectra.release import nt_service_name
+from flectra.tools import config
+from flectra.tools import stripped_sys_argv, dumpstacks, log_ormcache_stats
 
 _logger = logging.getLogger(__name__)
 
@@ -90,7 +90,7 @@ class RequestHandler(werkzeug.serving.WSGIRequestHandler):
         # flag the current thread as handling a http request
         super(RequestHandler, self).setup()
         me = threading.currentThread()
-        me.name = 'odoo.service.http.request.%s' % (me.ident,)
+        me.name = 'flectra.service.http.request.%s' % (me.ident,)
 
 # _reexec() should set LISTEN_* to avoid connection refused during reload time. It
 # should also work with systemd socket activation. This is currently untested
@@ -125,7 +125,7 @@ class ThreadedWSGIServerReloadable(LoggingBaseWSGIServerMixIn, werkzeug.serving.
 class FSWatcher(object):
     def __init__(self):
         self.observer = Observer()
-        for path in odoo.modules.module.ad_paths:
+        for path in flectra.modules.module.ad_paths:
             _logger.info('Watching addons folder %s', path)
             self.observer.schedule(self, path, recursive=True)
 
@@ -208,16 +208,16 @@ class ThreadedServer(CommonServer):
             raise KeyboardInterrupt()
         elif sig == signal.SIGHUP:
             # restart on kill -HUP
-            odoo.phoenix = True
+            flectra.phoenix = True
             self.quit_signals_received += 1
             # interrupt run() to start shutdown
             raise KeyboardInterrupt()
 
     def cron_thread(self, number):
-        from odoo.addons.base.ir.ir_cron import ir_cron
+        from flectra.addons.base.ir.ir_cron import ir_cron
         while True:
             time.sleep(SLEEP_INTERVAL + number)     # Steve Reich timing style
-            registries = odoo.modules.registry.Registry.registries
+            registries = flectra.modules.registry.Registry.registries
             _logger.debug('cron%d polling for jobs', number)
             for db_name, registry in registries.items():
                 while registry.ready:
@@ -241,10 +241,10 @@ class ThreadedServer(CommonServer):
         # to prevent time.strptime AttributeError within the thread.
         # See: http://bugs.python.org/issue7980
         datetime.datetime.strptime('2012-01-01', '%Y-%m-%d')
-        for i in range(odoo.tools.config['max_cron_threads']):
+        for i in range(flectra.tools.config['max_cron_threads']):
             def target():
                 self.cron_thread(i)
-            t = threading.Thread(target=target, name="odoo.service.cron.cron%d" % i)
+            t = threading.Thread(target=target, name="flectra.service.cron.cron%d" % i)
             t.setDaemon(True)
             t.start()
             _logger.debug("cron%d started!" % i)
@@ -256,7 +256,7 @@ class ThreadedServer(CommonServer):
         self.httpd.serve_forever()
 
     def http_spawn(self):
-        t = threading.Thread(target=self.http_thread, name="odoo.service.httpd")
+        t = threading.Thread(target=self.http_thread, name="flectra.service.httpd")
         t.setDaemon(True)
         t.start()
         _logger.info('HTTP service (werkzeug) running on %s:%s', self.interface, self.port)
@@ -305,7 +305,7 @@ class ThreadedServer(CommonServer):
                     time.sleep(0.05)
 
         _logger.debug('--')
-        odoo.modules.registry.Registry.delete_all()
+        flectra.modules.registry.Registry.delete_all()
         logging.shutdown()
 
     def run(self, preload=None, stop=False):
@@ -492,7 +492,7 @@ class PreforkServer(CommonServer):
                 raise KeyboardInterrupt
             elif sig == signal.SIGHUP:
                 # restart on kill -HUP
-                odoo.phoenix = True
+                flectra.phoenix = True
                 raise KeyboardInterrupt
             elif sig == signal.SIGQUIT:
                 # dump stacks on kill -3
@@ -625,7 +625,7 @@ class PreforkServer(CommonServer):
             return rc
 
         # Empty the cursor pool, we dont want them to be shared among forked workers.
-        odoo.sql_db.close_all()
+        flectra.sql_db.close_all()
 
         _logger.debug("Multiprocess starting")
         while 1:
@@ -662,7 +662,7 @@ class Worker(object):
         self.request_count = 0
 
     def setproctitle(self, title=""):
-        setproctitle('odoo: %s %s %s' % (self.__class__.__name__, self.pid, title))
+        setproctitle('flectra: %s %s %s' % (self.__class__.__name__, self.pid, title))
 
     def close(self):
         os.close(self.watchdog_pipe[0])
@@ -745,7 +745,7 @@ class Worker(object):
                 self.process_work()
             _logger.info("Worker (%s) exiting. request_count: %s, registry count: %s.",
                          self.pid, self.request_count,
-                         len(odoo.modules.registry.Registry.registries))
+                         len(flectra.modules.registry.Registry.registries))
             self.stop()
         except Exception:
             _logger.exception("Worker (%s) Exception occured, exiting..." % self.pid)
@@ -812,11 +812,11 @@ class WorkerCron(Worker):
         if config['db_name']:
             db_names = config['db_name'].split(',')
         else:
-            db_names = odoo.service.db.list_dbs(True)
+            db_names = flectra.service.db.list_dbs(True)
         return db_names
 
     def process_work(self):
-        rpc_request = logging.getLogger('odoo.netsvc.rpc.request')
+        rpc_request = logging.getLogger('flectra.netsvc.rpc.request')
         rpc_request_flag = rpc_request.isEnabledFor(logging.DEBUG)
         _logger.debug("WorkerCron (%s) polling for jobs", self.pid)
         db_names = self._db_list()
@@ -828,13 +828,13 @@ class WorkerCron(Worker):
                 start_time = time.time()
                 start_rss, start_vms = memory_info(psutil.Process(os.getpid()))
 
-            from odoo.addons import base
+            from flectra.addons import base
             base.ir.ir_cron.ir_cron._acquire_job(db_name)
-            odoo.modules.registry.Registry.delete(db_name)
+            flectra.modules.registry.Registry.delete(db_name)
 
             # dont keep cursors in multi database mode
             if len(db_names) > 1:
-                odoo.sql_db.close_db(db_name)
+                flectra.sql_db.close_db(db_name)
             if rpc_request_flag:
                 run_time = time.time() - start_time
                 end_rss, end_vms = memory_info(psutil.Process(os.getpid()))
@@ -864,9 +864,9 @@ class WorkerCron(Worker):
 server = None
 
 def load_server_wide_modules():
-    for m in odoo.conf.server_wide_modules:
+    for m in flectra.conf.server_wide_modules:
         try:
-            odoo.modules.module.load_openerp_module(m)
+            flectra.modules.module.load_openerp_module(m)
         except Exception:
             msg = ''
             if m == 'web':
@@ -877,7 +877,7 @@ Maybe you forgot to add those addons in your addons_path configuration."""
 
 def _reexec(updated_modules=None):
     """reexecute openerp-server process with (nearly) the same arguments"""
-    if odoo.tools.osutil.is_running_as_nt_service():
+    if flectra.tools.osutil.is_running_as_nt_service():
         subprocess.call('net stop {0} && net start {0}'.format(nt_service_name), shell=True)
     exe = os.path.basename(sys.executable)
     args = stripped_sys_argv()
@@ -889,7 +889,7 @@ def _reexec(updated_modules=None):
 
 def load_test_file_yml(registry, test_file):
     with registry.cursor() as cr:
-        odoo.tools.convert_yaml_import(cr, 'base', open(test_file, 'rb'), 'test', {}, 'init')
+        flectra.tools.convert_yaml_import(cr, 'base', open(test_file, 'rb'), 'test', {}, 'init')
         if config['test_commit']:
             _logger.info('test %s has been commited', test_file)
             cr.commit()
@@ -908,7 +908,7 @@ def load_test_file_py(registry, test_file):
                 for t in unittest.TestLoader().loadTestsFromModule(mod_mod):
                     suite.addTest(t)
                 _logger.log(logging.INFO, 'running tests %s.', mod_mod.__name__)
-                stream = odoo.modules.module.TestStream()
+                stream = flectra.modules.module.TestStream()
                 result = unittest.TextTestRunner(verbosity=2, stream=stream).run(suite)
                 success = result.wasSuccessful()
                 if hasattr(registry._assertion_report,'report_result'):
@@ -930,7 +930,7 @@ def preload_registries(dbnames):
             if config['test_file']:
                 test_file = config['test_file']
                 _logger.info('loading test file %s', test_file)
-                with odoo.api.Environment.manage():
+                with flectra.api.Environment.manage():
                     if test_file.endswith('yml'):
                         load_test_file_yml(registry, test_file)
                     elif test_file.endswith('py'):
@@ -939,16 +939,16 @@ def preload_registries(dbnames):
             # run post-install tests
             if config['test_enable']:
                 t0 = time.time()
-                t0_sql = odoo.sql_db.sql_counter
+                t0_sql = flectra.sql_db.sql_counter
                 module_names = (registry.updated_modules if update_module else
                                 registry._init_modules)
-                with odoo.api.Environment.manage():
+                with flectra.api.Environment.manage():
                     for module_name in module_names:
                         result = run_unit_tests(module_name, registry.db_name,
                                                 position=runs_post_install)
                         registry._assertion_report.record_result(result)
                 _logger.info("All post-tested in %.2fs, %s queries",
-                             time.time() - t0, odoo.sql_db.sql_counter - t0_sql)
+                             time.time() - t0, flectra.sql_db.sql_counter - t0_sql)
 
             if registry._assertion_report.failures:
                 rc += 1
@@ -958,22 +958,22 @@ def preload_registries(dbnames):
     return rc
 
 def start(preload=None, stop=False):
-    """ Start the odoo http server and cron processor.
+    """ Start the flectra http server and cron processor.
     """
     global server
 
     load_server_wide_modules()
-    odoo.service.wsgi_server._patch_xmlrpc_marshaller()
+    flectra.service.wsgi_server._patch_xmlrpc_marshaller()
 
-    if odoo.evented:
-        server = GeventServer(odoo.service.wsgi_server.application)
+    if flectra.evented:
+        server = GeventServer(flectra.service.wsgi_server.application)
     elif config['workers']:
         if config['test_enable'] or config['test_file']:
             _logger.warning("Unit testing in workers mode could fail; use --workers 0.")
 
-        server = PreforkServer(odoo.service.wsgi_server.application)
+        server = PreforkServer(flectra.service.wsgi_server.application)
     else:
-        server = ThreadedServer(odoo.service.wsgi_server.application)
+        server = ThreadedServer(flectra.service.wsgi_server.application)
 
     watcher = None
     if 'reload' in config['dev_mode']:
@@ -988,7 +988,7 @@ def start(preload=None, stop=False):
     rc = server.run(preload, stop)
 
     # like the legend of the phoenix, all ends with beginnings
-    if getattr(odoo, 'phoenix', False):
+    if getattr(flectra, 'phoenix', False):
         if watcher:
             watcher.stop()
         _reexec()
