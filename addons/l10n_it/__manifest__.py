@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Italy - Accounting',
@@ -9,7 +9,7 @@
         'base_iban',
         'base_vat',
     ],
-    'author': 'OpenERP Italian Community',
+    'author': 'OpenERP Italian Community, Flectra',
     'description': """
 Piano dei conti italiano di un'impresa generica.
 ================================================

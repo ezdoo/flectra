@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 import re
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.tools import email_split, float_is_zero
+from flectra import api, fields, models, _
+from flectra.exceptions import UserError
+from flectra.tools import email_split, float_is_zero
 
-from odoo.addons import decimal_precision as dp
+from flectra.addons import decimal_precision as dp
 
 
 class HrExpense(models.Model):
@@ -518,7 +518,7 @@ class HrExpenseSheet(models.Model):
 
     # FIXME: A 4 command is missing to explicitly declare the one2many relation
     # between the sheet and the lines when using 'default_expense_line_ids':[ids]
-    # in the context. A fix from chm-odoo should come since
+    # in the context. A fix from chm-flectra should come since
     # several saas versions but sadly I had to add this hack to avoid this
     # issue
     @api.model

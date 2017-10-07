@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 #	* mrp
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:25+0000\n"
 "PO-Revision-Date: 2017-10-02 11:25+0000\n"
@@ -1811,7 +1811,7 @@ msgstr ""
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_bom_form_action
-msgid "Odoo uses these BoMs to automatically propose manufacturing\n"
+msgid "Flectra uses these BoMs to automatically propose manufacturing\n"
 "                orders according to procurement needs."
 msgstr ""
 

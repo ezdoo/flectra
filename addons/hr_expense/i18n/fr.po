@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_expense
 # 
 # Translators:
-# Thib vdh <thv@odoo.com>, 2017
+# Thib vdh <thv@flectrahq.com>, 2017
 # Alexandre Fayolle <alexandre.fayolle@camptocamp.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
+# Melanie Bernard <mbe@flectrahq.com>, 2017
 # Frédéric Clementi <frederic.clementi@camptocamp.com>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Eloïse Stilmant <est@flectrahq.com>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
-# Clo <clo@odoo.com>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Clo <clo@flectrahq.com>, 2017
+# Lucas Deliege <lud@flectrahq.com>, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
 # Benelita Prauhart <internetinfo07@gmail.com>, 2017
 # Sébastien Le Ray <sebastien-github@orniz.org>, 2017
@@ -34,12 +34,12 @@
 # fr rev <e2ffr02@hotmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: fr rev <e2ffr02@hotmail.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/flectra/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -48,8 +48,8 @@ msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "(e.g. expenses@mycompany.odoo.com)"
-msgstr "(ex : notesdefrais@masociété.odoo.com"
+msgid "(e.g. expenses@mycompany.flectrahq.com)"
+msgstr "(ex : notesdefrais@masociété.flectrahq.com"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -614,8 +614,8 @@ msgstr "Fin"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Enjoy your Odoo experience,"
-msgstr "Profitez de votre expérience Odoo,"
+msgid "Enjoy your Flectra experience,"
+msgstr "Profitez de votre expérience Flectra,"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense
@@ -881,10 +881,10 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"De la part de l'équipe Odoo,<br/>\n"
+"De la part de l'équipe Flectra,<br/>\n"
 "Fabien Pinckaers, Fondateur"
 
 #. module: hr_expense
@@ -942,8 +942,8 @@ msgstr "Département RH"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Have a wonderful day,<br/>- The Odoo Team"
-msgstr "Passez une bonne journée,<br/>- La Team Odoo"
+msgid "Have a wonderful day,<br/>- The Flectra Team"
+msgstr "Passez une bonne journée,<br/>- La Team Flectra"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_hide_payment_method
@@ -1615,8 +1615,8 @@ msgstr "Les étapes pour enregistrer vos dépenses sont: "
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "This guide helps you start with Odoo Expenses."
-msgstr "Ce guide vous aidera à démarre avec Notes de Frais Odoo."
+msgid "This guide helps you start with Flectra Expenses."
+msgstr "Ce guide vous aidera à démarre avec Notes de Frais Flectra."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form

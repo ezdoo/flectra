@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * mrp_repair
 # 
 # Translators:
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2017
 # José Vicente <txusev@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Gustavo Valverde <g.valverde02@gmail.com>, 2017
 # oihane <oihanecruce@gmail.com>, 2017
 # Daniel Blanco <daniel@blancomartin.com.ar>, 2017
@@ -13,7 +13,7 @@
 # Miguel Orueta <mo@landoo.es>, 2017
 # Luis M. Triana <luis.triana@jarsa.com.mx>, 2017
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# RGB Consulting <flectra@rgbconsulting.com>, 2017
 # Antonio Trueba <atgayol@gmail.com>, 2017
 # Sergio Flores <vitavitae1@gmail.com>, 2017
 # David Perez <david@closemarketing.es>, 2017
@@ -22,12 +22,12 @@
 # Alejandro Die Sanchis <marketing@domatix.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
 "Last-Translator: Alejandro Die Sanchis <marketing@domatix.com>, 2017\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/flectra/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

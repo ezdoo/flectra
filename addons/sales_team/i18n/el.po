@@ -1,12 +1,12 @@
-# #-#-#-#-#  el.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  el.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * sales_team
 #
 # Translators:
 # Kostas Goutoudis <goutoudis@gmail.com>, 2015-2016
-# #-#-#-#-#  el.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  el.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * sales_team
 #
@@ -15,19 +15,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-01-02 22:27+0000\n"
 "Last-Translator: Goutoudis Kostas <goutoudis@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/odoo/odoo-9/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/flectra/flectra-9/language/el/)\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  el.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  el.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"#-#-#-#-#  el.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  el.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sales_team
@@ -381,11 +381,11 @@ msgstr ""
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_reply_to
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by Flectra about "
 "cases in this sales team"
 msgstr ""
 "Η διεύθυνση e-mail που καταχωρείται στο \"Απάντηση σε\" όλων των e-mail που "
-"αποστέλλονται από το Odoo για περιπτώσεις αυτής της ομάδας πωλήσεων. "
+"αποστέλλονται από το Flectra για περιπτώσεις αυτής της ομάδας πωλήσεων. "
 
 #. module: sales_team
 #. openerp-web

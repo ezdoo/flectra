@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * event
 # 
 # Translators:
-# Clo <clo@odoo.com>, 2017
+# Clo <clo@flectrahq.com>, 2017
 # mathieu betton <mathieu.betton@gmail.com>, 2017
 # Fabien Pinckaers <fp@openerp.com>, 2017
 # Xavier Symons <xsy@openerp.com>, 2017
 # Micky Jault <micky037@hotmail.fr>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Eloïse Stilmant <est@flectrahq.com>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@flectrahq.com>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
 # Tony Galmiche <tony.galmiche@infosaone.com>, 2017
 # Jérémy Donas <LeDistordu@users.noreply.github.com>, 2017
@@ -21,21 +21,21 @@
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
 # Sébastien Le Ray <sebastien-github@orniz.org>, 2017
 # Shark McGnark <peculiarcheese@gmail.com>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Lucas Deliege <lud@flectrahq.com>, 2017
 # Benelita Prauhart <internetinfo07@gmail.com>, 2017
 # Alexis de Lattre <alexis@via.ecp.fr>, 2017
 # Nancy Bolognesi <nb@microcom.ca>, 2017
-# Quentin THEURET <odoo@kerpeo.com>, 2017
+# Quentin THEURET <flectra@kerpeo.com>, 2017
 # Loic <loic.richard2@gmail.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Melanie Bernard <mbe@flectrahq.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
-"Last-Translator: Melanie Bernard <mbe@odoo.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Melanie Bernard <mbe@flectrahq.com>, 2017\n"
+"Language-Team: French (https://www.transifex.com/flectra/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -577,7 +577,7 @@ msgstr ""
 #. module: event
 #: model:event.event,description:event.event_0
 msgid ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Odoo"
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Flectra"
 " Programming</i></font>"
 msgstr ""
 
@@ -1722,24 +1722,24 @@ msgstr "Le nombre d'évènements auxquels le partenaire a participé."
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Official Website"
-msgstr "Site web officiel d'Odoo"
+msgid "Flectra Official Website"
+msgstr "Site web officiel d'Flectra"
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Web Client"
-msgstr "Client web d'Odoo"
+msgid "Flectra Web Client"
+msgstr "Client web d'Flectra"
 
 #. module: event
 #: model:ir.actions.act_window,help:event.action_event_view
 msgid ""
-"Odoo helps you schedule and efficiently organize your events:\n"
+"Flectra helps you schedule and efficiently organize your events:\n"
 "    track registrations and participations, automate the confirmation emails,\n"
 "    sell tickets, etc."
 msgstr ""
-"Odoo vous aide à planifier et organiser efficacement vos évènements:\n"
+"Flectra vous aide à planifier et organiser efficacement vos évènements:\n"
 "   Suivez les inscriptions et participations, automatisez les courriels de confirmation, vendez des billets, etc."
 
 #. module: event
@@ -2298,7 +2298,7 @@ msgstr "event.confirm"
 
 #. module: event
 #: model:event.event,description:event.event_2
-msgid "events@odoo.com"
+msgid "events@flectrahq.com"
 msgstr ""
 
 #. module: event

@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-01-27 10:50+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Mongolian (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Mongolian (http://www.transifex.com/flectra/flectra-9/language/"
 "mn/)\n"
 "Language: mn\n"
 "MIME-Version: 1.0\n"
@@ -1454,7 +1454,7 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:113
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
+msgid "IMPORTANT: Bug Report From Flectra Point Of Sale"
 msgstr ""
 
 #. module: point_of_sale
@@ -1976,7 +1976,7 @@ msgstr "Хэвлэсэн тоо"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.index
-msgid "Odoo POS"
+msgid "Flectra POS"
 msgstr ""
 
 #. module: point_of_sale
@@ -3492,7 +3492,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Flectra but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
 
@@ -4194,10 +4194,10 @@ msgstr ""
 #~ "Хэрэв тэмдэглээгүй бол зөвхөн уригдсан хэрэглэгчид л бүртгүүлэх боломжтой"
 
 #~ msgid ""
-#~ "If you have setup a catch-all email domain redirected to the Odoo server, "
+#~ "If you have setup a catch-all email domain redirected to the Flectra server, "
 #~ "enter the domain name here."
 #~ msgstr ""
-#~ "Хэрэв Odoo серверрүү чиглүүлсэн бүх эмэйлийг барьж авахаар тохируулсан "
+#~ "Хэрэв Flectra серверрүү чиглүүлсэн бүх эмэйлийг барьж авахаар тохируулсан "
 #~ "бол дөмэйн нэрийг энд оруулна уу."
 
 #~ msgid "Invoice Amount"
@@ -4287,8 +4287,8 @@ msgstr ""
 #~ msgid "Sales by user monthly"
 #~ msgstr "Борлуулалт хэрэглэгчээр сараар"
 
-#~ msgid "Share or embbed any screen of Odoo."
-#~ msgstr "Odoo-н дурын дэлгэцийг хуваалцах юмуу өөр вебэд шигтгэнэ."
+#~ msgid "Share or embbed any screen of Flectra."
+#~ msgstr "Flectra-н дурын дэлгэцийг хуваалцах юмуу өөр вебэд шигтгэнэ."
 
 #~ msgid "Template user for new users created through signup"
 #~ msgstr "Бүртгүүлэхээр үүссэн шинэ хэрэглэгчид зориулсан үлгэр хэрэглэгч"

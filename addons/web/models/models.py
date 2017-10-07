@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import _, api, fields, models
+from flectra import _, api, fields, models
 
 class Base(models.AbstractModel):
     _inherit = 'base'

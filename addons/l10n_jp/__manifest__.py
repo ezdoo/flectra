@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
-# Copyright (C) Rooms For (Hong Kong) Limited T/A OSCG
+# Copyright (C) Rooms For (Hong Kong) Limited T/A OSCG, Flectra
 
 {
     'name': 'Japan - Accounting',
@@ -23,10 +23,10 @@ Note:
 requirements which might arise from POS implementation. [1]  You may not \
 need to use these at all under normal circumstances.
 
-[1] See https://github.com/odoo/odoo/pull/6470 for detail.
+[1] See https://github.com/flectra/flectra/pull/6470 for detail.
 
     """,
-    'author': 'Rooms For (Hong Kong) Limited T/A OSCG',
+    'author': 'Rooms For (Hong Kong) Limited T/A OSCG, Flectra',
     'website': 'http://www.openerp-asia.net/',
     'depends': ['account'],
     'data': [

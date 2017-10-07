@@ -60,15 +60,15 @@ function connect () {
 
 	if [ ${TIMEOUT_RETURN} -eq 124 ] && [ -z "${NO_AP}" ] ; then
 		logger -t posbox_connect_to_wifi "Failed to connect, forcing Posbox AP"
-		sudo /home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/wireless_ap.sh "force" &
+		sudo /home/pi/flectra/addons/point_of_sale/tools/posbox/configuration/wireless_ap.sh "force" &
 	else
 		if [ ${TIMEOUT_RETURN} -ne 124 ] ; then
 			rm -f "${LOST_WIFI_FILE}"
 		fi
 
 		if [ ! -f "${LOST_WIFI_FILE}" ] ; then
-			logger -t posbox_connect_to_wifi "Restarting odoo"
-			sudo service odoo restart
+			logger -t posbox_connect_to_wifi "Restarting flectra"
+			sudo service flectra restart
 		fi
 
 		if [ ${WIFI_WAS_LOST} -eq 0 ] ; then
@@ -76,7 +76,7 @@ function connect () {
 		fi
 
 		logger -t posbox_connect_to_wifi "Starting wifi keep alive script"
-		/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/keep_wifi_alive.sh &
+		/home/pi/flectra/addons/point_of_sale/tools/posbox/configuration/keep_wifi_alive.sh &
 	fi
 }
 

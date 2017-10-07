@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web
 # 
 # Translators:
 # Jeffery CHEN <jeffery9@gmail.com>, 2016
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux <mat@flectrahq.com>, 2016
 # fausthuang <faust_huang@hotmail.com>, 2016
 # Gary Wei <Gary.wei@elico-corp.com>, 2016
 # Talway <9010446@qq.com>, 2016
@@ -19,12 +19,12 @@
 # 菜小蛇 <lttlsnk@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:50+0000\n"
 "PO-Revision-Date: 2017-02-15 09:50+0000\n"
 "Last-Translator: 菜小蛇 <lttlsnk@gmail.com>, 2016\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/flectra/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -216,8 +216,8 @@ msgstr "<span class=\"oe_logo_edit\">编辑公司数据</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>Flectra</span>"
+msgstr "<span>Flectra</span>"
 
 #. module: web
 #. openerp-web
@@ -1119,7 +1119,7 @@ msgstr "表单"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1428
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
+msgid "Get this feature and much more with Flectra Enterprise!"
 msgstr "通过企业版获得该功能及其他更多。"
 
 #. module: web
@@ -1454,8 +1454,8 @@ msgstr "上移"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1420
 #, python-format
-msgid "My Odoo.com account"
-msgstr "我的Odoo.com帐号"
+msgid "My Flectra.com account"
+msgstr "我的Flectra.com帐号"
 
 #. module: web
 #. openerp-web
@@ -1605,43 +1605,43 @@ msgstr "对象:"
 #. openerp-web
 #: code:addons/web/static/src/js/framework/dialog.js:37
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:149
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo Apps 将马上可用"
+msgid "Flectra Apps will be available soon"
+msgstr "Flectra Apps 将马上可用"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/abstract_web_client.js:125
 #: code:addons/web/static/src/js/framework/crash_manager.js:154
 #, python-format
-msgid "Odoo Client Error"
+msgid "Flectra Client Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_upgrade_widgets.js:52
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo 企业版"
+msgid "Flectra Enterprise"
+msgstr "Flectra 企业版"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
+msgid "Flectra Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
+msgid "Flectra Session Expired"
 msgstr ""
 
 #. module: web
@@ -1649,13 +1649,13 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/crash_manager.js:108
 #: code:addons/web/static/src/js/framework/crash_manager.js:195
 #, python-format
-msgid "Odoo Warning"
+msgid "Flectra Warning"
 msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Odoo Web 测试"
+msgid "Flectra Web Tests"
+msgstr "Flectra Web 测试"
 
 #. module: web
 #. openerp-web
@@ -1829,8 +1829,8 @@ msgstr "技术提供"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "由<span>Odoo</span>提供技术支持"
+msgid "Powered by <span>Flectra</span>"
+msgstr "由<span>Flectra</span>提供技术支持"
 
 #. module: web
 #. openerp-web
@@ -2275,8 +2275,8 @@ msgstr "该向导将导出所有符合当前的搜索条件为CSV文件。您可
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
-msgstr "时区不匹配：您的浏览器的时区选择不匹配。在Odoo的时间是根据你的领域时区显示。"
+"one. The time in Flectra is displayed according to your field timezone."
+msgstr "时区不匹配：您的浏览器的时区选择不匹配。在Flectra的时间是根据你的领域时区显示。"
 
 #. module: web
 #. openerp-web
@@ -2603,7 +2603,7 @@ msgstr "请至少选择一条记录"
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your Flectra session expired. Please refresh the current web page."
 msgstr "你的会话已到期，请刷新当前网页。"
 
 #. module: web

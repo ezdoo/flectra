@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * account
 # 
@@ -8,7 +8,7 @@
 # Deddy Ddr <deddy.ddr@gmail.com>, 2017
 # Edi Santoso <repopamor@gmail.com>, 2017
 # Andi Fadhel <cliffryu@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Febrasari Almania <febrasari.almania@gmail.com>, 2017
 # oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2017
 # Rizky Fajar Ryanda <rizky.rikuverse@gmail.com>, 2017
@@ -21,17 +21,17 @@
 # Lorenz Damara <lorenzrenz@gmail.com>, 2017
 # Andhitia Rama <andhitia.r@gmail.com>, 2017
 # Yani Dama Putera <yanidp@gmail.com>, 2017
-# Dhaman <dhaman@indonesian-odoo.com>, 2017
+# Dhaman <dhaman@indonesian-flectrahq.com>, 2017
 # Hendro Yulianto <hyulianto@gmail.com>, 2017
 # Hendra So <mask783@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Hendra So <mask783@gmail.com>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/flectra/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -260,7 +260,7 @@ msgid ""
 "    </tr>\n"
 "    <tr>\n"
 "        <td align=\"center\">\n"
-"            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"            Powered by <a target=\"_blank\" href=\"https://www.flectrahq.com\">Flectra</a>.\n"
 "        </td>\n"
 "    </tr>\n"
 "</tbody>\n"
@@ -517,8 +517,8 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
-msgid "<span title=\"Balance in Odoo\">Balance in GL</span>"
-msgstr "<span title=\"Balance in Odoo\">Saldo dalam GL</span>"
+msgid "<span title=\"Balance in Flectra\">Balance in GL</span>"
+msgstr "<span title=\"Balance in Flectra\">Saldo dalam GL</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -582,8 +582,8 @@ msgstr "<span>Lihat</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "<strong>-The Odoo Team</strong>"
-msgstr "<strong>-Tim Odoo</strong>"
+msgid "<strong>-The Flectra Team</strong>"
+msgstr "<strong>-Tim Flectra</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -689,10 +689,10 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>Create the bill in Odoo</strong><br/> with a proper due date, and "
+"<strong>Create the bill in Flectra</strong><br/> with a proper due date, and "
 "create the vendor if it doesnt' exist yet."
 msgstr ""
-"<strong>Membuat tagihan di Odoo</strong><br/>dengan tepat tanggal, dan "
+"<strong>Membuat tagihan di Flectra</strong><br/>dengan tepat tanggal, dan "
 "menciptakan vendor jika tidak ' belum."
 
 #. module: account
@@ -883,10 +883,10 @@ msgstr "<strong>Rekonsiliasi Pernyataan Bank</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Reconcile with existing transaction</strong><br/>\n"
-"                                        In this case, Odoo should automatically match the bank statement with the previously recorded check transaction."
+"                                        In this case, Flectra should automatically match the bank statement with the previously recorded check transaction."
 msgstr ""
 "<strong>Mendamaikan dengan transaksi yang ada</strong><br/>Dalam kasus ini, "
-"Odoo harus secara otomatis sesuai pernyataan bank dengan transaksi check "
+"Flectra harus secara otomatis sesuai pernyataan bank dengan transaksi check "
 "direkam sebelumnya."
 
 #. module: account
@@ -984,17 +984,17 @@ msgstr "<strong>Target Bergerak:</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Test the following three scenarios in order to assist you in "
-"familiarizing yourself with Odoo:</strong>"
+"familiarizing yourself with Flectra:</strong>"
 msgstr ""
 "<strong>Tes tiga skenario berikut untuk membantu Anda dalam mengakrabkan "
-"diri dengan Odoo:</strong>"
+"diri dengan Flectra:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>There are three different levels of access rights in Odoo:</strong>"
+"<strong>There are three different levels of access rights in Flectra:</strong>"
 msgstr ""
-"<strong>Ada tiga tingkat yang berbeda dari hak akses di Odoo:</strong>"
+"<strong>Ada tiga tingkat yang berbeda dari hak akses di Flectra:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_overdue_document
@@ -1121,11 +1121,11 @@ msgstr "Daftar Batas Waktu Pembayaran untuk Kustomer dan Supplier Anda"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"A product in Odoo is something you sell or buy \n"
+"A product in Flectra is something you sell or buy \n"
 "                        whether or not it is goods, consumables, or services.\n"
 "                        Choose how you want to create your products:"
 msgstr ""
-"Produk dalam Odoo adalah sesuatu yang Anda menjual atau membeli apakah atau tidak itu adalah barang, perlengkapan, atau layanan.\n"
+"Produk dalam Flectra adalah sesuatu yang Anda menjual atau membeli apakah atau tidak itu adalah barang, perlengkapan, atau layanan.\n"
 "                        Pilih bagaimana Anda ingin membuat produk Anda:"
 
 #. module: account
@@ -1734,8 +1734,8 @@ msgstr "Umur pasangan keseimbangan"
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. Odoo calculates a table of credit balance by start Date. So if "
-"you request an interval of 30 days Odoo generates an analysis of creditors "
+"intervals. Flectra calculates a table of credit balance by start Date. So if "
+"you request an interval of 30 days Flectra generates an analysis of creditors "
 "for the past month, past two months, and so on."
 msgstr ""
 
@@ -2068,7 +2068,7 @@ msgstr "Akuntansi Analitik"
 msgid "Analytic Accounts"
 msgstr ""
 "Anda harus membuat struktur Akun analitik tergantung pada kebutuhan Anda "
-"untuk menganalisis biaya dan pendapatan. Dalam Odoo, analitik Akun juga "
+"untuk menganalisis biaya dan pendapatan. Dalam Flectra, analitik Akun juga "
 "digunakan untuk melacak pelanggan kontrak."
 
 #. module: account
@@ -3938,7 +3938,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op_opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Flectra. It is the date of the "
 "opening entry."
 msgstr ""
 
@@ -4503,8 +4503,8 @@ msgstr "Tutup Kotak uang"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Enjoy your Odoo experience,"
-msgstr "Menikmati pengalaman Odoo,"
+msgid "Enjoy your Flectra experience,"
+msgstr "Menikmati pengalaman Flectra,"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_line_form
@@ -4852,9 +4852,9 @@ msgstr "Persen masukkan rasio antara 0-100."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
-msgstr "Untuk tim Odoo,<br/>Fabien Pinckaers, pendiri"
+msgstr "Untuk tim Flectra,<br/>Fabien Pinckaers, pendiri"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_currency_id
@@ -5329,21 +5329,21 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"If you want to be able to send customer statements from Odoo, you must:"
+"If you want to be able to send customer statements from Flectra, you must:"
 msgstr ""
-"Jika Anda ingin untuk dapat mengirim pelanggan pernyataan dari Odoo, Anda "
+"Jika Anda ingin untuk dapat mengirim pelanggan pernyataan dari Flectra, Anda "
 "harus:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "If you want to be able to send your customers their statements \n"
-"                        from Odoo, you first need to record all outstanding transactions \n"
+"                        from Flectra, you first need to record all outstanding transactions \n"
 "                        in the payable and receivable accounts. These would be invoices \n"
 "                        that have not been paid or payments that have not been reconciled."
 msgstr ""
 "Jika Anda ingin untuk dapat mengirim pelanggan Anda pernyataan mereka dari "
-"Odoo, pertama Anda harus mencatat semua transaksi luar biasa dalam hutang "
+"Flectra, pertama Anda harus mencatat semua transaksi luar biasa dalam hutang "
 "dan piutang tagihan. Ini akan menjadi tagihan yang belum dibayar atau "
 "pembayaran yang belum didamaikan."
 
@@ -5439,8 +5439,8 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "In Odoo,"
-msgstr "Di Odoo,"
+msgid "In Flectra,"
+msgstr "Di Flectra,"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:409
@@ -5906,13 +5906,13 @@ msgid ""
 "It's common practice to change your accounting software \n"
 "                            at the end of a fiscal year. This allows you to have less \n"
 "                            data to import and balances to set. If you plan to do so, \n"
-"                            we recommend you start using Odoo for invoicing and payments \n"
+"                            we recommend you start using Flectra for invoicing and payments \n"
 "                            now, and then move all other accounting transactions at a later time."
 msgstr ""
 "Ini adalah praktek yang umum untuk mengubah perangkat lunak akuntansi Anda "
 "pada akhir tahun fiskal. Hal ini memungkinkan Anda untuk memiliki lebih "
 "sedikit data untuk mengimpor dan saldo untuk mengatur. Jika Anda berencana "
-"untuk melakukannya, kami menyarankan Anda mulai menggunakan Odoo untuk "
+"untuk melakukannya, kami menyarankan Anda mulai menggunakan Flectra untuk "
 "tagihan dan pembayaran sekarang, dan kemudian pindah semua transaksi "
 "akuntansi lainnya di lain waktu."
 
@@ -6475,9 +6475,9 @@ msgstr "Pembayaran kurang"
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:24
 #, python-format
-msgid "Let odoo try to reconcile entries for the user"
+msgid "Let flectra try to reconcile entries for the user"
 msgstr ""
-"Mengijinkan Odoo untuk mencoba merekonsiliasi masukan data untuk pengguna"
+"Mengijinkan Flectra untuk mencoba merekonsiliasi masukan data untuk pengguna"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -6644,9 +6644,9 @@ msgstr "Rekonsiliasi Manual"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Flectra.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encash several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encash several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Flectra,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
 
 #. module: account
@@ -6654,18 +6654,18 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment_payment_method_id
 #: model:ir.model.fields,help:account.field_account_register_payments_payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Flectra.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encash several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
+"Check: Pay bill by check and print it from Flectra.\n"
+"Batch Deposit: Encash several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Flectra, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of Flectra.\n"
+"Check:Pay bill by check and print it from Flectra.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
 
@@ -7159,36 +7159,36 @@ msgstr "Oktober"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Odoo Accounting has many free extra-features:"
-msgstr "Odoo akuntansi memiliki banyak fitur tambahan gratis:"
+msgid "Flectra Accounting has many free extra-features:"
+msgstr "Flectra akuntansi memiliki banyak fitur tambahan gratis:"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Flectra allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr ""
-"Odoo memungkinkan Anda untuk mendamaikan garis pernyataan langsung dengan "
+"Flectra memungkinkan Anda untuk mendamaikan garis pernyataan langsung dengan "
 "terkait dijual atau puchase invoice(s)."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Flectra allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr ""
-"Odoo memungkinkan Anda untuk mendamaikan garis pernyataan langsung dengan "
+"Flectra memungkinkan Anda untuk mendamaikan garis pernyataan langsung dengan "
 "terkait dijual atau puchase tagihan."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_move_journal_line
 msgid ""
-"Odoo automatically creates one journal entry per accounting\n"
+"Flectra automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, vendor payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations."
 msgstr ""
-"Odoo secara otomatis membuat satu entri jurnal per dokumen akuntansi: "
+"Flectra secara otomatis membuat satu entri jurnal per dokumen akuntansi: "
 "tagihan, pengembalian dana, Penjual pembayaran, pernyataan bank, dll. Jadi, "
 "Anda harus merekam entri jurnal secara manual hanya/terutama untuk operasi "
 "lain."
@@ -7196,41 +7196,41 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo can manage multiple companies, but we suggest to setup everything for "
+"Flectra can manage multiple companies, but we suggest to setup everything for "
 "your first company before configuring the other ones."
 msgstr ""
-"Odoo dapat mengelola beberapa perusahaan, tetapi kami sarankan untuk setup "
+"Flectra dapat mengelola beberapa perusahaan, tetapi kami sarankan untuk setup "
 "segalanya bagi perusahaan Anda pertama sebelum konfigurasi yang lain."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo has already preconfigured a few taxes according to your "
+"Flectra has already preconfigured a few taxes according to your "
 "country.<br/>Simply review them and check if you need more."
 msgstr ""
-"Odoo telah sudah dikonfigurasi sebelumnya beberapa pajak negara.<br/>Hanya "
+"Flectra telah sudah dikonfigurasi sebelumnya beberapa pajak negara.<br/>Hanya "
 "memeriksa mereka dan periksa jika Anda membutuhkan lebih banyak."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo should do most of the reconciliation work automatically, so you'll only"
+"Flectra should do most of the reconciliation work automatically, so you'll only"
 " need to review a few of them when a <strong>'Reconcile Items'</strong> "
 "button appears on your Vendor Bills dash."
 msgstr ""
-"Odoo harus melakukan sebagian besar pekerjaan rekonsiliasi secara otomatis, "
+"Flectra harus melakukan sebagian besar pekerjaan rekonsiliasi secara otomatis, "
 "sehingga Anda hanya perlu untuk meninjau beberapa dari mereka ketika tombol "
 "<strong>' mendamaikan item '</strong> muncul di dash Vendor tagihan."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree1
 msgid ""
-"Odoo's electronic invoicing allows to ease and fasten the\n"
+"Flectra's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system."
 msgstr ""
-"Odoo's elektronik tagihan memungkinkan untuk memudahkan dan mempercepat "
+"Flectra's elektronik tagihan memungkinkan untuk memudahkan dan mempercepat "
 "pengumpulan pembayaran pelanggan. Pelanggan Anda menerima tagihan melalui "
 "email dan ia dapat melakukan pembayaran online dan/atau impor dalam sistem "
 "sendiri."
@@ -8481,10 +8481,10 @@ msgstr "Mendaftar pembayaran beberapa tagihan"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "Registering outstanding invoices and payments can be a huge undertaking, \n"
-"                        but you can start using Odoo without it by:"
+"                        but you can start using Flectra without it by:"
 msgstr ""
 "Mendaftarkan tagihan yang beredar dan pembayaran dapat menjadi usaha besar, "
-"tetapi Anda dapat mulai menggunakan Odoo tanpa itu oleh:"
+"tetapi Anda dapat mulai menggunakan Flectra tanpa itu oleh:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -9097,7 +9097,7 @@ msgstr ""
 #, python-format
 msgid "Skip"
 msgstr ""
-"<p>Jika Anda tidak memberikan kontribusi atau mengembangkan di Odoo, "
+"<p>Jika Anda tidak memberikan kontribusi atau mengembangkan di Flectra, "
 "melewati halaman ini.</p>"
 
 #. module: account
@@ -10330,10 +10330,10 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"This guide will help you get started with Odoo Accounting.\n"
+"This guide will help you get started with Flectra Accounting.\n"
 "                        Once you're done, you'll benefit from:"
 msgstr ""
-"Panduan ini akan membantu Anda memulai dengan Odoo akuntansi.\n"
+"Panduan ini akan membantu Anda memulai dengan Flectra akuntansi.\n"
 "                        Setelah Anda selesai, Anda akan mendapatkan keuntungan dari:"
 
 #. module: account
@@ -10522,11 +10522,11 @@ msgstr "Untuk membayar"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"To manage the tax applied when invoicing a Company, Odoo uses the concept of"
+"To manage the tax applied when invoicing a Company, Flectra uses the concept of"
 " Fiscal Position: they serve to automatically set the right tax and/or "
 "account according to the customer country and state."
 msgstr ""
-"Untuk mengelola pajak diterapkan ketika tagihan perusahaan, Odoo menggunakan"
+"Untuk mengelola pajak diterapkan ketika tagihan perusahaan, Flectra menggunakan"
 " konsep posisi fiskal: mereka melayani untuk secara otomatis menetapkan "
 "pajak yang tepat dan/atau akun sesuai dengan pelanggan negara dan negara."
 
@@ -11189,22 +11189,22 @@ msgstr "Peringatan"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your Flectra project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
-"Kami dapat menangani proses impor seluruh untuk Anda: cukup kirim Odoo "
+"Kami dapat menangani proses impor seluruh untuk Anda: cukup kirim Flectra "
 "proyek manajer file CSV yang berisi semua data Anda."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your Flectra project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
 msgstr ""
-"Kami dapat menangani proses impor seluruh untuk Anda: cukup kirim Odoo "
+"Kami dapat menangani proses impor seluruh untuk Anda: cukup kirim Flectra "
 "proyek manajer file CSV yang berisi semua produk Anda."
 
 #. module: account

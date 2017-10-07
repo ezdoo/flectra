@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * l10n_be_hr_payroll
 #
@@ -7,12 +7,12 @@
 # Mateo Tibaquirá <nestormateo@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-21 09:29+0000\n"
 "PO-Revision-Date: 2016-02-18 16:11+0000\n"
 "Last-Translator: Esteban Echeverry <tebanep@nubark.com>\n"
-"Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Colombia) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_CO/)\n"
 "Language: es_CO\n"
 "MIME-Version: 1.0\n"

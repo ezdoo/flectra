@@ -22,7 +22,7 @@ if [ -z "${WIRED_IP}" ] ; then
 	if [ -n "$(iw list)" ] ; then
 		if [ -f "${WIFI_NETWORK_FILE}" ] && [ -z "${FORCE_HOST_AP}" ] ; then
 			logger -t posbox_wireless_ap "Loading persistently saved setting"
-			/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/connect_to_wifi.sh &
+			/home/pi/flectra/addons/point_of_sale/tools/posbox/configuration/connect_to_wifi.sh &
 		else
 			logger -t posbox_wireless_ap "Starting AP"
 
@@ -32,13 +32,13 @@ if [ -z "${WIRED_IP}" ] ; then
 
 			service isc-dhcp-server restart
 
-			service odoo restart
+			service flectra restart
 		fi
 	# no wired, no wireless
 	else
-		service odoo restart
+		service flectra restart
 	fi
 # wired
 else
-	service odoo restart
+	service flectra restart
 fi

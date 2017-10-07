@@ -1,5 +1,5 @@
-# #-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * account
 #
@@ -11,8 +11,8 @@
 # ook rio <riokoko5@gmail.com>, 2016
 # Yoshi Tashiro <tashiro@roomsfor.hk>, 2015-2016
 # 高木正勝 <masakatsu.takagi@pro-spire.co.jp>, 2016
-# #-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * account
 #
@@ -26,19 +26,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-07-22 08:38+0000\n"
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>\n"
-"Language-Team: Japanese (http://www.transifex.com/odoo/odoo-9/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/flectra/flectra-9/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account
@@ -145,9 +145,9 @@ msgstr "%s (コピー)"
 #, fuzzy, python-format
 msgid "%s (copy)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "%s (コピー)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "%s（コピー）"
 
 #. module: account
@@ -291,12 +291,12 @@ msgid ""
 "access)\n"
 "                                    </span>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span class=\"panel-title\">\n"
 "                                        <strong>アドバイザー</strong> (全アク"
 "セス権)\n"
 "                                    </span>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span class=\"panel-title\">\n"
 "                                        <strong>アドバイザー</strong> (フルア"
 "クセス)\n"
@@ -370,7 +370,7 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
-msgid "<span title=\"Balance in Odoo\">Balance in GL</span>"
+msgid "<span title=\"Balance in Flectra\">Balance in GL</span>"
 msgstr ""
 
 #. module: account
@@ -383,9 +383,9 @@ msgstr ""
 #, fuzzy
 msgid "<span> From </span>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>請求者</span>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>から</span>"
 
 #. module: account
@@ -393,9 +393,9 @@ msgstr ""
 #, fuzzy
 msgid "<span> To </span>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>請求先</span>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>へ</span>"
 
 #. module: account
@@ -408,9 +408,9 @@ msgstr "<span>重複</span>"
 #, fuzzy
 msgid "<span>New Bill</span>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>新規仕入先請求書</span>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>新規費用</span>"
 
 #. module: account
@@ -418,9 +418,9 @@ msgstr ""
 #, fuzzy
 msgid "<span>New Invoice</span>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>新規顧客請求書</span>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>新しい請求書</span>"
 
 #. module: account
@@ -453,14 +453,14 @@ msgstr "<span>レポート</span>"
 #, fuzzy
 msgid "<span>View</span>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>ビュー</span>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<span>照会</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "<strong>-The Odoo Team</strong>"
+msgid "<strong>-The Flectra Team</strong>"
 msgstr ""
 
 #. module: account
@@ -529,9 +529,9 @@ msgstr ""
 #, fuzzy
 msgid "<strong>Comment:</strong>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>コメント:</strong>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>コメント：</strong>"
 
 #. module: account
@@ -540,9 +540,9 @@ msgstr ""
 #, fuzzy
 msgid "<strong>Company:</strong>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>コメント:</strong>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>コメント：</strong>"
 
 #. module: account
@@ -566,7 +566,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>Create the bill in Odoo</strong><br/> with a proper due date, and "
+"<strong>Create the bill in Flectra</strong><br/> with a proper due date, and "
 "create the vendor if it doesnt' exist yet."
 msgstr ""
 
@@ -616,9 +616,9 @@ msgstr ""
 #, fuzzy
 msgid "<strong>Due Date:</strong>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>期限:</strong>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>期限：</strong>"
 
 #. module: account
@@ -626,9 +626,9 @@ msgstr ""
 #, fuzzy
 msgid "<strong>Entries Sorted By:</strong>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>並び替え:</strong>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>並び替え：</strong>"
 
 #. module: account
@@ -646,9 +646,9 @@ msgstr ""
 #, fuzzy
 msgid "<strong>Invoice Date:</strong>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>請求日:</strong>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>請求日：</strong>"
 
 #. module: account
@@ -725,7 +725,7 @@ msgstr "<strong>銀行取引明細の消込</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Reconcile with existing transaction</strong><br/>\n"
-"                                        In this case, Odoo should "
+"                                        In this case, Flectra should "
 "automatically match the bank statement with the previously recorded check "
 "transaction."
 msgstr ""
@@ -783,9 +783,9 @@ msgstr ""
 #, fuzzy
 msgid "<strong>Sorted By:</strong>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>並び替え:</strong>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>並び替え：</strong>"
 
 #. module: account
@@ -803,9 +803,9 @@ msgstr ""
 #, fuzzy
 msgid "<strong>Sub-Total :</strong>"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>小計:</strong>\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "<strong>小計：</strong>"
 
 #. module: account
@@ -827,13 +827,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Test the following three scenarios in order to assist you in "
-"familiarizing yourself with Odoo:</strong>"
+"familiarizing yourself with Flectra:</strong>"
 msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>There are three different levels of access rights in Odoo:</strong>"
+"<strong>There are three different levels of access rights in Flectra:</strong>"
 msgstr ""
 
 #. module: account
@@ -925,7 +925,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"A product in Odoo is something you sell or buy \n"
+"A product in Flectra is something you sell or buy \n"
 "                        whether or not it is goods, consumables, or "
 "services.\n"
 "                        Choose how you want to create your products:"
@@ -993,9 +993,9 @@ msgstr ""
 #, fuzzy, python-format
 msgid "Account"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "勘定科目\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "口座"
 
 #. module: account
@@ -1003,9 +1003,9 @@ msgstr ""
 #, fuzzy
 msgid "Account Aged Trial balance Report"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "勘定仕入支払予測レポート\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "アカウント年齢試算表レポート"
 
 #. module: account
@@ -1044,9 +1044,9 @@ msgstr "勘定共通取引先レポート"
 #, fuzzy
 msgid "Account Common Report"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "勘定共通レポート\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "アカウント共通レポート"
 
 #. module: account
@@ -1150,9 +1150,9 @@ msgstr "アカウントレポート"
 #, fuzzy
 msgid "Account Reports Hierarchy"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "勘定科目レポート階層\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "アカウントレポート階層"
 
 #. module: account
@@ -1259,9 +1259,9 @@ msgstr "アカウント移動行消し込み"
 #, fuzzy
 msgid "Account move line reconcile (writeoff)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "仕訳明細の消込 (償却)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "アカウント移動行の消し込み（償却）"
 
 #. module: account
@@ -1311,9 +1311,9 @@ msgstr ""
 #, fuzzy
 msgid "Accountant"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "会計担当\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "会計士"
 
 #. module: account
@@ -1451,9 +1451,9 @@ msgstr "住所"
 #, fuzzy
 msgid "Advanced Options"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "高度オプション\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "高度なオプション"
 
 #. module: account
@@ -1489,8 +1489,8 @@ msgstr "取引先残高年齢表"
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. Odoo calculates a table of credit balance by start Date. So if "
-"you request an interval of 30 days Odoo generates an analysis of creditors "
+"intervals. Flectra calculates a table of credit balance by start Date. So if "
+"you request an interval of 30 days Flectra generates an analysis of creditors "
 "for the past month, past two months, and so on."
 msgstr ""
 
@@ -1584,12 +1584,12 @@ msgid ""
 "created by the system on document validation (invoices, bank statements...) "
 "and will be created in 'Posted' status."
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "通常、マニュアルで作成されたすべての新しい仕訳は「未記帳」状態ですが、関連す"
 "る仕訳でその状態をスキップするためのオプションを設定できます。その場合、ド"
 "キュメント検証システムによって請求書や銀行取引明細書などの仕訳は自動で作成さ"
 "れ、「記帳済」状態になります。\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "通常、マニュアルで作成されたすべての新しい仕訳は「未転記」状態ですが、関連す"
 "る仕訳でその状態をスキップするためのオプションを設定できます。その場合、ド"
 "キュメント検証システムによって請求書や銀行取引明細書などの仕訳は自動で作成さ"
@@ -1645,9 +1645,9 @@ msgstr "多通貨を許可"
 #, fuzzy
 msgid "Allow pro-forma invoices"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "見積送状を使用\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "見積送り状を許可"
 
 #. module: account
@@ -1818,9 +1818,9 @@ msgstr "分析行"
 #, fuzzy
 msgid "Analytic account"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "分析勘定\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "分析アカウント"
 
 #. module: account
@@ -1945,9 +1945,9 @@ msgstr "移動平均原価"
 #, fuzzy
 msgid "Awaiting payments"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "入金待ち\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "未払い金"
 
 #. module: account
@@ -1955,9 +1955,9 @@ msgstr ""
 #, fuzzy, python-format
 msgid "BILL"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "BILL\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払い"
 
 #. module: account
@@ -2050,9 +2050,9 @@ msgstr ""
 #, fuzzy
 msgid "Bank Interface - Sync your bank feeds automatically"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "銀行インターフェイス - 銀行口座を自動的に同期\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "銀行のインターフェイス （銀行口座を自動的に同期）"
 
 #. module: account
@@ -2071,9 +2071,9 @@ msgstr ""
 #, fuzzy, python-format
 msgid "Bank Reconciliation"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "銀行消込\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "銀行消し込み"
 
 #. module: account
@@ -2103,9 +2103,9 @@ msgstr "銀行取引明細書行"
 #, fuzzy
 msgid "Bank Statement Lines"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "銀行取引明細書行\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "銀行明細行"
 
 #. module: account
@@ -2203,9 +2203,9 @@ msgstr "仕入先請求書明細"
 #, fuzzy
 msgid "Billing"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "請求担当\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "課金"
 
 #. module: account
@@ -2351,9 +2351,9 @@ msgstr "選択した請求書のキャンセル"
 #, fuzzy
 msgid "Cancel: create refund and reconcile"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "取消: 返金を作成し消込\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "キャンセル：払い戻しと消し込みを作成"
 
 #. module: account
@@ -2702,9 +2702,9 @@ msgstr ""
 #, fuzzy
 msgid "Click to register a payment"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "クリックして支払を記帳してください。\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "クリックして支払い情報を記帳する"
 
 #. module: account
@@ -2774,9 +2774,9 @@ msgstr "共通レポート"
 #, fuzzy
 msgid "Communication"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "コミュニケーション\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "通信"
 
 #. module: account
@@ -3299,9 +3299,9 @@ msgstr ""
 #, fuzzy
 msgid "Current Assets"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "流動資産\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "現有資産"
 
 #. module: account
@@ -3513,9 +3513,9 @@ msgstr ""
 #, fuzzy
 msgid "Default Taxes"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "デフォルト税\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "デフォルト税金"
 
 #. module: account
@@ -3523,9 +3523,9 @@ msgstr ""
 #, fuzzy
 msgid "Default company currency"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "デフォルトの会社通貨\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "デフォルトの企業通貨"
 
 #. module: account
@@ -3814,9 +3814,9 @@ msgstr "ドラフト返金"
 #, fuzzy
 msgid "Draft bills"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "ドラフト仕入先請求書\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "為替手形"
 
 #. module: account
@@ -3956,7 +3956,7 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Enjoy your Odoo experience,"
+msgid "Enjoy your Flectra experience,"
 msgstr ""
 
 #. module: account
@@ -3969,9 +3969,9 @@ msgstr "エントリー"
 #, fuzzy
 msgid "Entries Sorted by"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "エントリ:\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "エントリー： "
 
 #. module: account
@@ -3990,9 +3990,9 @@ msgstr ""
 #, fuzzy, python-format
 msgid "Entries: "
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "エントリ:\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "エントリー： "
 
 #. module: account
@@ -4298,7 +4298,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
 
@@ -4360,9 +4360,9 @@ msgstr "消込"
 msgid ""
 "Full accounting features: journals, legal statements, chart of accounts, etc."
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "包括的な会計機能: 仕訳、財務諸表、勘定科目表など。\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "完全な会計機能：仕訳、法的な計算書、勘定科目表など。"
 
 #. module: account
@@ -4409,9 +4409,9 @@ msgstr "入金/支払消込時に現金基準の税仕訳を生成"
 #, fuzzy
 msgid "Get dynamic accounting reports"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "ダイナミック会計レポートを使用\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "動的会計諸表を取得"
 
 #. module: account
@@ -4433,7 +4433,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_config_settings_module_account_bank_statement_import_ofx
 #, fuzzy
 msgid ""
-"Get your bank statements from your bank and import them in Odoo in the .OFX "
+"Get your bank statements from your bank and import them in Flectra in the .OFX "
 "format.\n"
 "-This installs the module account_bank_statement_import_ofx."
 msgstr ""
@@ -4444,7 +4444,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_config_settings_module_account_bank_statement_import_qif
 #, fuzzy
 msgid ""
-"Get your bank statements from your bank and import them in Odoo in the .QIF "
+"Get your bank statements from your bank and import them in Flectra in the .QIF "
 "format.\n"
 "-This installs the module account_bank_statement_import_qif."
 msgstr ""
@@ -4568,9 +4568,9 @@ msgstr ""
 #, fuzzy
 msgid "Hide payment method"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払方法を非表示\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払い方法を非表示"
 
 #. module: account
@@ -4807,14 +4807,14 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "If you want to be able to send customer statements from Odoo, you must:"
+msgid "If you want to be able to send customer statements from Flectra, you must:"
 msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "If you want to be able to send your customers their statements \n"
-"                        from Odoo, you first need to record all outstanding "
+"                        from Flectra, you first need to record all outstanding "
 "transactions \n"
 "                        in the payable and receivable accounts. These would "
 "be invoices \n"
@@ -4856,7 +4856,7 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "In Odoo,"
+msgid "In Flectra,"
 msgstr ""
 
 #. module: account
@@ -4866,10 +4866,10 @@ msgid ""
 "In order to delete a bank statement line, you must first cancel it to delete "
 "related journal items."
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "銀行取引明細書行を削除するには、まず取り消しのうえ、関連する仕訳明細が削除で"
 "きるようにしてください。\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "銀行取引明細書行を削除するには、最初に関連する仕訳項目の削除をキャンセルしな"
 "ければなりません。"
 
@@ -5184,9 +5184,9 @@ msgstr ""
 #, fuzzy
 msgid "Invoices to validate"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "ドラフト請求書\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "請求書照合"
 
 #. module: account
@@ -5254,7 +5254,7 @@ msgid ""
 "have less \n"
 "                            data to import and balances to set. If you plan "
 "to do so, \n"
-"                            we recommend you start using Odoo for invoicing "
+"                            we recommend you start using Flectra for invoicing "
 "and payments \n"
 "                            now, and then move all other accounting "
 "transactions at a later time."
@@ -5272,9 +5272,9 @@ msgstr ""
 #, fuzzy
 msgid "Italic Text (smaller)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "斜体テキスト (小)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "斜体テキスト（小）"
 
 #. module: account
@@ -5322,9 +5322,9 @@ msgstr "仕訳帳"
 #, fuzzy
 msgid "Journal & Partner"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "仕訳帳と取引先\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "仕訳帳・取引先"
 
 #. module: account
@@ -5365,9 +5365,9 @@ msgstr "仕訳"
 #, fuzzy
 msgid "Journal Item"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "仕訳明細\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "仕訳項目"
 
 #. module: account
@@ -5411,9 +5411,9 @@ msgstr "仕訳明細"
 #, fuzzy, python-format
 msgid "Journal Items to Reconcile"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "調整する仕訳明細\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "調整する仕訳項目"
 
 #. module: account
@@ -5800,9 +5800,9 @@ msgstr "会計年度最終日"
 #, fuzzy
 msgid "Lock Date for Non-Advisers"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "アドバイザ以外のロック日\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "会計顧問以外の会計年度最終日"
 
 #. module: account
@@ -5810,9 +5810,9 @@ msgstr ""
 #, fuzzy
 msgid "Lock Entries"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "仕訳ロック\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "最終登録日"
 
 #. module: account
@@ -5853,9 +5853,9 @@ msgstr "基本通貨"
 #, fuzzy
 msgid "Main Title 1 (bold, underlined)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "メインタイトル1 (太字、下線)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "メインタイトル1（太字、アンダーライン）"
 
 #. module: account
@@ -5957,7 +5957,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_inbound_payment_method_ids
 msgid ""
-"Means of payment for collecting money. Odoo modules offer various payments "
+"Means of payment for collecting money. Flectra modules offer various payments "
 "handling facilities, but you can always use the 'Manual' payment method in "
 "order to manage payments outside of the software."
 msgstr ""
@@ -5965,7 +5965,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_outbound_payment_method_ids
 msgid ""
-"Means of payment for sending money. Odoo modules offer various payments "
+"Means of payment for sending money. Flectra modules offer various payments "
 "handling facilities, but you can always use the 'Manual' payment method in "
 "order to manage payments outside of the software."
 msgstr ""
@@ -6115,9 +6115,9 @@ msgstr "正味資産"
 #, fuzzy
 msgid "NET PROFIT"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "当期利益\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "純利益"
 
 #. module: account
@@ -6139,9 +6139,9 @@ msgstr "名称"
 #, fuzzy, python-format
 msgid "Name:"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "名称:\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "名前："
 
 #. module: account
@@ -6247,9 +6247,9 @@ msgstr "その他資産"
 #, fuzzy
 msgid "Non-current Liabilities"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "その他負債\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "固定負債"
 
 #. module: account
@@ -6347,27 +6347,27 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Odoo Accounting has many free extra-features:"
-msgstr "Odoo会計には多くの追加機能があります:"
+msgid "Flectra Accounting has many free extra-features:"
+msgstr "Flectra会計には多くの追加機能があります:"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Flectra allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Flectra allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_move_journal_line
 msgid ""
-"Odoo automatically creates one journal entry per accounting\n"
+"Flectra automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, vendor payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/"
 "mainly\n"
@@ -6377,21 +6377,21 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo can manage multiple companies, but we suggest to setup everything for "
+"Flectra can manage multiple companies, but we suggest to setup everything for "
 "your first company before configuring the other ones."
 msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo has already preconfigured a few taxes according to your country.<br/"
+"Flectra has already preconfigured a few taxes according to your country.<br/"
 ">Simply review them and check if you need more."
 msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo should do most of the reconciliation work automatically, so you'll only "
+"Flectra should do most of the reconciliation work automatically, so you'll only "
 "need to review a few of them when a <strong>'Reconcile Items'</strong> "
 "button appears on your Vendor Bills dash."
 msgstr ""
@@ -6399,12 +6399,12 @@ msgstr ""
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree1
 msgid ""
-"Odoo's electronic invoicing allows to ease and fasten the\n"
+"Flectra's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system."
 msgstr ""
-"Odooの電子請求書は顧客の支払を容易にします。顧客はEメール受け取る請求書に対"
+"Flectraの電子請求書は顧客の支払を容易にします。顧客はEメール受け取る請求書に対"
 "し、オンラインで支払ったり、自分のシステムにインポートしたりできます。"
 
 #. module: account
@@ -6764,9 +6764,9 @@ msgstr "取引先タイプ"
 #, fuzzy
 msgid "Partner's"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "取引先のもの\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "パートナ"
 
 #. module: account
@@ -6841,9 +6841,9 @@ msgstr "支払方法"
 #, fuzzy, python-format
 msgid "Payment Method:"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払方法:\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払方法："
 
 #. module: account
@@ -6892,9 +6892,9 @@ msgstr "支払条件"
 #, fuzzy
 msgid "Payment Type"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払タイプ\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払い形式"
 
 #. module: account
@@ -6947,9 +6947,9 @@ msgstr ""
 #, fuzzy
 msgid "Payment type"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払タイプ\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払い形式"
 
 #. module: account
@@ -7011,7 +7011,7 @@ msgid ""
 "             If you set a paypal account, the customer  will be able to pay "
 "your invoices or quotations\n"
 "             with a button \"Pay with  Paypal\" in automated emails or "
-"through the Odoo portal."
+"through the Flectra portal."
 msgstr ""
 
 #. module: account
@@ -7072,9 +7072,9 @@ msgstr ""
 #, fuzzy
 msgid "Period Length (days)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "期間の長さ (日数)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "期間の長さ（日数）"
 
 #. module: account
@@ -7142,9 +7142,9 @@ msgstr "加算 その他資産"
 #, fuzzy
 msgid "Plus Other Income"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "加算 その他収益\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "その他収益を追加"
 
 #. module: account
@@ -7152,9 +7152,9 @@ msgstr ""
 #, fuzzy
 msgid "Post"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "記帳\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "投稿"
 
 #. module: account
@@ -7213,9 +7213,9 @@ msgstr ""
 #, fuzzy
 msgid "Prepayments"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "前払金\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "前払い"
 
 #. module: account
@@ -7286,9 +7286,9 @@ msgstr "製品"
 #, fuzzy
 msgid "Product Category"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "製品カテゴリ\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "商品カテゴリ"
 
 #. module: account
@@ -7317,9 +7317,9 @@ msgstr "損益計算書"
 #, fuzzy
 msgid "Profit (Loss) to report"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "収益 (損失)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "損益計算書"
 
 #. module: account
@@ -7687,7 +7687,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "Registering outstanding invoices and payments can be a huge undertaking, \n"
-"                        but you can start using Odoo without it by:"
+"                        but you can start using Flectra without it by:"
 msgstr ""
 
 #. module: account
@@ -8001,9 +8001,9 @@ msgstr ""
 #, fuzzy
 msgid "Send Money"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "支払\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "送金"
 
 #. module: account
@@ -8204,9 +8204,9 @@ msgstr "取引明細書"
 #, fuzzy
 msgid "States"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "状態\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "州"
 
 #. module: account
@@ -8378,9 +8378,9 @@ msgstr ""
 #, fuzzy
 msgid "Tax Name"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "税名\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "税種"
 
 #. module: account
@@ -9045,7 +9045,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"This guide will help you get started with Odoo Accounting.\n"
+"This guide will help you get started with Flectra Accounting.\n"
 "                        Once you're done, you'll benefit from:"
 msgstr ""
 
@@ -9199,7 +9199,7 @@ msgstr "要支払"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"To manage the tax applied when invoicing a Company, Odoo uses the concept of "
+"To manage the tax applied when invoicing a Company, Flectra uses the concept of "
 "Fiscal Position: they serve to automatically set the right tax and/or "
 "account according to the customer country and state."
 msgstr ""
@@ -9430,9 +9430,9 @@ msgstr "未記帳仕訳"
 #, fuzzy
 msgid "Unposted Journal Items"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "未記帳仕訳明細\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "未転記仕訳項目"
 
 #. module: account
@@ -9692,9 +9692,9 @@ msgstr "仕入先税"
 #, fuzzy, python-format
 msgid "Vendors"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "仕入先\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "外注先"
 
 #. module: account
@@ -9729,7 +9729,7 @@ msgstr "警告！"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo "
+"                                        for you: simply send your Flectra "
 "project\n"
 "                                        manager a CSV file containing all "
 "your\n"
@@ -9740,7 +9740,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo "
+"                                        for you: simply send your Flectra "
 "project\n"
 "                                        manager a CSV file containing all "
 "your\n"
@@ -9792,9 +9792,9 @@ msgstr "基本通貨"
 #, fuzzy
 msgid "With balance is not equal to 0"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "残高が0でないもの\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "残高があるもの(<>0)"
 
 #. module: account
@@ -10276,7 +10276,7 @@ msgstr "例: 銀行手数料"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
-msgid "e.g. sales@odoo.com"
+msgid "e.g. sales@flectrahq.com"
 msgstr ""
 
 #. module: account

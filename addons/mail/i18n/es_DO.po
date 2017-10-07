@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * mail
 #
@@ -8,13 +8,13 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-07-23 09:04+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (Dominican Republic) (http://www.transifex.com/odoo/"
-"odoo-9/language/es_DO/)\n"
+"Language-Team: Spanish (Dominican Republic) (http://www.transifex.com/flectra/"
+"flectra-9/language/es_DO/)\n"
 "Language: es_DO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -193,8 +193,8 @@ msgid ""
 "                    </a>\n"
 "                    % endif\n"
 "                    <strong>using</strong>\n"
-"                    <a href=\"https://www.odoo.com\" style=\"text-decoration:"
-"none; color: #a24689;\"><strong>Odoo</strong></a>\n"
+"                    <a href=\"https://www.flectrahq.com\" style=\"text-decoration:"
+"none; color: #a24689;\"><strong>Flectra</strong></a>\n"
 "                </td>\n"
 "            </tr>\n"
 "            % else:\n"
@@ -210,8 +210,8 @@ msgid ""
 "                    </a>\n"
 "                    % endif\n"
 "                    <strong>using</strong>\n"
-"                    <a href=\"https://www.odoo.com\" style=\"text-decoration:"
-"none;\"><strong>Odoo</strong></a>\n"
+"                    <a href=\"https://www.flectrahq.com\" style=\"text-decoration:"
+"none;\"><strong>Flectra</strong></a>\n"
 "                </td>\n"
 "            </tr>\n"
 "            % endif\n"
@@ -2093,11 +2093,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_base_config_settings_alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Flectra server, "
 "enter the domain name here."
 msgstr ""
 "Si tiene un dominio de correo electrónico general redireccionado a un "
-"servidor de Odoo, ponga el nombre del dominio aquí."
+"servidor de Flectra, ponga el nombre del dominio aquí."
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:141
@@ -3163,19 +3163,19 @@ msgstr "Número de mensajes no leidos"
 #: model:ir.actions.act_window,help:mail.action_contacts
 #, fuzzy
 msgid ""
-"Odoo helps you easily track all activities related to\n"
+"Flectra helps you easily track all activities related to\n"
 "            a customer: discussions, history of business opportunities,\n"
 "            documents, etc."
 msgstr ""
-"Odoo le ayuda a controlar fácilmente todas las actividades relacionadas con "
+"Flectra le ayuda a controlar fácilmente todas las actividades relacionadas con "
 "un cliente; debates, historia de oportunidades de negocio, documentos, etc.."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
-msgid "Odoo needs your permission to"
-msgstr "Odoo necesita su permiso para"
+msgid "Flectra needs your permission to"
+msgstr "Flectra necesita su permiso para"
 
 #. module: mail
 #. openerp-web
@@ -4042,11 +4042,11 @@ msgstr "El código html de escape reemplazar el acceso directo"
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,help:mail.field_res_users_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
 msgstr ""
-"El modelo (Tipo de documento de Odoo) al que corresponde este seudónimo. "
+"El modelo (Tipo de documento de Flectra) al que corresponde este seudónimo. "
 "Cualquier correo entrante que no sea respuesta a un registro existente, "
 "causará la creación de un nuevo registro de este modelo (por ejemplo, una "
 "tarea de proyecto)."
@@ -4058,10 +4058,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_res_users_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 "El nombre de este seudónimo de correo electrónico. Por ejemplo, \"trabajos"
-"\",  si lo que quiere es obtener los correos para <trabajos@example.odoo."
+"\",  si lo que quiere es obtener los correos para <trabajos@example.flectra."
 "com>."
 
 #. module: mail
@@ -4701,8 +4701,8 @@ msgstr "mention(s) marcado como leído."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.flectrahq.com"
+msgstr "mycompany.flectrahq.com"
 
 #. module: mail
 #. openerp-web

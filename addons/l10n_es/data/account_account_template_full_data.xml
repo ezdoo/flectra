@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
     <data>
 
     <record id="account_full_100" model="account.account.template">
@@ -956,4 +956,4 @@
     </record>
 
     </data>
-</odoo>
+</flectra>

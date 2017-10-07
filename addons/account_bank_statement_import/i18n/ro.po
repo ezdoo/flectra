@@ -1,12 +1,12 @@
-# #-#-#-#-#  ro.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  ro.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 #
 # Translators:
 # Adrian Munteanu <adrian.munteanu@itconstruction.ro>, 2015
-# #-#-#-#-#  ro.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  ro.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 #
@@ -14,20 +14,20 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2015-09-07 15:47+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Romanian (http://www.transifex.com/odoo/odoo-9/language/ro/)\n"
+"Language-Team: Romanian (http://www.transifex.com/flectra/flectra-9/language/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  ro.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ro.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
 "2:1));\n"
-"#-#-#-#-#  ro.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ro.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
 "2:1));\n"
 
@@ -377,7 +377,7 @@ msgstr "Cont Pierderi"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_inbound_payment_method_ids
 msgid ""
-"Means of payment for collecting money. Odoo modules offer various payments "
+"Means of payment for collecting money. Flectra modules offer various payments "
 "handling facilities, but you can always use the 'Manual' payment method in "
 "order to manage payments outside of the software."
 msgstr ""
@@ -385,7 +385,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_outbound_payment_method_ids
 msgid ""
-"Means of payment for sending money. Odoo modules offer various payments "
+"Means of payment for sending money. Flectra modules offer various payments "
 "handling facilities, but you can always use the 'Manual' payment method in "
 "order to manage payments outside of the software."
 msgstr ""
@@ -454,7 +454,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Odoo. "
+"The account of the statement you are importing is not yet recorded in Flectra. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""

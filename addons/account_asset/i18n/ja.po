@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * account_asset
 #
@@ -9,19 +9,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-07-22 08:38+0000\n"
 "Last-Translator: 高木正勝 <masakatsu.takagi@pro-spire.co.jp>\n"
-"Language-Team: Japanese (http://www.transifex.com/odoo/odoo-9/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/flectra/flectra-9/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_asset
@@ -29,9 +29,9 @@ msgstr ""
 #, fuzzy, python-format
 msgid " (copy)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "(コピー)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 " （コピー）"
 
 #. module: account_asset
@@ -44,9 +44,9 @@ msgstr "資産登録数"
 #, fuzzy
 msgid "# of Depreciation Lines"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却明細の数\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却行の数"
 
 #. module: account_asset
@@ -81,9 +81,9 @@ msgstr "金額"
 #, fuzzy
 msgid "Amount of Depreciation Lines"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却明細の金額\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却行の金額"
 
 #. module: account_asset
@@ -175,9 +175,9 @@ msgstr ""
 #, fuzzy
 msgid "Asset depreciation line"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "資産の償却明細\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "資産の減価償却行"
 
 #. module: account_asset
@@ -282,12 +282,12 @@ msgid ""
 "  * Ending Date: Choose the time between 2 depreciations and the date the "
 "depreciations won't go beyond."
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却行の日付と数を計算するために使う方式を選択して下さい。\n"
 "・減価償却数：減価償却行の数と2つの減価償却の間の時間を固定します。\n"
 "・終了日：2つの減価償却の間の時間と、減価償却日を超えない日付を選んでくださ"
 "い。\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却行の日付と数を計算するために使う方式を選択して下さい。\n"
 "　・ 減価償却の数：減価償却行の数と２つの減価償却の間の時間を固定します。\n"
 "　・ 終了日：２つの減価償却の間の時間と、減価償却日を超えない日付を選んでくだ"
@@ -374,9 +374,9 @@ msgstr "作成日"
 #, fuzzy
 msgid "Cumulative Depreciation"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "累積償却額\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "累積減価償却"
 
 #. module: account_asset
@@ -422,9 +422,9 @@ msgstr "資産の購入日"
 #, fuzzy
 msgid "Date of depreciation"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却日\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却日"
 
 #. module: account_asset
@@ -449,9 +449,9 @@ msgstr "前受収益"
 #, fuzzy
 msgid "Degressive"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "定率法\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "逓減"
 
 #. module: account_asset
@@ -465,9 +465,9 @@ msgstr "逓減係数"
 #, fuzzy
 msgid "Depreciation"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却減価償却"
 
 #. module: account_asset
@@ -475,9 +475,9 @@ msgstr ""
 #, fuzzy
 msgid "Depreciation Account"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却勘定\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却アカウント"
 
 #. module: account_asset
@@ -490,9 +490,9 @@ msgstr ""
 #, fuzzy
 msgid "Depreciation Board"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却ボード\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却委員会"
 
 #. module: account_asset
@@ -501,9 +501,9 @@ msgstr ""
 #, fuzzy
 msgid "Depreciation Date"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却日\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却日"
 
 #. module: account_asset
@@ -511,9 +511,9 @@ msgstr ""
 #, fuzzy
 msgid "Depreciation Entry"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却仕訳\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却エントリー"
 
 #. module: account_asset
@@ -532,9 +532,9 @@ msgstr "償却情報"
 #, fuzzy
 msgid "Depreciation Lines"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却明細\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却行"
 
 #. module: account_asset
@@ -542,9 +542,9 @@ msgstr ""
 #, fuzzy
 msgid "Depreciation Method"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却法\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却法"
 
 #. module: account_asset
@@ -557,9 +557,9 @@ msgstr ""
 #, fuzzy
 msgid "Depreciation Name"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却名\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却名"
 
 #. module: account_asset
@@ -626,9 +626,9 @@ msgstr "終了日"
 #, fuzzy
 msgid "Entries"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "仕訳\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "エントリー"
 
 #. module: account_asset
@@ -665,9 +665,9 @@ msgstr "資産仕訳生成"
 #, fuzzy
 msgid "Generate Entries"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "仕訳生成\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "エントリーの生成"
 
 #. module: account_asset
@@ -794,9 +794,9 @@ msgstr "最終更新日"
 #, fuzzy
 msgid "Linear"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "定額法\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "リニア"
 
 #. module: account_asset
@@ -845,9 +845,9 @@ msgstr "注記"
 #, fuzzy
 msgid "Number of Depreciations"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却数\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "減価償却の数"
 
 #. module: account_asset
@@ -905,9 +905,9 @@ msgstr "記帳済"
 #, fuzzy
 msgid "Posted Amount"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "記帳済金額\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "転記アカウント"
 
 #. module: account_asset
@@ -915,9 +915,9 @@ msgstr ""
 #, fuzzy
 msgid "Posted depreciation lines"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "記帳済償却明細\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "記帳された減価償却行"
 
 #. module: account_asset
@@ -931,9 +931,9 @@ msgstr "製品テンプレート"
 #, fuzzy
 msgid "Prorata Temporis"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "期間按分\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "プロラタ トンポリス（期間に応じて）"
 
 #. module: account_asset
@@ -943,9 +943,9 @@ msgid ""
 "Prorata temporis can be applied only for time method \"number of "
 "depreciations\"."
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "期間按分は時間法が「償却数」の場合のみ適用できます。\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "プロラタ トンポリス（期間に応じて）は時間法で\"減価償却の数\"のためだけに適用"
 "できます。"
 
@@ -995,9 +995,9 @@ msgstr "残余価値"
 #, fuzzy
 msgid "Running"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "償却中\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "期間中"
 
 #. module: account_asset
@@ -1040,9 +1040,9 @@ msgstr "ドラフトに設定"
 #, fuzzy
 msgid "State here the time between 2 depreciations, in months"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "ここでは2つの償却期間を月数で表してください。\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "ここでは２つの減価償却の期間を月数で表してください。"
 
 #. module: account_asset
@@ -1106,9 +1106,9 @@ msgstr "未記帳"
 #, fuzzy
 msgid "Unposted Amount"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "未記帳金額\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "未転記金額"
 
 #. module: account_asset

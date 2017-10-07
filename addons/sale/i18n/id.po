@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * sale
 # 
@@ -7,7 +7,7 @@
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
 # William Surya Permana <zarambie_game@yahoo.com>, 2017
 # Andhitia Rama <andhitia.r@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Rizki Mudhar <mudharrizki@gmail.com>, 2017
 # Budi Iskandar <budiiskandar11@gmail.com>, 2017
 # firman firman <firman.olxbpn@gmail.com>, 2017
@@ -20,12 +20,12 @@
 # Hendra So <mask783@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Hendra So <mask783@gmail.com>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/flectra/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -212,7 +212,7 @@ msgid ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Powered by <a target=\"_blank\" href=\"https://www.flectrahq.com\">Flectra</a>.\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"

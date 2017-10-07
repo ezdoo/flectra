@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.mrp.tests.common import TestMrpCommon
-from odoo.exceptions import UserError
+from flectra.addons.mrp.tests.common import TestMrpCommon
+from flectra.exceptions import UserError
 
 class TestProcurement(TestMrpCommon):
 

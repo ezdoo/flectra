@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_forum_doc
 #
@@ -6,20 +6,20 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2015-10-20 14:22+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Portuguese (http://www.transifex.com/flectra/flectra-9/language/"
 "pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  pt.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  pt.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"#-#-#-#-#  pt.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  pt.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_forum_doc
@@ -173,13 +173,13 @@ msgstr "Erro! Não pode criar categorias recursivas."
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 #, fuzzy
-msgid "Explain how to configure Odoo"
-msgstr "Explica como configurar no Odoo"
+msgid "Explain how to configure Flectra"
+msgstr "Explica como configurar no Flectra"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
-msgstr "Explica como implementar no Odoo"
+msgid "Explain how to implement it in Flectra"
+msgstr "Explica como implementar no Flectra"
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_forum_id
@@ -390,8 +390,8 @@ msgstr "Nome da Etapa"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "A resposta é compreensível para alguém que não conhece o Odoo"
+msgid "The answer is understandable for someone who does not know Flectra"
+msgstr "A resposta é compreensível para alguém que não conhece o Flectra"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question

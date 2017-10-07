@@ -1,5 +1,5 @@
-# #-#-#-#-#  bg.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  bg.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * sale
 #
@@ -7,8 +7,8 @@
 # kalatchev, 2015
 # kalatchev, 2015
 # Kaloyan Naumov <kaloyan@lumnus.net>, 2016
-# #-#-#-#-#  bg.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  bg.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * sale
 #
@@ -18,20 +18,20 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-07-17 15:04+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Bulgarian (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Bulgarian (http://www.transifex.com/flectra/flectra-9/language/"
 "bg/)\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  bg.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  bg.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"#-#-#-#-#  bg.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  bg.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sale
@@ -1141,9 +1141,9 @@ msgstr "Ценова листа"
 #, fuzzy
 msgid "Pricelist for current sales order."
 msgstr ""
-"#-#-#-#-#  bg.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  bg.po (Flectra 9.0)  #-#-#-#-#\n"
 "Ценова листа за настоящото нареждане за продажба\n"
-"#-#-#-#-#  bg.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  bg.po (Flectra 9.0)  #-#-#-#-#\n"
 "Ценова листа за настоящото нарежданае за продажба"
 
 #. module: sale

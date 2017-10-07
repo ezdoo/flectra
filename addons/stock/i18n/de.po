@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * stock
 # 
 # Translators:
 # aNj <anj2j@yahoo.de>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Wolfgang Taferner <wolfgang.transifex@service.wt-io-it.at>, 2017
 # Alexander Klockhaus <a.klockhaus@gmail.com>, 2017
 # Bülent Tiknas <btiknas@googlemail.com>, 2017
@@ -20,7 +20,7 @@
 # Ermin Trevisan <trevi@twanda.com>, 2017
 # Renzo Meister <info@jamotion.ch>, 2017
 # Ralf Hilgenstock <rh@dialoge.info>, 2017
-# Gab_Odoo <gab@odoo.com>, 2017
+# Gab_Flectra <gab@flectrahq.com>, 2017
 # David Lehov <KHottend@gmx.de>, 2017
 # BT_astauder <andreas.stauder@brain-tec.ch>, 2017
 # Krakataua Katarajtu <shlok@hotmail.de>, 2017
@@ -35,12 +35,12 @@
 # Mathias Neef <mn@copado.de>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:25+0000\n"
 "PO-Revision-Date: 2017-10-02 11:25+0000\n"
 "Last-Translator: Mathias Neef <mn@copado.de>, 2017\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/flectra/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -123,8 +123,8 @@ msgstr ", wenn Finanzen oder Einkauf installiert sind"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "- The Odoo Team"
-msgstr "- Das Odoo Team"
+msgid "- The Flectra Team"
+msgstr "- Das Flectra Team"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_warn_insufficient_qty_form_view
@@ -137,81 +137,81 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">'Available'</span>"
+"flectra_purple\">'Available'</span>"
 msgstr ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">'Verfügbar'</span>"
+"flectra_purple\">'Verfügbar'</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Click on <span "
+"<span class=\"label label-default text-center flectra_purple\">Click on <span "
 "class=\"fa fa-truck\"/> Delivery</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Klicken Sie auf "
+"<span class=\"label label-default text-center flectra_purple\">Klicken Sie auf "
 "<span class=\"fa fa-truck\"/> Lieferung</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Click on <span "
+"<span class=\"label label-default text-center flectra_purple\">Click on <span "
 "class=\"fa fa-truck\"/> Shipment</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Klicken Sie "
+"<span class=\"label label-default text-center flectra_purple\">Klicken Sie "
 "<span class=\"fa fa-truck\"/> Lieferung</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Confirm "
+"<span class=\"label label-default text-center flectra_purple\">Confirm "
 "Order</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Auftrag "
+"<span class=\"label label-default text-center flectra_purple\">Auftrag "
 "bestätigen</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Confirm "
+"<span class=\"label label-default text-center flectra_purple\">Confirm "
 "Sale</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Verkauf "
+"<span class=\"label label-default text-center flectra_purple\">Verkauf "
 "bestätigen</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Find Incoming "
+"<span class=\"label label-default text-center flectra_purple\">Find Incoming "
 "Shipments</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Eingehende "
+"<span class=\"label label-default text-center flectra_purple\">Eingehende "
 "Lieferungen suchen</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Process the "
+"<span class=\"label label-default text-center flectra_purple\">Process the "
 "products</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Warenbewegung "
+"<span class=\"label label-default text-center flectra_purple\">Warenbewegung "
 "bearbeiten</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Validate the "
+"<span class=\"label label-default text-center flectra_purple\">Validate the "
 "Delivery</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Die Auslieferung"
+"<span class=\"label label-default text-center flectra_purple\">Die Auslieferung"
 " freigeben</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Validate the "
+"<span class=\"label label-default text-center flectra_purple\">Validate the "
 "Receipt Order</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Den Wareneingang"
+"<span class=\"label label-default text-center flectra_purple\">Den Wareneingang"
 " bestätigen</span>"
 
 #. module: stock
@@ -461,8 +461,8 @@ msgstr "<strong>Gelieferte Menge</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "<strong>Enjoy your Inventory management with Odoo!</strong>"
-msgstr "<strong>Genießen Sie Ihre Lagerverwaltung mit Odoo!</strong>"
+msgid "<strong>Enjoy your Inventory management with Flectra!</strong>"
+msgstr "<strong>Genießen Sie Ihre Lagerverwaltung mit Flectra!</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -1088,7 +1088,7 @@ msgstr "mittels Seriennummer"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
+"Flectra will not automatically generate a back order."
 msgstr ""
 "Durch eine Änderung der Anzahl an dieser Stelle, wird die Lieferung als "
 "vollständig ausgeführt markiert. Es wird keine automatischer Rückstand "
@@ -1097,10 +1097,10 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"By default, Odoo measures products by 'units', which are generic and "
+"By default, Flectra measures products by 'units', which are generic and "
 "represent just about anything"
 msgstr ""
-"Odoo stellt standardmäßig Produkte als \"Einheiten\" dar, die generisch sind"
+"Flectra stellt standardmäßig Produkte als \"Einheiten\" dar, die generisch sind"
 " und fast alles abbilden"
 
 #. module: stock
@@ -1937,14 +1937,14 @@ msgstr ""
 #: model:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Flectra is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definieren Sie Ihre Standorte, um Ihre Lagerstruktur und\n"
-"-organisation zu reflektieren. Odoo ist in der Lage, physische Standorte \n"
+"-organisation zu reflektieren. Flectra ist in der Lage, physische Standorte \n"
 "(Lagerhallen, Regale, Abfallsysteme usw.), Partnerstandorte (Kunden, \n"
 "Verkäufer) und virtuelle Standorte zu verwalten, die das Gegenstück \n"
 "zu den Vorräten wie der Fertigungsaufträge, Lagerbestände usw. sind."
@@ -2293,15 +2293,15 @@ msgstr ""
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Flectra moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Flectra will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Jeder Lagerbetrieb in Odoo bewegt die Produkte von einem \n"
+"Jeder Lagerbetrieb in Flectra bewegt die Produkte von einem \n"
 "Ort zum anderen. Zum Beispiel, wenn Sie Produkte von einem \n"
-"Lieferanten erhalten, wird Odoo Produkte aus dem \n"
+"Lieferanten erhalten, wird Flectra Produkte aus dem \n"
 "Vendor-Standort an den Lagerort verschieben. Jeder Bericht kann an physischen, Partner- oder virtuellen Orten durchgeführt werden."
 
 #. module: stock
@@ -2391,10 +2391,10 @@ msgstr "Fixierte Beschaffungsgruppe"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"Für das Odoo Team,<br/>\n"
+"Für das Flectra Team,<br/>\n"
 "Fabien Pinckaers, Gründer"
 
 #. module: stock
@@ -2777,7 +2777,7 @@ msgstr "Wenn die Route global ist"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will show which products are reserved "
+"If this checkbox is ticked, Flectra will show which products are reserved "
 "(lot/serial number, source location, source package)."
 msgstr ""
 
@@ -2839,13 +2839,13 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"If you configured automatic procurement, Odoo automatically generates\n"
+"If you configured automatic procurement, Flectra automatically generates\n"
 "                        Procurements Orders. You usually don't need to worry about them, but\n"
 "                        sometimes the system can remain blocked without generating a\n"
 "                        corresponding document, usually due to a configuration problem."
 msgstr ""
 "Wenn Sie die automatische Beschaffung konfiguriert haben, generiert \n"
-"Odoo automatisch Beschaffungsaufträge. Sie müssen sich in der Regel nicht um sie sorgen, aber \n"
+"Flectra automatisch Beschaffungsaufträge. Sie müssen sich in der Regel nicht um sie sorgen, aber \n"
 "manchmal kann das System blockiert bleiben, ohne ein \n"
 "entsprechendes Dokument zu erzeugen, in der Regel aufgrund eines Konfigurationsproblems."
 
@@ -2909,8 +2909,8 @@ msgstr "Importieren Sie durch Klick auf den Button oben rechts"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"In Odoo, <strong>Reordering Rules</strong> are used to replenish your products.\n"
-"                        Odoo will automatically propose a procurement to buy new products if you are\n"
+"In Flectra, <strong>Reordering Rules</strong> are used to replenish your products.\n"
+"                        Flectra will automatically propose a procurement to buy new products if you are\n"
 "                        running out of stock."
 msgstr ""
 
@@ -3285,10 +3285,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "It is also possible to import your initial inventory from an Excel or CSV file.\n"
-"                        If you want to do that, contact your Odoo project manager."
+"                        If you want to do that, contact your Flectra project manager."
 msgstr ""
 "Es ist auch möglich, Ihr Inventar aus einer Excel- oder CSV-Datei zu importieren. \n"
-"Wenn Sie das tun möchten, wenden Sie sich an Ihren Odoo-Projektleiter."
+"Wenn Sie das tun möchten, wenden Sie sich an Ihren Flectra-Projektleiter."
 
 #. module: stock
 #: code:addons/stock/models/stock_quant.py:244
@@ -3521,10 +3521,10 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Like with the sales flow, Odoo inventory management is\n"
+"Like with the sales flow, Flectra inventory management is\n"
 "                        fully integrated with the purchase app."
 msgstr ""
-"Wie bei dem Verkaufsprozess ist die Odoo-Bestandsführung vollständig \n"
+"Wie bei dem Verkaufsprozess ist die Flectra-Bestandsführung vollständig \n"
 "in den Bestellprozess integriert."
 
 #. module: stock
@@ -3857,11 +3857,11 @@ msgstr "Diverse"
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_picking_tree
 msgid ""
-"Most operations are prepared automatically by Odoo according\n"
+"Most operations are prepared automatically by Flectra according\n"
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements."
 msgstr ""
-"Die Erstellung der meisten Liefervorgänge in Odoo erfolgt automatisch auf Basis \n"
+"Die Erstellung der meisten Liefervorgänge in Flectra erfolgt automatisch auf Basis \n"
 "                der hinterlegten Regeln, außerdem können Lieferungen auch händisch erfasst \n"
 "                und gebucht werden."
 
@@ -4118,19 +4118,19 @@ msgstr "OK"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo handles <strong>advanced push/pull routes configuration</strong>, for "
+"Flectra handles <strong>advanced push/pull routes configuration</strong>, for "
 "example:"
 msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "Odoo has preconfigured <strong>one Warehouse</strong> for you."
+msgid "Flectra has preconfigured <strong>one Warehouse</strong> for you."
 msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo inventory management is fully integrated with sales and\n"
+"Flectra inventory management is fully integrated with sales and\n"
 "                        invoicing process. Everything is automated from the initial\n"
 "                        quotation to the delivery and the final invoice."
 msgstr ""
@@ -4138,14 +4138,14 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo is able to run advanced traceability by using Product Lots and Serial\n"
+"Flectra is able to run advanced traceability by using Product Lots and Serial\n"
 "                        Numbers, usually identified by bar codes stuck on the products."
 msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Of course, feel free to add your own. Please note that Odoo is able to "
+"Of course, feel free to add your own. Please note that Flectra is able to "
 "convert units within the same category, for example, liters to gallons in "
 "the volume category"
 msgstr ""
@@ -6484,10 +6484,10 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"This guide helps getting started with Odoo Inventory.\n"
+"This guide helps getting started with Flectra Inventory.\n"
 "                        Once you are done, you will benefit from:"
 msgstr ""
-"Dieser Assistent hilft Ihnen beim Einstieg in die Odoo-Lagerverwaltung.\n"
+"Dieser Assistent hilft Ihnen beim Einstieg in die Flectra-Lagerverwaltung.\n"
 "Nach Abschluss profitieren Sie wie folgt:"
 
 #. module: stock
@@ -7162,29 +7162,29 @@ msgstr "Warnungen"
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "We handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your Flectra project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
 "Wir können den gesamten Importvorgang \n"
-"für Sie übernehmen: Senden Sie Ihrem Odoo-Projektmanager\n"
+"für Sie übernehmen: Senden Sie Ihrem Flectra-Projektmanager\n"
 "eine CSV-Datei mit all Ihren Daten."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "We handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your Flectra project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
 msgstr ""
 "Wir übernehmen den gesamten Importvorgang \n"
-"für Sie: Senden Sie Ihrem Odoo-Projektmanager\n"
+"für Sie: Senden Sie Ihrem Flectra-Projektmanager\n"
 "eine CSV-Datei mit all Ihren Produkten."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "We hope this guide helped you implement Odoo Inventory."
+msgid "We hope this guide helped you implement Flectra Inventory."
 msgstr ""
 "Wir hoffen, dieser Assistent hat Ihnen bei der Konfiguration Ihrer "
 "Lagerverwaltung geholfen."
@@ -7262,28 +7262,28 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
+" Flectra generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
 msgstr ""
 "Wenn der verfügbare Bestand geringer ist als der hier definierte "
-"Mindestbestand, erstellt Odoo einen Beschaffungsvorschlag zur "
+"Mindestbestand, erstellt Flectra einen Beschaffungsvorschlag zur "
 "Wiederauffüllung des Lagers."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Flectra generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
 "Wenn der verfügbare Bestand geringer ist als der hier definierte "
-"Mindestbestand, erstellt Odoo einen Beschaffungsvorschlag zur "
+"Mindestbestand, erstellt Flectra einen Beschaffungsvorschlag zur "
 "Wiederauffüllung des Lagers."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
 msgid ""
-"When you run the schedulers, Odoo tries to reserve the available stock to fulfill the existing pickings\n"
+"When you run the schedulers, Flectra tries to reserve the available stock to fulfill the existing pickings\n"
 "                and verify if some reordering rules should be triggered."
 msgstr ""
 
@@ -7345,17 +7345,17 @@ msgstr ""
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
-"You can define your minimum stock rules, so that Odoo will automatically "
+"You can define your minimum stock rules, so that Flectra will automatically "
 "create draft manufacturing orders or request for quotations according to the"
 " stock level. Once the virtual stock of a product (= stock on hand minus all"
-" confirmed orders and reservations) is below the minimum quantity, Odoo will"
+" confirmed orders and reservations) is below the minimum quantity, Flectra will"
 " generate a procurement request to increase the stock up to the maximum "
 "quantity."
 msgstr ""
 "Sie können hierbei die Meldebestände so festlegen, dass immer vor Erstellung \n"
 "                eines Fertigungsauftrags oder einer Anfrage an Lieferanten vorab eine Bestandsprüfung \n"
 "                vorgenommen wird. Sobald hierdurch der verfügbare Bestand < 0 ist \n"
-"                (= d.h der aktuelle Bestand minus alle bestätigten Reservierungen) erstellt Odoo \n"
+"                (= d.h der aktuelle Bestand minus alle bestätigten Reservierungen) erstellt Flectra \n"
 "                automatisch eine Beschaffungsanfrage, die den Bestand wieder entsprechend der Regel \n"
 "                auffüllt."
 
@@ -7556,7 +7556,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You haven't entered <i>done</i> quantities, by clicking on <i>apply</i>\n"
-"                        Odoo will process all the <i>reserved</i> quantities."
+"                        Flectra will process all the <i>reserved</i> quantities."
 msgstr ""
 
 #. module: stock
@@ -7690,21 +7690,21 @@ msgstr "z.B. PO0032"
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "either by manually updating the Done quantity on the product lines, or let "
-"Odoo do it automatically while validating"
+"Flectra do it automatically while validating"
 msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "either by manually updating the Done quantity on the product lines, or scan "
-"them with the Odoo Barcode app, or let Odoo do it automatically while "
+"them with the Flectra Barcode app, or let Flectra do it automatically while "
 "validating"
 msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "feedback@mail.odoo.com"
-msgstr "feedback@mail.odoo.com"
+msgid "feedback@mail.flectrahq.com"
+msgstr "feedback@mail.flectrahq.com"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 #
@@ -7,12 +7,12 @@
 # Ricardo Martins <ricardo.nbs.martins@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-01-27 10:50+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Portuguese (http://www.transifex.com/flectra/flectra-9/language/"
 "pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -1492,8 +1492,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:113
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "IMPORTANTE: Relatório de Bug do POS Odoo"
+msgid "IMPORTANT: Bug Report From Flectra Point Of Sale"
+msgstr "IMPORTANTE: Relatório de Bug do POS Flectra"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_proxy_ip
@@ -2023,8 +2023,8 @@ msgstr "Número de Impressão"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.index
-msgid "Odoo POS"
-msgstr "Odoo POS"
+msgid "Flectra POS"
+msgstr "Flectra POS"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3601,10 +3601,10 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Flectra but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Esta sequência é automaticamente criada pelo Odoo mas pode alterá-la para "
+"Esta sequência é automaticamente criada pelo Flectra mas pode alterá-la para "
 "números personalizados nas suas ordens."
 
 #. module: point_of_sale
@@ -4549,11 +4549,11 @@ msgstr "eram duplicados de ordens existentes"
 #~ "Se não der o visto, apenas utilizadores convidados se poderão registar"
 
 #~ msgid ""
-#~ "If you have setup a catch-all email domain redirected to the Odoo server, "
+#~ "If you have setup a catch-all email domain redirected to the Flectra server, "
 #~ "enter the domain name here."
 #~ msgstr ""
 #~ "Se tem a configuração de um catch-all domínio de e-mail redirecionado "
-#~ "para o servidor Odoo , digite o nome de domínio aqui."
+#~ "para o servidor Flectra , digite o nome de domínio aqui."
 
 #~ msgid "Implementation References"
 #~ msgstr "Referências de Implementação"
@@ -4687,8 +4687,8 @@ msgstr "eram duplicados de ordens existentes"
 #~ msgid "Session Summary:"
 #~ msgstr "Resumo da Sessão:"
 
-#~ msgid "Share or embbed any screen of Odoo."
-#~ msgstr "Partilhar ou embeber qualquer ecrã do Odoo"
+#~ msgid "Share or embbed any screen of Flectra."
+#~ msgstr "Partilhar ou embeber qualquer ecrã do Flectra"
 
 #~ msgid "Share partners to all companies"
 #~ msgstr "Partilhar clientes para todas as empresas"

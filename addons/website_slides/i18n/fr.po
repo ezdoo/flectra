@@ -1,36 +1,36 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_slides
 # 
 # Translators:
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Micky Jault <micky037@hotmail.fr>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Melanie Bernard <mbe@flectrahq.com>, 2017
 # lucasdeliege <deliegelucas@gmail.com>, 2017
 # Xavier Symons <xsy@openerp.com>, 2017
 # Alexis de Lattre <alexis@via.ecp.fr>, 2017
-# Clo <clo@odoo.com>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Clo <clo@flectrahq.com>, 2017
+# Eloïse Stilmant <est@flectrahq.com>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Lucas Deliege <lud@flectrahq.com>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
 # Shark McGnark <peculiarcheese@gmail.com>, 2017
 # Loic <loic.richard2@gmail.com>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@flectrahq.com>, 2017
 # Benelita Prauhart <internetinfo07@gmail.com>, 2017
 # Frédéric LIETART <stuff@tifred.fr>, 2017
 # Jeanjean Noname <monsieur.spock@gmail.com>, 2017
 # Fabien Bourgeois <fabien@yaltik.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
 "Last-Translator: Fabien Bourgeois <fabien@yaltik.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/flectra/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -355,7 +355,7 @@ msgstr "Réservé aux utilisateurs authentifiés"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Odoo"
+msgid "Awesome Timesheet by Flectra"
 msgstr ""
 
 #. module: website_slides
@@ -533,7 +533,7 @@ msgstr "Abandonner"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
-msgid "Discover how easy marketing your business can be with Odoo"
+msgid "Discover how easy marketing your business can be with Flectra"
 msgstr ""
 
 #. module: website_slides
@@ -541,14 +541,14 @@ msgstr ""
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.odoo.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.flectrahq.com/page/manufacturing-features\n"
 "\n"
-"Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
+"Discover Flectra MRP: https://www.flectrahq.com/page/manufacturing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
+msgid "Discover the CRM sales people love https://www.flectrahq.com/page/crm"
 msgstr ""
 
 #. module: website_slides
@@ -556,7 +556,7 @@ msgstr ""
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://flectrahq.com"
 msgstr ""
 
 #. module: website_slides
@@ -608,7 +608,7 @@ msgstr "Télécharger"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Odoo and discover how easy time tracking and employee management can be!\n"
+"Download Awesome Timesheet by Flectra and discover how easy time tracking and employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -819,7 +819,7 @@ msgstr "Dernières publications"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.odoo.com/page/sales"
+msgid "Learn more at https://www.flectrahq.com/page/sales"
 msgstr ""
 
 #. module: website_slides
@@ -933,43 +933,43 @@ msgstr "Nombre de vidéos"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Odoo All-in-One Software Demonstration"
+msgid "Flectra All-in-One Software Demonstration"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Odoo CRM"
+msgid "Flectra CRM"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
-msgid "Odoo Days"
-msgstr "Journées Odoo"
+msgid "Flectra Days"
+msgstr "Journées Flectra"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Odoo Inventory"
+msgid "Flectra Inventory"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Odoo MRP"
+msgid "Flectra MRP"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Odoo Marketing"
+msgid "Flectra Marketing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Odoo Sales"
+msgid "Flectra Sales"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Odoo Sign Demonstration"
+msgid "Flectra Sign Demonstration"
 msgstr ""
 
 #. module: website_slides
@@ -1204,9 +1204,9 @@ msgstr "Désolée, mais rien ne correspond à vos critères de recherche"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
-"Stop doing manual printing and scanning. Move to electronic signature with Odoo Sign!\n"
+"Stop doing manual printing and scanning. Move to electronic signature with Flectra Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.flectrahq.com/page/sign"
 msgstr ""
 
 #. module: website_slides
@@ -1408,7 +1408,7 @@ msgstr "En attente de validation"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
+"Discover Flectra Inventory: https://www.flectrahq.com/page/warehouse"
 msgstr ""
 
 #. module: website_slides

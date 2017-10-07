@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2012 Thinkopen Solutions, Lda. All Rights Reserved
 # http://www.thinkopensolutions.com.
@@ -7,7 +7,7 @@
 {
     'name': 'Portugal - Accounting',
     'version': '0.011',
-    'author': 'ThinkOpen Solutions',
+    'author': 'ThinkOpen Solutions, Flectra',
     'website': 'http://www.thinkopensolutions.com/',
     'category': 'Localization',
     'description': 'Plano de contas SNC para Portugal',

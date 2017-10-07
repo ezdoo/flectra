@@ -1,4 +1,4 @@
-odoo.define('web.FormController', function (require) {
+flectra.define('web.FormController', function (require) {
 "use strict";
 
 var BasicController = require('web.BasicController');
@@ -351,12 +351,12 @@ var FormController = BasicController.extend({
      */
     _onBounceEdit: function () {
         if (this.$buttons) {
-            this.$buttons.find('.o_form_button_edit').odooBounce();
+            this.$buttons.find('.o_form_button_edit').flectraBounce();
         }
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {FlectraEvent} event
      */
     _onButtonClicked: function (event) {
         // stop the event's propagation as a form controller might have other
@@ -450,7 +450,7 @@ var FormController = BasicController.extend({
      * with the one of the form view.
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {FlectraEvent} event
      */
     _onOpenOne2ManyRecord: function (event) {
         event.stopPropagation();
@@ -479,7 +479,7 @@ var FormController = BasicController.extend({
      * Open an existing record in a form view dialog
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {FlectraEvent} event
      */
     _onOpenRecord: function (event) {
         var self = this;
@@ -509,7 +509,7 @@ var FormController = BasicController.extend({
      * in a x2many list view
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {FlectraEvent} event
      */
     _onToggleColumnOrder: function (event) {
         event.stopPropagation();

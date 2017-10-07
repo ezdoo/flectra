@@ -1,23 +1,23 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * crm
 # 
 # Translators:
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2017
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Erwin van der Ploeg <erwin@flectraexperts.nl>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Eric Geens <ericgeens@yahoo.com>, 2017
 # Cas Vissers <casvissers@brahoo.nl>, 2017
 # Stephan Van Dyck <stephan.vandyck@vanroey.be>, 2017
 # Melroy van den Berg <webmaster1989@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:25+0000\n"
 "PO-Revision-Date: 2017-10-02 11:25+0000\n"
 "Last-Translator: Melroy van den Berg <webmaster1989@gmail.com>, 2017\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/flectra/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,7 +49,7 @@ msgid ""
 "                        <td style=\"padding:15px 10px;font-size:20px\">\n"
 "                            <p style=\"color:#875A7B;margin:0\" >Hooray!</p><br>\n"
 "                            <p dir=\"ltr\" style=\"font-size:15px;margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                <span>Your Odoo CRM application is up and running.</span></p><br>\n"
+"                                <span>Your Flectra CRM application is up and running.</span></p><br>\n"
 "                            <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span style=\"font-size:13px;font-weight:bold; \">What’s next?</span></p>\n"
 "                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
@@ -108,22 +108,22 @@ msgid ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We would be delighted to assist you along the way. Contact us through our\n"
-"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
-"                                You can also discover how to get the best out of Odoo CRM with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/10.0/crm.html\">\n"
+"                                <a href=\"https://www.flectrahq.com/help\">support form</a> if you have any question.\n"
+"                                You can also discover how to get the best out of Flectra CRM with our </span>\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation/user/10.0/crm.html\">\n"
 "                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your Odoo experience,</span></p>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your Flectra experience,</span></p>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
 "            </table>\n"
 "            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;color:grey\">\n"
-"                <span><br/>-- <br/>The Odoo Team<br/>PS: People love Odoo, check </span><a target=\"_blank\" href=\"https://twitter.com/odoo/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
+"                <span><br/>-- <br/>The Flectra Team<br/>PS: People love Flectra, check </span><a target=\"_blank\" href=\"https://twitter.com/flectra/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
 "            </div>\n"
 "        </div>"
 msgstr ""
@@ -208,22 +208,22 @@ msgstr ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We helpen u graag bij het gebruik. U kunt ons bereiken via het \n"
-"                                <a href=\"https://www.odoo.com/help\">support formulier</a> voor het stellen van vragen.\n"
-"                                Meer informatie om het beste uit Odoo te halen vind u via onze </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/10.0/crm.html\">\n"
+"                                <a href=\"https://www.flectrahq.com/help\">support formulier</a> voor het stellen van vragen.\n"
+"                                Meer informatie om het beste uit Flectra te halen vind u via onze </span>\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation/user/10.0/crm.html\">\n"
 "                                <span style=\"text-decoration:underline;\">Gebruikers documentatie</span></a>\n"
 "                                </span><span> of in onze </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">API documentatie</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Veel plezier met Odoo,</span></p>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Veel plezier met Flectra,</span></p>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
 "            </table>\n"
 "            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;color:grey\">\n"
-"                <span><br/>-- <br/>Het Odoo Team<br/>PS: Iedereen is gek op Odoo, kijk eens </span><a target=\"_blank\" href=\"https://twitter.com/odoo/favorites\"><span style=\"text-decoration:underline;\">wat ze erover zeggen.</span></a></span>\n"
+"                <span><br/>-- <br/>Het Flectra Team<br/>PS: Iedereen is gek op Flectra, kijk eens </span><a target=\"_blank\" href=\"https://twitter.com/flectra/favorites\"><span style=\"text-decoration:underline;\">wat ze erover zeggen.</span></a></span>\n"
 "            </div>\n"
 "        </div>"
 
@@ -404,31 +404,31 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Incoming "
+"<span class=\"label label-default text-center flectra_purple\">Incoming "
 "email</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Inkomende "
+"<span class=\"label label-default text-center flectra_purple\">Inkomende "
 "email</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "<span class=\"label label-default text-center odoo_purple\">Lead</span>"
-msgstr "<span class=\"label label-default text-center odoo_purple\">Lead</span>"
+msgid "<span class=\"label label-default text-center flectra_purple\">Lead</span>"
+msgstr "<span class=\"label label-default text-center flectra_purple\">Lead</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">Opportunity</span>"
+"flectra_purple\">Opportunity</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Prospect</span>"
+"<span class=\"label label-default text-center flectra_purple\">Prospect</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Quotation</span>"
+"<span class=\"label label-default text-center flectra_purple\">Quotation</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Offerte</span>"
+"<span class=\"label label-default text-center flectra_purple\">Offerte</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
@@ -661,15 +661,15 @@ msgstr "<strong>Evenementen</strong>"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<strong>Every business is different.</strong> Odoo allows to\n"
+"<strong>Every business is different.</strong> Flectra allows to\n"
 "                        customize every application and it's usually a good\n"
 "                        advice to customize screens to fit your sales process.\n"
-"                        <strong>Customizations are done by Odoo experts.</strong>"
+"                        <strong>Customizations are done by Flectra experts.</strong>"
 msgstr ""
-"<strong>Elke organisatie is anders.</strong> U kan met Odoo\n"
+"<strong>Elke organisatie is anders.</strong> U kan met Flectra\n"
 "                        elke applicatie aanpassen, en het is zelfs aanbevolen om\n"
 "                        schermen aan te passen op maat van uw verkoopproces.\n"
-"                        <strong>Aanpassingen worden uitgevoerd door Odoo experten.</strong>"
+"                        <strong>Aanpassingen worden uitgevoerd door Flectra experten.</strong>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -866,11 +866,11 @@ msgstr ""
 msgid ""
 "<strong>Trainings</strong><br/>\n"
 "                                To build a strong sales training program, you can use the following\n"
-"                                apps of Odoo:"
+"                                apps of Flectra:"
 msgstr ""
 "<strong>Opleidingen</strong><br/>\n"
 "                                Om een sterk verkooptrainingsprogramma uit te bouwen,\n"
-"                                kan u volgende Odoo apps gebruiken:"
+"                                kan u volgende Flectra apps gebruiken:"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -919,11 +919,11 @@ msgstr "Een goede pijplijn heeft tussen 5 en 7 fases"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"A product in Odoo is something you sell or buy. It could\n"
+"A product in Flectra is something you sell or buy. It could\n"
 "                    be a goods, consumable or services. Choose how you want to\n"
 "                    create your products:"
 msgstr ""
-"Een product in Odoo is iets dat u koopt of verkoopt. Het kan\n"
+"Een product in Flectra is iets dat u koopt of verkoopt. Het kan\n"
 "een goed zijn, een verbruiksgoed of een dienst. Kies hoe u\n"
 "uw producten wenst aan te maken:"
 
@@ -2147,10 +2147,10 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                          Fabien Pinckaers, Founder"
 msgstr ""
-"In naam van het hele Odoo Team,<br/>\n"
+"In naam van het hele Flectra Team,<br/>\n"
 "Fabien Pinckaers, oprichter"
 
 #. module: crm
@@ -2278,8 +2278,8 @@ msgstr "Beheer relatie- koppelingen of generatie in CRM wizards."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "Happy Selling!<br/>- The Odoo Team"
-msgstr "Alle succes bij het verkopen!<br/>- Het Odoo Team"
+msgid "Happy Selling!<br/>- The Flectra Team"
+msgstr "Alle succes bij het verkopen!<br/>- Het Flectra Team"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2421,9 +2421,9 @@ msgstr "Verbeter de gemiddelde opbrengst per verkoper"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "In Odoo, there are 3 different ways to manage your prices.<br/>"
+msgid "In Flectra, there are 3 different ways to manage your prices.<br/>"
 msgstr ""
-"In Odoo zijn er 3 verschillende manieren om uw prijzen te beheren:<br/>"
+"In Flectra zijn er 3 verschillende manieren om uw prijzen te beheren:<br/>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_lost_reason_view_search
@@ -3088,38 +3088,38 @@ msgstr "Aantal open opportuniteiten"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "Odoo Default"
-msgstr "Odoo standaard"
+msgid "Flectra Default"
+msgstr "Flectra standaard"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 #: model:ir.actions.act_window,help:crm.crm_lead_opportunities
 #: model:ir.actions.act_window,help:crm.crm_lead_opportunities_tree_view
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Flectra helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo helpt u bij het opvolgen van uw verkooppijplijn om mogelijke verkopen te\n"
+"Flectra helpt u bij het opvolgen van uw verkooppijplijn om mogelijke verkopen te\n"
 "ontdekken en betere inschattingen te kunnen maken van toekomstige opbrengsten."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"Odoo is the world's only software to have a full integration of Marketing "
+"Flectra is the world's only software to have a full integration of Marketing "
 "Apps for your sales channel: insight sales, point of sale, ecommerce."
 msgstr ""
-"Odoo is wereldwijd de enige toepassing met een volledige integratie met "
+"Flectra is wereldwijd de enige toepassing met een volledige integratie met "
 "marketing apps voor uw verkoopkanalen : interne verkoopmedewerkers, kassa en"
 " e-commerce."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"Odoo will help you create polished, professional quotations and contracts in minutes.\n"
+"Flectra will help you create polished, professional quotations and contracts in minutes.\n"
 "                        Tell us how you sell and we will tell you what\n"
 "                        configuration will best fit your quotation process."
 msgstr ""
-"Odoo helpt u bij het maken van mooie en professionele offertes en contracten in slechts enkele minuten.\n"
+"Flectra helpt u bij het maken van mooie en professionele offertes en contracten in slechts enkele minuten.\n"
 "Vertel ons hoe u verkoopt en wij zullen voor u een\n"
 "configuratie uitdenken die haarfijn aansluit bij uw offerteproces."
 
@@ -3787,12 +3787,12 @@ msgstr "Selecteer leads/prospects"
 msgid ""
 "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
-"                            Odoo will propose you to merge only those having\n"
+"                            Flectra will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
 msgstr ""
 "Selecteer de lijst van velden welke worden gebruikt voor het zoeken naar\n"
 "                            dubbele regels. Indien u meerdere velden selecteert,\n"
-"                            zal Odoo voorstellen om alleen de regels samen te voegen\n"
+"                            zal Flectra voorstellen om alleen de regels samen te voegen\n"
 "                            waarvan ieder veld gelijk is (en niet 1 van de velden)."
 
 #. module: crm
@@ -3865,12 +3865,12 @@ msgstr ""
 msgid ""
 "Setting up your sales funnel is just the first step. To achieve a\n"
 "                      significant boost, we will help you get the most out of\n"
-"                      Odoo CRM to transform how your salespeople work.\n"
+"                      Flectra CRM to transform how your salespeople work.\n"
 "                      That's the purpose of this guide."
 msgstr ""
 "Uw verkooppijplijn instellen is slechts een eerste stap. Om een \n"
 "daadwerkelijke boost te bereiken, helpen we u het maximum uit\n"
-"Odoo CRM te halen om uw verkoopmensen juist aan te sturen.\n"
+"Flectra CRM te halen om uw verkoopmensen juist aan te sturen.\n"
 "Dat is de bedoeling van deze hulp."
 
 #. module: crm
@@ -4117,8 +4117,8 @@ msgstr "Sjablonen van e-mails"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "Templates of quotations (use Odoo Online Proposals for this)"
-msgstr "Voorbeelden van offertes (gebruik hiervoor Odoo Online Proposals)"
+msgid "Templates of quotations (use Flectra Online Proposals for this)"
+msgstr "Voorbeelden van offertes (gebruik hiervoor Flectra Online Proposals)"
 
 #. module: crm
 #. openerp-web
@@ -4151,7 +4151,7 @@ msgstr "De eerste fase is gewoonlijk \"Nieuw\" en de laatste \"Gewonnen\""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -4163,7 +4163,7 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_team_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 "De naam van de e-mail alias, bijvoorbeeld: 'vacature' indien u alle e-mails "
 "van vacature@uwbedrijf.nl wilt afvangen."
@@ -4231,15 +4231,15 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"There are several ways for your company to generate leads with Odoo CRM.\n"
+"There are several ways for your company to generate leads with Flectra CRM.\n"
 "                        One of them is using your company's generic email address as a trigger\n"
-"                        to create a new lead in the system. In Odoo, each one of your sales channels\n"
+"                        to create a new lead in the system. In Flectra, each one of your sales channels\n"
 "                        is linked to its own email address from which prospects can reach them.\n"
 "                        For example, if the personal email address of your Direct team is\n"
 "                        direct@mycompany.example.com, every email sent when a new prospect\n"
 "                        contacts you will automatically create a new opportunity into the sales channel.\n"
 "\n"
-"                        That's the easiest way to integrate Odoo with third party apps."
+"                        That's the easiest way to integrate Flectra with third party apps."
 msgstr ""
 
 #. module: crm
@@ -4588,12 +4588,12 @@ msgstr "Wij kunnen stappen in uw workflow automatiseren, bijvoorbeeld:"
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your Flectra project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
 "Wij kunnen het hele importproces voor u \n"
-"afhandelen: stuur uw Odoo project leiders\n"
+"afhandelen: stuur uw Flectra project leiders\n"
 "een CSV-bestand met al uw\n"
 "datagegevens."
 
@@ -4609,11 +4609,11 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"We designed Odoo to help you grow your business. Odoo CRM\n"
+"We designed Flectra to help you grow your business. Flectra CRM\n"
 "                      is not just a tool, we want it to have a major impact on your\n"
 "                      sales performance. That's our mission, and we are serious about it."
 msgstr ""
-"We hebben Odoo ontwikkeld om uw bedrijf te laten groeien. Odoo CRM\n"
+"We hebben Flectra ontwikkeld om uw bedrijf te laten groeien. Flectra CRM\n"
 "is niet zomaar een toepassing, we willen dat het een echte impact heeft op\n"
 "uw verkoopresultaten. Daar gaan we voluit voor."
 
@@ -4679,7 +4679,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo relies on Clearbit’s API to provide "
+"When populating your address book, Flectra relies on Clearbit’s API to provide "
 "you with a list of matching contacts or companies.When selecting one item, "
 "the partner name, logo and website get automatically set."
 msgstr ""
@@ -4848,8 +4848,8 @@ msgstr "Uw LinkedIn of sociale media pagina's"
 
 #. module: crm
 #: model:mail.template,subject:crm.mail_template_data_module_install_crm
-msgid "Your Odoo CRM application is running smoothly."
-msgstr "Uw Odoo CRM applicatie is klaar en draait."
+msgid "Your Flectra CRM application is running smoothly."
+msgstr "Uw Flectra CRM applicatie is klaar en draait."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4925,8 +4925,8 @@ msgstr "Bijv. Productprijs"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
-msgid "e.g. www.odoo.com"
-msgstr "bijv. www.odoo.com"
+msgid "e.g. www.flectrahq.com"
+msgstr "bijv. www.flectrahq.com"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:912
@@ -5007,8 +5007,8 @@ msgstr "onbekend"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "use Odoo API to import through scripts"
-msgstr "gebruik de Odoo API om te importeren via scripts"
+msgid "use Flectra API to import through scripts"
+msgstr "gebruik de Flectra API om te importeren via scripts"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

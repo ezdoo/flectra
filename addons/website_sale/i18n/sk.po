@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_sale
 #
@@ -7,12 +7,12 @@
 # Robert Kirschner <robertkirschner@yahoo.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-05-14 07:03+0000\n"
 "Last-Translator: Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>\n"
-"Language-Team: Slovak (http://www.transifex.com/odoo/odoo-9/language/sk/)\n"
+"Language-Team: Slovak (http://www.transifex.com/flectra/flectra-9/language/sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1197,12 +1197,12 @@ msgstr "ID"
 msgid ""
 "If you have an eCommerce, one of your objectives is of course to grow your "
 "revenues by\n"
-"                    selling more and pricier products. Luckily for you, Odoo "
+"                    selling more and pricier products. Luckily for you, Flectra "
 "integrates three powerful\n"
 "                    customizations for that."
 msgstr ""
 "Ak máte eCommerce, jedným z vašich cieľov je samozrejme zvýšiť zisky tým že\n"
-"budete predávať viac a drahšie produkty. Na štastie pre vás, Odoo integruje "
+"budete predávať viac a drahšie produkty. Na štastie pre vás, Flectra integruje "
 "tri výkonné\n"
 "úpravy pre teno účel."
 
@@ -1407,17 +1407,17 @@ msgstr "OK"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "Odoo offers an importation service to handle the whole process for you!"
+msgid "Flectra offers an importation service to handle the whole process for you!"
 msgstr ""
-"Odoo ponúka importovaciu službu, ktorá sa postará o celý proces za vás!"
+"Flectra ponúka importovaciu službu, ktorá sa postará o celý proces za vás!"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"Odoo's web-services allows developers to create scripts that will load data "
+"Flectra's web-services allows developers to create scripts that will load data "
 "automatically into the system."
 msgstr ""
-"Odoo webové služby umožňujú vývojárom vytvárať skripty, ktoré automaticky "
+"Flectra webové služby umožňujú vývojárom vytvárať skripty, ktoré automaticky "
 "načítajú dáta do systému."
 
 #. module: website_sale
@@ -2277,8 +2277,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment methods in Odoo:</strong>"
-msgstr "Môžete nastaviť 3 typy <strong>platobných metód v Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment methods in Flectra:</strong>"
+msgstr "Môžete nastaviť 3 typy <strong>platobných metód v Flectra:</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner

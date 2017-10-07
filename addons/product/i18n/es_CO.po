@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * product
 #
@@ -8,12 +8,12 @@
 # Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-03-30 08:44+0000\n"
 "Last-Translator: Mateo Tibaquirá Palacios <nestormateo@gmail.com>\n"
-"Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Colombia) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_CO/)\n"
 "Language: es_CO\n"
 "MIME-Version: 1.0\n"
@@ -3430,8 +3430,8 @@ msgstr "ej. Lámparas"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
-msgid "e.g. Odoo Enterprise Susbcription"
-msgstr "ej. Suscripción Odoo Empresarial"
+msgid "e.g. Flectra Enterprise Susbcription"
+msgstr "ej. Suscripción Flectra Empresarial"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view

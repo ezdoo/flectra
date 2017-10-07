@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
-from odoo.exceptions import ValidationError
-from odoo.tests.common import TransactionCase
-from odoo.exceptions import AccessError, UserError
+from flectra.exceptions import ValidationError
+from flectra.tests.common import TransactionCase
+from flectra.exceptions import AccessError, UserError
 
 from datetime import datetime, timedelta
 
@@ -707,7 +707,7 @@ class StockQuant(TransactionCase):
         self.assertEqual(len(quant), 1)
         self.assertEqual(quant.quantity, 1)
         self.assertEqual(quant.lot_id.id, lot1.id)
-        from odoo.fields import Datetime
+        from flectra.fields import Datetime
         self.assertEqual(quant.in_date, Datetime.to_string(in_date1))
 
         in_date2 = datetime.now() - timedelta(days=5)

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * theme_default
 # 
@@ -8,15 +8,15 @@
 # Wolfgang Taferner <wolfgang.transifex@service.wt-io-it.at>, 2017
 # Rudolf Schnapka <rs@techno-flex.de>, 2017
 # darenkster <inactive+darenkster@transifex.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0\n"
+"Project-Id-Version: Flectra Server 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-25 09:00+0000\n"
 "PO-Revision-Date: 2015-08-25 09:00+0000\n"
-"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux <mat@flectrahq.com>, 2017\n"
+"Language-Team: German (https://www.transifex.com/flectra/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.devices', function (require) {
+flectra.define('point_of_sale.devices', function (require) {
 "use strict";
 
 var core = require('web.core');
@@ -175,7 +175,7 @@ var ProxyDevice  = core.Class.extend(mixins.PropertiesMixin,{
 
     // find a proxy and connects to it. for options see find_proxy
     //   - force_ip : only try to connect to the specified ip.
-    //   - port: what port to listen to (default 8069)
+    //   - port: what port to listen to (default 7073)
     //   - progress(fac) : callback for search progress ( fac in [0,1] )
     autoconnect: function(options){
         var self = this;
@@ -246,7 +246,7 @@ var ProxyDevice  = core.Class.extend(mixins.PropertiesMixin,{
     // try several time to connect to a known proxy url
     try_hard_to_connect: function(url,options){
         options   = options || {};
-        var port  = ':' + (options.port || '8069');
+        var port  = ':' + (options.port || '7073');
 
         this.set_connection_status('connecting');
 
@@ -286,12 +286,12 @@ var ProxyDevice  = core.Class.extend(mixins.PropertiesMixin,{
 
     // returns as a deferred a valid host url that can be used as proxy.
     // options:
-    //   - port: what port to listen to (default 8069)
+    //   - port: what port to listen to (default 7073)
     //   - progress(fac) : callback for search progress ( fac in [0,1] )
     find_proxy: function(options){
         options = options || {};
         var self  = this;
-        var port  = ':' + (options.port || '8069');
+        var port  = ':' + (options.port || '7073');
         var urls  = [];
         var found = false;
         var parallel = 8;

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 #
@@ -9,12 +9,12 @@
 # Mateo Tibaquirá <nestormateo@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-03-17 16:52+0000\n"
 "Last-Translator: Felipe Palomino <omega@nubark.com>\n"
-"Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Colombia) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_CO/)\n"
 "Language: es_CO\n"
 "MIME-Version: 1.0\n"
@@ -1259,21 +1259,21 @@ msgstr "Número de Días para cerrar la incidencia de proyecto"
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"Flectra helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, "
 "etc."
 msgstr ""
-"Odoo le ayuda a hacer seguimiento a los candidatos\n"
+"Flectra le ayuda a hacer seguimiento a los candidatos\n"
 "en el proceso de selección y seguir todas las operaciones:\n"
 "reuniones, entrevistas, etc."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"Flectra helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo le ayuda a hacer seguimiento a los candidatos\n"
+"Flectra le ayuda a hacer seguimiento a los candidatos\n"
 "en el proceso de selección y seguir todas las operaciones:\n"
 "reuniones, entrevistas, etc."
 
@@ -1698,11 +1698,11 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
 msgstr ""
-"El modelo (Tipo de Documento de Odoo) al que corresponde este alias. "
+"El modelo (Tipo de Documento de Flectra) al que corresponde este alias. "
 "Cualquier correo entrante que no sea respuesta a un registro existente, "
 "causará la creación de un nuevo registro de este modelo (ej. una Tarea de "
 "Proyecto)"
@@ -1716,10 +1716,10 @@ msgstr "El nombre del Grado de Contratación debe ser único!"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 "El nombre del alias de correo, ej. 'trabajos' si quiere capturar los correos "
-"para <trabajos@demo.odoo.com>"
+"para <trabajos@demo.flectrahq.com>"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_user_id
@@ -1873,12 +1873,12 @@ msgstr "¿Cuál es su género?"
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Flectra employee screen, you\n"
 "                can easily find all the information you need for each "
 "person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Con sólo un vistazo rápido en la pantalla empleado Odoo, usted puede "
+"Con sólo un vistazo rápido en la pantalla empleado Flectra, usted puede "
 "encontrar fácilmente toda la información que necesita para cada persona;\n"
 "datos de contacto, puesto de trabajo, disponibilidad, etc."
 

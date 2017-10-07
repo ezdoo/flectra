@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * sales_team
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-04-26 05:54+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Korean (http://www.transifex.com/odoo/odoo-9/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/flectra/flectra-9/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -367,10 +367,10 @@ msgstr ""
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_reply_to
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by Flectra about "
 "cases in this sales team"
 msgstr ""
-"이 영업팀의 경우엔 Odoo에서 보낸 모든 이메일의 '회신 주소'에 넣은 이 이메일 "
+"이 영업팀의 경우엔 Flectra에서 보낸 모든 이메일의 '회신 주소'에 넣은 이 이메일 "
 "주소를 넣습니다."
 
 #. module: sales_team

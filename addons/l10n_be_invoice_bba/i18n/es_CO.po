@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * l10n_be_invoice_bba
 #
@@ -6,12 +6,12 @@
 # Mateo Tibaquirá <nestormateo@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:56+0000\n"
 "PO-Revision-Date: 2015-11-09 16:10+0000\n"
 "Last-Translator: Mateo Tibaquirá <nestormateo@gmail.com>\n"
-"Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Colombia) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_CO/)\n"
 "Language: es_CO\n"
 "MIME-Version: 1.0\n"
@@ -125,7 +125,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Unsupported Structured Communication Type Algorithm '%s' !\n"
-"Please contact your Odoo support channel."
+"Please contact your Flectra support channel."
 msgstr ""
 "Algoritmo de Tipo de Comunicación Estructurada no Soportado '%s'!\n"
-"Por favor contacte su canal de soporte de Odoo."
+"Por favor contacte su canal de soporte de Flectra."

@@ -1,4 +1,4 @@
-odoo.define('mail.chat_mixin', function() {
+flectra.define('mail.chat_mixin', function() {
 "use strict";
 
 
@@ -81,7 +81,7 @@ return ChatMixin;
 
 });
 
-odoo.define('mail.chat_service', function (require) {
+flectra.define('mail.chat_service', function (require) {
 "use strict";
 
 var chat_manager = require('mail.chat_manager');

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 # Main contributor: Nicolas Bessi. Camptocamp SA
 # Financial contributors: Hasa SA, Open Net SA,
 #                         Prisme Solutions Informatique SA, Quod SA
@@ -26,7 +26,7 @@ Here is how it works:
     - Clicking the 'Send by mail' button will attach two files to your draft mail : the invoice, and the corresponding ISR.
     """,
     'version': '10.0',
-    'author': 'Odoo S.A',
+    'author': 'Odoo S.A, Flectra',
     'category': 'Localization',
 
     'depends': ['account', 'l10n_multilang', 'base_iban'],

@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * sales_team
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-05-10 07:47+0000\n"
 "Last-Translator: Otgonbayar.A <gobi.mn@gmail.com>\n"
-"Language-Team: Mongolian (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Mongolian (http://www.transifex.com/flectra/flectra-9/language/"
 "mn/)\n"
 "Language: mn\n"
 "MIME-Version: 1.0\n"
@@ -369,10 +369,10 @@ msgstr ""
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_reply_to
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by Flectra about "
 "cases in this sales team"
 msgstr ""
-"Odoo-н илгээсэн бүх эмэйлийн 'Хэнрүү хариулах'-д тавигдсан эмэйл хаяг нь  "
+"Flectra-н илгээсэн бүх эмэйлийн 'Хэнрүү хариулах'-д тавигдсан эмэйл хаяг нь  "
 "борлуулалтын багийнх байна."
 
 #. module: sales_team

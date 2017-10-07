@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * account_analytic_default
 #
@@ -6,12 +6,12 @@
 # darwing landaeta <darwinglandaeta@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-05-15 18:54+0000\n"
 "Last-Translator: darwing landaeta <darwinglandaeta@gmail.com>\n"
-"Language-Team: Spanish (Venezuela) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Venezuela) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_VE/)\n"
 "Language: es_VE\n"
 "MIME-Version: 1.0\n"

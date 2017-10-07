@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_attendance
 #
@@ -6,12 +6,12 @@
 # P B <transifex@peter.nootje.be>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-01-26 13:15+0000\n"
 "Last-Translator: P B <transifex@peter.nootje.be>\n"
-"Language-Team: Dutch (Belgium) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Dutch (Belgium) (http://www.transifex.com/flectra/flectra-9/"
 "language/nl_BE/)\n"
 "Language: nl_BE\n"
 "MIME-Version: 1.0\n"
@@ -378,7 +378,7 @@ msgstr "Begindatum"
 msgid ""
 "The Time Tracking functionality aims to manage employee attendances from "
 "Sign in/Sign out actions. You can also link this feature to an attendance "
-"device using Odoo's web service features."
+"device using Flectra's web service features."
 msgstr ""
 
 #. module: hr_attendance

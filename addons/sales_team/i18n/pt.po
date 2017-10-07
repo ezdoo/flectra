@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * sales_team
 #
@@ -7,12 +7,12 @@
 # Ricardo Martins <ricardo.nbs.martins@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2015-11-25 14:39+0000\n"
 "Last-Translator: Ricardo Correia <rcorreiavv@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Portuguese (http://www.transifex.com/flectra/flectra-9/language/"
 "pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -373,11 +373,11 @@ msgstr ""
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_reply_to
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by Flectra about "
 "cases in this sales team"
 msgstr ""
 "O endereço de e-mail a colocar no \"Responder-a\" de todos os e-mails "
-"enviados por Odoo sobre casos nesta equipa de vendas"
+"enviados por Flectra sobre casos nesta equipa de vendas"
 
 #. module: sales_team
 #. openerp-web

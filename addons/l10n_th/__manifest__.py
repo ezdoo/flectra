@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Thailand - Accounting',
@@ -11,7 +11,7 @@ Chart of Accounts for Thailand.
 
 Thai accounting chart and localization.
     """,
-    'author': 'Almacom',
+    'author': 'Almacom, Flectra',
     'website': 'http://almacom.co.th/',
     'depends': ['account'],
     'data': [

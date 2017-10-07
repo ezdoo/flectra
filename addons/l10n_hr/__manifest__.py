@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Author: Goran Kliska
 # mail:   goran.kliska(AT)slobodni-programi.hr
@@ -39,7 +39,7 @@ Izvori podataka:
 
 """,
     "version": "13.0",
-    "author": "OpenERP Croatian Community",
+    "author": "OpenERP Croatian Community, Flectra",
     'category': 'Localization',
     "website": "https://code.launchpad.net/openobject-croatia",
 

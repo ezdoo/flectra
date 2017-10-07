@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * fleet
 #
@@ -6,12 +6,12 @@
 # Max Belyanin <maxbelyanin@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2015-10-19 15:03+0000\n"
 "Last-Translator: Max Belyanin <maxbelyanin@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/odoo/odoo-9/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/flectra/flectra-9/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1041,11 +1041,11 @@ msgstr "Марка транспортного средства"
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_act
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"                their related services, costs. Odoo will automatically warn\n"
+"                their related services, costs. Flectra will automatically warn\n"
 "                you when some contracts have to be renewed."
 msgstr ""
 "Управляйте всеми вашими договорами (лизинг, страхование и др.) и\n"
-"связанными с ними услугами, затратами. Odoo автоматически предупредит\n"
+"связанными с ними услугами, затратами. Flectra автоматически предупредит\n"
 "Вас, когда какие-нибудь контракты должны продлеваться"
 
 #. module: fleet
@@ -1253,22 +1253,22 @@ msgstr "Показания километража на автомобиле на
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_act
 msgid ""
-"Odoo helps you keeping track of all the services done\n"
+"Flectra helps you keeping track of all the services done\n"
 "                on your vehicle. Services can be of many type: occasional\n"
 "                repair, fixed maintenance, etc."
 msgstr ""
-"Odoo поможет Вам отслеживать все услуги оказанные Вашему транспортному "
+"Flectra поможет Вам отслеживать все услуги оказанные Вашему транспортному "
 "средству. Услуги могут быть различных типов: незапланированный ремонт, "
 "регулярное техническое обслуживание, и т. д."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_act
 msgid ""
-"Odoo helps you managing the costs for your different\n"
+"Flectra helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs."
 msgstr ""
-"Odoo помогает Вам управлять затратами на различные\n"
+"Flectra помогает Вам управлять затратами на различные\n"
 "транспортные средства. Издержки создаются автоматически из услуг,\n"
 "договоров (фиксированных или периодических) и журналов заправки."
 
@@ -1276,20 +1276,20 @@ msgstr ""
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs_non_effective
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"Flectra helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears "
 "here."
 msgstr ""
-"Odoo помогает Вам управлять затратами на различные транспортные средства\n"
+"Flectra помогает Вам управлять затратами на различные транспортные средства\n"
 "Расходы, как правило, создается из услуг, и договоров и появляются здесь."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_act
 msgid ""
-"Odoo will warn you when services or contract have to be\n"
+"Flectra will warn you when services or contract have to be\n"
 "                renewed."
 msgstr ""
-"Odoo предупредит Вас, когда услуги или договор должны быть\n"
+"Flectra предупредит Вас, когда услуги или договор должны быть\n"
 "возобновлены."
 
 #. module: fleet
@@ -1634,10 +1634,10 @@ msgstr "Правила и условия"
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs_non_effective
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, Flectra can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Благодаря различным фильтрам, Odoo может отображать только эффективные "
+"Благодаря различным фильтрам, Flectra может отображать только эффективные "
 "расходы. сортируя их по типу и по транспортному средству."
 
 #. module: fleet

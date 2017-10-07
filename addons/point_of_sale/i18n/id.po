@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
@@ -7,7 +7,7 @@
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
 # Edy Kend <edy@azmall.co.id>, 2017
 # dimas indra <dprahastra@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Andhitia Rama <andhitia.r@gmail.com>, 2017
 # William Surya Permana <zarambie_game@yahoo.com>, 2017
 # Muhammad Syarif <mhdsyarif.ms@gmail.com>, 2017
@@ -23,12 +23,12 @@
 # Rizki Mudhar <mudharrizki@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:25+0000\n"
 "PO-Revision-Date: 2017-10-02 11:25+0000\n"
 "Last-Translator: Rizki Mudhar <mudharrizki@gmail.com>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/flectra/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1656,8 +1656,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:115
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "PENTING: Laporan Bug dari Odoo Point Of Sale"
+msgid "IMPORTANT: Bug Report From Flectra Point Of Sale"
+msgstr "PENTING: Laporan Bug dari Flectra Point Of Sale"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_proxy_ip
@@ -2136,7 +2136,7 @@ msgstr "Jumlah cetakan"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
+msgid "Flectra Logo"
 msgstr ""
 
 #. module: point_of_sale
@@ -3360,7 +3360,7 @@ msgstr ""
 #, python-format
 msgid "Skip"
 msgstr ""
-"<p>Jika Anda tidak memberikan kontribusi atau mengembangkan di Odoo, "
+"<p>Jika Anda tidak memberikan kontribusi atau mengembangkan di Flectra, "
 "melewati halaman ini.</p>"
 
 #. module: point_of_sale
@@ -3923,17 +3923,17 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Flectra but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Flectra but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Urutan ini secara otomatis dibuat oleh Odoo tetapi Anda dapat mengubahnya "
+"Urutan ini secara otomatis dibuat oleh Flectra tetapi Anda dapat mengubahnya "
 "untuk menyesuaikan referensi nomor pesanan Anda."
 
 #. module: point_of_sale

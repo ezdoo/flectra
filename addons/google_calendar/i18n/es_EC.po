@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 #
@@ -6,12 +6,12 @@
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-01-20 13:04+0000\n"
 "Last-Translator: Rick Hunter <rick_hunter_ec@yahoo.com>\n"
-"Language-Team: Spanish (Ecuador) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Ecuador) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_EC/)\n"
 "Language: es_EC\n"
 "MIME-Version: 1.0\n"
@@ -270,11 +270,11 @@ msgstr ""
 #: model:ir.model.fields,help:google_calendar.field_res_users_google_calendar_cal_id
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
+"links between GoogleID and Flectra Google Internal ID"
 msgstr ""
 "El ID del último calendario ha sido sincronizado. Si se cambia, se "
 "eliminarán todos los enlaces entre el ID de Google y el ID de Google interno "
-"de Odoo"
+"de Flectra"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar___last_update
@@ -288,13 +288,13 @@ msgstr "Fecha de la última sincronización"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_attendee_oe_synchro_date
-msgid "Odoo Synchro Date"
-msgstr "Fecha de la sincronización de Odoo"
+msgid "Flectra Synchro Date"
+msgstr "Fecha de la sincronización de Flectra"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event_oe_update_date
-msgid "Odoo Update Date"
-msgstr "Fecha de actualización de Odoo"
+msgid "Flectra Update Date"
+msgstr "Fecha de actualización de Flectra"
 
 #. module: google_calendar
 #: model:ir.ui.view,arch_db:google_calendar.view_calendar_config_settings

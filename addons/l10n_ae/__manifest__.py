@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
-# Copyright (C) 2014 Tech Receptives (<http://techreceptives.com>)
+# Copyright (C) 2014 Tech Receptives, Flectra (<http://techreceptives.com>)
 
 {
     'name': 'U.A.E. - Accounting',
-    'author': 'Tech Receptives',
+    'author': 'Tech Receptives, Flectra',
     'website': 'http://www.techreceptives.com',
     'category': 'Localization',
     'description': """

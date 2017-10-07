@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2008-2008 凯源吕鑫 lvxin@gmail.com   <basic chart data>
 #                         维智众源 oldrev@gmail.com  <states data>
@@ -11,7 +11,7 @@
     'name': '会计科目表 - 中国企业会计准则',
     'version': '2.0',
     'category': 'Localization',
-    'author': ['lvxin@gmail.co', 'oldrev@gmail.co', 'ccdos@intoerp.com', 'jeff@osbzr.com', 'jeffery9@gmail.com'],
+    'author': ['lvxin@gmail.co', 'oldrev@gmail.co', 'ccdos@intoerp.com', 'jeff@osbzr.com', 'jeffery9@gmail.com', ' Flectra'],
 
     'website': 'http://shine-it.net',
     'description': """

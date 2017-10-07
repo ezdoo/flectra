@@ -1,4 +1,4 @@
-odoo.define('mail.form_renderer', function (require) {
+flectra.define('mail.form_renderer', function (require) {
 "use strict";
 
 var Chatter = require('mail.Chatter');

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2015 Willow IT Pty Ltd (<http://www.willowit.com.au>).
 
@@ -17,7 +17,7 @@ Also:
     - activates a number of regional currencies.
     - sets up Australian taxes.
     """,
-    'author': 'Richard deMeester - Willow IT',
+    'author': 'Richard deMeester - Willow IT, Flectra',
     'website': 'http://www.willowit.com',
     'depends': ['account'],
     'data': [

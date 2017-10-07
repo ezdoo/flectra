@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * fleet
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
+# RGB Consulting <flectra@rgbconsulting.com>, 2017
 # Roberto Lizana <robertolizana@trey.es>, 2017
 # José Vicente <txusev@gmail.com>, 2017
 # Olar Alca [Vauxoo] <oszckar@gmail.com>, 2017
@@ -24,12 +24,12 @@
 # Jesus Zapata <jesus@vauxoo.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Jesus Zapata <jesus@vauxoo.com>, 2017\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/flectra/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1129,7 +1129,7 @@ msgstr "Marca del vehículo"
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. Flectra will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 
@@ -1355,7 +1355,7 @@ msgstr "Medida del odómetro del vehículo en el momento de registro"
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
 msgid ""
-"Odoo helps you keeping track of all the services done\n"
+"Flectra helps you keeping track of all the services done\n"
 "            on your vehicle. Services can be of many type: occasional\n"
 "            repair, fixed maintenance, etc."
 msgstr ""
@@ -1363,11 +1363,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_action
 msgid ""
-"Odoo helps you managing the costs for your different\n"
+"Flectra helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs."
 msgstr ""
-"Odoo ayuda a la gestión de los costos de su diferente\n"
+"Flectra ayuda a la gestión de los costos de su diferente\n"
 "vehículos. Los costos se crean automáticamente de los servicios,\n"
 "contracts (fixed or recurring) and fuel logs."
 
@@ -1375,16 +1375,16 @@ msgstr ""
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"Flectra helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Odoo ayuda a la gestión de los costos de sus diferentes vehículos\n"
+"Flectra ayuda a la gestión de los costos de sus diferentes vehículos\n"
 "Los costos se crean generalmente de los servicios y del contrato y aparece aquí."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_action
 msgid ""
-"Odoo will warn you when services or contract have to be\n"
+"Flectra will warn you when services or contract have to be\n"
 "            renewed."
 msgstr ""
 
@@ -1747,10 +1747,10 @@ msgstr "Términos y condiciones"
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, Flectra can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Gracias a los diferentes filtros , Odoo sólo puede imprimir el efectivo\n"
+"Gracias a los diferentes filtros , Flectra sólo puede imprimir el efectivo\n"
 "costos, clasificarlos por tipos y categoría de vehículo."
 
 #. module: fleet

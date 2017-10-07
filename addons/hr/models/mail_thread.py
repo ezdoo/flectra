@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, tools
-from odoo.tools import email_split
+from flectra import models, tools
+from flectra.tools import email_split
 
 
 class MailAlias(models.AbstractModel):

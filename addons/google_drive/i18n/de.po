@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * google_drive
 # 
 # Translators:
 # Niki Waibel <niki.waibel@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # darenkster <inactive+darenkster@transifex.com>, 2017
 # Tina Rittmüller <tr@ife.de>, 2017
 # Thorsten Vocks <thorsten.vocks@openbig.org>, 2017
@@ -14,12 +14,12 @@
 # Anja Funk <anja.funk@afimage.de>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Anja Funk <anja.funk@afimage.de>, 2017\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/flectra/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,7 +30,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:google_drive.view_google_drive_config_form
 msgid ""
 "<b>To create a new filter:</b><br/>\n"
-"                                - Go to the Odoo document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
+"                                - Go to the Flectra document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
 "                                - In this \"Search\" view, select the option \"Save Current Filter\", enter the name (Ex: Sales Department)<br/>\n"
 "                                - If you select \"Share with all users\", link of google document in \"More\" options will appear for all users in opportunities of Sales Department.<br/>\n"
 "                                - If you don't select \"Share with all users\", link of google document in \"More\" options will not appear for other users in opportunities of Sales Department.<br/>\n"
@@ -188,17 +188,17 @@ msgstr "Zuletzt aktualisiert am"
 #. module: google_drive
 #: model:ir.actions.act_window,help:google_drive.action_google_drive_users_config
 msgid ""
-"Link your own google drive templates to any record of Odoo. If you have "
+"Link your own google drive templates to any record of Flectra. If you have "
 "really specific documents you want your collaborator fill in, e.g. Use a "
 "spreadsheet to control the quality of your product or review the delivery "
 "checklist for each order in a foreign country, ... Its very easy to manage "
-"them, link them to Odoo and use them to collaborate with your employees."
+"them, link them to Flectra and use them to collaborate with your employees."
 msgstr ""
-"Verbinden Sie ihre eigenen Google Drive Vorlagen mit beliebigen Odoo Daten. "
+"Verbinden Sie ihre eigenen Google Drive Vorlagen mit beliebigen Flectra Daten. "
 "Sollten Sie tatsächlich auszufüllende Formulare haben, z.B. eine Tabelle, um"
 " die Qualität der eigenen Produkte zu überprüfen, oder eine "
 "Lieferauftragsliste für alle Exporte, ... Es ist sehr einfach diese zu "
-"verwalten. Verknüpfen Sie Ihre Vorlagen mit Odoo und nutzen Sie diese, um "
+"verwalten. Verknüpfen Sie Ihre Vorlagen mit Flectra und nutzen Sie diese, um "
 "mit Ihren Mitarbeitern gemeinsam daran zu arbeiten."
 
 #. module: google_drive
@@ -265,11 +265,11 @@ msgstr "Die URL, um den Autorisierungscode von Google zu generieren"
 msgid ""
 "The name of the attached document can use fixed or variable data. To distinguish between documents in\n"
 "                                Google Drive, use fixed words and fields. For instance, in the example above, if you wrote Agrolait_%(name)s_Sales\n"
-"                                in the Google Drive name field, the document in your Google Drive and in Odoo attachment will be named\n"
+"                                in the Google Drive name field, the document in your Google Drive and in Flectra attachment will be named\n"
 "                                'Agrolait_SO0001_Sales'."
 msgstr ""
 "Der Name des angehängen Dokuments kann fixe oder variable Bezeichnungen enthalten. Um die Dokumente in Google Drive zu unterscheiden, \n"
-"                                 verwenden Sie fest vorgegebene Texte und Felder. Bleiben wir beim obigen Bespiel, wenn Sie für den Namen in Google Drive Agrolait_%(name)s_Sales angeben, wird das Dokument in Google Drive sowie der Odoo-Anhang wie folgt benannt:\n"
+"                                 verwenden Sie fest vorgegebene Texte und Felder. Bleiben wir beim obigen Bespiel, wenn Sie für den Namen in Google Drive Agrolait_%(name)s_Sales angeben, wird das Dokument in Google Drive sowie der Flectra-Anhang wie folgt benannt:\n"
 "                                'Agrolait_SO0001_Verkauf'."
 
 #. module: google_drive

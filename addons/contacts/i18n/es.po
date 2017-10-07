@@ -1,22 +1,22 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * contacts
 # 
 # Translators:
 # Raul Tlaxcala Trujillo <rtlaxcala@gmail.com>, 2017
 # Gustavo Valverde <g.valverde02@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2017
 # David de León <leceda09@gmail.com>, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# RGB Consulting <flectra@rgbconsulting.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
-"Last-Translator: RGB Consulting <odoo@rgbconsulting.com>, 2017\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Last-Translator: RGB Consulting <flectra@rgbconsulting.com>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/flectra/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -84,11 +84,11 @@ msgstr "Localización"
 #. module: contacts
 #: model:ir.actions.act_window,help:contacts.action_contacts
 msgid ""
-"Odoo helps you easily track all activities related to\n"
+"Flectra helps you easily track all activities related to\n"
 "            a customer: discussions, history of business opportunities,\n"
 "            documents, etc."
 msgstr ""
-"Odoo le ayuda a rastrear fácilmente toda la actividad relacionada a\n"
+"Flectra le ayuda a rastrear fácilmente toda la actividad relacionada a\n"
 "un cliente: discusiones, historia de las oportunidades de negocio,\n"
 "documentos, etc."
 

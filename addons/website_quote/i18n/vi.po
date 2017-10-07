@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_quote
 # 
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 # Minh Nguyen <minh@kiuasia.com>, 2017
 # Hoang Loc Le Huu <loclhh@gmail.com>, 2017
@@ -13,12 +13,12 @@
 # lam nguyen <lamev.inc@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: lam nguyen <lamev.inc@gmail.com>, 2017\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/flectra/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -70,7 +70,7 @@ msgid ""
 "                <p style=\"font-size: 11px;\"><strong>Sent by\n"
 "                <a href=\"${user.company_id.website}\" style=\"text-decoration:none; color: #875A7B;\">\n"
 "                    <strong>${user.company_id.name}</strong>\n"
-"                </a> using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\"><strong>Odoo</strong></a>\n"
+"                </a> using <a href=\"www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\"><strong>Flectra</strong></a>\n"
 "                </strong></p>\n"
 "            </td>\n"
 "        </tr></tbody>\n"
@@ -316,7 +316,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Access to an Account Manager at Odoo SA to discuss strategic, sales and "
+"Access to an Account Manager at Flectra SA to discuss strategic, sales and "
 "service issues"
 msgstr ""
 
@@ -363,7 +363,7 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "An Odoo official partner commits to:"
+msgid "An Flectra official partner commits to:"
 msgstr ""
 
 #. module: website_quote
@@ -404,19 +404,19 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Be available for periodic review meeting with Odoo SA account managers"
+msgid "Be available for periodic review meeting with Flectra SA account managers"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Be the first level of support for his Odoo customers and use Odoo SA for the"
+"Be the first level of support for his Flectra customers and use Flectra SA for the"
 " second level of support (mostly for bug fixes)"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Become a Certified Odoo Partner"
+msgid "Become a Certified Flectra Partner"
 msgstr ""
 
 #. module: website_quote
@@ -705,18 +705,18 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Has a direct relationship with Odoo SA to escalate issues"
+msgid "Has a direct relationship with Flectra SA to escalate issues"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Has access to Odoo Enterprise source code on Github and latest bug fixes"
+"Has access to Flectra Enterprise source code on Github and latest bug fixes"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Have dedicated resources assigned to Odoo projects"
+msgid "Have dedicated resources assigned to Flectra projects"
 msgstr ""
 
 #. module: website_quote
@@ -825,7 +825,7 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Is fully trained on Odoo"
+msgid "Is fully trained on Flectra"
 msgstr ""
 
 #. module: website_quote
@@ -860,8 +860,8 @@ msgstr "Cập nhật lần cuối vào"
 #: model:product.template,description_sale:website_quote.product_template_quote_1
 #: model:product.template,description_sale:website_quote.product_template_quote_3
 msgid ""
-"Learn directly from our team and network of Odoo experts. Choose from the "
-"available training sessions for a better functional understanding of Odoo"
+"Learn directly from our team and network of Flectra experts. Choose from the "
+"available training sessions for a better functional understanding of Flectra"
 msgstr ""
 
 #. module: website_quote
@@ -869,8 +869,8 @@ msgstr ""
 #: model:product.template,description_sale:website_quote.product_product_quote_2_product_template
 #: model:product.template,description_sale:website_quote.product_template_quote_2
 msgid ""
-"Learn directly from our team and network of Odoo experts. Choose from the "
-"available training sessions for a better technical understanding of Odoo"
+"Learn directly from our team and network of Flectra experts. Choose from the "
+"available training sessions for a better technical understanding of Flectra"
 msgstr ""
 
 #. module: website_quote
@@ -948,7 +948,7 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
-msgid "Odoo Official Website"
+msgid "Flectra Official Website"
 msgstr ""
 
 #. module: website_quote
@@ -956,17 +956,17 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
-msgid "Odoo Web Client"
+msgid "Flectra Web Client"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Odoo official partners will benefit from:"
+msgid "Flectra official partners will benefit from:"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Odoo sales training session"
+msgid "Flectra sales training session"
 msgstr ""
 
 #. module: website_quote
@@ -1133,12 +1133,12 @@ msgstr "Sản phẩm"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Promote Odoo Enterprise to its customers"
+msgid "Promote Flectra Enterprise to its customers"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Publishes references directly on Odoo.com"
+msgid "Publishes references directly on Flectra.com"
 msgstr ""
 
 #. module: website_quote
@@ -1360,22 +1360,22 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "The Odoo Enterprise GitHub repositories for all his developers"
+msgid "The Flectra Enterprise GitHub repositories for all his developers"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"The Odoo eco system is designed to offer the best customer experience to "
-"Odoo users, from the product to implementation services. In order to "
-"guarantee that, the Odoo Partner Program ensures that official partners have"
-" the resources and knowledge required to offer Odoo implementation services."
+"The Flectra eco system is designed to offer the best customer experience to "
+"Flectra users, from the product to implementation services. In order to "
+"guarantee that, the Flectra Partner Program ensures that official partners have"
+" the resources and knowledge required to offer Flectra implementation services."
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"The ability to report bugs to be fixed by Odoo on behalf of his customer "
+"The ability to report bugs to be fixed by Flectra on behalf of his customer "
 "(Enterprise contracts only)"
 msgstr ""
 
@@ -1447,7 +1447,7 @@ msgstr "Giá tổng"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Train their staff by following Odoo training sessions"
+msgid "Train their staff by following Flectra training sessions"
 msgstr ""
 
 #. module: website_quote
@@ -1493,7 +1493,7 @@ msgstr "Đơn vị tính "
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Up to 20% commission on Odoo Enterprise sales, depending on the partnership "
+"Up to 20% commission on Flectra Enterprise sales, depending on the partnership "
 "level"
 msgstr ""
 
@@ -1530,7 +1530,7 @@ msgstr ""
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
 "Visibility and recognition, by being listed as an official partner on "
-"Odoo.com Partners page"
+"Flectra.com Partners page"
 msgstr ""
 
 #. module: website_quote
@@ -1575,7 +1575,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid ""
-"You can <strong>set a description per product</strong>. Odoo will\n"
+"You can <strong>set a description per product</strong>. Flectra will\n"
 "                        automatically create a quotation using the descriptions\n"
 "                        of all products in the proposal. The table of content\n"
 "                        on the left is generated automatically using the styles you\n"

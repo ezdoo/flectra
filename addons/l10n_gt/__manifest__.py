@@ -1,8 +1,8 @@
 #-*- coding:utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2009-2010 Soluciones Tecnologócias Prisma S.A. All Rights Reserved.
-# José Rodrigo Fernández Menegazzo, Soluciones Tecnologócias Prisma S.A.
+# José Rodrigo Fernández Menegazzo, Flectra, Soluciones Tecnologócias Prisma S.A.
 # (http://www.solucionesprisma.com)
 
 #
@@ -28,7 +28,7 @@ This is the base module to manage the accounting chart for Guatemala.
 Agrega una nomenclatura contable para Guatemala. También icluye impuestos y
 la moneda del Quetzal. -- Adds accounting chart for Guatemala. It also includes
 taxes and the Quetzal currency.""",
-    'author': 'José Rodrigo Fernández Menegazzo',
+    'author': 'José Rodrigo Fernández Menegazzo, Flectra',
     'website': 'http://solucionesprisma.com/',
     'depends': ['base', 'account'],
     'data': [

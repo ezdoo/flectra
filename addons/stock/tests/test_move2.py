@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.stock.tests.common import TestStockCommon
-from odoo.exceptions import UserError
-from odoo import api, registry
+from flectra.addons.stock.tests.common import TestStockCommon
+from flectra.exceptions import UserError
+from flectra import api, registry
 
 
 class TestPickShip(TestStockCommon):

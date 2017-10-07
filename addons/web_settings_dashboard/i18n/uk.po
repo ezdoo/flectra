@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web_settings_dashboard
 # 
@@ -7,12 +7,12 @@
 # Bohdan Lisnenko <lem8r.ka11a@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Bohdan Lisnenko <lem8r.ka11a@gmail.com>, 2017\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/flectra/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -117,8 +117,8 @@ msgstr "Введіть e-mail адреси (по одній в рядок)"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:100
 #, python-format
-msgid "Follow these implementation guides to get the most out of Odoo."
-msgstr "Слідуйте цим посібникам, щоб отримати максимум від Odoo."
+msgid "Follow these implementation guides to get the most out of Flectra."
+msgstr "Слідуйте цим посібникам, щоб отримати максимум від Flectra."
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -138,8 +138,8 @@ msgstr "Отримайте більше можливостей з корпора
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:140
 #, python-format
-msgid "Help us spread the word: Share Odoo's awesomeness with your friends!"
-msgstr "Допоможіть нам розповсюдитись: поділіться крутістю Odoo з друзями!"
+msgid "Help us spread the word: Share Flectra's awesomeness with your friends!"
+msgstr "Допоможіть нам розповсюдитись: поділіться крутістю Flectra з друзями!"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -201,22 +201,22 @@ msgstr "Немає встановлених додатків"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:155
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:186
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Корпоративна"
+msgid "Flectra Enterprise"
+msgstr "Flectra Корпоративна"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:163
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Flectra S.A."
+msgstr "Flectra S.A."
 
 #. module: web_settings_dashboard
 #. openerp-web

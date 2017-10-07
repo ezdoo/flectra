@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * event
 #
@@ -7,19 +7,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-06-30 09:52+0000\n"
 "Last-Translator: Khwunchai Jaengsawang <khwunchai.j@ku.th>\n"
-"Language-Team: Thai (http://www.transifex.com/odoo/odoo-9/language/th/)\n"
+"Language-Team: Thai (http://www.transifex.com/flectra/flectra-9/language/th/)\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  th.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  th.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"#-#-#-#-#  th.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  th.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: event
@@ -257,9 +257,9 @@ msgstr "นำไปใช้"
 #, fuzzy
 msgid "Archived"
 msgstr ""
-"#-#-#-#-#  th.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  th.po (Flectra 9.0)  #-#-#-#-#\n"
 "ถูกเก็บ\n"
-"#-#-#-#-#  th.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  th.po (Flectra 9.0)  #-#-#-#-#\n"
 "เก็บแล้ว"
 
 #. module: event
@@ -342,7 +342,7 @@ msgstr ""
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Banner Odoo Image"
+msgid "Banner Flectra Image"
 msgstr ""
 
 #. module: event
@@ -1246,20 +1246,20 @@ msgstr ""
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Official Website"
+msgid "Flectra Official Website"
 msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Web Client"
+msgid "Flectra Web Client"
 msgstr ""
 
 #. module: event
 #: model:ir.actions.act_window,help:event.action_event_view
 msgid ""
-"Odoo helps you schedule and efficiently organize your events:\n"
+"Flectra helps you schedule and efficiently organize your events:\n"
 "    track subscriptions and participations, automate the confirmation "
 "emails,\n"
 "    sell tickets, etc."
@@ -1787,7 +1787,7 @@ msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
-msgid "to learn Odoo Programming"
+msgid "to learn Flectra Programming"
 msgstr ""
 
 #. module: event

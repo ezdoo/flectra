@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Password Encryption',
     'version': '2.0',
-    'author': ['Odoo SA', 'FS3'],
+    'author': ['Odoo SA', 'FS3', ' Flectra'],
     'maintainer': 'Odoo SA',
     'category': 'Extra Tools',
     'description': """

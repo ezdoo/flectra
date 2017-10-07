@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web_settings_dashboard
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/flectra/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -111,7 +111,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:100
 #, python-format
-msgid "Follow these implementation guides to get the most out of Odoo."
+msgid "Follow these implementation guides to get the most out of Flectra."
 msgstr ""
 
 #. module: web_settings_dashboard
@@ -132,7 +132,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:140
 #, python-format
-msgid "Help us spread the word: Share Odoo's awesomeness with your friends!"
+msgid "Help us spread the word: Share Flectra's awesomeness with your friends!"
 msgstr ""
 
 #. module: web_settings_dashboard
@@ -195,21 +195,21 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:155
 #, python-format
-msgid "Odoo"
+msgid "Flectra"
 msgstr ""
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:186
 #, python-format
-msgid "Odoo Enterprise"
+msgid "Flectra Enterprise"
 msgstr ""
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:163
 #, python-format
-msgid "Odoo S.A."
+msgid "Flectra S.A."
 msgstr ""
 
 #. module: web_settings_dashboard

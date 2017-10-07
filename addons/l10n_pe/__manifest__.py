@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2011 Cubic ERP - Teradata SAC. (http://cubicerp.com).
 
@@ -13,7 +13,7 @@ Plan contable peruano e impuestos de acuerdo a disposiciones vigentes de la
 SUNAT 2011 (PCGE 2010).
 
     """,
-    'author': ['Cubic ERP'],
+    'author': ['Cubic ERP', ' Flectra'],
     'website': 'http://cubicERP.com',
     'category': 'Localization',
     'depends': ['account'],

@@ -1,32 +1,32 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * analytic
 # 
 # Translators:
 # Bertrand LATOUR <divoir@gmail.com>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Eloïse Stilmant <est@flectrahq.com>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
 # Saad Thaifa <saad.thaifa@gmail.com>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Lucas Deliege <lud@flectrahq.com>, 2017
 # Micky Jault <micky037@hotmail.fr>, 2017
 # Benelita Prauhart <internetinfo07@gmail.com>, 2017
 # leemannd <denis.leemann@camptocamp.com>, 2017
 # Frédéric LIETART <stuff@tifred.fr>, 2017
-# lap.odoo <lap@odoo.com>, 2017
+# lap.flectra <lap@flectrahq.com>, 2017
 # Xavier Symons <xsy@openerp.com>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Melanie Bernard <mbe@flectrahq.com>, 2017
 # Fabien Pinckaers <fp@openerp.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Last-Translator: Fabien Pinckaers <fp@openerp.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/flectra/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -254,11 +254,11 @@ msgstr ""
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In Flectra, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"Dans Odoo, les bons de commande et projets sont implémentés en utilisant les\n"
+"Dans Flectra, les bons de commande et projets sont implémentés en utilisant les\n"
 "                comptes analytiques. Vous pouvez suivre les coûts et les revenus pour analyser\n"
 "                vos marges facilement."
 

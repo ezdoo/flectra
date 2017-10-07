@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * crm
 #
@@ -10,19 +10,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-07-22 08:38+0000\n"
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>\n"
-"Language-Team: Japanese (http://www.transifex.com/odoo/odoo-9/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/flectra/flectra-9/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: crm
@@ -59,7 +59,7 @@ msgid ""
 "p><br>\n"
 "                            <p dir=\"ltr\" style=\"font-size:15px;margin-"
 "top:0pt;margin-bottom:0pt;\">\n"
-"                                <span>Your Odoo CRM application is up and "
+"                                <span>Your Flectra CRM application is up and "
 "running</span></p><br>\n"
 "                            <p dir=\"ltr\" style=\"margin-top:0pt;margin-"
 "bottom:8pt;\">\n"
@@ -153,33 +153,33 @@ msgid ""
 "top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We would be delighted to assist you "
 "along the way. Contact us at \n"
-"                                <a href=\"mailto:help@odoo.com\"><span style="
+"                                <a href=\"mailto:help@flectrahq.com\"><span style="
 "\"text-decoration:underline;\">\n"
-"                                help@odoo.com</span></a> if you have any "
+"                                help@flectrahq.com</span></a> if you have any "
 "question. You can also discover \n"
-"                                how to get the best out of Odoo CRM with our "
+"                                how to get the best out of Flectra CRM with our "
 "</span>\n"
-"                                <a href=\"https://www.odoo.com/documentation/"
+"                                <a href=\"https://www.flectrahq.com/documentation/"
 "user/9.0/crm.html\">\n"
 "                                <span style=\"text-decoration:underline;"
 "\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a href=\"https://www.odoo.com/"
+"                                <a href=\"https://www.flectrahq.com/"
 "documentation/9.0/\">\n"
 "                                <span style=\"text-decoration:underline;"
 "\">API Documentation</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-"
-"top:0pt;margin-bottom:8pt;\"><span>Enjoy your Odoo experience,</span></p>\n"
+"top:0pt;margin-bottom:8pt;\"><span>Enjoy your Flectra experience,</span></p>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
 "            </table>\n"
 "            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-"
 "bottom:8pt;color:grey\">\n"
-"                <span><br/>-- <br/>The Odoo Team<br/>PS: People love Odoo, "
-"check </span><a href=\"https://twitter.com/odoo/favorites\"><span style="
+"                <span><br/>-- <br/>The Flectra Team<br/>PS: People love Flectra, "
+"check </span><a href=\"https://twitter.com/flectra/favorites\"><span style="
 "\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
 "            </div>\n"
 "        </div>"
@@ -319,26 +319,26 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Incoming email</"
+"<span class=\"label label-default text-center flectra_purple\">Incoming email</"
 "span>"
 msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "<span class=\"label label-default text-center odoo_purple\">Lead</span>"
+msgid "<span class=\"label label-default text-center flectra_purple\">Lead</span>"
 msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Opportunity</"
+"<span class=\"label label-default text-center flectra_purple\">Opportunity</"
 "span>"
 msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Quotation</span>"
+"<span class=\"label label-default text-center flectra_purple\">Quotation</span>"
 msgstr ""
 
 #. module: crm
@@ -554,11 +554,11 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<strong>Every business is different.</strong> Odoo allows to\n"
+"<strong>Every business is different.</strong> Flectra allows to\n"
 "                        customize every application and it's usually a good\n"
 "                        advice to customize screens to fit your sales "
 "process.\n"
-"                        <strong>Customizations are done by Odoo experts.</"
+"                        <strong>Customizations are done by Flectra experts.</"
 "strong>"
 msgstr ""
 
@@ -739,7 +739,7 @@ msgid ""
 "<strong>Trainings</strong><br/>\n"
 "                                To build a strong sales training program, "
 "you can use the following\n"
-"                                apps of Odoo:"
+"                                apps of Flectra:"
 msgstr ""
 
 #. module: crm
@@ -786,7 +786,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"A product in Odoo is something you sell or buy. It could\n"
+"A product in Flectra is something you sell or buy. It could\n"
 "                    be a goods, consumable or services. Choose how you want "
 "to\n"
 "                    create your products:"
@@ -1905,7 +1905,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                          Fabien Pinckaers, Founder"
 msgstr ""
 
@@ -1978,7 +1978,7 @@ msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "Happy Selling!<br/>- The Odoo Team"
+msgid "Happy Selling!<br/>- The Flectra Team"
 msgstr ""
 
 #. module: crm
@@ -2117,7 +2117,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"In Odoo, there are 3 different ways to manage your products prices.<br/>"
+"In Flectra, there are 3 different ways to manage your products prices.<br/>"
 msgstr ""
 
 #. module: crm
@@ -2829,19 +2829,19 @@ msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "Odoo Default"
+msgid "Flectra Default"
 msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_sale_config_settings_module_website_sign
 #: model:ir.ui.view,arch_db:crm.view_sale_config_settings
-msgid "Odoo Sign"
-msgstr "Odoo電子署名"
+msgid "Flectra Sign"
+msgstr "Flectra電子署名"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Flectra helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future "
 "revenues."
 msgstr ""
@@ -2850,26 +2850,26 @@ msgstr ""
 #: model:ir.actions.act_window,help:crm.crm_lead_opportunities
 #: model:ir.actions.act_window,help:crm.crm_lead_opportunities_tree_view
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Flectra helps you keep track of your sales pipeline to follow\n"
 "                up potential sales and better forecast your future revenues."
 msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"Odoo is the world's only software to have a full integration of Marketing "
+"Flectra is the world's only software to have a full integration of Marketing "
 "Apps for your sales channel: insight sales, point of sale, ecommerce."
 msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_sale_config_settings_generate_sales_team_alias
-msgid "Odoo will generate an email alias based on the sales team name"
+msgid "Flectra will generate an email alias based on the sales team name"
 msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"Odoo will help you create polished, professional quotations and contracts in "
+"Flectra will help you create polished, professional quotations and contracts in "
 "minutes.\n"
 "                        Tell us how you sell and we will tell you what\n"
 "                        configuration will best fit your quotation process."
@@ -3460,13 +3460,13 @@ msgid ""
 "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several "
 "fields,\n"
-"                            Odoo will propose you to merge only those "
+"                            Flectra will propose you to merge only those "
 "having\n"
 "                            all these fields in common. (not one of the "
 "fields)."
 msgstr ""
 "重複した記録の検索で使用するために、項目のリストを選択します。\n"
-"複数の項目を選択した場合、Odooはすべてに共通して含まれる(ひとつではない)項目"
+"複数の項目を選択した場合、Flectraはすべてに共通して含まれる(ひとつではない)項目"
 "のマージを提案します。"
 
 #. module: crm
@@ -3528,7 +3528,7 @@ msgid ""
 "Setting up your sales funnel is just the first step. To achieve a\n"
 "                      significant boost, we will help you get the most out "
 "of\n"
-"                      Odoo CRM to transform how your salespeople work.\n"
+"                      Flectra CRM to transform how your salespeople work.\n"
 "                      That's the purpose of this guide."
 msgstr ""
 
@@ -3754,7 +3754,7 @@ msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "Templates of quotations (use Odoo Online Proposals for this)"
+msgid "Templates of quotations (use Flectra Online Proposals for this)"
 msgstr ""
 
 #. module: crm
@@ -3780,7 +3780,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -3789,7 +3789,7 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_team_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 
 #. module: crm
@@ -3840,10 +3840,10 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"There are several ways for your company to generate leads with Odoo CRM. \n"
+"There are several ways for your company to generate leads with Flectra CRM. \n"
 "                        One of them is using your company's generic email "
 "address as a trigger \n"
-"                        to create a new lead in the system. In Odoo, each "
+"                        to create a new lead in the system. In Flectra, each "
 "one of your sales teams \n"
 "                        is linked to its own email address from which "
 "prospects can reach them. \n"
@@ -3854,7 +3854,7 @@ msgid ""
 "                        contacts you will automatically create a new "
 "opportunity into the sales team.\n"
 "\n"
-"                        That's the easiest way to integrate Odoo with third "
+"                        That's the easiest way to integrate Flectra with third "
 "party apps."
 msgstr ""
 
@@ -4137,7 +4137,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo "
+"                                        for you: simply send your Flectra "
 "project\n"
 "                                        manager a CSV file containing all "
 "your\n"
@@ -4148,7 +4148,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo "
+"                                        for you: simply send your Flectra "
 "project\n"
 "                                        manager a CSV file containing all "
 "your\n"
@@ -4165,7 +4165,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"We designed Odoo to help you grow your business. Odoo CRM\n"
+"We designed Flectra to help you grow your business. Flectra CRM\n"
 "                      is not just a tool, we want it to have a major impact "
 "on your\n"
 "                      sales performance. That's our mission, and we are "
@@ -4346,7 +4346,7 @@ msgstr ""
 
 #. module: crm
 #: model:mail.template,subject:crm.mail_template_data_module_install_crm
-msgid "Your Odoo CRM application is running smoothly."
+msgid "Your Flectra CRM application is running smoothly."
 msgstr ""
 
 #. module: crm

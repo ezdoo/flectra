@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -6,7 +6,7 @@
 # Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>, 2016
 # grazziano <gra.negocia@gmail.com>, 2016
 # Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2016
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux <mat@flectrahq.com>, 2016
 # Mateus Lopes <mateus1@gmail.com>, 2016
 # Rui Andrada <shingonoide@gmail.com>, 2016
 # danimaribeiro <danimaribeiro@gmail.com>, 2016
@@ -20,12 +20,12 @@
 # Caio Leonardo Mendes de Sousa <caleozao@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: Caio Leonardo Mendes de Sousa <caleozao@gmail.com>, 2017\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/flectra/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -86,8 +86,8 @@ msgstr ", atualizado:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "- The Odoo Team"
-msgstr "Time Odoo"
+msgid "- The Flectra Team"
+msgstr "Time Flectra"
 
 #. module: website
 #. openerp-web
@@ -549,9 +549,9 @@ msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
-msgid "<strong>50,000+ companies run Odoo to grow their businesses.</strong>"
+msgid "<strong>50,000+ companies run Flectra to grow their businesses.</strong>"
 msgstr ""
-"<strong>50,000+ empresas rodam Odoo para expandir seus negócios.</strong>"
+"<strong>50,000+ empresas rodam Flectra para expandir seus negócios.</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -573,8 +573,8 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"<strong>Be announced on the Odoo Twitter account</strong><br/>\n"
-"                                We like to hear from people using Odoo to build their website. Tweet us"
+"<strong>Be announced on the Flectra Twitter account</strong><br/>\n"
+"                                We like to hear from people using Flectra to build their website. Tweet us"
 msgstr ""
 
 #. module: website
@@ -732,8 +732,8 @@ msgstr "<strong>Seus objetivos do website</strong> por prioridade:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "@odoo"
-msgstr "@odoo"
+msgid "@flectra"
+msgstr "@flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_config_settings_view_form
@@ -990,8 +990,8 @@ msgstr "Voltar"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
-msgid "Banner Odoo Image"
-msgstr "Imagem de Banner do Odoo"
+msgid "Banner Flectra Image"
+msgstr "Imagem de Banner do Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -1786,10 +1786,10 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"Para o Time Odoo,<br/>\n"
+"Para o Time Flectra,<br/>\n"
 "Fabien Pinckaers, Fundador"
 
 #. module: website
@@ -2438,48 +2438,48 @@ msgstr "Objetivos"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - Exemplo 1 para três colunas"
+msgid "Flectra - Sample 1 for three columns"
+msgstr "Flectra - Exemplo 1 para três colunas"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - Exemplo 2 para três colunas"
+msgid "Flectra - Sample 2 for three columns"
+msgstr "Flectra - Exemplo 2 para três colunas"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - Exemplo 3 para três colunas"
+msgid "Flectra - Sample 3 for three columns"
+msgstr "Flectra - Exemplo 3 para três colunas"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
-msgid "Odoo CMS - a big picture"
+msgid "Flectra CMS - a big picture"
 msgstr "Odor CMS - uma imagem grande"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
-msgid "Odoo CMS- Sample image floating"
+msgid "Flectra CMS- Sample image floating"
 msgstr "Odor CMS - Exemplo de imagem flutuante"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Versão Odoo"
+msgid "Flectra Version"
+msgstr "Versão Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo image and text block"
-msgstr "Imagem e bloco de texto Odoo"
+msgid "Flectra image and text block"
+msgstr "Imagem e bloco de texto Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Flectra provides essential platform for our project management.\n"
 "                                                Things are better organized and more visible with it."
 msgstr ""
 "Openerp fornece plataforma essencial para o nosso gerenciamento de projetos.\n"
@@ -2487,16 +2487,16 @@ msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo text and image block"
-msgstr "Texto e bloco de imagem Odoo"
+msgid "Flectra text and image block"
+msgstr "Texto e bloco de imagem Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
 msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+"Flectra's POS is a web application that can run on any device that\n"
 "                                can display websites with little to no setup required."
 msgstr ""
-"POS do Odoo é uma aplicação web que pode ser executado em qualquer dispositivo que\n"
+"POS do Flectra é uma aplicação web que pode ser executado em qualquer dispositivo que\n"
 "                     pode exibir sites com pouca ou nenhuma configuração necessária."
 
 #. module: website
@@ -3823,8 +3823,8 @@ msgstr "Se esta visão é um modelo de página web (completo)"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
-msgid "Which hardware does Odoo POS support?"
-msgstr "Qual hardware é compatível com o PDV Odoo?"
+msgid "Which hardware does Flectra POS support?"
+msgstr "Qual hardware é compatível com o PDV Flectra?"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4117,30 +4117,30 @@ msgstr "como sua página será listada no Google"
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
 #: model:ir.ui.view,arch_db:website.website_config_settings_view_form
-msgid "https://plus.google.com/+Odooapps"
-msgstr "https://plus.google.com/+Odooapps"
+msgid "https://plus.google.com/+Flectraapps"
+msgstr "https://plus.google.com/+Flectraapps"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
 #: model:ir.ui.view,arch_db:website.website_config_settings_view_form
-msgid "https://twitter.com/Odoo"
-msgstr "https://twitter.com/Odoo"
+msgid "https://twitter.com/Flectra"
+msgstr "https://twitter.com/Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_config_settings_view_form
-msgid "https://www.facebook.com/Odoo"
-msgstr "https://www.facebook.com/Odoo"
+msgid "https://www.facebook.com/Flectra"
+msgstr "https://www.facebook.com/Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.facebook.com/odoo"
-msgstr "https://www.facebook.com/odoo"
+msgid "https://www.facebook.com/flectra"
+msgstr "https://www.facebook.com/flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
 #: model:ir.ui.view,arch_db:website.website_config_settings_view_form
-msgid "https://www.linkedin.com/company/odoo"
-msgstr "http://www.linkedin.com/company/odoo"
+msgid "https://www.linkedin.com/company/flectra"
+msgstr "http://www.linkedin.com/company/flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
@@ -4161,8 +4161,8 @@ msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instância do Odoo, a"
+msgid "instance of Flectra, the"
+msgstr "instância do Flectra, a"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_actions_server
@@ -4238,8 +4238,8 @@ msgstr "sitemap.xml"
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:13
 #, python-format
-msgid "the classic Odoo interface"
-msgstr "a clássica interface Odoo"
+msgid "the classic Flectra interface"
+msgstr "a clássica interface Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner

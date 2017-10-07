@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web_editor
 #
@@ -7,12 +7,12 @@
 # Matus Krnac <matus.krnac@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-03-25 10:15+0000\n"
 "Last-Translator: Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>\n"
-"Language-Team: Slovak (http://www.transifex.com/odoo/odoo-9/language/sk/)\n"
+"Language-Team: Slovak (http://www.transifex.com/flectra/flectra-9/language/sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -767,8 +767,8 @@ msgstr "Normálna"
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.layout
-msgid "Odoo Editor layout"
-msgstr "Rozloženie Odoo editora"
+msgid "Flectra Editor layout"
+msgstr "Rozloženie Flectra editora"
 
 #. module: web_editor
 #. openerp-web

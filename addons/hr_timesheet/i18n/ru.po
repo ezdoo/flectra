@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet
 #
@@ -6,12 +6,12 @@
 # Max Belyanin <maxbelyanin@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2015-10-19 15:03+0000\n"
 "Last-Translator: Max Belyanin <maxbelyanin@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/odoo/odoo-9/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/flectra/flectra-9/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -358,11 +358,11 @@ msgstr ""
 #: model:ir.actions.act_window,help:hr_timesheet.action_define_analytic_structure
 msgid ""
 "You should create an analytic account structure depending on your needs to "
-"analyse costs and revenues. In Odoo, analytic accounts are also used to "
+"analyse costs and revenues. In Flectra, analytic accounts are also used to "
 "track customer contracts."
 msgstr ""
 "Вы должны создать аналитическую структуру счетов в зависимости от ваших "
-"потребностей для анализа затрат и доходов. В Odoo, аналитические счета также "
+"потребностей для анализа затрат и доходов. В Flectra, аналитические счета также "
 "используются для отслеживания договоров клиентов."
 
 #. module: hr_timesheet

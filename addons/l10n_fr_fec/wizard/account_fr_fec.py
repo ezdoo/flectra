@@ -1,14 +1,14 @@
 #-*- coding:utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2013-2015 Akretion (http://www.akretion.com)
 
 import base64
 import io
 
-from odoo import api, fields, models, _
-from odoo.exceptions import Warning
-from odoo.tools import pycompat
+from flectra import api, fields, models, _
+from flectra.exceptions import Warning
+from flectra.tools import pycompat
 
 
 class AccountFrFec(models.TransientModel):
@@ -80,7 +80,7 @@ class AccountFrFec(models.TransientModel):
         # We choose to implement the flat file instead of the XML
         # file for 2 reasons :
         # 1) the XSD file impose to have the label on the account.move
-        # but Odoo has the label on the account.move.line, so that's a
+        # but Flectra has the label on the account.move.line, so that's a
         # problem !
         # 2) CSV files are easier to read/use for a regular accountant.
         # So it will be easier for the accountant to check the file before

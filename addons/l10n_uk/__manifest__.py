@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2011 Smartmode LTD (<http://www.smartmode.co.uk>).
 
@@ -14,7 +14,7 @@ This is the latest UK Odoo localisation necessary to run Odoo accounting for UK 
     - VAT100-ready tax structure
     - InfoLogic UK counties listing
     - a few other adaptations""",
-    'author': 'SmartMode LTD',
+    'author': 'SmartMode LTD, Flectra',
     'website': 'http://www.smartmode.co.uk',
     'depends': [
         'account',

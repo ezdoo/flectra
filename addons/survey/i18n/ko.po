@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * survey
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-01-25 08:56+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Korean (http://www.transifex.com/odoo/odoo-9/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/flectra/flectra-9/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -221,8 +221,8 @@ msgstr "토큰은 고유해야 합니다!"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "Odoo 사용에 대해서"
+msgid "About your Flectra usage"
+msgstr "Flectra 사용에 대해서"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey_active
@@ -294,8 +294,8 @@ msgstr "응답"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Odoo를 매일 사용하십니까?"
+msgid "Are you using Flectra on a daily basis?"
+msgstr "Flectra를 매일 사용하십니까?"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_attachment_ids
@@ -660,8 +660,8 @@ msgstr "그룹화"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "당신이 Odoo에 기여하고자 하는 계획이나 방법은 무엇입니까?"
+msgid "How do you contribute or plan to contribute to Flectra?"
+msgstr "당신이 Flectra에 기여하고자 하는 계획이나 방법은 무엇입니까?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -696,7 +696,7 @@ msgstr "포럼 및 토론에 참여합니다."
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Github, like all official Odoo projects"
+msgid "I use Github, like all official Flectra projects"
 msgstr ""
 
 #. module: survey
@@ -706,8 +706,8 @@ msgstr "다른 저장소 시스템 (소스포지...)를 사용합니다."
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Odoo에서 상황에 맞는 도움말을 사용합니다."
+msgid "I use the contextual help in Flectra"
+msgstr "Flectra에서 상황에 맞는 도움말을 사용합니다."
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -767,7 +767,7 @@ msgstr "다른 경우의 정밀도 :"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "If you do not contribute or develop in Odoo, skip this page."
+msgid "If you do not contribute or develop in Flectra, skip this page."
 msgstr ""
 
 #. module: survey
@@ -1693,8 +1693,8 @@ msgstr "메뉴가 너무 많습니다. 이해하기가 복잡합니다."
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"These questions relate to the ergonomy and ease of use of Odoo. Try to "
-"remind your firsts days on Odoo and\n"
+"These questions relate to the ergonomy and ease of use of Flectra. Try to "
+"remind your firsts days on Flectra and\n"
 "what have been your difficulties."
 msgstr ""
 
@@ -1710,8 +1710,8 @@ msgstr "매일 사용하기에 유용합니다."
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "새로운 사용자가 Odoo를 이해하는데 도움이 됩니다."
+msgid "They help new users to understand Flectra"
+msgstr "새로운 사용자가 Flectra를 이해하는데 도움이 됩니다."
 
 #. module: survey
 #: code:addons/survey/survey.py:671 code:addons/survey/tests/test_survey.py:94
@@ -1920,7 +1920,7 @@ msgstr "환경 설정 마법사에 대해 어떻게 생각하십니까?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.odoo.com?"
+msgid "What do you think about the documentation available on doc.flectrahq.com?"
 msgstr ""
 
 #. module: survey
@@ -1931,10 +1931,10 @@ msgstr "사용자 그룹에 대해 어떻게 생각하십니까?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of Flectra, available in the web "
 "client ?"
 msgstr ""
-"당신은 웹 클라이언트에서 사용할 수 있는 Odoo의 프로세스 화면에 대해 어떻게 생"
+"당신은 웹 클라이언트에서 사용할 수 있는 Flectra의 프로세스 화면에 대해 어떻게 생"
 "각하십니까?"
 
 #. module: survey
@@ -1978,8 +1978,8 @@ msgstr "네. 7.0 버전을 사용하고 지금 내부에 설치되어 있습니�
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "네. Odoo 온라인 버전을 사용합니다."
+msgid "Yes, I use the online version of Flectra"
+msgstr "네. Flectra 온라인 버전을 사용합니다."
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_survey_form

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_sale
 #
@@ -7,12 +7,12 @@
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-05-31 09:35+0000\n"
 "Last-Translator: Bole <bole@dajmi5.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/odoo/odoo-9/language/hr/)\n"
+"Language-Team: Croatian (http://www.transifex.com/flectra/flectra-9/language/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1154,7 +1154,7 @@ msgstr "ID"
 msgid ""
 "If you have an eCommerce, one of your objectives is of course to grow your "
 "revenues by\n"
-"                    selling more and pricier products. Luckily for you, Odoo "
+"                    selling more and pricier products. Luckily for you, Flectra "
 "integrates three powerful\n"
 "                    customizations for that."
 msgstr ""
@@ -1353,16 +1353,16 @@ msgstr "U redu"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "Odoo offers an importation service to handle the whole process for you!"
-msgstr "Odoo nudi uslugu obrade uvoza cijelog procesa za vas!"
+msgid "Flectra offers an importation service to handle the whole process for you!"
+msgstr "Flectra nudi uslugu obrade uvoza cijelog procesa za vas!"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"Odoo's web-services allows developers to create scripts that will load data "
+"Flectra's web-services allows developers to create scripts that will load data "
 "automatically into the system."
 msgstr ""
-"Web-usluga Odoo omogućava programerima stvaranje skripte koja će automatski "
+"Web-usluga Flectra omogućava programerima stvaranje skripte koja će automatski "
 "učitati podatke u sustav."
 
 #. module: website_sale
@@ -2209,8 +2209,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment methods in Odoo:</strong>"
-msgstr "Možete postaviti 3 vrste <strong>načina plaćanja u Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment methods in Flectra:</strong>"
+msgstr "Možete postaviti 3 vrste <strong>načina plaćanja u Flectra:</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner

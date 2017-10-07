@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_event_track
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-02-20 10:41+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Russian (http://www.transifex.com/odoo/odoo-9/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/flectra/flectra-9/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,10 +103,10 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
-"A technical explanation of Odoo as a CMS and a eCommerce platform for "
+"A technical explanation of Flectra as a CMS and a eCommerce platform for "
 "version 8."
 msgstr ""
-"Техническое определение Odoo как платформы CMS и eCommerce для версии 8."
+"Техническое определение Flectra как платформы CMS и eCommerce для версии 8."
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.track_view
@@ -115,9 +115,9 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
-msgid "Advanced lead management with Odoo: tips and tricks from the fields"
+msgid "Advanced lead management with Flectra: tips and tricks from the fields"
 msgstr ""
-"Расширенный лид-менеджмент с Odoo: советы и рекомендации из сфер применения"
+"Расширенный лид-менеджмент с Flectra: советы и рекомендации из сфер применения"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track13
@@ -230,16 +230,16 @@ msgstr "Подробный план действий учета новых мо�
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
-"Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
+"Discover Flectra CRM: How to optimize your sales, from leads to sales orders."
 msgstr ""
-"Откройте для себя управление взаимоотношениями с клиентами на Odoo: Как "
+"Откройте для себя управление взаимоотношениями с клиентами на Flectra: Как "
 "оптимизировать ваши продажи, от потенциальных клиентов к заказам на продажу."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
-msgid "Discover Odoo Point-of-Sale: Your shop ready to use in 30 minutes."
+msgid "Discover Flectra Point-of-Sale: Your shop ready to use in 30 minutes."
 msgstr ""
-"Откройте для себя место продажи на Odoo: ваш магазин готов к использованию "
+"Откройте для себя место продажи на Flectra: ваш магазин готов к использованию "
 "через 30 минут."
 
 #. module: website_event_track
@@ -366,10 +366,10 @@ msgstr "Высший"
 #: model:event.track,name:website_event_track.event_track18
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
-"with Odoo."
+"with Flectra."
 msgstr ""
 "Как выстроить свою маркетинговую стратегию в целях привлечения потенциальных "
-"клиентов с Odoo."
+"клиентов с Flectra."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1
@@ -378,8 +378,8 @@ msgstr "Как разработать модуль веб-сайта."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
-msgid "How to develop automated tests in the Odoo web client."
-msgstr "Как разработать автоматизированные тесты в веб-клиенте Odoo."
+msgid "How to develop automated tests in the Flectra web client."
+msgstr "Как разработать автоматизированные тесты в веб-клиенте Flectra."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track3
@@ -388,16 +388,16 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
-msgid "How to integrate hardware materials with the Odoo point of sale."
-msgstr "Как объединить материалы аппаратных средств с точкой продажи Odoo."
+msgid "How to integrate hardware materials with the Flectra point of sale."
+msgstr "Как объединить материалы аппаратных средств с точкой продажи Flectra."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid ""
-"How to use Odoo for your HR process: recruitment, leaves management, "
+"How to use Flectra for your HR process: recruitment, leaves management, "
 "appraisals, expenses, etc."
 msgstr ""
-"Как использовать Odoo для процесса управления персоналом: набор кадров, учет "
+"Как использовать Flectra для процесса управления персоналом: набор кадров, учет "
 "отпусков, деловые оценки, расходы и т.д."
 
 #. module: website_event_track
@@ -421,8 +421,8 @@ msgstr "Введение"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
-msgid "Key Success factors selling Odoo."
-msgstr "Ключевые факторы успеха продаж на Odoo."
+msgid "Key Success factors selling Flectra."
+msgstr "Ключевые факторы успеха продаж на Flectra."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor___last_update
@@ -478,8 +478,8 @@ msgstr "Управляйте вашими ОПЭ (рекомендуется д�
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
-msgid "Manage your events with Odoo, the new training modules."
-msgstr "Управляйте вашими событиями с Odoo, новыми учебными программами."
+msgid "Manage your events with Flectra, the new training modules."
+msgstr "Управляйте вашими событиями с Flectra, новыми учебными программами."
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -551,23 +551,23 @@ msgstr "Не найдено ни одно направление!"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
-msgid "Odoo Mobile for Notes, Meetings and Messages."
-msgstr "Odoo Mobile для примечаний, встреч и сообщений."
+msgid "Flectra Mobile for Notes, Meetings and Messages."
+msgstr "Flectra Mobile для примечаний, встреч и сообщений."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
-msgid "Odoo Status & Strategy 2014"
-msgstr "Статус Odoo и стратегия 2014"
+msgid "Flectra Status & Strategy 2014"
+msgstr "Статус Flectra и стратегия 2014"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
-msgid "Odoo as your Enterprise Social Network."
-msgstr "Odoo как социальная сеть вашего предприятия."
+msgid "Flectra as your Enterprise Social Network."
+msgstr "Flectra как социальная сеть вашего предприятия."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
-msgid "Odoo in 2014"
-msgstr "Odoo en 2014"
+msgid "Flectra in 2014"
+msgstr "Flectra en 2014"
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_sponsor
@@ -644,9 +644,9 @@ msgstr "Повышение качественного понимания с пр
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
-msgid "Recruiting high skilled talents with Odoo HR apps"
+msgid "Recruiting high skilled talents with Flectra HR apps"
 msgstr ""
-"Набор высококвалифицированных специалистов с приложениями Odoo по управлению "
+"Набор высококвалифицированных специалистов с приложениями Flectra по управлению "
 "персоналом"
 
 #. module: website_event_track
@@ -802,8 +802,8 @@ msgstr "Спасибо за ваше предложение."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
-msgid "The Art of Making an Odoo Demo."
-msgstr "Искусство создания демо-версии Odoo."
+msgid "The Art of Making an Flectra Demo."
+msgstr "Искусство создания демо-версии Flectra."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track29
@@ -813,10 +813,10 @@ msgstr "Новая маркетинговая стратегия."
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid ""
-"The new way to promote your modules in the Apps platform and Odoo website."
+"The new way to promote your modules in the Apps platform and Flectra website."
 msgstr ""
 "Новый способ для продвижения ваших модулей в платформе приложений и на сайте "
-"Odoo."
+"Flectra."
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal

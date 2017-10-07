@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2009  Renato Lima - Akretion
 
@@ -43,7 +43,7 @@ accounting SPED, fiscal SPED and PAF ECF that are still missing as September
 2011). Those modules are also strictly licensed under AGPL V3 and today don't 
 come with any additional paid permission for online use of 'private modules'.
 """,
-    'author': 'Akretion, Odoo Brasil',
+    'author': 'Akretion, Odoo Brasil, Flectra',
     'website': 'http://openerpbrasil.org',
     'depends': ['account'],
     'data': [

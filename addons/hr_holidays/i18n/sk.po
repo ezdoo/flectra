@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 #
@@ -6,12 +6,12 @@
 # Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2015-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-02-21 12:42+0000\n"
 "Last-Translator: Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>\n"
-"Language-Team: Slovak (http://www.transifex.com/odoo/odoo-9/language/sk/)\n"
+"Language-Team: Slovak (http://www.transifex.com/flectra/flectra-9/language/sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -893,10 +893,10 @@ msgstr "Počet voľna"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_categ_id
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, Flectra will create a corresponding meeting of this "
 "type in the calendar."
 msgstr ""
-"Akonáhle je voľno sa potvrdené, Odoo vytvorí zodpovedajúce stretnutie tohto "
+"Akonáhle je voľno sa potvrdené, Flectra vytvorí zodpovedajúce stretnutie tohto "
 "druhu v kalendári."
 
 #. module: hr_holidays
@@ -1283,10 +1283,10 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
-"You can assign remaining Legal Leaves for each employee, Odoo\n"
+"You can assign remaining Legal Leaves for each employee, Flectra\n"
 "               will automatically create and validate allocation requests."
 msgstr ""
-"Môžete prideliť ostávajúce  legálne voľno pre každého zamestnanca, Odoo\n"
+"Môžete prideliť ostávajúce  legálne voľno pre každého zamestnanca, Flectra\n"
 "automaticky vytvorí a potvrdí žiadosti o pridelenie."
 
 #. module: hr_holidays

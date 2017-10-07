@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * base_setup
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2015-10-09 06:18+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: French (Canada) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: French (Canada) (http://www.transifex.com/flectra/flectra-9/"
 "language/fr_CA/)\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
@@ -254,8 +254,8 @@ msgstr "Accès au Portail"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_module_share
-msgid "Share or embbed any screen of Odoo."
-msgstr "Partager ou intégrer n'importe quel écran Odoo."
+msgid "Share or embbed any screen of Flectra."
+msgstr "Partager ou intégrer n'importe quel écran Flectra."
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_company_share_partner

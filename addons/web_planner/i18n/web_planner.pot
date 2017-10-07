@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 #	* web_planner
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
@@ -106,7 +106,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:388
 #, python-format
-msgid "Odoo Enterprise"
+msgid "Flectra Enterprise"
 msgstr ""
 
 #. module: web_planner

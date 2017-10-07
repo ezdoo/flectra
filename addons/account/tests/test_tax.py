@@ -1,6 +1,6 @@
-from odoo.addons.account.tests.account_test_users import AccountTestUsers
-from odoo.tests.common import TransactionCase
-from odoo.tools import float_compare
+from flectra.addons.account.tests.account_test_users import AccountTestUsers
+from flectra.tests.common import TransactionCase
+from flectra.tools import float_compare
 import time
 
 

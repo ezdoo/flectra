@@ -1,12 +1,12 @@
-# #-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * analytic
 #
 # Translators:
 # Yoshi Tashiro <tashiro@roomsfor.hk>, 2015-2016
-# #-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * analytic
 #
@@ -15,19 +15,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-07-18 22:30+0000\n"
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>\n"
-"Language-Team: Japanese (http://www.transifex.com/odoo/odoo-9/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/flectra/flectra-9/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: analytic
@@ -35,9 +35,9 @@ msgstr ""
 #, fuzzy
 msgid "(Keep empty to open the current situation)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "(全期間指定の場合は日付を入れないでください)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "（現在の状態を開くために空のままとします）"
 
 #. module: analytic
@@ -96,9 +96,9 @@ msgstr "分析勘定"
 #, fuzzy
 msgid "Analytic Entries"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "分析エントリ\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "分析エントリー"
 
 #. module: analytic
@@ -106,9 +106,9 @@ msgstr ""
 #, fuzzy
 msgid "Analytic Entry"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "分析エントリ\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "分析エントリー"
 
 #. module: analytic
@@ -136,9 +136,9 @@ msgstr ""
 #, fuzzy
 msgid "Associated Partner"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "関連取引先\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "関連パートナ"
 
 #. module: analytic
@@ -212,9 +212,9 @@ msgstr "作成日"
 #, fuzzy
 msgid "Credit"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "費用\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "貸方"
 
 #. module: analytic
@@ -237,9 +237,9 @@ msgstr "日付"
 #, fuzzy
 msgid "Debit"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "収益\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "借方"
 
 #. module: analytic
@@ -260,9 +260,9 @@ msgstr "表示名"
 #, fuzzy
 msgid "From"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "開始日\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "差出人"
 
 #. module: analytic
@@ -283,7 +283,7 @@ msgstr "ID"
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sale orders and projects are implemented using\n"
+"In Flectra, sale orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to "
 "analyse\n"
 "                your margins easily."
@@ -392,9 +392,9 @@ msgstr "会社の通貨と等しくない場合は関連するアカウントの
 #, fuzzy
 msgid "To"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "終了日\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "宛先"
 
 #. module: analytic

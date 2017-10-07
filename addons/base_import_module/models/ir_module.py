@@ -6,11 +6,11 @@ import sys
 import zipfile
 from os.path import join as opj
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.modules import load_information_from_description_file
-from odoo.tools import convert_file, exception_to_unicode
-from odoo.tools.osutil import tempdir
+from flectra import api, fields, models, _
+from flectra.exceptions import UserError
+from flectra.modules import load_information_from_description_file
+from flectra.tools import convert_file, exception_to_unicode
+from flectra.tools.osutil import tempdir
 
 _logger = logging.getLogger(__name__)
 
@@ -101,7 +101,7 @@ class IrModule(models.Model):
                     raise UserError(_("File '%s' exceed maximum allowed file size") % zf.filename)
 
             with tempdir() as module_dir:
-                import odoo.modules as addons
+                import flectra.modules as addons
                 try:
                     addons.module.ad_paths.append(module_dir)
                     z.extractall(module_dir)

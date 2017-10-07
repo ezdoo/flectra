@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2011 Thamini S.à.R.L (<http://www.thamini.com>)
 # Copyright (C) 2011 ADN Consultants S.à.R.L (<http://www.adn-luxembourg.com>)
@@ -23,7 +23,7 @@ Notes:
       see the first sheet of tax.xls for details of coverage
     * to update the chart of tax template, update tax.xls and run tax2csv.py
 """,
-    'author': 'OpenERP SA, ADN, ACSONE SA/NV',
+    'author': 'OpenERP SA, ADN, ACSONE SA/NV, Flectra',
     'depends': [
         'account',
         'base_iban',

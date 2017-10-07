@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_quote
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-04-19 09:47+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Mongolian (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Mongolian (http://www.transifex.com/flectra/flectra-9/language/"
 "mn/)\n"
 "Language: mn\n"
 "MIME-Version: 1.0\n"
@@ -80,8 +80,8 @@ msgid ""
 "                <a href=\"${user.company_id.website}\" style=\"text-"
 "decoration:none; color: #a24689;\">\n"
 "                    <strong>${user.company_id.name}</strong>\n"
-"                </a> using <a href=\"www.odoo.com\" style=\"text-decoration:"
-"none; color: #a24689;\"><strong>Odoo</strong></a>\n"
+"                </a> using <a href=\"www.flectrahq.com\" style=\"text-decoration:"
+"none; color: #a24689;\"><strong>Flectra</strong></a>\n"
 "                </strong></p>\n"
 "            </td>\n"
 "        </tr></tbody>\n"
@@ -446,7 +446,7 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1
-msgid "Become an Odoo Consultant."
+msgid "Become an Flectra Consultant."
 msgstr ""
 
 #. module: website_quote
@@ -458,7 +458,7 @@ msgstr ""
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
 "Benefit from the growing customer demand\n"
-"                                    and our Odoo brand."
+"                                    and our Flectra brand."
 msgstr ""
 
 #. module: website_quote
@@ -536,7 +536,7 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1
-msgid "Configure Odoo using the standard modules."
+msgid "Configure Flectra using the standard modules."
 msgstr ""
 
 #. module: website_quote
@@ -724,9 +724,9 @@ msgid ""
 "Every year, we redirect more than 100,000 customer\n"
 "                                requests to our official partners. These are "
 "prospects\n"
-"                                that filled a form on the Odoo website and "
+"                                that filled a form on the Flectra website and "
 "wanted to\n"
-"                                use Odoo. The right partner to fulfill the "
+"                                use Flectra. The right partner to fulfill the "
 "customer\n"
 "                                request is selected based on the customer "
 "localization\n"
@@ -740,9 +740,9 @@ msgid ""
 "Every year, we redirect more than 100,000 customer\n"
 "                        requests to our official partners. These are "
 "prospects\n"
-"                        that filled a form on the Odoo website and wanted "
+"                        that filled a form on the Flectra website and wanted "
 "to\n"
-"                        use Odoo. The right partner to fulfill the customer\n"
+"                        use Flectra. The right partner to fulfill the customer\n"
 "                        request is selected based on the customer "
 "localization\n"
 "                        (nearest partner) and the grade of the partner."
@@ -761,7 +761,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"For an extra fee, partners can get access to Odoo's\n"
+"For an extra fee, partners can get access to Flectra's\n"
 "                                core developers and functional experts. This "
 "can help\n"
 "                                you succeed in delivering more complex or "
@@ -819,7 +819,7 @@ msgstr ""
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
 "Grow by developing a <strong>recurring\n"
-"                                     revenue flow</strong> from Odoo\n"
+"                                     revenue flow</strong> from Flectra\n"
 "                                     Enterprise's commission system."
 msgstr ""
 
@@ -898,7 +898,7 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1
-msgid "Install and administer Odoo."
+msgid "Install and administer Flectra."
 msgstr ""
 
 #. module: website_quote
@@ -955,7 +955,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"It includes <strong>discounts on Odoo\n"
+"It includes <strong>discounts on Flectra\n"
 "                                Enterprise</strong>, technical and/or "
 "functional\n"
 "                                <strong>trainings</strong>,\n"
@@ -1002,8 +1002,8 @@ msgstr "Сүүлийн засвар хийсэн огноо"
 #: model:product.template,description_sale:website_quote.product_template_quote_1
 #: model:product.template,description_sale:website_quote.product_template_quote_3
 msgid ""
-"Learn directly from our team and network of Odoo experts. Choose from the "
-"available training sessions for a better functional understanding of Odoo"
+"Learn directly from our team and network of Flectra experts. Choose from the "
+"available training sessions for a better functional understanding of Flectra"
 msgstr ""
 
 #. module: website_quote
@@ -1011,8 +1011,8 @@ msgstr ""
 #: model:product.template,description_sale:website_quote.product_product_quote_2_product_template
 #: model:product.template,description_sale:website_quote.product_template_quote_2
 msgid ""
-"Learn directly from our team and network of Odoo experts. Choose from the "
-"available training sessions for a better technical understanding of Odoo"
+"Learn directly from our team and network of Flectra experts. Choose from the "
+"available training sessions for a better technical understanding of Flectra"
 msgstr ""
 
 #. module: website_quote
@@ -1117,7 +1117,7 @@ msgstr "Зорилтууд"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1
-msgid "Odoo Official Website"
+msgid "Flectra Official Website"
 msgstr ""
 
 #. module: website_quote
@@ -1125,18 +1125,18 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
-msgid "Odoo Web Client"
+msgid "Flectra Web Client"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Odoo promotes its partners through various ways:\n"
+"Flectra promotes its partners through various ways:\n"
 "                                publication on our website, official "
 "communication,\n"
 "                                publication of your success stories, etc. As "
 "soon as\n"
-"                                you become an Odoo partner and have followed "
+"                                you become an Flectra partner and have followed "
 "the\n"
 "                                official trainings, you will be visible on "
 "the partner\n"
@@ -1164,7 +1164,7 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1
-msgid "Operate/Work with Odoo Smoothly on regular basis."
+msgid "Operate/Work with Flectra Smoothly on regular basis."
 msgstr ""
 
 #. module: website_quote
@@ -1228,7 +1228,7 @@ msgstr "Үйлчилгээ"
 msgid ""
 "Our automated testing server software is called Runbot,\n"
 "                                and you can try it out here: http://runbot."
-"odoo.com.\n"
+"flectrahq.com.\n"
 "                                A dedicated runbot server is available for "
 "every\n"
 "                                partner."
@@ -1240,7 +1240,7 @@ msgid ""
 "Our partnership offer includes all you need to\n"
 "                                grow your business and deliver quality "
 "services\n"
-"                                with the Odoo Partner Program."
+"                                with the Flectra Partner Program."
 msgstr ""
 
 #. module: website_quote
@@ -1528,7 +1528,7 @@ msgid ""
 "                                developments tested automatically by our "
 "automated test\n"
 "                                servers. At every code commit, you get a "
-"full Odoo\n"
+"full Flectra\n"
 "                                instance that you can try out online. When "
 "this\n"
 "                                instance is deployed, your code is "
@@ -1717,7 +1717,7 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1
-msgid "Understand the functional concepts, business processes by Odoo."
+msgid "Understand the functional concepts, business processes by Flectra."
 msgstr ""
 
 #. module: website_quote
@@ -1786,7 +1786,7 @@ msgstr ""
 msgid ""
 "We will assign you a dedicated account manager, an\n"
 "                        experienced sales person, to help you develop your\n"
-"                        Odoo business. The account manager helps you get\n"
+"                        Flectra business. The account manager helps you get\n"
 "                        leads, close deals, gives you feedback and best\n"
 "                        practices, delivers sales training and is your "
 "direct\n"
@@ -1823,7 +1823,7 @@ msgstr "Ажлын урсгалууд"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid ""
-"You can <strong>set a description per product</strong>. Odoo will\n"
+"You can <strong>set a description per product</strong>. Flectra will\n"
 "                        automatically create a quotation using the "
 "descriptions\n"
 "                        of all products in the proposal. The table of "

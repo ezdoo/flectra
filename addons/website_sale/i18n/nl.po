@@ -1,22 +1,22 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_sale
 # 
 # Translators:
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Cas Vissers <casvissers@brahoo.nl>, 2017
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2017
+# Erwin van der Ploeg <erwin@flectraexperts.nl>, 2017
 # Eric Geens <ericgeens@yahoo.com>, 2017
 # Melroy van den Berg <webmaster1989@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Melroy van den Berg <webmaster1989@gmail.com>, 2017\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/flectra/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -211,10 +211,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
+"                                Everything is editable in your Flectra website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
 msgstr ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"Alles is bewerkbaar in uw Odoo website. Voel je vrij om elke pagina titel, veld of knop te bewerken. Druk eenvoudig op *Bewerken* in de rechterbovenhoek om te beginnen met het bewerken van de pagina."
+"Alles is bewerkbaar in uw Flectra website. Voel je vrij om elke pagina titel, veld of knop te bewerken. Druk eenvoudig op *Bewerken* in de rechterbovenhoek om te beginnen met het bewerken van de pagina."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -660,8 +660,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "<strong>See it in action in Odoo</strong><br/>"
-msgstr "<strong>Zie het in actie in Odoo</strong><br/>"
+msgid "<strong>See it in action in Flectra</strong><br/>"
+msgstr "<strong>Zie het in actie in Flectra</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1833,10 +1833,10 @@ msgstr "Als het gemaakt is voor de iPad, is het gemaakt voor de iPad mini."
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the "
-"related connector in Odoo to compute accurate costs and print labels."
+"related connector in Flectra to compute accurate costs and print labels."
 msgstr ""
 "Als u samenwerkt met grote transporteurs (UPS,FedEx, DHL, etc.) activeer dan"
-" de gerelateerde connector in Odoo om de verzendkosten acuraat te berekenen "
+" de gerelateerde connector in Flectra om de verzendkosten acuraat te berekenen "
 "en de labels te printen."
 
 #. module: website_sale
@@ -3433,9 +3433,9 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
+"To do so, take the most out of Flectra's <strong>pricing options</strong>:<br/>"
 msgstr ""
-"Door dit te doen, haalt u het meeste uit Odoo '<strong>prijzen "
+"Door dit te doen, haalt u het meeste uit Flectra '<strong>prijzen "
 "opties</strong>:<br/>"
 
 #. module: website_sale
@@ -3629,7 +3629,7 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment acquirers in Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment acquirers in Flectra:</strong>"
 msgstr ""
 
 #. module: website_sale
@@ -3820,8 +3820,8 @@ msgstr "algemene voorwaarden"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "use Odoo API to import through scripts"
-msgstr "gebruik de Odoo API om te importeren via scripts"
+msgid "use Flectra API to import through scripts"
+msgstr "gebruik de Flectra API om te importeren via scripts"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_event_track
 # 
@@ -6,7 +6,7 @@
 # Bonny Useful <bonny.useful@gmail.com>, 2017
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
 # Febrasari Almania <febrasari.almania@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2017
 # Deddy Ddr <deddy.ddr@gmail.com>, 2017
 # Muhammad Syarif <mhdsyarif.ms@gmail.com>, 2017
@@ -14,12 +14,12 @@
 # Edy Kend <edy@azmall.co.id>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Edy Kend <edy@azmall.co.id>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/flectra/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -119,10 +119,10 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
-"A technical explanation of Odoo as a CMS and a eCommerce platform for "
+"A technical explanation of Flectra as a CMS and a eCommerce platform for "
 "version 8."
 msgstr ""
-"Penjelasan teknis dari Odoo sebagai CMS dan e-commerce platform untuk versi "
+"Penjelasan teknis dari Flectra sebagai CMS dan e-commerce platform untuk versi "
 "8."
 
 #. module: website_event_track
@@ -151,8 +151,8 @@ msgstr "Aktif"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
-msgid "Advanced lead management with Odoo: tips and tricks from the fields"
-msgstr "Memimpin manajemen dengan Odoo lanjutan: tips dan trik dari bidang"
+msgid "Advanced lead management with Flectra: tips and tricks from the fields"
+msgstr "Memimpin manajemen dengan Flectra lanjutan: tips dan trik dari bidang"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track13
@@ -300,16 +300,16 @@ msgstr "Peta jalan rinci akuntansi modul baru dan perbaikan untuk versi 8."
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
-"Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
+"Discover Flectra CRM: How to optimize your sales, from leads to sales orders."
 msgstr ""
-"Temukan Odoo CRM: Cara mengoptimalkan penjualan Anda, dari mengarah order "
+"Temukan Flectra CRM: Cara mengoptimalkan penjualan Anda, dari mengarah order "
 "penjualan."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
-msgid "Discover Odoo Point-of-Sale: Your shop ready to use in 30 minutes."
+msgid "Discover Flectra Point-of-Sale: Your shop ready to use in 30 minutes."
 msgstr ""
-"Temukan Odoo Point-of-Sale: Toko Anda siap untuk digunakan dalam 30 menit."
+"Temukan Flectra Point-of-Sale: Toko Anda siap untuk digunakan dalam 30 menit."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_display_name
@@ -470,10 +470,10 @@ msgstr "Tertinggi"
 #: model:event.track,name:website_event_track.event_track18
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
-"with Odoo."
+"with Flectra."
 msgstr ""
 "Bagaimana membangun strategi pemasaran Anda untuk menghasilkan memimpin "
-"dengan Odoo."
+"dengan Flectra."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1
@@ -482,8 +482,8 @@ msgstr "Bagaimana mengembangkan situs module."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
-msgid "How to develop automated tests in the Odoo web client."
-msgstr "Bagaimana mengembangkan otomatis tes Odoo web klien."
+msgid "How to develop automated tests in the Flectra web client."
+msgstr "Bagaimana mengembangkan otomatis tes Flectra web klien."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track3
@@ -492,18 +492,18 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
-msgid "How to integrate hardware materials with the Odoo point of sale."
+msgid "How to integrate hardware materials with the Flectra point of sale."
 msgstr ""
-"Bagaimana untuk mengintegrasikan perangkat keras bahan dengan Odoo titik "
+"Bagaimana untuk mengintegrasikan perangkat keras bahan dengan Flectra titik "
 "penjualan."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid ""
-"How to use Odoo for your HR process: recruitment, leaves management, "
+"How to use Flectra for your HR process: recruitment, leaves management, "
 "appraisals, expenses, etc."
 msgstr ""
-"Bagaimana menggunakan Odoo untuk proses HR Anda: perekrutan, daun manajemen,"
+"Bagaimana menggunakan Flectra untuk proses HR Anda: perekrutan, daun manajemen,"
 " penilaian, biaya, dll."
 
 #. module: website_event_track
@@ -540,8 +540,8 @@ msgstr "Kanban State"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
-msgid "Key Success factors selling Odoo."
-msgstr "Faktor-faktor kunci sukses menjual Odoo."
+msgid "Key Success factors selling Flectra."
+msgstr "Faktor-faktor kunci sukses menjual Flectra."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor___last_update
@@ -605,8 +605,8 @@ msgstr "Mengelola Anda KPI (direkomendasikan kepada mitra openERP)."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
-msgid "Manage your events with Odoo, the new training modules."
-msgstr "Mengelola acara Anda dengan Odoo, modul pelatihan yang baru."
+msgid "Manage your events with Flectra, the new training modules."
+msgstr "Mengelola acara Anda dengan Flectra, modul pelatihan yang baru."
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -674,23 +674,23 @@ msgstr "Trek tidak ditemukan!"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
-msgid "Odoo Mobile for Notes, Meetings and Messages."
-msgstr "Odoo Mobile untuk catatan, pertemuan dan pesan."
+msgid "Flectra Mobile for Notes, Meetings and Messages."
+msgstr "Flectra Mobile untuk catatan, pertemuan dan pesan."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
-msgid "Odoo Status & Strategy 2014"
-msgstr "Odoo Status & strategi 2014"
+msgid "Flectra Status & Strategy 2014"
+msgstr "Flectra Status & strategi 2014"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
-msgid "Odoo as your Enterprise Social Network."
-msgstr "Odoo sebagai jaringan sosial perusahaan Anda."
+msgid "Flectra as your Enterprise Social Network."
+msgstr "Flectra sebagai jaringan sosial perusahaan Anda."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
-msgid "Odoo in 2014"
-msgstr "Odoo pada tahun 2014"
+msgid "Flectra in 2014"
+msgstr "Flectra pada tahun 2014"
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_sponsor
@@ -749,8 +749,8 @@ msgstr "Meningkatkan qualitive wawasan dengan app survei"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
-msgid "Recruiting high skilled talents with Odoo HR apps"
-msgstr "Merekrut bakat terampil yang tinggi dengan aplikasi Odoo HR"
+msgid "Recruiting high skilled talents with Flectra HR apps"
+msgstr "Merekrut bakat terampil yang tinggi dengan aplikasi Flectra HR"
 
 #. module: website_event_track
 #: selection:event.track,kanban_state:0
@@ -937,8 +937,8 @@ msgstr "Terima kasih atas usulan Anda."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
-msgid "The Art of Making an Odoo Demo."
-msgstr "Seni membuat Demo Odoo."
+msgid "The Art of Making an Flectra Demo."
+msgstr "Seni membuat Demo Flectra."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track29
@@ -948,10 +948,10 @@ msgstr "Strategi pemasaran baru."
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid ""
-"The new way to promote your modules in the Apps platform and Odoo website."
+"The new way to promote your modules in the Apps platform and Flectra website."
 msgstr ""
 "Cara baru untuk mempromosikan Anda modul dalam platform aplikasi dan situs "
-"web Odoo."
+"web Flectra."
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal

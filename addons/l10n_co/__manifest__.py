@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) David Arnold (devCO).
 # Author        David Arnold (devCO), dar@devco.co
@@ -13,7 +13,7 @@
     'version': '0.8',
     'category': 'Localization',
     'description': 'Colombian Accounting and Tax Preconfiguration',
-    'author': 'David Arnold BA HSG (devCO)',
+    'author': 'David Arnold BA HSG (devCO), Flectra',
     'depends': [
         'account',
     ],

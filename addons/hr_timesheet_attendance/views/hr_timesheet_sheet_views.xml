@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<flectra>
 
         <record id="act_hr_timesheet_sheet_sheet_2_hr_attendance" model="ir.actions.act_window">
             <field name="context">{'search_default_sheet_id': [active_id]}</field>
@@ -140,4 +140,4 @@
             </field>
         </record>
 
-</odoo>
+</flectra>

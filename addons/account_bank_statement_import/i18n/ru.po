@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 #
@@ -9,12 +9,12 @@
 # Вадим Кунгурцев <kvadim@aport.ru>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-04-06 20:39+0000\n"
 "Last-Translator: Viktor Pogrebniak <vp@aifil.ru>\n"
-"Language-Team: Russian (http://www.transifex.com/odoo/odoo-9/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/flectra/flectra-9/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -378,22 +378,22 @@ msgstr "Счет убытков"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_inbound_payment_method_ids
 msgid ""
-"Means of payment for collecting money. Odoo modules offer various payments "
+"Means of payment for collecting money. Flectra modules offer various payments "
 "handling facilities, but you can always use the 'Manual' payment method in "
 "order to manage payments outside of the software."
 msgstr ""
-"Способ оплаты для сбора денег. Модули Odoo предлагают различное платежное "
+"Способ оплаты для сбора денег. Модули Flectra предлагают различное платежное "
 "оборудование, но Вы можете всегда использовать 'Ручной' способ оплаты, чтобы "
 "управлять платежами за пределами программного обеспечения."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_outbound_payment_method_ids
 msgid ""
-"Means of payment for sending money. Odoo modules offer various payments "
+"Means of payment for sending money. Flectra modules offer various payments "
 "handling facilities, but you can always use the 'Manual' payment method in "
 "order to manage payments outside of the software."
 msgstr ""
-"Способы оплаты по отправке денег. Модули Odoo предлагают различное платежное "
+"Способы оплаты по отправке денег. Модули Flectra предлагают различное платежное "
 "оборудование, но Вы можете всегда использовать 'Ручной' способ оплаты, чтобы "
 "управлять платежами за пределами программного обеспечения."
 
@@ -467,11 +467,11 @@ msgstr "Показать журнал на информационной пане
 #. module: account_bank_statement_import
 #: model:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Odoo. "
+"The account of the statement you are importing is not yet recorded in Flectra. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
-"Счёт для импортируемой Вами Выписки ещё не записан в системе Odoo. Для того, "
+"Счёт для импортируемой Вами Выписки ещё не записан в системе Flectra. Для того, "
 "чтобы продолжить импортирование, Вы должны создать Банковский Журнал для "
 "данного Счёта."
 

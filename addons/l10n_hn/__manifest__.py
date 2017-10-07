@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2009-2016 Salvatore Josué Trimarchi Pinto <trimarchi@bacgroup.net>
 
@@ -18,7 +18,7 @@ This is the base module to manage the accounting chart for Honduras.
 Agrega una nomenclatura contable para Honduras. También incluye impuestos y la
 moneda Lempira. -- Adds accounting chart for Honduras. It also includes taxes
 and the Lempira currency.""",
-    'author': 'Salvatore Josue Trimarchi Pinto',
+    'author': 'Salvatore Josue Trimarchi Pinto, Flectra',
     'website': 'http://bacgroup.net',
     'depends': ['base', 'account'],
     'data': [

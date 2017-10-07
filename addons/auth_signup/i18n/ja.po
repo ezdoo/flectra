@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * auth_signup
 #
@@ -7,19 +7,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-07-21 01:11+0000\n"
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>\n"
-"Language-Team: Japanese (http://www.transifex.com/odoo/odoo-9/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/flectra/flectra-9/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: auth_signup
@@ -42,7 +42,7 @@ msgid ""
 "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat "
 "top /100%;color:#777777\">\n"
 "    <p>Dear ${object.name},</p>\n"
-"    <p>A password reset was requested for the Odoo account linked to this "
+"    <p>A password reset was requested for the Flectra account linked to this "
 "email.</p>\n"
 "    <p>You may change your password by following this link which will remain "
 "valid during 24 hours:</p>\n"
@@ -61,8 +61,8 @@ msgid ""
 "background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Sent by ${user.company_id.name} using <a href=\"www.odoo.com"
-"\" style=\"text-decoration:none; color: #a24689;\">Odoo</a></strong>\n"
+"        <strong>Sent by ${user.company_id.name} using <a href=\"www.flectrahq.com"
+"\" style=\"text-decoration:none; color: #a24689;\">Flectra</a></strong>\n"
 "    </p>\n"
 "</div>"
 msgstr ""
@@ -89,7 +89,7 @@ msgid ""
 "<p>Dear ${object.name},</p>\n"
 "    <p>\n"
 "        You have been invited to connect to \"${object.company_id.name}\" in "
-"order to get access to your documents in Odoo.\n"
+"order to get access to your documents in Flectra.\n"
 "    </p>\n"
 "    <p>\n"
 "        To accept the invitation, click on the following link:\n"
@@ -109,15 +109,15 @@ msgid ""
 "background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Sent by ${user.company_id.name} using <a href=\"www.odoo.com"
-"\" style=\"text-decoration:none; color: #a24689;\">Odoo</a></strong>\n"
+"        <strong>Sent by ${user.company_id.name} using <a href=\"www.flectrahq.com"
+"\" style=\"text-decoration:none; color: #a24689;\">Flectra</a></strong>\n"
 "    </p>\n"
 "</div>"
 msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,subject:auth_signup.set_password_email
-msgid "${object.company_id.name} invitation to connect on Odoo"
+msgid "${object.company_id.name} invitation to connect on Flectra"
 msgstr ""
 
 #. module: auth_signup
@@ -253,9 +253,9 @@ msgstr ""
 #, fuzzy
 msgid "Send Reset Password Instructions"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "パスワード再設定のEメール送信\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "パスワードリセットのEメールを送信"
 
 #. module: auth_signup

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web
 #
@@ -9,12 +9,12 @@
 # Robert Kirschner <robertkirschner@yahoo.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-05-10 21:59+0000\n"
 "Last-Translator: palica <pavol.cupka@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/odoo/odoo-9/language/sk/)\n"
+"Language-Team: Slovak (http://www.transifex.com/flectra/flectra-9/language/sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -228,8 +228,8 @@ msgstr "<span class=\"oe_logo_edit\">Upraviť dáta spoločnosti</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>Flectra</span>"
+msgstr "<span>Flectra</span>"
 
 #. module: web
 #. openerp-web
@@ -577,8 +577,8 @@ msgstr "Kontext:"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:116
 #, python-format
-msgid "Copyright © 2004-2015 Odoo S.A."
-msgstr "Copyright © 2004-2015 Odoo S.A."
+msgid "Copyright © 2004-2015 Flectra S.A."
+msgstr "Copyright © 2004-2015 Flectra S.A."
 
 #. module: web
 #. openerp-web
@@ -1089,8 +1089,8 @@ msgstr "GNU nižšia všeobecná verejná licencia"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1512
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Získajte túto funkciu a omnoho viac s Odoo Podnikanie!"
+msgid "Get this feature and much more with Flectra Enterprise!"
+msgstr "Získajte túto funkciu a omnoho viac s Flectra Podnikanie!"
 
 #. module: web
 #. openerp-web
@@ -1413,8 +1413,8 @@ msgstr "Posunúť hore"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Môj Odoo.com účet"
+msgid "My Flectra.com account"
+msgstr "Môj Flectra.com účet"
 
 #. module: web
 #. openerp-web
@@ -1587,55 +1587,55 @@ msgstr "Objekt:"
 #: code:addons/web/static/src/js/framework/dialog.js:37
 #: model:ir.ui.view,arch_db:web.layout
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:101
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (pôvodne OpenERP)"
+msgid "Flectra (Formerly OpenERP)"
+msgstr "Flectra (pôvodne OpenERP)"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:189
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo aplikácie budú dostupné čoskoro"
+msgid "Flectra Apps will be available soon"
+msgstr "Flectra aplikácie budú dostupné čoskoro"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1717
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Podnikanie"
+msgid "Flectra Enterprise"
+msgstr "Flectra Podnikanie"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:117
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Flectra S.A."
+msgstr "Flectra S.A."
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Odoo webové testy"
+msgid "Flectra Web Tests"
+msgstr "Flectra webové testy"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:117
 #, python-format
-msgid "Odoo is a trademark of"
-msgstr "Odoo je ochrannou značkou"
+msgid "Flectra is a trademark of"
+msgstr "Flectra je ochrannou značkou"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:119
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "Flectra.com"
+msgstr "Flectra.com"
 
 #. module: web
 #. openerp-web
@@ -1793,8 +1793,8 @@ msgstr "Poháňané"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Poháňané <span>Odoo</span>"
+msgid "Powered by <span>Flectra</span>"
+msgstr "Poháňané <span>Flectra</span>"
 
 #. module: web
 #. openerp-web
@@ -2276,10 +2276,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in Flectra is displayed according to your field timezone."
 msgstr ""
 "Nezhoda časového pásma: časové pásme vášho prehliadača nezodpovedá "
-"zvolenému. Čas v Odoo je zobrazovaný podľa vášho poľa časového pásma."
+"zvolenému. Čas v Flectra je zobrazovaný podľa vášho poľa časového pásma."
 
 #. module: web
 #. openerp-web
@@ -2626,9 +2626,9 @@ msgstr "Musíte vybrať aspoň jeden záznam."
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:69
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your Flectra session expired. Please refresh the current web page."
 msgstr ""
-"Váš Odoo relácie vypršala. Prosím znovu načítajte aktuálnu webovú stránku."
+"Váš Flectra relácie vypršala. Prosím znovu načítajte aktuálnu webovú stránku."
 
 #. module: web
 #. openerp-web

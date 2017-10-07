@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_slides
 #
@@ -6,12 +6,12 @@
 # Goutoudis Kostas <goutoudis@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-01-02 22:27+0000\n"
 "Last-Translator: Goutoudis Kostas <goutoudis@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/odoo/odoo-9/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/flectra/flectra-9/language/el/)\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -324,7 +324,7 @@ msgstr "Μόνο Επικυρωμένοι Χρήστες"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Odoo"
+msgid "Awesome Timesheet by Flectra"
 msgstr ""
 
 #. module: website_slides
@@ -439,9 +439,9 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
 msgid ""
-"Create a beautiful and professional eCommerce on your website with Odoo. \n"
+"Create a beautiful and professional eCommerce on your website with Flectra. \n"
 "\n"
-"Find out more at https://www.odoo.com/page/e-commerce"
+"Find out more at https://www.flectrahq.com/page/e-commerce"
 msgstr ""
 
 #. module: website_slides
@@ -502,7 +502,7 @@ msgid ""
 "Discover the all-in-one business management software solution that fits any "
 "business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://flectrahq.com"
 msgstr ""
 
 #. module: website_slides
@@ -554,7 +554,7 @@ msgstr "Λήψη"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Odoo and discover how easy time tracking and "
+"Download Awesome Timesheet by Flectra and discover how easy time tracking and "
 "employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
@@ -880,60 +880,60 @@ msgstr "Αριθμός Βίντεος"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Odoo All-in-One Software Demonstration"
+msgid "Flectra All-in-One Software Demonstration"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
-msgid "Odoo Days"
-msgstr "Odoo Days"
+msgid "Flectra Days"
+msgstr "Flectra Days"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Odoo Explained"
-msgstr "Επεξήγηση Odoo"
+msgid "Flectra Explained"
+msgstr "Επεξήγηση Flectra"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Odoo Marketing - part 1: ATTRACT"
-msgstr "Odoo Marketing - Μέρος 1: ΠΡΟΣΕΛΚΥΣΗ"
+msgid "Flectra Marketing - part 1: ATTRACT"
+msgstr "Flectra Marketing - Μέρος 1: ΠΡΟΣΕΛΚΥΣΗ"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Odoo Marketing - part 1: ATTRACT_2"
-msgstr "Odoo Marketing - Μέρος 1: ΠΡΟΣΕΛΚΥΣΗ_2"
+msgid "Flectra Marketing - part 1: ATTRACT_2"
+msgstr "Flectra Marketing - Μέρος 1: ΠΡΟΣΕΛΚΥΣΗ_2"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Odoo Marketing - part 1: ATTRACT_3"
-msgstr "Odoo Marketing - Μέρος 1: ΠΡΟΣΕΛΚΥΣΗ_3"
+msgid "Flectra Marketing - part 1: ATTRACT_3"
+msgstr "Flectra Marketing - Μέρος 1: ΠΡΟΣΕΛΚΥΣΗ_3"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_10
-msgid "Odoo Roadmap & Strategy - Fabien Pinckaers"
-msgstr "Odoo πορεία και στρατηγική - Fabien Pinckaers"
+msgid "Flectra Roadmap & Strategy - Fabien Pinckaers"
+msgstr "Flectra πορεία και στρατηγική - Fabien Pinckaers"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Odoo Sign Demonstration"
+msgid "Flectra Sign Demonstration"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Odoo Website & E-commerce Demonstration"
+msgid "Flectra Website & E-commerce Demonstration"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
 #, fuzzy
 msgid ""
-"Odoo's fully-integrated marketing app will help you to attract, convert and "
+"Flectra's fully-integrated marketing app will help you to attract, convert and "
 "close new leads. Check out our three-part video and discover more at www."
-"odoo.com"
+"flectrahq.com"
 msgstr ""
-"Η πλήρως ενσωματωμένη εφαρμογή Marketing της odoo θα σας βοηθήσει να "
+"Η πλήρως ενσωματωμένη εφαρμογή Marketing της flectra θα σας βοηθήσει να "
 "προσελκύσετε, να μετατρέψει και να κλείσετε πωλήσεις. \n"
-"Δείτε τα τρία μέρη του βίντεο μας και ανακαλύψετε περισσότερα στο www.odoo."
+"Δείτε τα τρία μέρη του βίντεο μας και ανακαλύψετε περισσότερα στο www.flectra."
 "com\n"
 "\n"
 "Το βίντεο δημιουργήθηκε από την Miroslava Ganzarcikova και την Sophia Eribo."
@@ -942,15 +942,15 @@ msgstr ""
 #: model:slide.slide,description:website_slides.slide_7
 #: model:slide.slide,description:website_slides.slide_8
 msgid ""
-"Odoo's fully-integrated marketing app will help you to attract, convert and "
+"Flectra's fully-integrated marketing app will help you to attract, convert and "
 "close new leads. Check out our three-part video and discover more at www."
-"odoo.com\n"
+"flectrahq.com\n"
 "\n"
 "Video made by Miroslava Ganzarcikova and Sophia Eribo."
 msgstr ""
-"Η πλήρως ενσωματωμένη εφαρμογή Marketing της odoo θα σας βοηθήσει να "
+"Η πλήρως ενσωματωμένη εφαρμογή Marketing της flectra θα σας βοηθήσει να "
 "προσελκύσετε, να μετατρέψει και να κλείσετε πωλήσεις. \n"
-"Δείτε τα τρία μέρη του βίντεο μας και ανακαλύψετε περισσότερα στο www.odoo."
+"Δείτε τα τρία μέρη του βίντεο μας και ανακαλύψετε περισσότερα στο www.flectra."
 "com\n"
 "\n"
 "Το βίντεο δημιουργήθηκε από την Miroslava Ganzarcikova και την Sophia Eribo."
@@ -1098,14 +1098,14 @@ msgstr ""
 #: model:slide.slide,description:website_slides.slide_0
 msgid ""
 "Run your business with a comprehensive suite of business apps. Do it easily "
-"with Odoo! \n"
+"with Flectra! \n"
 "\n"
-"http://odoo.com/start"
+"http://flectrahq.com/start"
 msgstr ""
 "Λειτουργήστε την επιχείρησή σας με μια ολοκληρωμένη σουίτα εφαρμογών για "
-"επιχειρήσεις. Κάντε το εύκολα με Odoo! \n"
+"επιχειρήσεις. Κάντε το εύκολα με Flectra! \n"
 "\n"
-"http://odoo.com/start"
+"http://flectrahq.com/start"
 
 #. module: website_slides
 #. openerp-web
@@ -1217,9 +1217,9 @@ msgstr "Συγνώμη, αλλά τίποτα δεν ταιριάζει με τ�
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with "
-"Odoo Sign!\n"
+"Flectra Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.flectrahq.com/page/sign"
 msgstr ""
 
 #. module: website_slides
@@ -1604,12 +1604,12 @@ msgstr "your-friend@domain.com"
 
 #~ msgid ""
 #~ "Interview with Guy Christiaens, Finance Manager at Alpinter, about their "
-#~ "use of Odoo.\n"
-#~ "Discover more about Odoo at www.odoo.com"
+#~ "use of Flectra.\n"
+#~ "Discover more about Flectra at www.flectrahq.com"
 #~ msgstr ""
 #~ "Συνέντευξη με τον Guy Christiaens, Οικονομικός Διευθυντής στην Alpinter, "
-#~ "σχετικά με τη χρήση τους Odoo.\n"
-#~ "Ανακαλύψτε περισσότερα για το Odoo στο www.odoo.com"
+#~ "σχετικά με τη χρήση τους Flectra.\n"
+#~ "Ανακαλύψτε περισσότερα για το Flectra στο www.flectrahq.com"
 
 #~ msgid "Is Follower"
 #~ msgstr "Είναι Ακόλουθος"
@@ -1632,25 +1632,25 @@ msgstr "your-friend@domain.com"
 #~ msgid "Number of unread messages"
 #~ msgstr "Πλήθος μη αναγνωσμένων μηνυμάτων"
 
-#~ msgid "Odoo - The Voice of the Customer: Alpinter"
-#~ msgstr "Odoo - Η Φωνή του Πελάτη: Alpinter"
+#~ msgid "Flectra - The Voice of the Customer: Alpinter"
+#~ msgstr "Flectra - Η Φωνή του Πελάτη: Alpinter"
 
-#~ msgid "Odoo Experience - Register now https://www.odoo.com/event/304/"
-#~ msgstr "Εμπειρία Odoo - Εγγραφείτε τώρα https://www.odoo.com/event/304/"
+#~ msgid "Flectra Experience - Register now https://www.flectrahq.com/event/304/"
+#~ msgstr "Εμπειρία Flectra - Εγγραφείτε τώρα https://www.flectrahq.com/event/304/"
 
-#~ msgid "Odoo Open Days 2014"
-#~ msgstr "Odoo Open Days 2014"
+#~ msgid "Flectra Open Days 2014"
+#~ msgstr "Flectra Open Days 2014"
 
-#~ msgid "Odoo POS Indiegogo Campaign"
-#~ msgstr "Odoo POS Indiegogo Καμπάνια"
+#~ msgid "Flectra POS Indiegogo Campaign"
+#~ msgstr "Flectra POS Indiegogo Καμπάνια"
 
-#~ msgid "Odoo SEO - Boost Your Website Trafic"
-#~ msgstr "Odoo SEO - Ενισχύστε την κίνηση στον Ιστότοπό σας"
+#~ msgid "Flectra SEO - Boost Your Website Trafic"
+#~ msgstr "Flectra SEO - Ενισχύστε την κίνηση στον Ιστότοπό σας"
 
-#~ msgid "Open Source Website Builder and eCommerce: Odoo"
+#~ msgid "Open Source Website Builder and eCommerce: Flectra"
 #~ msgstr ""
 #~ "Ανοιχτός κώδικας για την δημιουργία ιστοτόπων και ηλεκτρονικών "
-#~ "καταστημάτων: Odoo"
+#~ "καταστημάτων: Flectra"
 
 #~ msgid "The full URL to access the document through the website."
 #~ msgstr ""

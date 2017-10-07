@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
 # Translators:
 # Cezar <cezar.santanna@gmail.com>, 2016
 # Mateus Lopes <mateus1@gmail.com>, 2016
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux <mat@flectrahq.com>, 2016
 # grazziano <gra.negocia@gmail.com>, 2016
 # falexandresilva <falexandresilva@gmail.com>, 2016
 # Gideoni Willian da Silva <gd.willian@gmail.com>, 2016
@@ -13,12 +13,12 @@
 # Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>, 2016\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/flectra/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -368,22 +368,22 @@ msgstr "Conta de Perdas"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_inbound_payment_method_ids
 msgid ""
-"Means of payment for collecting money. Odoo modules offer various payments "
+"Means of payment for collecting money. Flectra modules offer various payments "
 "handling facilities, but you can always use the 'Manual' payment method in "
 "order to manage payments outside of the software."
 msgstr ""
-"Meios de pagamento para recolher dinheiro. Módulos Odoo oferece várias "
+"Meios de pagamento para recolher dinheiro. Módulos Flectra oferece várias "
 "facilidades de manipulação de pagamentos, mas você sempre pode usar o método"
 " de pagamento 'Manual', a fim de gerir os pagamentos fora do software."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_outbound_payment_method_ids
 msgid ""
-"Means of payment for sending money. Odoo modules offer various payments "
+"Means of payment for sending money. Flectra modules offer various payments "
 "handling facilities, but you can always use the 'Manual' payment method in "
 "order to manage payments outside of the software."
 msgstr ""
-"Meios de pagamento para enviar dinheiro. Módulos Odoo oferece várias "
+"Meios de pagamento para enviar dinheiro. Módulos Flectra oferece várias "
 "facilidades de manipulação de pagamentos, mas você sempre pode usar o método"
 " de pagamento 'Manual', a fim de gerir os pagamentos fora do software."
 
@@ -450,12 +450,12 @@ msgstr "Mostrar diário no dashboard"
 #. module: account_bank_statement_import
 #: model:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Odoo. "
+"The account of the statement you are importing is not yet recorded in Flectra. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
 "A conta do extrato que você está tentando importar ainda não está registrada"
-" no Odoo. A fim de prosseguir com a importação, você precisa criar um diário"
+" no Flectra. A fim de prosseguir com a importação, você precisa criar um diário"
 " de banco para esta conta."
 
 #. module: account_bank_statement_import

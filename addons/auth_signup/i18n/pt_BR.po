@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * auth_signup
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux <mat@flectrahq.com>, 2016
 # Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>, 2016
 # danimaribeiro <danimaribeiro@gmail.com>, 2016
 # Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2016
@@ -12,12 +12,12 @@
 # AlexSandro Cruz <alex@sapienzae.com.br>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: AlexSandro Cruz <alex@sapienzae.com.br>, 2016\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/flectra/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -39,7 +39,7 @@ msgid ""
 "</div>\n"
 "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "    <p>Dear ${object.name},</p>\n"
-"    <p>A password reset was requested for the Odoo account linked to this email.</p>\n"
+"    <p>A password reset was requested for the Flectra account linked to this email.</p>\n"
 "    <p>You may change your password by following this link which will remain valid during 24 hours:</p>\n"
 "    <div style=\"text-align: center; margin-top: 16px;\">\n"
 "        <a href=\"${object.signup_url}\" style=\"padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#875A7B; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius:3px\">Change password</a>\n"
@@ -50,7 +50,7 @@ msgid ""
 "<div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Sent by ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong>\n"
+"        <strong>Sent by ${user.company_id.name} using <a href=\"www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a></strong>\n"
 "    </p>\n"
 "</div>"
 msgstr ""
@@ -66,7 +66,7 @@ msgstr ""
 "</div>\n"
 "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "    <p>Prezado ${object.name},</p>\n"
-"    <p>Foi solicitada uma redefinição de senha para a conta Odoo vinculada a este e-mail.</p>\n"
+"    <p>Foi solicitada uma redefinição de senha para a conta Flectra vinculada a este e-mail.</p>\n"
 "    <p>Você pode alterar sua senha seguindo este link que permanecerá válido durante 24 horas:</p>\n"
 "    <div style=\"text-align: center; margin-top: 16px;\">\n"
 "        <a href=\"${object.signup_url}\" style=\"padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#875A7B; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius:3px\">Change password</a>\n"
@@ -77,7 +77,7 @@ msgstr ""
 "<div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Sent by ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong>\n"
+"        <strong>Sent by ${user.company_id.name} using <a href=\"www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a></strong>\n"
 "    </p>\n"
 "</div>"
 
@@ -97,7 +97,7 @@ msgid ""
 "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "<p>Dear ${object.name},</p>\n"
 "    <p>\n"
-"        You have been invited to connect to \"${object.company_id.name}\" in order to get access to your documents in Odoo.\n"
+"        You have been invited to connect to \"${object.company_id.name}\" in order to get access to your documents in Flectra.\n"
 "    </p>\n"
 "    <p>\n"
 "        To accept the invitation, click on the following link:\n"
@@ -110,7 +110,7 @@ msgid ""
 "<div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Sent by ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong>\n"
+"        <strong>Sent by ${user.company_id.name} using <a href=\"www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a></strong>\n"
 "    </p>\n"
 "</div>"
 msgstr ""
@@ -127,7 +127,7 @@ msgstr ""
 "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "<p>Prezo ${object.name},</p>\n"
 "    <p>\n"
-"        Você foi convidado a se conectar a \"${object.company_id.name}\" Para ter acesso aos seus documentos em Odoo.\n"
+"        Você foi convidado a se conectar a \"${object.company_id.name}\" Para ter acesso aos seus documentos em Flectra.\n"
 "    </p>\n"
 "    <p>\n"
 "        Para aceitar o convite, clique no link a seguir:\n"
@@ -140,14 +140,14 @@ msgstr ""
 "<div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Enviado por ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong>\n"
+"        <strong>Enviado por ${user.company_id.name} using <a href=\"www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a></strong>\n"
 "    </p>\n"
 "</div>"
 
 #. module: auth_signup
 #: model:mail.template,subject:auth_signup.set_password_email
-msgid "${object.company_id.name} invitation to connect on Odoo"
-msgstr "${object.company_id.name} convite para conectar-se ao Odoo"
+msgid "${object.company_id.name} invitation to connect on Flectra"
+msgstr "${object.company_id.name} convite para conectar-se ao Flectra"
 
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.res_users_form_view

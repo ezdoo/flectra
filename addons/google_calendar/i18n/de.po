@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Tina Rittmüller <tr@ife.de>, 2017
 # Henry Mineehen <info@mineehen.de>, 2017
 # darenkster <inactive+darenkster@transifex.com>, 2017
@@ -11,12 +11,12 @@
 # Holger Jahnel <schmaitzler@web.de>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Last-Translator: Holger Jahnel <schmaitzler@web.de>, 2017\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/flectra/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -200,10 +200,10 @@ msgstr ""
 #: model:ir.model.fields,help:google_calendar.field_res_users_google_calendar_cal_id
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
+"links between GoogleID and Flectra Google Internal ID"
 msgstr ""
 "Zuletzt synchronisierte Calendar ID. Wenn sich diese ändert, werden alle "
-"Verbindungen zwischen der GoogleID und der Odoo Google Internal ID entfernt."
+"Verbindungen zwischen der GoogleID und der Flectra Google Internal ID entfernt."
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar___last_update
@@ -217,13 +217,13 @@ msgstr "Letzte Synchronisation"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_attendee_oe_synchro_date
-msgid "Odoo Synchro Date"
-msgstr "Odoo Synchronisationsdatum"
+msgid "Flectra Synchro Date"
+msgstr "Flectra Synchronisationsdatum"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event_oe_update_date
-msgid "Odoo Update Date"
-msgstr "Odoo Aktualisierungsdatum"
+msgid "Flectra Update Date"
+msgstr "Flectra Aktualisierungsdatum"
 
 #. module: google_calendar
 #. openerp-web

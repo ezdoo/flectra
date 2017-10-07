@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Assets Management',
@@ -11,7 +11,7 @@ Manage assets owned by a company or a person.
 Keeps track of depreciations, and creates corresponding journal entries.
 
     """,
-    'website': 'https://www.odoo.com/page/accounting',
+    'website': 'https://www.flectrahq.com/page/accounting',
     'category': 'Accounting',
     'sequence': 32,
     'demo': [

@@ -1,4 +1,4 @@
-odoo.define('web_editor.web_editor_tests', function (require) {
+flectra.define('web_editor.web_editor_tests', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');
@@ -207,7 +207,7 @@ QUnit.test('html_frame does not crash when saving in readonly', function (assert
             if (_.str.startsWith(route, '/test')) {
                 // manually call the callback to simulate that the iframe has
                 // been correctly loaded
-                window.odoo[$.deparam(route).callback + '_content'].call();
+                window.flectra[$.deparam(route).callback + '_content'].call();
                 return $.when();
             }
             return this._super.apply(this, arguments);

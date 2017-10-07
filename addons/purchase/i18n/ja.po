@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * purchase
 #
@@ -10,19 +10,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-07-22 08:14+0000\n"
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>\n"
-"Language-Team: Japanese (http://www.transifex.com/odoo/odoo-9/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/flectra/flectra-9/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: purchase
@@ -183,9 +183,9 @@ msgstr "高度入札プロセス"
 #, fuzzy
 msgid "Advanced Calls for Tenders"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "入札 (高度)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "入札（高度）"
 
 #. module: purchase
@@ -193,9 +193,9 @@ msgstr ""
 #, fuzzy
 msgid "Advanced call for tender (choose products from different RFQ)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "高度な入札 (異なる見積依頼より製品を選択)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "高度な入札（異なる見積依頼より製品を選択）"
 
 #. module: purchase
@@ -214,9 +214,9 @@ msgstr "仕入先からの価格表をインポート"
 msgid ""
 "Allow using call for tenders to get quotes from multiple suppliers (advanced)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "入札機能を使い複数仕入先より見積を受ける (高度)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "入札機能を使い複数仕入先より見積を受ける（高度）"
 
 #. module: purchase
@@ -248,9 +248,9 @@ msgstr "分析勘定"
 #, fuzzy
 msgid "Analytic Accounting for Purchases"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "購買の分析会計\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "購入のための分析会計"
 
 #. module: purchase
@@ -804,7 +804,7 @@ msgstr ""
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 "Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs."
+"                by Flectra based on inventory needs."
 msgstr ""
 
 #. module: purchase
@@ -1027,9 +1027,9 @@ msgid ""
 "Products can have several attributes, defining variants (Example: size, "
 "color,...)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "製品の特性 (サイズ・色等) に基づきバリアントを生成\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "製品の特性（サイズ・色等）に基づきバリアントを生成"
 
 #. module: purchase
@@ -1037,9 +1037,9 @@ msgstr ""
 #, fuzzy
 msgid "Products have only one unit of measure (easier)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "全製品につき単位は1つのみ (簡易)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "全製品につき単位は1つのみ（簡易）"
 
 #. module: purchase
@@ -1251,9 +1251,9 @@ msgstr "参照"
 #, fuzzy
 msgid "Reference Unit of Measure"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "基準単位\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "参照単位"
 
 #. module: purchase
@@ -1355,9 +1355,9 @@ msgstr "入荷"
 #, fuzzy
 msgid "Simple call for tender (only choose from one RFQ)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "簡易な入札 (1つの見積依頼より選択)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "簡易な入札（1つの見積依頼より選択）"
 
 #. module: purchase
@@ -1366,9 +1366,9 @@ msgstr ""
 msgid ""
 "Some products may be sold/puchased in different units of measure (advanced)"
 msgstr ""
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "販売時/購買時に異なる単位を使用することがある (高度)\n"
-"#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 "販売時/購買時に異なる単位を使用することがある（高度）"
 
 #. module: purchase
@@ -1578,7 +1578,7 @@ msgstr "標準原価、実際原価もしくは移動平均原価を使用"
 msgid ""
 "Use this menu to control the invoices to be received from your\n"
 "            vendor. When registering a new bill, set the purchase order\n"
-"            and Odoo will fill the bill automatically according to ordered\n"
+"            and Flectra will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
 
@@ -1646,7 +1646,7 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Flectra."
 msgstr ""
 
 #. module: purchase
@@ -1709,9 +1709,9 @@ msgstr ""
 #, fuzzy
 #~ msgid "Analytic accounting for purchases"
 #~ msgstr ""
-#~ "#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 #~ "購買の分析会計\n"
-#~ "#-#-#-#-#  ja.po (Odoo 9.0)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  ja.po (Flectra 9.0)  #-#-#-#-#\n"
 #~ "購入のための分析会計"
 
 #~ msgid "Date of the last message posted on the record."

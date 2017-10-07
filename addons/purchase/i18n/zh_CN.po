@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -10,7 +10,7 @@
 # Si Ling Lau <happy8645@hotmail.com>, 2017
 # Seven Floor <my7floor@gmail.com>, 2017
 # Ted Wang <feiyuwang2012@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Yuan Xulei <hi@yxl.name>, 2017
 # xiaobin wu <bd5dml@gmail.com>, 2017
 # Gary Wei <Gary.wei@elico-corp.com>, 2017
@@ -19,12 +19,12 @@
 # 林俊 <54773801@qq.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: 林俊 <54773801@qq.com>, 2017\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/flectra/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -195,7 +195,7 @@ msgid ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Powered by <a href=\"https://www.flectrahq.com\">Flectra</a>.\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"
@@ -266,7 +266,7 @@ msgstr ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            由 <a href=\"https://www.odoo.com\">Odoo</a> 提供技术支持。\n"
+"                            由 <a href=\"https://www.flectrahq.com\">Flectra</a> 提供技术支持。\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"
@@ -1013,8 +1013,8 @@ msgstr "月度采购"
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 "Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs."
-msgstr "大部分的采购订单都有Odoo根据库存需求自动生成"
+"                by Flectra based on inventory needs."
+msgstr "大部分的采购订单都有Flectra根据库存需求自动生成"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -1933,7 +1933,7 @@ msgstr ""
 msgid ""
 "Use this menu to control the invoices to be received from your\n"
 "            vendors. When registering a new bill, set the purchase order\n"
-"            and Odoo will fill the bill automatically according to ordered\n"
+"            and Flectra will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
 
@@ -2012,7 +2012,7 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Flectra."
 msgstr ""
 "供应商大票能根据销售订单或者收货单预先生成\n"
 "这能帮助你用系统生成的草稿发票和你从供应商那边得到的发票进行比对"

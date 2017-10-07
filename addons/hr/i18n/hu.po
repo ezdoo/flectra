@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux <mat@flectrahq.com>, 2016
 # krnkris <krnkris@freemail.hu>, 2016
 # Oregional <geza.nagy@oregional.hu>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: Oregional <geza.nagy@oregional.hu>, 2016\n"
-"Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
+"Language-Team: Hungarian (https://www.transifex.com/flectra/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -594,11 +594,11 @@ msgstr "A felvenni kívánt alkalmazottak száma"
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"Flectra's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc."
 msgstr ""
-" Odoo rendszer osztályfelépítése az összes munkavállaló \n"
+" Flectra rendszer osztályfelépítése az összes munkavállaló \n"
 "                dokumentumának osztályonkénti kezelésére szolgál: kiadások, \n"
 "                időbeosztások, eltávozások és szabadságolások, felvételiztetések, stb."
 
@@ -856,11 +856,11 @@ msgstr "Özvegy"
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Flectra employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Az Odoo rendszer munkavállalói képernyőn szempillantás alatt\n"
+"Az Flectra rendszer munkavállalói képernyőn szempillantás alatt\n"
 "könnyen megtalálja az összes személyhez a kívánt információkat; \n"
 "kapcsolati adatok, munka pozíció, elérhetőség, stb."
 

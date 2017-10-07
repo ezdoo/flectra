@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * l10n_cr
 #
@@ -6,12 +6,12 @@
 # jeffery9, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:55+0000\n"
 "PO-Revision-Date: 2015-12-24 03:06+0000\n"
 "Last-Translator: 珠海-老天 <liangjia@qq.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Chinese (China) (http://www.transifex.com/flectra/flectra-9/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"

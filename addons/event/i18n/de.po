@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * event
 # 
 # Translators:
 # JackTheHunter <Maximilian.N98@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Rudolf Schnapka <rs@techno-flex.de>, 2017
 # Thomas Neu <t.neu@runbox.com>, 2017
 # Tina Rittmüller <tr@ife.de>, 2017
@@ -21,12 +21,12 @@
 # Thomas Lengyel <lexustec_fn@yahoo.de>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Thomas Lengyel <lexustec_fn@yahoo.de>, 2017\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/flectra/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -398,7 +398,7 @@ msgstr ""
 #. module: event
 #: model:event.event,description:event.event_0
 msgid ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Odoo"
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Flectra"
 " Programming</i></font>"
 msgstr ""
 
@@ -1541,20 +1541,20 @@ msgstr ""
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Official Website"
-msgstr "Offizielle Odoo Website"
+msgid "Flectra Official Website"
+msgstr "Offizielle Flectra Website"
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Web Client"
-msgstr "Odoo Web Client"
+msgid "Flectra Web Client"
+msgstr "Flectra Web Client"
 
 #. module: event
 #: model:ir.actions.act_window,help:event.action_event_view
 msgid ""
-"Odoo helps you schedule and efficiently organize your events:\n"
+"Flectra helps you schedule and efficiently organize your events:\n"
 "    track registrations and participations, automate the confirmation emails,\n"
 "    sell tickets, etc."
 msgstr ""
@@ -2115,7 +2115,7 @@ msgstr "event.confirm"
 
 #. module: event
 #: model:event.event,description:event.event_2
-msgid "events@odoo.com"
+msgid "events@flectrahq.com"
 msgstr ""
 
 #. module: event

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website
 #
@@ -10,12 +10,12 @@
 # Robert Kirschner <robertkirschner@yahoo.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-05-31 17:11+0000\n"
 "Last-Translator: palica <pavol.cupka@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/odoo/odoo-9/language/sk/)\n"
+"Language-Team: Slovak (http://www.transifex.com/flectra/flectra-9/language/sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,8 +71,8 @@ msgstr ", aktualizované:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "- The Odoo Team"
-msgstr "- Odoo Team"
+msgid "- The Flectra Team"
+msgstr "- Flectra Team"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -550,13 +550,13 @@ msgid ""
 "<strong>2. Create the page variation</strong><br/>\n"
 "                                Once you're clear on the measurable "
 "objective, the page and the variable\n"
-"                                you want to test, duplicate the page in Odoo "
+"                                you want to test, duplicate the page in Flectra "
 "using the <strong>'Versions'</strong>\n"
 "                                menu and apply the modification you decided."
 msgstr ""
 "<strong>2. Vytvoriť variantu stránky</strong><br/>\n"
 "Akonáhle máte ujasnené merateľné ciele, stránku a parameter\n"
-"ktorý chcete otestovať, duplikujte stránku v Odoo pomocou <strong>'Verzie'</"
+"ktorý chcete otestovať, duplikujte stránku v Flectra pomocou <strong>'Verzie'</"
 "strong>\n"
 "menu a aplikujte úpravu pre ktorú ste sa rozhodli."
 
@@ -590,8 +590,8 @@ msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
-msgid "<strong>50,000+ companies run Odoo to grow their businesses.</strong>"
-msgstr "<strong>50.000 firiem používa Odoo k rastu ich podnikania.</strong>"
+msgid "<strong>50,000+ companies run Flectra to grow their businesses.</strong>"
+msgstr "<strong>50.000 firiem používa Flectra k rastu ich podnikania.</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -646,12 +646,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"<strong>Be announced on the Odoo Twitter account</strong><br/>\n"
-"                                We like to hear from people using Odoo to "
+"<strong>Be announced on the Flectra Twitter account</strong><br/>\n"
+"                                We like to hear from people using Flectra to "
 "build their website. Tweet us"
 msgstr ""
-"<strong>Buďte ohlásený naOdoo Twitter účte</strong><br/>\n"
-"Radi, že počujeme o ľuďoch, ktorí používajú Odoo na budovanie svojich "
+"<strong>Buďte ohlásený naFlectra Twitter účte</strong><br/>\n"
+"Radi, že počujeme o ľuďoch, ktorí používajú Flectra na budovanie svojich "
 "webových stránok. Tweetnete nám"
 
 #. module: website
@@ -1001,8 +1001,8 @@ msgstr "<strong>e-Commerce</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "@odoo"
-msgstr "@odoo"
+msgid "@flectra"
+msgstr "@flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -1384,8 +1384,8 @@ msgstr "Obrázok pozadia"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
-msgid "Banner Odoo Image"
-msgstr "Obrázok Odoo banneru"
+msgid "Banner Flectra Image"
+msgstr "Obrázok Flectra banneru"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -2260,22 +2260,22 @@ msgid ""
 "homepage title so that potential\n"
 "                                    customers near your location will find "
 "your website easily.\n"
-"                                    WIth Odoo, this can be done easily by "
+"                                    WIth Flectra, this can be done easily by "
 "using the Promote menu."
 msgstr ""
 "Napríklad, budete chciet názov vašej spoločnosti, vašu kajinu/mesto a pár\n"
 "slov popisujúcich vaše podnikanie v nadpise vašej domovskj stránky, takže "
 "potenciálny\n"
 "zákazníci blízko vašej lokácie nájdu vašu webstránku ľahko.\n"
-"S Odoo, toto môže byť urobené jednoducho pomocou menu Propagovať."
+"S Flectra, toto môže byť urobené jednoducho pomocou menu Propagovať."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"Pre Odoo Team,<br/>\n"
+"Pre Flectra Team,<br/>\n"
 "Fabien Pinckaers, Zakladateľ"
 
 #. module: website
@@ -2512,14 +2512,14 @@ msgid ""
 "to focus\n"
 "                            on the main six pages and make all secondary "
 "pages accessible from a footer. You can\n"
-"                            have a look at the Odoo.com website, it's a "
+"                            have a look at the Flectra.com website, it's a "
 "great example of this type of structure."
 msgstr ""
 "Ak máte veľa stránok na vašej webstránke, môžete vytvoriť malé vrchné menu "
 "na sústredenie\n"
 "sa na hlavných šesť stránok, a sprístupniť všetky sekundárne strany zo "
 "zápätia. Môžete\n"
-"sa pozrieť na webstránku Odoo.com, je to skvelý príklad tohto typu štruktúry."
+"sa pozrieť na webstránku Flectra.com, je to skvelý príklad tohto typu štruktúry."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3022,92 +3022,92 @@ msgstr "Pozámka: pre využívanie týchto funkcií, musíte nainštalovať"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - vzorka 1 pre tri stĺpce"
+msgid "Flectra - Sample 1 for three columns"
+msgstr "Flectra - vzorka 1 pre tri stĺpce"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - vzorka 2 pre tri stĺpce"
+msgid "Flectra - Sample 2 for three columns"
+msgstr "Flectra - vzorka 2 pre tri stĺpce"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - vzorka 3 pre tri stĺpce"
+msgid "Flectra - Sample 3 for three columns"
+msgstr "Flectra - vzorka 3 pre tri stĺpce"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
-msgid "Odoo CMS - a big picture"
-msgstr "Odoo CMS - veľký obrázok"
+msgid "Flectra CMS - a big picture"
+msgstr "Flectra CMS - veľký obrázok"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
-msgid "Odoo CMS- Sample image floating"
-msgstr "Odoo CMS-Ukážkový floating obrázok "
+msgid "Flectra CMS- Sample image floating"
+msgstr "Flectra CMS-Ukážkový floating obrázok "
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo verzia"
+msgid "Flectra Version"
+msgstr "Flectra verzia"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo image and text block"
-msgstr "Odoo obrázok a textový blok"
+msgid "Flectra image and text block"
+msgstr "Flectra obrázok a textový blok"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Flectra provides essential platform for our project management.\n"
 "                                                Things are better organized "
 "and more visible with it."
 msgstr ""
-"Odoo poskytuje základnú platformu pre náš projektový manažment.\n"
+"Flectra poskytuje základnú platformu pre náš projektový manažment.\n"
 "Veci sú s ním lepšie organizované a viditeľnejšie."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_quotes_slider
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Flectra provides essential platform for our project management.\n"
 "                                        Things are better organized and more "
 "visible with it."
 msgstr ""
-"Odoo poskytuje základnú platformu pre náš projektový manažment.\n"
+"Flectra poskytuje základnú platformu pre náš projektový manažment.\n"
 "Veci sú s ním lepšie organizované a viditeľnejšie."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_references
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Flectra provides essential platform for our project management.\n"
 "                            Things are better organized and more visible "
 "with it."
 msgstr ""
-"Odoo poskytuje základnú platformu pre náš projektový manažment.\n"
+"Flectra poskytuje základnú platformu pre náš projektový manažment.\n"
 "Veci sú s ním lepšie organizované a viditeľnejšie."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo text and image block"
-msgstr "Odoo text a obrázkový blok"
+msgid "Flectra text and image block"
+msgstr "Flectra text a obrázkový blok"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "Odoo's Google Analytics settings"
-msgstr "Google Analýza Odoo nastavenia"
+msgid "Flectra's Google Analytics settings"
+msgstr "Google Analýza Flectra nastavenia"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
 msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+"Flectra's POS is a web application that can run on any device that\n"
 "                                can display websites with little to no setup "
 "required."
 msgstr ""
-"Odoo POS je webová aplikácia, ktorá môže by spustená na akomkoľvek zariadení "
+"Flectra POS je webová aplikácia, ktorá môže by spustená na akomkoľvek zariadení "
 "ktoré\n"
 "môže zobraziť webstránky s malým až žiadnym požadovaným nastavením."
 
@@ -3330,10 +3330,10 @@ msgstr "Prosím nainštalovať alebo aktualizovať bezuzlovo"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"Please note that you'll need an Odoo Standard or Business subscriptions for "
+"Please note that you'll need an Flectra Standard or Business subscriptions for "
 "that"
 msgstr ""
-"Upozorňujeme, že na toto potrebujete Odoo Štandard alebo Podnikanie odber"
+"Upozorňujeme, že na toto potrebujete Flectra Štandard alebo Podnikanie odber"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4168,7 +4168,7 @@ msgstr "Preložené verzie sú aktualizované v priemere po 32 hodinách."
 msgid ""
 "Translating your website into other languages is the best way to broaden its "
 "audience.\n"
-"                        In Odoo, you can either manually translate your "
+"                        In Flectra, you can either manually translate your "
 "pages as they are displayed, use an\n"
 "                        automatic machine translation service for free or "
 "pay professional translators to do\n"
@@ -4176,7 +4176,7 @@ msgid ""
 msgstr ""
 "Preloženie vašej webstránky do iných jazykov je najlepší spôsob ako rozšíriť "
 "vaše publikum.\n"
-"V Odoo môžete buď manuálne preložiť vaše stránky ako sú zobrazené, použiť "
+"V Flectra môžete buď manuálne preložiť vaše stránky ako sú zobrazené, použiť "
 "bezplatnú\n"
 "službu automatického strojového prekladu, alebo zapltiť profesionálnym "
 "prekladateľom aby\n"
@@ -4615,8 +4615,8 @@ msgstr "Či je toto zobrazene šablóna websránky (dokončené)"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
-msgid "Which hardware does Odoo POS support?"
-msgstr "Ktorý hardvér podporuje Odoo POS?"
+msgid "Which hardware does Flectra POS support?"
+msgstr "Ktorý hardvér podporuje Flectra POS?"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4631,11 +4631,11 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"With Odoo, you can automatically check which keywords are ranked best for a\n"
+"With Flectra, you can automatically check which keywords are ranked best for a\n"
 "                                    specific query, then add them in the "
 "content of your page."
 msgstr ""
-"S Odoo, môžete automaticky zistiť, ktoré kľúčové slová sú hodnotené "
+"S Flectra, môžete automaticky zistiť, ktoré kľúčové slová sú hodnotené "
 "najlepšie pre\n"
 "špecifickú otázku, potom ich pridať do obsahu vašej stránky."
 
@@ -4786,7 +4786,7 @@ msgstr "Môžete získať kupón na 75 $ pre zzačatie vašej kampane tu:"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"You can set Odoo on a custom domain name (e.g. yourcompany.com) for both the "
+"You can set Flectra on a custom domain name (e.g. yourcompany.com) for both the "
 "website\n"
 "                        and your emails. Because your website address is as "
 "important to your branding as the\n"
@@ -4795,7 +4795,7 @@ msgid ""
 "                        for a proper domain, or change it to one you already "
 "own."
 msgstr ""
-"Môžete nastaviť Odoo na vlastný názov domény (napr. vasaspolocnost.com) ako "
+"Môžete nastaviť Flectra na vlastný názov domény (napr. vasaspolocnost.com) ako "
 "pre webstránku,\n"
 "tak aj pre vaše emaily. Pretože je vaša web adresa rovnako dôležitá pre "
 "značku ako\n"
@@ -5008,30 +5008,30 @@ msgstr "http://www.google.com/webmasters/tools/"
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://plus.google.com/+Odooapps"
-msgstr "https://plus.google.com/+Odooapps"
+msgid "https://plus.google.com/+Flectraapps"
+msgstr "https://plus.google.com/+Flectraapps"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://twitter.com/Odoo"
-msgstr "https://twitter.com/Odoo"
+msgid "https://twitter.com/Flectra"
+msgstr "https://twitter.com/Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
-msgid "https://www.facebook.com/Odoo"
-msgstr "https://www.facebook.com/Odoo"
+msgid "https://www.facebook.com/Flectra"
+msgstr "https://www.facebook.com/Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.facebook.com/odoo"
-msgstr "https://www.facebook.com/odoo"
+msgid "https://www.facebook.com/flectra"
+msgstr "https://www.facebook.com/flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.linkedin.com/company/odoo"
-msgstr "https://www.linkedin.com/company/odoo"
+msgid "https://www.linkedin.com/company/flectra"
+msgstr "https://www.linkedin.com/company/flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
@@ -5052,13 +5052,13 @@ msgstr "ak ešte žiadnu nemáte."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "in Odoo"
-msgstr "v Odoo"
+msgid "in Flectra"
+msgstr "v Flectra"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "inštancie Odoo, "
+msgid "instance of Flectra, the"
+msgstr "inštancie Flectra, "
 
 #. module: website
 #: model:ir.model,name:website.model_ir_actions_server
@@ -5122,8 +5122,8 @@ msgstr "sitemap.xml"
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:19
 #, python-format
-msgid "the classic Odoo interface"
-msgstr "klasické Odoo rozhranie"
+msgid "the classic Flectra interface"
+msgstr "klasické Flectra rozhranie"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -5272,8 +5272,8 @@ msgstr "formulár detailov vašej Spoločnosti"
 #~ "Inštalácia, žiadna potrebný špecifický hardvér. Pracuje s akýmkoľvek\n"
 #~ "iPad-om, PC tabletom, notebookom alebo priemyselným POS strojom."
 
-#~ msgid "Discover more about Odoo"
-#~ msgstr "Zistiť viac o Odoo"
+#~ msgid "Discover more about Flectra"
+#~ msgstr "Zistiť viac o Flectra"
 
 #~ msgid "Edit Menu Entry"
 #~ msgstr "Upraviť vstup menu"
@@ -5296,7 +5296,7 @@ msgstr "formulár detailov vašej Spoločnosti"
 #~ "such\n"
 #~ "                        as Website Builder, PoS or eCommerce, we have\n"
 #~ "                        moved beyond the ERP territory. <br/>\n"
-#~ "                        But <u>don't worry</u>, <b>Odoo</b> is and always "
+#~ "                        But <u>don't worry</u>, <b>Flectra</b> is and always "
 #~ "will be\n"
 #~ "                        fully open source. You can read more about the "
 #~ "new name here.\n"
@@ -5312,7 +5312,7 @@ msgstr "formulár detailov vašej Spoločnosti"
 #~ "ponuku spoločnosti. S našimi najnovšími apikáciami, ako\n"
 #~ "sú Tvorca webstránok, PoS alebo eCommerce, sme sa\n"
 #~ "posunuli mimo ERP územia. <br/>\n"
-#~ "Ale <u>nemajte strach</u>, <b>Odoo</b> je a vždy bude\n"
+#~ "Ale <u>nemajte strach</u>, <b>Flectra</b> je a vždy bude\n"
 #~ "plne open source. Môžete si prečítať viac o novom mene tu.\n"
 #~ "Taktiež sme pripravili krátke FAQ pre vysvetlenie všetkých týchto zmien\n"
 #~ "vám všetkým. <br/>"
@@ -5320,14 +5320,14 @@ msgstr "formulár detailov vašej Spoločnosti"
 #~ msgid "Menu Label"
 #~ msgstr "Štítok menu"
 
-#~ msgid "Odoo Members"
-#~ msgstr "Odoo členovia"
+#~ msgid "Flectra Members"
+#~ msgstr "Flectra členovia"
 
 #~ msgid ""
-#~ "Odoo's POS is a web application that can run on any device that\n"
+#~ "Flectra's POS is a web application that can run on any device that\n"
 #~ "                can display websites with little to no setup required."
 #~ msgstr ""
-#~ "Odoo POS je webová aplikácia, ktorá môže by spustená na akomkoľvek "
+#~ "Flectra POS je webová aplikácia, ktorá môže by spustená na akomkoľvek "
 #~ "zariadení ktoré\n"
 #~ "môže zobraziť webstránky s malým až žiadnym požadovaným nastavením."
 
@@ -5367,7 +5367,7 @@ msgstr "formulár detailov vašej Spoločnosti"
 #~ "predaja, ostane funkçné aj po úplnom odpojení."
 
 #~ msgid ""
-#~ "With Odoo's fully integrated software, you can easily manage your\n"
+#~ "With Flectra's fully integrated software, you can easily manage your\n"
 #~ "                        meetings, schedule business calls, create "
 #~ "recurring meetings,\n"
 #~ "                        synchronize your agenda and easily keep in touch "
@@ -5376,7 +5376,7 @@ msgstr "formulár detailov vašej Spoločnosti"
 #~ "business discussions.\n"
 #~ "                        <br/><br/>"
 #~ msgstr ""
-#~ "S plne integrovaným Odoo softvérom môžete jednoducho spravovať vaše\n"
+#~ "S plne integrovaným Flectra softvérom môžete jednoducho spravovať vaše\n"
 #~ "stretnutia, plánovať obchodné telefonáty, vytvoriť opakujúce sa "
 #~ "stretnutia,\n"
 #~ "synchronizovať vašu agendu a jednoducho zostať v kontakte s vašimi "

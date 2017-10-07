@@ -1,29 +1,29 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web_editor
 # 
 # Translators:
 # Fabien Bourgeois <fabien@yaltik.com>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
-# Clo <clo@odoo.com>, 2017
+# Eloïse Stilmant <est@flectrahq.com>, 2017
+# Clo <clo@flectrahq.com>, 2017
 # Frédéric LIETART <stuff@tifred.fr>, 2017
 # Fabien Pinckaers <fp@openerp.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
 # Fabri Yohann <psn@fabri.pw>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
-# Fabrice Henrion <fhe@odoo.com>, 2017
+# Fabrice Henrion <fhe@flectrahq.com>, 2017
 # Vincent Hammadache <vhammadache@gmail.com>, 2017
 # Valentin Thirion <valentin@medineo.be>, 2017
-# Olivier Dony <odo@odoo.com>, 2017
+# Olivier Dony <odo@flectrahq.com>, 2017
 # Xavier Symons <xsy@openerp.com>, 2017
 # Kévin R. <realrom@hotmail.fr>, 2017
-# Quentin THEURET <odoo@kerpeo.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Quentin THEURET <flectra@kerpeo.com>, 2017
+# Melanie Bernard <mbe@flectrahq.com>, 2017
 # Sébastien Le Ray <sebastien-github@orniz.org>, 2017
 # Shark McGnark <peculiarcheese@gmail.com>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@flectrahq.com>, 2017
 # Micky Jault <micky037@hotmail.fr>, 2017
 # Florian Hatat <mininet@wanadoo.fr>, 2017
 # Hubert TETARD <htetard@apik-conseils.com>, 2017
@@ -34,12 +34,12 @@
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/flectra/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1639,8 +1639,8 @@ msgstr "auto"
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:113
 #, python-format
-msgid "https://www.odoo.com/logo.png"
-msgstr "https://www.odoo.com/logo.png"
+msgid "https://www.flectrahq.com/logo.png"
+msgstr "https://www.flectrahq.com/logo.png"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_attachment

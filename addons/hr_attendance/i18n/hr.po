@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_attendance
 #
@@ -8,12 +8,12 @@
 # Martin Trigaux, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-02-22 13:25+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Croatian (http://www.transifex.com/odoo/odoo-9/language/hr/)\n"
+"Language-Team: Croatian (http://www.transifex.com/flectra/flectra-9/language/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -389,11 +389,11 @@ msgstr "Početni Datum"
 msgid ""
 "The Time Tracking functionality aims to manage employee attendances from "
 "Sign in/Sign out actions. You can also link this feature to an attendance "
-"device using Odoo's web service features."
+"device using Flectra's web service features."
 msgstr ""
 "Funkcionalnost praćenja vremena omogućuje upravljanje radnjama prijave/"
 "odjave djelatnike. Također možete povezati ovu funkcionalnost na uređaj za "
-"praćenje radnog vremena putem odoo web-servisa."
+"praćenje radnog vremena putem flectra web-servisa."
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter

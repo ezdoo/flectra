@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_forum_doc
 #
@@ -7,12 +7,12 @@
 # Pavol Krnáč <pavol.krnac@ekoenergo.sk>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-05-02 20:26+0000\n"
 "Last-Translator: Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>\n"
-"Language-Team: Slovak (http://www.transifex.com/odoo/odoo-9/language/sk/)\n"
+"Language-Team: Slovak (http://www.transifex.com/flectra/flectra-9/language/sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -170,13 +170,13 @@ msgstr "Chyba! Nemožte vytvoriť rekurzívne kategórie."
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 #, fuzzy
-msgid "Explain how to configure Odoo"
-msgstr "Vysvetlite, ako nastaviť v Odoo"
+msgid "Explain how to configure Flectra"
+msgstr "Vysvetlite, ako nastaviť v Flectra"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
-msgstr "Vysvetlite, ako implementovať v Odoo"
+msgid "Explain how to implement it in Flectra"
+msgstr "Vysvetlite, ako implementovať v Flectra"
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_forum_id
@@ -387,8 +387,8 @@ msgstr "Názov etapy"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "Odpoveď je pochopiteľná pre niekoho, kto nepozná Odoo"
+msgid "The answer is understandable for someone who does not know Flectra"
+msgstr "Odpoveď je pochopiteľná pre niekoho, kto nepozná Flectra"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web_settings_dashboard
 #
@@ -6,12 +6,12 @@
 # Morten Schou <ms@msteknik.dk>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-06-17 08:57+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Danish (http://www.transifex.com/odoo/odoo-9/language/da/)\n"
+"Language-Team: Danish (http://www.transifex.com/flectra/flectra-9/language/da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,8 +81,8 @@ msgstr "Indtast e-mail adresser (en pr. linje)"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:94
 #, python-format
-msgid "Follow these implementation guides to get the most out of Odoo."
-msgstr "Følg disse implementerings guides for at få det bedste ud af Odoo."
+msgid "Follow these implementation guides to get the most out of Flectra."
+msgstr "Følg disse implementerings guides for at få det bedste ud af Flectra."
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -95,8 +95,8 @@ msgstr "Få flere funktioner med Enterprise versionen!"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:133
 #, python-format
-msgid "Help us spread the word: Share Odoo's awesomeness with your friends!"
-msgstr "Hjælp os med at sprede budskabet: Del Odoo's fordele med dine venner!"
+msgid "Help us spread the word: Share Flectra's awesomeness with your friends!"
+msgstr "Hjælp os med at sprede budskabet: Del Flectra's fordele med dine venner!"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -151,8 +151,8 @@ msgstr "Ingen app installeret"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:150
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "Flectra Enterprise"
+msgstr "Flectra Enterprise"
 
 #. module: web_settings_dashboard
 #. openerp-web

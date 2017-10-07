@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
 # Translators:
 # krnkris <krnkris@freemail.hu>, 2016
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux <mat@flectrahq.com>, 2016
 # Oregional <geza.nagy@oregional.hu>, 2016
 # Kovács Tibor <kovika@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: Kovács Tibor <kovika@gmail.com>, 2016\n"
-"Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
+"Language-Team: Hungarian (https://www.transifex.com/flectra/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -989,10 +989,10 @@ msgstr "Hivatalnok"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_categ_id
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, Flectra will create a corresponding meeting of this "
 "type in the calendar."
 msgstr ""
-"Ha egy távollét el lett fogadva, Odoo rendszer létrehoz egy ide vonatkozó "
+"Ha egy távollét el lett fogadva, Flectra rendszer létrehoz egy ide vonatkozó "
 "találkozó típust a naptárban."
 
 #. module: hr_holidays
@@ -1411,10 +1411,10 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
-"You can assign remaining Legal Leaves for each employee, Odoo\n"
+"You can assign remaining Legal Leaves for each employee, Flectra\n"
 "               will automatically create and validate allocation requests."
 msgstr ""
-"Lehetősége van a még meglévő törvényes távollétek munkavállalókhoz egyenként történő hozzárendelésére, Odoo \n"
+"Lehetősége van a még meglévő törvényes távollétek munkavállalókhoz egyenként történő hozzárendelésére, Flectra \n"
 "rendszer automatikusan létrehozza és érvényesíti az igények kiosztását. "
 
 #. module: hr_holidays

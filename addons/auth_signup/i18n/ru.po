@@ -1,5 +1,5 @@
-# #-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * auth_signup
 #
@@ -7,8 +7,8 @@
 # Evgeny <transingularity@gmail.com>, 2016
 # Gennady Marchenko <gennadym@gmail.com>, 2016
 # Sergey Vilizhanin <sv@grimmette.ru>, 2016
-# #-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * auth_signup
 #
@@ -18,21 +18,21 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-01-30 12:31+0000\n"
 "Last-Translator: Gennady Marchenko <gennadym@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/odoo/odoo-9/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/flectra/flectra-9/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
@@ -57,7 +57,7 @@ msgid ""
 "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat "
 "top /100%;color:#777777\">\n"
 "    <p>Dear ${object.name},</p>\n"
-"    <p>A password reset was requested for the Odoo account linked to this "
+"    <p>A password reset was requested for the Flectra account linked to this "
 "email.</p>\n"
 "    <p>You may change your password by following this link which will remain "
 "valid during 24 hours:</p>\n"
@@ -76,8 +76,8 @@ msgid ""
 "background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Sent by ${user.company_id.name} using <a href=\"www.odoo.com"
-"\" style=\"text-decoration:none; color: #a24689;\">Odoo</a></strong>\n"
+"        <strong>Sent by ${user.company_id.name} using <a href=\"www.flectrahq.com"
+"\" style=\"text-decoration:none; color: #a24689;\">Flectra</a></strong>\n"
 "    </p>\n"
 "</div>"
 msgstr ""
@@ -104,7 +104,7 @@ msgid ""
 "<p>Dear ${object.name},</p>\n"
 "    <p>\n"
 "        You have been invited to connect to \"${object.company_id.name}\" in "
-"order to get access to your documents in Odoo.\n"
+"order to get access to your documents in Flectra.\n"
 "    </p>\n"
 "    <p>\n"
 "        To accept the invitation, click on the following link:\n"
@@ -124,16 +124,16 @@ msgid ""
 "background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Sent by ${user.company_id.name} using <a href=\"www.odoo.com"
-"\" style=\"text-decoration:none; color: #a24689;\">Odoo</a></strong>\n"
+"        <strong>Sent by ${user.company_id.name} using <a href=\"www.flectrahq.com"
+"\" style=\"text-decoration:none; color: #a24689;\">Flectra</a></strong>\n"
 "    </p>\n"
 "</div>"
 msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,subject:auth_signup.set_password_email
-msgid "${object.company_id.name} invitation to connect on Odoo"
-msgstr "${object.company_id.name} приглашение для подключения к Odoo"
+msgid "${object.company_id.name} invitation to connect on Flectra"
+msgstr "${object.company_id.name} приглашение для подключения к Flectra"
 
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.res_users_form_view
@@ -406,7 +406,7 @@ msgstr "т.е. Джон Ду"
 #~ "                    </p>\n"
 #~ "                    <p>\n"
 #~ "                        You have been invited to connect to \"${object."
-#~ "company_id.name}\" in order to get access to your documents in Odoo.\n"
+#~ "company_id.name}\" in order to get access to your documents in Flectra.\n"
 #~ "                    </p>\n"
 #~ "                    <p>\n"
 #~ "                        To accept the invitation, click on the following "
@@ -435,7 +435,7 @@ msgstr "т.е. Джон Ду"
 #~ "</p>\n"
 #~ "<p>\n"
 #~ "Вы были приглашены присоединиться к \"${object.company_id.name}\" для "
-#~ "доступа к вашим документам в Odoo.\n"
+#~ "доступа к вашим документам в Flectra.\n"
 #~ "</p>\n"
 #~ "<p>\n"
 #~ "Для подтверждения приглашения пройдите по ссылке:\n"
@@ -458,7 +458,7 @@ msgstr "т.е. Джон Ду"
 
 #~ msgid ""
 #~ "\n"
-#~ "<p>A password reset was requested for the Odoo account linked to this "
+#~ "<p>A password reset was requested for the Flectra account linked to this "
 #~ "email.</p>\n"
 #~ "\n"
 #~ "<p>You may change your password by following <a href=\"${object."
@@ -468,7 +468,7 @@ msgstr "т.е. Джон Ду"
 #~ "<p>Note: If you do not expect this, you can safely ignore this email.</p>"
 #~ msgstr ""
 #~ "\n"
-#~ "<p>Был запрошен сброс пароля для аккаунта Odoo  связанного с этим адресом "
+#~ "<p>Был запрошен сброс пароля для аккаунта Flectra  связанного с этим адресом "
 #~ "эл.почты</p>\n"
 #~ "\n"
 #~ "<p>Вы можете сменить пароль, проследовав по <a href=\"${object."

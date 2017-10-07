@@ -1,7 +1,7 @@
 #-*- coding:utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
-# Copyright (C) 2012 Michael Telahun Makonnen <mmakonnen@gmail.com>.
+# Copyright (C) 2012 Michael Telahun Makonnen <mmakonnen@gmail.com>, Flectra.
 
 {
     'name': 'Ethiopia - Accounting',
@@ -17,7 +17,7 @@ This is the latest Ethiopian Odoo localization and consists of:
     - Withholding tax structure
     - Regional State listings
     """,
-    'author':'Michael Telahun Makonnen <mmakonnen@gmail.com>',
+    'author':'Michael Telahun Makonnen <mmakonnen@gmail.com>, Flectra',
     'website':'http://miketelahun.wordpress.com',
     'depends': [
         'account',

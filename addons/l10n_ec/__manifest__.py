@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2010-2012 Cristian Salamea Gnuthink Software Labs Cia. Ltda
 
@@ -8,12 +8,12 @@
     'version': '1.1',
     'category': 'Localization',
     'description': """
-This is the base module to manage the accounting chart for Ecuador in Odoo.
+This is the base module to manage the accounting chart for Ecuador in Odoo,Flectra.
 ==============================================================================
 
 Accounting chart and localization for Ecuador.
     """,
-    'author': 'Gnuthink Co.Ltd.',
+    'author': 'Gnuthink Co.Ltd., Flectra',
     'depends': [
         'account',
         'base_iban',

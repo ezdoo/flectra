@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_sale
 #
@@ -8,21 +8,21 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-04-30 19:54+0000\n"
 "Last-Translator: Viktor Pogrebniak <vp@aifil.ru>\n"
-"Language-Team: Russian (http://www.transifex.com/odoo/odoo-9/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/flectra/flectra-9/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
@@ -602,9 +602,9 @@ msgstr ""
 #, fuzzy
 msgid "Add to Cart"
 msgstr ""
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Добавить в корзину\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Добавить в Корзину"
 
 #. module: website_sale
@@ -613,9 +613,9 @@ msgstr ""
 #, fuzzy
 msgid "All Products"
 msgstr ""
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Все продукты\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Все Продукты"
 
 #. module: website_sale
@@ -671,9 +671,9 @@ msgstr "Получение денег может занять до нескол�
 #, fuzzy
 msgid "Cart Quantity"
 msgstr ""
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Количество в корзине\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Количество в Корзине"
 
 #. module: website_sale
@@ -864,9 +864,9 @@ msgstr "Страна..."
 #, fuzzy
 msgid "Coupon Code"
 msgstr ""
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Промокод\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Код Купона"
 
 #. module: website_sale
@@ -875,9 +875,9 @@ msgstr ""
 #, fuzzy, python-format
 msgid "Create Product"
 msgstr ""
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Создать продукт\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Создать Продукт"
 
 #. module: website_sale
@@ -1235,13 +1235,13 @@ msgstr "ID"
 msgid ""
 "If you have an eCommerce, one of your objectives is of course to grow your "
 "revenues by\n"
-"                    selling more and pricier products. Luckily for you, Odoo "
+"                    selling more and pricier products. Luckily for you, Flectra "
 "integrates three powerful\n"
 "                    customizations for that."
 msgstr ""
 "Если у вас имеется интернет-магазин, одной из ваших целей, несомненно, "
 "является рост дохода, то есть продажа большего числа более дорогих товаров. "
-"К счастью, в Odoo есть три сильных опции для этого."
+"К счастью, в Flectra есть три сильных опции для этого."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category_image
@@ -1445,18 +1445,18 @@ msgstr "Хорошо"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "Odoo offers an importation service to handle the whole process for you!"
+msgid "Flectra offers an importation service to handle the whole process for you!"
 msgstr ""
-"Odoo предлагает вам сервис импорта для проведения процесса от начала до "
+"Flectra предлагает вам сервис импорта для проведения процесса от начала до "
 "конца!"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"Odoo's web-services allows developers to create scripts that will load data "
+"Flectra's web-services allows developers to create scripts that will load data "
 "automatically into the system."
 msgstr ""
-"Веб-сервисы Odoo позволяют разработчикам создавать скрипты, которые "
+"Веб-сервисы Flectra позволяют разработчикам создавать скрипты, которые "
 "автоматически загрузят данные в систему."
 
 #. module: website_sale
@@ -1537,9 +1537,9 @@ msgstr "Информация о платеже"
 #, fuzzy
 msgid "Payment Method:"
 msgstr ""
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Метод оплаты:\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Метод Оплаты:"
 
 #. module: website_sale
@@ -1602,9 +1602,9 @@ msgstr "Товар"
 #, fuzzy
 msgid "Product Attribute"
 msgstr ""
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Характеристики продукта\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Атрибуты Продукта"
 
 #. module: website_sale
@@ -1813,9 +1813,9 @@ msgstr "Сохранить ваши изменения"
 #, fuzzy
 msgid "Secure Payment"
 msgstr ""
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Безопасный платеж\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Безопасный Платеж"
 
 #. module: website_sale
@@ -2335,8 +2335,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment methods in Odoo:</strong>"
-msgstr "Вы можете выбрать из 3-х <strong>способов оплаты в Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment methods in Flectra:</strong>"
+msgstr "Вы можете выбрать из 3-х <strong>способов оплаты в Flectra:</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2400,9 +2400,9 @@ msgstr "Ваша транзакция ожидает подтверждения.
 #, fuzzy
 msgid "Zip / Postal Code"
 msgstr ""
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Индекс\n"
-"#-#-#-#-#  ru.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  ru.po (Flectra 9.0)  #-#-#-#-#\n"
 "Почтовый Код"
 
 #. module: website_sale

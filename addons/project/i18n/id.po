@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * project
 # 
@@ -6,7 +6,7 @@
 # Bonny Useful <bonny.useful@gmail.com>, 2017
 # William Surya Permana <zarambie_game@yahoo.com>, 2017
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Febrasari Almania <febrasari.almania@gmail.com>, 2017
 # Muhammad Syarif <mhdsyarif.ms@gmail.com>, 2017
 # Deddy Ddr <deddy.ddr@gmail.com>, 2017
@@ -16,12 +16,12 @@
 # Muhammad Herdiansyah <herdiansyah@openmailbox.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:25+0000\n"
 "PO-Revision-Date: 2017-10-02 11:25+0000\n"
 "Last-Translator: Muhammad Herdiansyah <herdiansyah@openmailbox.org>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/flectra/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -51,7 +51,7 @@ msgid ""
 "                    <tr>\n"
 "                        <td style=\"padding:15px 10px;font-size:20px\">\n"
 "                            <p dir=\"ltr\" style=\"font-size:15px;margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                <span>Your Odoo Project application is up and running</span></p><br>\n"
+"                                <span>Your Flectra Project application is up and running</span></p><br>\n"
 "                            <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span style=\"font-size:13px;font-weight:bold;\">What’s next?</span></p>\n"
 "                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
@@ -114,22 +114,22 @@ msgid ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We would be delighted to assist you along the way. Contact us through our\n"
-"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
-"                                You can also discover how to get the best out of Odoo Project with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/10.0/project.html\">\n"
+"                                <a href=\"https://www.flectrahq.com/help\">support form</a> if you have any question.\n"
+"                                You can also discover how to get the best out of Flectra Project with our </span>\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation/user/10.0/project.html\">\n"
 "                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your Odoo experience,</span></p>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your Flectra experience,</span></p>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
 "            </table>\n"
 "            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;color:grey\">\n"
-"                <span><br/>-- <br/>The Odoo Team<br/>PS: People love Odoo, check </span><a target=\"_blank\" href=\"https://twitter.com/odoo/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
+"                <span><br/>-- <br/>The Flectra Team<br/>PS: People love Flectra, check </span><a target=\"_blank\" href=\"https://twitter.com/flectra/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
 "            </div>\n"
 "        </div>"
 msgstr ""
@@ -188,8 +188,8 @@ msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "- The Odoo Team"
-msgstr "-Tim Odoo"
+msgid "- The Flectra Team"
+msgstr "-Tim Flectra"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -375,12 +375,12 @@ msgstr ""
 msgid ""
 "<span class=\"panel-title\">\n"
 "                                            <span class=\"fa fa-tasks\"/>\n"
-"                                            <strong> Directly in Odoo</strong>\n"
+"                                            <strong> Directly in Flectra</strong>\n"
 "                                        </span>"
 msgstr ""
 "<span class=\"panel-title\">\n"
 "                                            <span class=\"fa fa-tasks\"></span>\n"
-"                                            <strong>Langsung di Odoo</strong>\n"
+"                                            <strong>Langsung di Flectra</strong>\n"
 "                                        </span>"
 
 #. module: project
@@ -529,7 +529,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"<strong>A great feature in Odoo is the integration of a Collaborative Notepad called Etherpad.</strong><br/>\n"
+"<strong>A great feature in Flectra is the integration of a Collaborative Notepad called Etherpad.</strong><br/>\n"
 "                            It replaces the standard Description area in Tasks and is extremely useful for several cases."
 msgstr ""
 
@@ -579,10 +579,10 @@ msgstr "<strong>Ditugaskan ke</strong>"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "<strong>Be careful about the messages you send</strong><br/>\n"
-"                                    Sending a message through Odoo will automatically send an email containing your message to all the followers including internal employees, external users or customers."
+"                                    Sending a message through Flectra will automatically send an email containing your message to all the followers including internal employees, external users or customers."
 msgstr ""
 "<strong>Berhati-hati tentang mengirim pesan</strong><br/>Mengirim pesan "
-"melalui Odoo secara otomatis akan mengirim email yang berisi pesan untuk "
+"melalui Flectra secara otomatis akan mengirim email yang berisi pesan untuk "
 "semua pengikut yang termasuk karyawan internal, eksternal pengguna atau "
 "pelanggan."
 
@@ -620,7 +620,7 @@ msgstr "<strong>Hubungi kami sekarang:</strong><br/>"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "<strong>Create tasks by email</strong><br/>\n"
-"                                In Odoo, every project has an email alias. If you send an email to this alias, it will automatically create a task in the first stage of the project, with all the email recipients as its default followers."
+"                                In Flectra, every project has an email alias. If you send an email to this alias, it will automatically create a task in the first stage of the project, with all the email recipients as its default followers."
 msgstr ""
 
 #. module: project
@@ -830,7 +830,7 @@ msgstr "<strong>Aksi yang direkomendasikan:</strong>"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "<strong>Rely on the chatter</strong><br/>\n"
-"                                    Below every Task (or more generally, below every Document in Odoo) is an area called Chatter."
+"                                    Below every Task (or more generally, below every Document in Flectra) is an area called Chatter."
 msgstr ""
 
 #. module: project
@@ -905,8 +905,8 @@ msgstr "<strong>Kegiatan apa</strong> yang akan Anda ingin mengelola?"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "<strong>What do you expect</strong> from using Odoo Project?"
-msgstr "<strong>Apa yang Anda harapkan</strong> dari menggunakan Odoo proyek?"
+msgid "<strong>What do you expect</strong> from using Flectra Project?"
+msgstr "<strong>Apa yang Anda harapkan</strong> dari menggunakan Flectra proyek?"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -956,11 +956,11 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "A project usually involves many stakeholders, be it the project's sponsor, resources, customers or external contractors. But the most important person in a project is usually the Project Manager.<br/>\n"
-"                    In Odoo, the Project Managers have the responsibility of managing the Kanban view: they ensure smooth progression of the projects, minimal downtime between stages and optimal work distribution between resources."
+"                    In Flectra, the Project Managers have the responsibility of managing the Kanban view: they ensure smooth progression of the projects, minimal downtime between stages and optimal work distribution between resources."
 msgstr ""
 "Proyek ini biasanya melibatkan banyak pihak, baik itu proyek sponsor, sumber"
 " daya, pelanggan atau kontraktor eksternal. Tetapi orang yang paling penting"
-" dalam proyek biasanya manajer proyek.<br/>Dalam Odoo, manajer proyek "
+" dalam proyek biasanya manajer proyek.<br/>Dalam Flectra, manajer proyek "
 "memiliki tanggung jawab untuk mengelola tampilan Kanban: mereka memastikan "
 "kelancaran kemajuan proyek, downtime minimal antara tahap dan distribusi "
 "bekerja optimal antara sumber daya."
@@ -1268,12 +1268,12 @@ msgstr "Diblokir"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "But because change is never easy, we've created this Planner to guide you.<br/>\n"
-"                        For example, you'll understand why you shouldn’t use Odoo to plan but instead to\n"
+"                        For example, you'll understand why you shouldn’t use Flectra to plan but instead to\n"
 "                        collaborate, or why organizing your projects by role is wrong."
 msgstr ""
 "Tapi karena perubahan tidak pernah mudah, kami telah membuat ini Planner "
 "untuk membimbing Anda.<br/>Misalnya, Anda akan memahami mengapa Anda "
-"sebaiknya tidak menggunakan Odoo untuk merencanakan melainkan untuk "
+"sebaiknya tidak menggunakan Flectra untuk merencanakan melainkan untuk "
 "berkolaborasi, atau mengapa mengatur proyek Anda dengan peran salah."
 
 #. module: project
@@ -1438,10 +1438,10 @@ msgstr "Mengkonfigurasi proyek"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"Congratulations on choosing Odoo Project to help running your company more "
+"Congratulations on choosing Flectra Project to help running your company more "
 "efficiently!"
 msgstr ""
-"Selamat memilih Odoo proyek untuk membantu menjalankan perusahaan Anda lebih"
+"Selamat memilih Flectra proyek untuk membantu menjalankan perusahaan Anda lebih"
 " efisien!"
 
 #. module: project
@@ -1565,7 +1565,7 @@ msgstr "Dibuat pada"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Creating Tasks is the next step in managing your Projects.<br/>\n"
-"                        In Odoo, it is pretty straightforward, but here are some explanations you may find useful."
+"                        In Flectra, it is pretty straightforward, but here are some explanations you may find useful."
 msgstr ""
 
 #. module: project
@@ -1712,7 +1712,7 @@ msgstr "Hapus"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Depending on what you need and how you want to operate, there are several "
-"ways to work with Odoo. First, decide if you want to think in terms of "
+"ways to work with Flectra. First, decide if you want to think in terms of "
 "tasks. Then, activate the Timesheets app if you need it."
 msgstr ""
 
@@ -1904,10 +1904,10 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"Even if there is no specific field in Odoo, it's important to define a person responsible for each stage of your Project.<br/>\n"
+"Even if there is no specific field in Flectra, it's important to define a person responsible for each stage of your Project.<br/>\n"
 "                        This person will have the responsibility for validating each stage and ensuring that the requirements to move to the next stage are met."
 msgstr ""
-"Bahkan jika ada tidak ada bidang tertentu dalam Odoo, sangat penting untuk "
+"Bahkan jika ada tidak ada bidang tertentu dalam Flectra, sangat penting untuk "
 "menentukan orang yang bertanggung jawab untuk setiap tahap proyek "
 "Anda.<br/>Orang ini akan memiliki tanggung jawab untuk memvalidasi setiap "
 "tahap dan memastikan bahwa persyaratan untuk pindah ke tahap berikutnya "
@@ -1917,9 +1917,9 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Every business is different.<br/>\n"
-"                    Odoo allows you to customize every application and it's usually a good idea to customize screens to fit your project needs."
+"                    Flectra allows you to customize every application and it's usually a good idea to customize screens to fit your project needs."
 msgstr ""
-"Setiap bisnis berbeda.<br/>Odoo memungkinkan Anda untuk menyesuaikan setiap "
+"Setiap bisnis berbeda.<br/>Flectra memungkinkan Anda untuk menyesuaikan setiap "
 "aplikasi dan biasanya ide yang baik untuk menyesuaikan layar sesuai dengan "
 "kebutuhan proyek Anda."
 
@@ -2011,9 +2011,9 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
-msgstr "Untuk tim Odoo,<br/>Fabien Pinckaers, pendiri"
+msgstr "Untuk tim Flectra,<br/>Fabien Pinckaers, pendiri"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2047,8 +2047,8 @@ msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "Get full synchronization with Odoo"
-msgstr "Mendapatkan sinkronisasi penuh dengan Odoo"
+msgid "Get full synchronization with Flectra"
+msgstr "Mendapatkan sinkronisasi penuh dengan Flectra"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2362,10 +2362,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Internal notes are messages that will appear in the Chatter but will not be "
-"notified in Odoo's Inbox."
+"notified in Flectra's Inbox."
 msgstr ""
 "Catatan Internal adalah pesan yang akan muncul dalam obrolan tapi akan tidak"
-" diberitahu di Odoo di kotak masuk."
+" diberitahu di Flectra di kotak masuk."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_tags_search_view
@@ -2405,17 +2405,17 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"It is time to think about how you will transform your activities into real projects in Odoo.<br/>\n"
+"It is time to think about how you will transform your activities into real projects in Flectra.<br/>\n"
 "                        For that, the most important part is defining the stages of your projects. Stages are the different steps a task can go through, from its creation to its ending. They will appear in what we call the 'Kanban' view of your projects."
 msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"It's essential to be clear about why you want to use Odoo Project and what your goals are.\n"
+"It's essential to be clear about why you want to use Flectra Project and what your goals are.\n"
 "                        Indeed, there are many ways to manage a project, to find the best one for you, you need to know exactly what you want to achieve. And later on, we will hopefully transform your objectives into real improvements for your company."
 msgstr ""
-"Hal ini penting untuk menjelaskan tentang mengapa Anda ingin menggunakan Odoo proyek dan apa tujuan Anda.\n"
+"Hal ini penting untuk menjelaskan tentang mengapa Anda ingin menggunakan Flectra proyek dan apa tujuan Anda.\n"
 "                        Memang, ada banyak cara untuk mengelola proyek, untuk menemukan yang terbaik untuk Anda, Anda perlu tahu apa yang Anda inginkan untuk mencapai. Dan kemudian kita akan mudah-mudahan mengubah tujuan Anda menjadi nyata perbaikan untuk perusahaan Anda."
 
 #. module: project
@@ -2604,14 +2604,14 @@ msgid ""
 "Managing notifications is essential: too few and you risk missing critical "
 "information, too many and you will be  overloaded with unnecessary "
 "information. The trick is to find the right balance between the projects, "
-"stages and tasks you want to be informed about. Fortunately, Odoo Project "
+"stages and tasks you want to be informed about. Fortunately, Flectra Project "
 "has many levels of notifications and messages you can choose from."
 msgstr ""
 "Mengelola pemberitahuan penting: terlalu sedikit dan Anda risiko kehilangan "
 "informasi penting, terlalu banyak dan Anda akan dipenuhi dengan informasi "
 "yang tidak perlu. Triknya adalah untuk menemukan keseimbangan yang tepat "
 "antara proyek, tahapan dan tugas-tugas yang Anda ingin diberitahu tentang. "
-"Untungnya, Odoo proyek memiliki banyak tingkat notifikasi dan pesan Anda "
+"Untungnya, Flectra proyek memiliki banyak tingkat notifikasi dan pesan Anda "
 "dapat memilih dari."
 
 #. module: project
@@ -2792,11 +2792,11 @@ msgstr "Jumlah dokumen yang dilampirkan"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"Odoo Project is a super fast and easy way to make your activities and tasks visible to\n"
+"Flectra Project is a super fast and easy way to make your activities and tasks visible to\n"
 "                        everyone in your company. Follow how things progress, see when things are stuck, know\n"
 "                        who's in charge, all in one place."
 msgstr ""
-"Odoo proyek adalah cara super cepat dan mudah untuk membuat kegiatan dan "
+"Flectra proyek adalah cara super cepat dan mudah untuk membuat kegiatan dan "
 "tugas terlihat untuk semua orang di perusahaan Anda. Ikuti bagaimana hal-hal"
 " kemajuan, lihat ketika hal-hal terjebak, tahu siapa yang bertanggung jawab,"
 " Semua dalam satu tempat."
@@ -2804,11 +2804,11 @@ msgstr ""
 #. module: project
 #: model:ir.actions.act_window,help:project.action_view_task
 msgid ""
-"Odoo's project management allows you to manage the pipeline of your tasks "
+"Flectra's project management allows you to manage the pipeline of your tasks "
 "efficiently. You can track progress, discuss on tasks, attach documents, "
 "etc."
 msgstr ""
-"Manajemen proyek Odoo yang memungkinkan Anda untuk mengelola pipa tugas Anda"
+"Manajemen proyek Flectra yang memungkinkan Anda untuk mengelola pipa tugas Anda"
 " secara efisien. Anda dapat melacak kemajuan, membahas tentang tugas, "
 "melampirkan dokumen, dll."
 
@@ -3261,8 +3261,8 @@ msgstr "Rasa tanggung jawab"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "Runs outside Odoo, always available"
-msgstr "Berjalan di luar Odoo, selalu tersedia"
+msgid "Runs outside Flectra, always available"
+msgstr "Berjalan di luar Flectra, selalu tersedia"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3683,8 +3683,8 @@ msgstr "Tugas analisis"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "Tasks are the main mechanism in Odoo and are activated by default."
-msgstr "Tugas utama mekanisme di Odoo dan diaktifkan secara default."
+msgid "Tasks are the main mechanism in Flectra and are activated by default."
+msgstr "Tugas utama mekanisme di Flectra dan diaktifkan secara default."
 
 #. module: project
 #: model:ir.model,name:project.model_report_project_task_user
@@ -3720,14 +3720,14 @@ msgstr "Pengujian"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"The Odoo Project app can be used to manage many activities, from the "
+"The Flectra Project app can be used to manage many activities, from the "
 "development of a new product to the daily operations of a customer support. "
 "With some creativity, it can even be used to manage your marketing "
 "communications or personal projects. But just because it can be done doesn't"
 " mean it's always a good idea: let's start by helping you understand what "
 "can be a good project."
 msgstr ""
-"Odoo proyek app dapat digunakan untuk mengelola berbagai kegiatan, dari "
+"Flectra proyek app dapat digunakan untuk mengelola berbagai kegiatan, dari "
 "pengembangan produk baru untuk operasi sehari-hari dukungan pelanggan. "
 "Dengan beberapa kreativitas, itu bahkan dapat digunakan untuk mengelola "
 "komunikasi pemasaran atau proyek pribadi Anda. Tapi hanya karena dapat "
@@ -3747,11 +3747,11 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (Odoo dokumen jenis) yang alias ini sesuai. Email masuk yang tidak "
+"Model (Flectra dokumen jenis) yang alias ini sesuai. Email masuk yang tidak "
 "menjawab catatan yang ada akan menyebabkan pembentukan rekor baru model ini "
 "(misalnya tugas proyek)"
 
@@ -3759,10 +3759,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 "Nama email alias, misalnya 'pekerjaan' jika Anda ingin menangkap email "
-"untuk<jobs@example.odoo.com></jobs@example.odoo.com>"
+"untuk<jobs@example.flectrahq.com></jobs@example.flectrahq.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_user_id
@@ -3912,11 +3912,11 @@ msgstr "Jadwal"
 msgid ""
 "Timesheets are often essential for running a company.<br/>\n"
 "                    They are also prone to human error, repetitive, annoying, and sometimes stressful to employees.<br/>\n"
-"                    Fortunately, Odoo has several solutions to make them as efficient and painless as possible!<br/>"
+"                    Fortunately, Flectra has several solutions to make them as efficient and painless as possible!<br/>"
 msgstr ""
 "Timesheets sering penting untuk menjalankan perusahaan.<br/>Mereka juga "
 "rentan terhadap kesalahan manusia, berulang-ulang, menjengkelkan, dan "
-"kadang-kadang stres kepada karyawan.<br/>Untungnya, Odoo memiliki beberapa "
+"kadang-kadang stres kepada karyawan.<br/>Untungnya, Flectra memiliki beberapa "
 "solusi untuk membuat mereka efisien dan menyakitkan mungkin!<br/>"
 
 #. module: project
@@ -4350,8 +4350,8 @@ msgstr "Tujuan Anda"
 
 #. module: project
 #: model:mail.template,subject:project.mail_template_data_module_install_project
-msgid "Your Odoo Project application is up and running"
-msgstr "Aplikasi Proyek Odoo Anda aktif dan berjalan"
+msgid "Your Flectra Project application is up and running"
+msgstr "Aplikasi Proyek Flectra Anda aktif dan berjalan"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner

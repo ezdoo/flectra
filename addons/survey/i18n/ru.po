@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * survey
 #
@@ -6,12 +6,12 @@
 # Max Belyanin <maxbelyanin@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2015-10-20 07:10+0000\n"
 "Last-Translator: Max Belyanin <maxbelyanin@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/odoo/odoo-9/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/flectra/flectra-9/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -247,8 +247,8 @@ msgstr "Значок должен быть уникальным!"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "О вашем использовании Odoo"
+msgid "About your Flectra usage"
+msgstr "О вашем использовании Flectra"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey_active
@@ -320,8 +320,8 @@ msgstr "Ответы"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Вы используете Odoo ежедневно?"
+msgid "Are you using Flectra on a daily basis?"
+msgstr "Вы используете Flectra ежедневно?"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_attachment_ids
@@ -690,8 +690,8 @@ msgstr "Группировать по"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "Как вы участвуете или планируете участвовать в Odoo?"
+msgid "How do you contribute or plan to contribute to Flectra?"
+msgstr "Как вы участвуете или планируете участвовать в Flectra?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -726,8 +726,8 @@ msgstr "Я участвую в обсуждении и форумах"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Github, like all official Odoo projects"
-msgstr "Мне нравится Github, как все официальные проекты Odoo"
+msgid "I use Github, like all official Flectra projects"
+msgstr "Мне нравится Github, как все официальные проекты Flectra"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -736,8 +736,8 @@ msgstr "Я использую другую систему хранилища (So
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Я использую контекстную справку в Odoo"
+msgid "I use the contextual help in Flectra"
+msgstr "Я использую контекстную справку в Flectra"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -797,9 +797,9 @@ msgstr "Если прочее, уточните:"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "If you do not contribute or develop in Odoo, skip this page."
+msgid "If you do not contribute or develop in Flectra, skip this page."
 msgstr ""
-"Если вы не участвуете или не разрабатываете в Odoo, пропустите эту страницу."
+"Если вы не участвуете или не разрабатываете в Flectra, пропустите эту страницу."
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.sfinished
@@ -1739,12 +1739,12 @@ msgstr "Слишком много пунктов меню, сложно для �
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"These questions relate to the ergonomy and ease of use of Odoo. Try to "
-"remind your firsts days on Odoo and\n"
+"These questions relate to the ergonomy and ease of use of Flectra. Try to "
+"remind your firsts days on Flectra and\n"
 "what have been your difficulties."
 msgstr ""
-"Эти вопросы касаются эргономии и легкости использования Odoo. Попытайтесь "
-"вспомнить свои первые дни на Odoo и\n"
+"Эти вопросы касаются эргономии и легкости использования Flectra. Попытайтесь "
+"вспомнить свои первые дни на Flectra и\n"
 "каковы были ваши трудности."
 
 #. module: survey
@@ -1759,8 +1759,8 @@ msgstr "Они полезны для ежедневного использова
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "Они помогают новым пользователям разобраться в Odoo"
+msgid "They help new users to understand Flectra"
+msgstr "Они помогают новым пользователям разобраться в Flectra"
 
 #. module: survey
 #: code:addons/survey/survey.py:671 code:addons/survey/tests/test_survey.py:94
@@ -1977,8 +1977,8 @@ msgstr "Что вы думаете о мастерах конфигурации?
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.odoo.com?"
-msgstr "Что вы думаете о документации, доступной на doc.odoo.com?"
+msgid "What do you think about the documentation available on doc.flectrahq.com?"
+msgstr "Что вы думаете о документации, доступной на doc.flectrahq.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5
@@ -1988,9 +1988,9 @@ msgstr "Что вы думаете о группах пользователей?
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of Flectra, available in the web "
 "client ?"
-msgstr "Что вы думаете о проекциях процесса Odoo, доступных в веб-клиенте?"
+msgstr "Что вы думаете о проекциях процесса Flectra, доступных в веб-клиенте?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2036,8 +2036,8 @@ msgstr "Да, я использую версию 7.0, установленную
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Да, я использую онлайн версию Odoo"
+msgid "Yes, I use the online version of Flectra"
+msgstr "Да, я использую онлайн версию Flectra"
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_survey_form

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_forum_doc
 #
@@ -6,12 +6,12 @@
 # Carlos Eduardo Rodriguez Rossi <crodriguez@samemotion.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-06-16 20:05+0000\n"
 "Last-Translator: Carlos Eduardo Rodriguez Rossi <crodriguez@samemotion.com>\n"
-"Language-Team: Spanish (Peru) (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Spanish (Peru) (http://www.transifex.com/flectra/flectra-9/language/"
 "es_PE/)\n"
 "Language: es_PE\n"
 "MIME-Version: 1.0\n"
@@ -167,12 +167,12 @@ msgstr "¡Error! No puede crear categorías recursivas"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to configure Odoo"
+msgid "Explain how to configure Flectra"
 msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
+msgid "Explain how to implement it in Flectra"
 msgstr ""
 
 #. module: website_forum_doc
@@ -384,7 +384,7 @@ msgstr "Nombre de Etapa"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
+msgid "The answer is understandable for someone who does not know Flectra"
 msgstr ""
 
 #. module: website_forum_doc

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * im_livechat
 #
@@ -9,12 +9,12 @@
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-06-06 08:04+0000\n"
 "Last-Translator: Rick Hunter <rick_hunter_ec@yahoo.com>\n"
-"Language-Team: Spanish (Ecuador) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Ecuador) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_EC/)\n"
 "Language: es_EC\n"
 "MIME-Version: 1.0\n"
@@ -315,11 +315,11 @@ msgstr "Explique su nota"
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For website built with Odoo CMS, please install the website_livechat module. "
+"For website built with Flectra CMS, please install the website_livechat module. "
 "Then go to Settings &gt; Website Settings and select the Website Live Chat "
 "Channel you want to add on your website."
 msgstr ""
-"Para sitios construidos con el CMS de Odoo, por favor instale el modulo "
+"Para sitios construidos con el CMS de Flectra, por favor instale el modulo "
 "website_livechat. Luego vaya a Configuracion &gt; Configuración del Sitio y "
 "seleccione el Canal de Chat en Vivo que quiere agregar a su sitio web."
 
@@ -827,8 +827,8 @@ msgstr "Canales de Chat en Vivo del Sitio"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.support_page
-msgid "Website Live Chat Powered by <strong>Odoo</strong>."
-msgstr " Chat en vivo por sitio web con tecnología <strong>Odoo</strong>."
+msgid "Website Live Chat Powered by <strong>Flectra</strong>."
+msgstr " Chat en vivo por sitio web con tecnología <strong>Flectra</strong>."
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_default_message

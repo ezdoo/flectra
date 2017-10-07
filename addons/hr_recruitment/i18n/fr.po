@@ -1,12 +1,12 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
 # Translators:
-# Eloïse Stilmant <est@odoo.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Eloïse Stilmant <est@flectrahq.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Melanie Bernard <mbe@flectrahq.com>, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
 # Saad Thaifa <saad.thaifa@gmail.com>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
@@ -18,14 +18,14 @@
 # Lucas Deliege <lud@openerp.com>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
 # Fabien Pinckaers <fp@openerp.com>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@flectrahq.com>, 2017
 # Henri Cornuau <hcornuau@gmail.com>, 2017
 # Nancy Bolognesi <nb@microcom.ca>, 2017
 # Benoît Fontaine <benoitfontaine.ba@gmail.com>, 2017
-# Olivier Dony <odo@odoo.com>, 2017
+# Olivier Dony <odo@flectrahq.com>, 2017
 # Jeanjean Noname <monsieur.spock@gmail.com>, 2017
 # Benelita Prauhart <internetinfo07@gmail.com>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Lucas Deliege <lud@flectrahq.com>, 2017
 # Lionel Sausin <ls@numerigraphe.com>, 2017
 # Frédéric LIETART <stuff@tifred.fr>, 2017
 # Shark McGnark <peculiarcheese@gmail.com>, 2017
@@ -34,12 +34,12 @@
 # fr rev <e2ffr04@hotmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: fr rev <e2ffr04@hotmail.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/flectra/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -187,7 +187,7 @@ msgid ""
 "                        See you soon,\n"
 "                    </p><p style=\"font-size:16px;color: grey;\">\n"
 "                        -- <br/>\n"
-"                        Odoo HR Team\n"
+"                        Flectra HR Team\n"
 "                    </p>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -204,9 +204,9 @@ msgid ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn about us?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">The Odoo Culture</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">About us</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.flectrahq.com/blog/flectra-news-5/post/the-flectra-story-56\">Founders' story</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-flectra-culture\">The Flectra Culture</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.flectrahq.com/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -338,9 +338,9 @@ msgid ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn more?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">The Odoo Culture</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">About us</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.flectrahq.com/blog/flectra-news-5/post/the-flectra-story-56\">Founders' story</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-flectra-culture\">The Flectra Culture</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.flectrahq.com/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -1407,19 +1407,19 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"Flectra helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo vous aide à tracker les candidature lors du processus de recrutement.\n"
+"Flectra vous aide à tracker les candidature lors du processus de recrutement.\n"
 "procédé et suivi de toutes les opérations, rendez-vous, interviews, etc."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"Flectra helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo vous aide à tracker les candidature lors du processus de recrutement\n"
+"Flectra vous aide à tracker les candidature lors du processus de recrutement\n"
 "procédé et suivi de toutes les opérations, rendez-vous, interviews, etc."
 
 #. module: hr_recruitment
@@ -1800,11 +1800,11 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Le modèle (sorte de document Odoo) auquel correspond cet alias. Tout les "
+"Le modèle (sorte de document Flectra) auquel correspond cet alias. Tout les "
 "e-mail entrant ne correspondant pas à un enregistrement existant entraînera "
 "la création d'un nouvel enregistrement de ce modèle (Ex. : une tâche d'un "
 "projet)"
@@ -1818,10 +1818,10 @@ msgstr "Le nom du degré de recrutement doit être unique!"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 "Le nom de l'alias de messagerie, par exemple 'carrieres' pour relever les "
-"e-mails de <carrieres@example.odoo.com>"
+"e-mails de <carrieres@example.flectrahq.com>"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_user_id
@@ -1869,7 +1869,7 @@ msgstr "Cette année"
 #: model:ir.actions.act_window,help:hr_recruitment.hr_applicant_resumes
 msgid ""
 "This menu helps you search through resumes and motivation\n"
-"                letters. Odoo automatically indexes .PDF, .DOC, DOCX, .TXT\n"
+"                letters. Flectra automatically indexes .PDF, .DOC, DOCX, .TXT\n"
 "                files so that you can search keywords from the content of these\n"
 "                files."
 msgstr ""
@@ -1965,11 +1965,11 @@ msgstr "Bienvenue ${object.name} "
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Flectra employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Avec un coup d’œil rapide sur l'écran Odoo des employés, vous pouvez "
+"Avec un coup d’œil rapide sur l'écran Flectra des employés, vous pouvez "
 "aisément trouver toute l'information dont vous avez besoin sur chaque "
 "personne; informations de contact, position de travail, disponibilité, etc."
 

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_links
 #
@@ -6,12 +6,12 @@
 # Otgonbayar Agvaan <gobi.mn@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2015-11-18 13:55+0000\n"
 "Last-Translator: Otgonbayar Agvaan <gobi.mn@gmail.com>\n"
-"Language-Team: Mongolian (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Mongolian (http://www.transifex.com/flectra/flectra-9/language/"
 "mn/)\n"
 "Language: mn\n"
 "MIME-Version: 1.0\n"
@@ -171,10 +171,10 @@ msgstr "Статистик"
 #, fuzzy
 msgid ""
 "Those trackers can be used in Google Analytics to track clicks and visitors, "
-"or in Odoo reports to track opportunities and related revenues."
+"or in Flectra reports to track opportunities and related revenues."
 msgstr ""
 "Энэ хөтлөгчид нь Google Analytics-д зочлогчдийн даралтыг хөтлөхөд ашиглаж "
-"болно, эсвэл Odoo-д боломж болон холбогдох орлогыг хөтлөх тухай мэдэгдэнэ."
+"болно, эсвэл Flectra-д боломж болон холбогдох орлогыг хөтлөх тухай мэдэгдэнэ."
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -243,8 +243,8 @@ msgstr "ж. Хайлтын систем, Веб хуудас, .."
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/page/contactus"
-msgstr "ж. https://www.odoo.com/page/contactus"
+msgid "e.g. https://www.flectrahq.com/page/contactus"
+msgstr "ж. https://www.flectrahq.com/page/contactus"
 
 #. module: website_links
 #. openerp-web

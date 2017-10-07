@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr
 #
@@ -9,12 +9,12 @@
 # Stjepan Lovasić <stjepan.lovasic@storm.hr>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-03-22 14:07+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Croatian (http://www.transifex.com/odoo/odoo-9/language/hr/)\n"
+"Language-Team: Croatian (http://www.transifex.com/flectra/flectra-9/language/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -347,8 +347,8 @@ msgstr "Rasporediti resurse"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Odoo functional training sessions"
-msgstr "Isporuka generičkih Odoo funkcionalnosti"
+msgid "Deliver generic Flectra functional training sessions"
+msgstr "Isporuka generičkih Flectra funkcionalnosti"
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_department
@@ -894,11 +894,11 @@ msgstr "Broj novih radnika koje planirate zaposliti."
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"Flectra's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc."
 msgstr ""
-"Odoo struktura odjela koristi se za upravljanje svim dokumentima koji se "
+"Flectra struktura odjela koristi se za upravljanje svim dokumentima koji se "
 "odnose na zaposlenike po odjelima : troškovi , timesheets ,\n"
 "izostanci i praznici , bolovanja , itd."
 
@@ -1310,12 +1310,12 @@ msgstr "Izvještavati će voditelja profesionalnih usluga"
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Flectra employee screen, you\n"
 "                can easily find all the information you need for each "
 "person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Sa samo brzim pogledom na Odoo karticu s radnikom, možete lako saznati sve "
+"Sa samo brzim pogledom na Flectra karticu s radnikom, možete lako saznati sve "
 "potrebne informacije za svaku osobu:\n"
 "kontakt podaci, radno mjesto, dostupnost, itd."
 

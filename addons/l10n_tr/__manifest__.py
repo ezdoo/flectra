@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Turkey - Accounting',
@@ -13,7 +13,7 @@ Bu modül kurulduktan sonra, Muhasebe yapılandırma sihirbazı çalışır
     * Sihirbaz sizden hesap planı şablonu, planın kurulacağı şirket, banka hesap
       bilgileriniz, ilgili para birimi gibi bilgiler isteyecek.
     """,
-    'author': 'Ahmet Altınışık',
+    'author': 'Ahmet Altınışık, Flectra',
     'maintainer':'https://launchpad.net/~openerp-turkey',
     'website':'https://launchpad.net/openerp-turkey',
     'depends': [

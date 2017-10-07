@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * base_setup
 #
@@ -6,12 +6,12 @@
 # Andre de Kock <adekock11@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2015-11-16 19:28+0000\n"
 "Last-Translator: Andre de Kock <adekock11@gmail.com>\n"
-"Language-Team: Afrikaans (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Afrikaans (http://www.transifex.com/flectra/flectra-9/language/"
 "af/)\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
@@ -251,7 +251,7 @@ msgstr "Portaal toegang"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_module_share
-msgid "Share or embbed any screen of Odoo."
+msgid "Share or embbed any screen of Flectra."
 msgstr ""
 
 #. module: base_setup

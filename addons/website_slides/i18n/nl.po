@@ -1,21 +1,21 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_slides
 # 
 # Translators:
 # Eric Geens <ericgeens@yahoo.com>, 2017
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2017
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2017
+# Erwin van der Ploeg <erwin@flectraexperts.nl>, 2017
 # Cas Vissers <casvissers@brahoo.nl>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
-"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Martin Trigaux <mat@flectrahq.com>, 2017\n"
+"Language-Team: Dutch (https://www.transifex.com/flectra/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -345,8 +345,8 @@ msgstr "Enkel geauthentificeerde gebruikers"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Odoo"
-msgstr "Geweldige urenstaat door Odoo"
+msgid "Awesome Timesheet by Flectra"
+msgstr "Geweldige urenstaat door Flectra"
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag1
@@ -525,7 +525,7 @@ msgstr "Annuleren"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
-msgid "Discover how easy marketing your business can be with Odoo"
+msgid "Discover how easy marketing your business can be with Flectra"
 msgstr ""
 
 #. module: website_slides
@@ -533,14 +533,14 @@ msgstr ""
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.odoo.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.flectrahq.com/page/manufacturing-features\n"
 "\n"
-"Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
+"Discover Flectra MRP: https://www.flectrahq.com/page/manufacturing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
+msgid "Discover the CRM sales people love https://www.flectrahq.com/page/crm"
 msgstr ""
 
 #. module: website_slides
@@ -548,11 +548,11 @@ msgstr ""
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://flectrahq.com"
 msgstr ""
 "Ontdek de all-in-one business management software-oplossing voor elke bedrijfsgrootte en use case.\n"
 "\n"
-"Meer informatie op https://odoo.com"
+"Meer informatie op https://flectrahq.com"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_dislikes
@@ -603,12 +603,12 @@ msgstr "Downloaden"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Odoo and discover how easy time tracking and employee management can be!\n"
+"Download Awesome Timesheet by Flectra and discover how easy time tracking and employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
 msgstr ""
-"Download geweldige urenstaten door Odoo en ontdek hoe eenvoudig aanwezigheid controle en HRM kan zijn! \n"
+"Download geweldige urenstaten door Flectra en ontdek hoe eenvoudig aanwezigheid controle en HRM kan zijn! \n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -817,7 +817,7 @@ msgstr "Laatste publicatie"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.odoo.com/page/sales"
+msgid "Learn more at https://www.flectrahq.com/page/sales"
 msgstr ""
 
 #. module: website_slides
@@ -931,44 +931,44 @@ msgstr "Aantal video's"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Odoo All-in-One Software Demonstration"
-msgstr "Odoo All-in-One Software Demonstratie"
+msgid "Flectra All-in-One Software Demonstration"
+msgstr "Flectra All-in-One Software Demonstratie"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Odoo CRM"
+msgid "Flectra CRM"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
-msgid "Odoo Days"
-msgstr "Odoo Days"
+msgid "Flectra Days"
+msgstr "Flectra Days"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Odoo Inventory"
+msgid "Flectra Inventory"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Odoo MRP"
+msgid "Flectra MRP"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Odoo Marketing"
+msgid "Flectra Marketing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Odoo Sales"
+msgid "Flectra Sales"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Odoo Sign Demonstration"
-msgstr "Odoo tekenen demonstratie"
+msgid "Flectra Sign Demonstration"
+msgstr "Flectra tekenen demonstratie"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9
@@ -1202,13 +1202,13 @@ msgstr "Sorry, maar deze zoekopdracht leverde geen resultaten op"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
-"Stop doing manual printing and scanning. Move to electronic signature with Odoo Sign!\n"
+"Stop doing manual printing and scanning. Move to electronic signature with Flectra Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.flectrahq.com/page/sign"
 msgstr ""
-"Stop met het handmatig afdrukken en scannen. Gebruik elektronische handtekening met Odoo ondertekenen! \n"
+"Stop met het handmatig afdrukken en scannen. Gebruik elektronische handtekening met Flectra ondertekenen! \n"
 "\n"
-"Ontdek meer op https://www.odoo.com/page/sign"
+"Ontdek meer op https://www.flectrahq.com/page/sign"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1409,7 +1409,7 @@ msgstr "Wacht op bevestiging"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
+"Discover Flectra Inventory: https://www.flectrahq.com/page/warehouse"
 msgstr ""
 
 #. module: website_slides

@@ -1,22 +1,22 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 #    Coded by: Alejandro Negrin anegrin@vauxoo.com,
 #    Planified by: Alejandro Negrin, Humberto Arocha, Moises Lopez
-#    Finance by: Vauxoo.
+#    Finance by: Vauxoo, Flectra.
 #    Audited by: Humberto Arocha (hbto@vauxoo.com) y Moises Lopez (moylop260@vauxoo.com)
 
 {
     "name": "Mexico - Accounting",
     "version": "2.0",
-    "author": "Vauxoo",
+    "author": "Vauxoo, Flectra",
     'category': 'Localization',
     "description": """
 Minimal accounting configuration for Mexico.
 ============================================
 
 This Chart of account is a minimal proposal to be able to use OoB the
-accounting feature of Odoo.
+accounting feature of Odoo,Flectra.
 
 This doesn't pretend be all the localization for MX it is just the minimal
 data required to start from 0 in mexican localization.

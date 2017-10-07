@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 #
@@ -6,12 +6,12 @@
 # 許耀琮 <ythsu0305@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-02-10 09:38+0000\n"
 "Last-Translator: 許耀琮 <ythsu0305@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/flectra/flectra-9/"
 "language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -1453,7 +1453,7 @@ msgstr "編號"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:113
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
+msgid "IMPORTANT: Bug Report From Flectra Point Of Sale"
 msgstr ""
 
 #. module: point_of_sale
@@ -1975,7 +1975,7 @@ msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.index
-msgid "Odoo POS"
+msgid "Flectra POS"
 msgstr ""
 
 #. module: point_of_sale
@@ -3485,7 +3485,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Flectra but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
 

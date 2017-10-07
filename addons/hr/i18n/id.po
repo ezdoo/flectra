@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
 # Translators:
 # Bonny Useful <bonny.useful@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
 # William Surya Permana <zarambie_game@yahoo.com>, 2017
 # Ngalim Siregar <ngalim.siregar@gmail.com>, 2017
@@ -15,12 +15,12 @@
 # Febrasari Almania <febrasari.almania@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Febrasari Almania <febrasari.almania@gmail.com>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/flectra/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -326,7 +326,7 @@ msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Odoo functional training sessions"
+msgid "Deliver generic Flectra functional training sessions"
 msgstr ""
 
 #. module: hr
@@ -847,7 +847,7 @@ msgstr "Jumlah Karyawan baru yang Anda mengharapkan untuk merekrut."
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"Flectra's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
@@ -1276,11 +1276,11 @@ msgstr ""
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Flectra employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Dengan hanya sekilas pada layar karyawan Odoo, Anda dapat dengan mudah menemukan semua informasi yang Anda butuhkan untuk setiap orang;\n"
+"Dengan hanya sekilas pada layar karyawan Flectra, Anda dapat dengan mudah menemukan semua informasi yang Anda butuhkan untuk setiap orang;\n"
 "                data kontak, lowongan kerja, ketersediaan, dll."
 
 #. module: hr

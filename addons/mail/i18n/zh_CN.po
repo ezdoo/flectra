@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -8,7 +8,7 @@
 # liAnGjiA <liangjia@qq.com>, 2017
 # liulixia <liu.lixia@elico-corp.com>, 2017
 # waveyeung <waveyeung@qq.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Rona Lin <ssauapw@qq.com>, 2017
 # xiaobin wu <bd5dml@gmail.com>, 2017
 # Michael Chong <michaelchong2005@gmail.com>, 2017
@@ -16,12 +16,12 @@
 # Talway <9010446@qq.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: Talway <9010446@qq.com>, 2017\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/flectra/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -111,7 +111,7 @@ msgid ""
 "    </a>\n"
 "    % endif\n"
 "    using\n"
-"    <a href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a>.\n"
+"    <a href=\"https://www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
 "</p>\n"
 "</div>"
 msgstr ""
@@ -2126,9 +2126,9 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_base_config_settings_alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Flectra server, "
 "enter the domain name here."
-msgstr "如果你设置了电子邮件域名重定向到这个Odoo服务器，请在这里输入域名。"
+msgstr "如果你设置了电子邮件域名重定向到这个Flectra服务器，请在这里输入域名。"
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:141
@@ -3379,30 +3379,30 @@ msgstr "未读消息的数量"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:134
 #, python-format
 msgid ""
-"Odoo has now the permission to send you native notifications on this device."
+"Flectra has now the permission to send you native notifications on this device."
 msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
-msgid "Odoo needs your permission to"
-msgstr "Odoo需要你的权限进行"
+msgid "Flectra needs your permission to"
+msgstr "Flectra需要你的权限进行"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:132
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"Flectra will not have the permission to send native notifications on this "
 "device."
 msgstr ""
 
@@ -4490,11 +4490,11 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin_alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"相应于这个别名对应的模型(Odoo单据种类)。任何一封不属于对某个已存在的记录的到来邮件，将导致此模块中新记录的创建(例如，一个新的项目任务)。"
+"相应于这个别名对应的模型(Flectra单据种类)。任何一封不属于对某个已存在的记录的到来邮件，将导致此模块中新记录的创建(例如，一个新的项目任务)。"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_name
@@ -4502,8 +4502,8 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.odoo.com> 的电子邮件,别名就要被设为：\"jobs\""
+"<jobs@example.flectrahq.com>"
+msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.flectrahq.com> 的电子邮件,别名就要被设为：\"jobs\""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_user_id
@@ -4954,7 +4954,7 @@ msgstr "在此频道的用户 : %s %s 以及 你."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.flectrahq.com)."
 msgstr ""
 
 #. module: mail
@@ -5251,8 +5251,8 @@ msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.base_config_settings_view_form_inherit_mail
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.flectrahq.com"
+msgstr "mycompany.flectrahq.com"
 
 #. module: mail
 #. openerp-web

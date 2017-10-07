@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 #
@@ -6,12 +6,12 @@
 # Daniel Reis, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-03-10 13:15+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Portuguese (http://www.transifex.com/flectra/flectra-9/language/"
 "pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -1216,7 +1216,7 @@ msgstr "Número de Dias para Fechar o Incidente do Projeto"
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"Flectra helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, "
 "etc."
 msgstr ""
@@ -1224,7 +1224,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"Flectra helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
 
@@ -1645,11 +1645,11 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
 msgstr ""
-"O modelo (tipo de Documento  Odoo ) para que este apelido corresponde . "
+"O modelo (tipo de Documento  Flectra ) para que este apelido corresponde . "
 "Qualquer e-mail recebido que não responde a um registro existente fará com "
 "que a criação de um novo registro deste modelo (por exemplo, uma tarefa do "
 "projeto )"
@@ -1663,10 +1663,10 @@ msgstr "O nome do grau de recrutamento deve ser único!"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 "O nome do alias de e-mail , por exemplo, Se você quer recolher e-mails para "
-"\" empregos\" < jobs@example.odoo.com >"
+"\" empregos\" < jobs@example.flectrahq.com >"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_user_id
@@ -1818,7 +1818,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Flectra employee screen, you\n"
 "                can easily find all the information you need for each "
 "person;\n"
 "                contact data, job position, availability, etc."

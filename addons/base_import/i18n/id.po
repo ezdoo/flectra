@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * base_import
 # 
@@ -6,16 +6,16 @@
 # Bonny Useful <bonny.useful@gmail.com>, 2017
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
 # oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # William Surya Permana <zarambie_game@yahoo.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Last-Translator: William Surya Permana <zarambie_game@yahoo.com>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/flectra/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -288,11 +288,11 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Odoo can try auto-detecting the\n"
+"                the column names, Flectra can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr ""
-"Jika file berisi nama-nama kolom, Odoo dapat mencoba auto-mendeteksi bidang "
+"Jika file berisi nama-nama kolom, Flectra dapat mencoba auto-mendeteksi bidang "
 "kolom yang sesuai. Hal ini membuat impor yang sederhana terutama ketika file"
 " telah banyak kolom."
 

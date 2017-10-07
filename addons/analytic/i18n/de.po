@@ -1,13 +1,13 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * analytic
 # 
 # Translators:
-# Gab_Odoo <gab@odoo.com>, 2017
+# Gab_Flectra <gab@flectrahq.com>, 2017
 # Niki Waibel <niki.waibel@gmail.com>, 2017
 # Henry Mineehen <info@mineehen.de>, 2017
 # Wolfgang Taferner <wolfgang.transifex@service.wt-io-it.at>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Tina Rittmüller <tr@ife.de>, 2017
 # Ermin Trevisan <trevi@twanda.com>, 2017
 # JackTheHunter <Maximilian.N98@gmail.com>, 2017
@@ -17,12 +17,12 @@
 # Dejan Dinic <dejan.dinic@bluewin.ch>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Last-Translator: Dejan Dinic <dejan.dinic@bluewin.ch>, 2017\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/flectra/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -250,7 +250,7 @@ msgstr ""
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In Flectra, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * sale
 # 
@@ -10,18 +10,18 @@
 # liAnGjiA <liangjia@qq.com>, 2017
 # Talway <9010446@qq.com>, 2017
 # Ted Wang <feiyuwang2012@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # xiaobin wu <bd5dml@gmail.com>, 2017
 # Gary Wei <Gary.wei@elico-corp.com>, 2017
 # liulixia <liu.lixia@elico-corp.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: liulixia <liu.lixia@elico-corp.com>, 2017\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/flectra/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -204,7 +204,7 @@ msgid ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Powered by <a href=\"https://www.flectrahq.com\">Flectra</a>.\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"
@@ -275,7 +275,7 @@ msgstr ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            由 <a href=\"https://www.odoo.com\">Odoo</a> 提供技术支持。\n"
+"                            由 <a href=\"https://www.flectrahq.com\">Flectra</a> 提供技术支持。\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"
@@ -2600,7 +2600,7 @@ msgstr "你要开什么发票？"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.sale_config_settings_view_form_inherit_sale
 msgid ""
-"When populating your address book, Odoo relies on Clearbit’s API to provide "
+"When populating your address book, Flectra relies on Clearbit’s API to provide "
 "you with a list of matching contacts or companies.When selecting one item, "
 "the partner name, logo and website get automatically set."
 msgstr ""

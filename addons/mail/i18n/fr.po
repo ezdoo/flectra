@@ -1,28 +1,28 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
 # Translators:
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@flectrahq.com>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
-# Clo <clo@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
+# Melanie Bernard <mbe@flectrahq.com>, 2017
+# Eloïse Stilmant <est@flectrahq.com>, 2017
+# Clo <clo@flectrahq.com>, 2017
 # Martin Malorni <mmalorni@gmail.com>, 2017
 # Agathe Mollé <molleagathe@gmail.com>, 2017
-# Quentin THEURET <odoo@kerpeo.com>, 2017
+# Quentin THEURET <flectra@kerpeo.com>, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
 # ShevAbam <shevabam@gmail.com>, 2017
-# Arthur Latour <arl@odoo.com>, 2017
+# Arthur Latour <arl@flectrahq.com>, 2017
 # Xavier Symons <xsy@openerp.com>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
-# Nicolas Martinelli <nim@odoo.com>, 2017
-# lap.odoo <lap@odoo.com>, 2017
+# Nicolas Martinelli <nim@flectrahq.com>, 2017
+# lap.flectra <lap@flectrahq.com>, 2017
 # Henri Cornuau <hcornuau@gmail.com>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
 # Frédéric LIETART <stuff@tifred.fr>, 2017
-# Olivier Dony <odo@odoo.com>, 2017
+# Olivier Dony <odo@flectrahq.com>, 2017
 # Nancy Bolognesi <nb@microcom.ca>, 2017
 # Stéphane Le Cornec <slc@microcom.ca>, 2017
 # Lucas Deliege <lud@openerp.com>, 2017
@@ -40,7 +40,7 @@
 # Benedicte HANET <hanetb@gmail.com>, 2017
 # Nicolas JEUDY <njeudy@panda-chi.io>, 2017
 # Alexis de Lattre <alexis@via.ecp.fr>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Lucas Deliege <lud@flectrahq.com>, 2017
 # Shark McGnark <peculiarcheese@gmail.com>, 2017
 # Bertrand LATOUR <divoir@gmail.com>, 2017
 # Florian Hatat <mininet@wanadoo.fr>, 2017
@@ -51,12 +51,12 @@
 # Julien Martin <204336@supinfo.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:25+0000\n"
 "PO-Revision-Date: 2017-10-02 11:25+0000\n"
 "Last-Translator: Julien Martin <204336@supinfo.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/flectra/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -148,7 +148,7 @@ msgid ""
 "    </a>\n"
 "    % endif\n"
 "    using\n"
-"    <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a>.\n"
+"    <a target=\"_blank\" href=\"https://www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
 "</p>\n"
 "</div>"
 msgstr ""
@@ -2161,8 +2161,8 @@ msgstr ""
 
 #. module: mail
 #: selection:res.users,notification_type:0
-msgid "Handle in Odoo"
-msgstr "Gérer dans Odoo"
+msgid "Handle in Flectra"
+msgstr "Gérer dans Flectra"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_search
@@ -2426,11 +2426,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings_alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Flectra server, "
 "enter the domain name here."
 msgstr ""
 "Si vous avez configuré un domain \"catch-all\" email redirigé vers le "
-"serveur d'Odoo, entrez le nom du domaine ici."
+"serveur d'Flectra, entrez le nom du domaine ici."
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:141
@@ -3777,35 +3777,35 @@ msgstr "Nombre de messages non lus"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:893
 #, python-format
 msgid ""
-"Odoo has now the permission to send you native notifications on this device."
+"Flectra has now the permission to send you native notifications on this device."
 msgstr ""
-"Odoo a maintenant la permission de vous envoyer des notifications natives "
+"Flectra a maintenant la permission de vous envoyer des notifications natives "
 "sur cet appareil."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
-msgid "Odoo needs your permission to"
-msgstr "Odoo a besoin de votre autorisation pour"
+msgid "Flectra needs your permission to"
+msgstr "Flectra a besoin de votre autorisation pour"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:890
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"Flectra will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"Odoo n'aura pas la permission d'envoyer des notifications natives sur cet "
+"Flectra n'aura pas la permission d'envoyer des notifications natives sur cet "
 "appareil."
 
 #. module: mail
@@ -4209,7 +4209,7 @@ msgstr "Merci de patienter durant le transfert du fichier."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
-"- Odoo: notifications appear in your Odoo Inbox"
+"- Flectra: notifications appear in your Flectra Inbox"
 msgstr ""
 
 #. module: mail
@@ -4943,11 +4943,11 @@ msgstr "Le code HTML avec caractères d'échappement remplaçant le raccourci"
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_test_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Le modèle (sorte de document Odoo) auquel correspond cet alias. Tout les "
+"Le modèle (sorte de document Flectra) auquel correspond cet alias. Tout les "
 "e-mail entrant ne correspondant pas à un enregistrement existant entraînera "
 "la création d'un nouvel enregistrement de ce modèle (Ex. : une tâche d'un "
 "projet)"
@@ -4959,10 +4959,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_test_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 "Le nom de l'alias de messagerie, par exemple 'carrieres' pour relever les "
-"e-mails de <carrieres@example.odoo.com>"
+"e-mails de <carrieres@example.flectrahq.com>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_user_id
@@ -5430,7 +5430,7 @@ msgstr "Utilisateurs dans ce canal: %s %s et vous."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.flectrahq.com)."
 msgstr ""
 
 #. module: mail
@@ -5763,8 +5763,8 @@ msgstr "modifié"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "masociete.odoo.com"
+msgid "mycompany.flectrahq.com"
+msgstr "masociete.flectrahq.com"
 
 #. module: mail
 #. openerp-web

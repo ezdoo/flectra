@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 #
@@ -7,12 +7,12 @@
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-03-03 04:22+0000\n"
 "Last-Translator: Rick Hunter <rick_hunter_ec@yahoo.com>\n"
-"Language-Team: Spanish (Ecuador) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Ecuador) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_EC/)\n"
 "Language: es_EC\n"
 "MIME-Version: 1.0\n"
@@ -898,10 +898,10 @@ msgstr "Número de ausencias"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_categ_id
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, Flectra will create a corresponding meeting of this "
 "type in the calendar."
 msgstr ""
-"Una vez una ausencia es validada, Odoo creará el evento correspondiente de "
+"Una vez una ausencia es validada, Flectra creará el evento correspondiente de "
 "este tipo en el calendario."
 
 #. module: hr_holidays
@@ -1294,10 +1294,10 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
-"You can assign remaining Legal Leaves for each employee, Odoo\n"
+"You can assign remaining Legal Leaves for each employee, Flectra\n"
 "               will automatically create and validate allocation requests."
 msgstr ""
-"Puede asignar las ausencias legales restantes para cada empleado. Odoo\n"
+"Puede asignar las ausencias legales restantes para cada empleado. Flectra\n"
 "creará y validará automáticamente las peticiones de asignación.\n"
 "           "
 

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr
 #
@@ -9,12 +9,12 @@
 # Mateo Tibaquirá <nestormateo@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-03-04 16:37+0000\n"
 "Last-Translator: Felipe Palomino <omega@nubark.com>\n"
-"Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Colombia) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_CO/)\n"
 "Language: es_CO\n"
 "MIME-Version: 1.0\n"
@@ -350,8 +350,8 @@ msgstr "Definir el calendario de recursos"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Odoo functional training sessions"
-msgstr "Ofrecer sesiones genéricas de entrenamiento funcional de Odoo"
+msgid "Deliver generic Flectra functional training sessions"
+msgstr "Ofrecer sesiones genéricas de entrenamiento funcional de Flectra"
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_department
@@ -900,11 +900,11 @@ msgstr "Número de nuevos empleados que espera contratar."
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"Flectra's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc."
 msgstr ""
-"La estructura de departamentos de Odoo es usada para administrar todos los "
+"La estructura de departamentos de Flectra es usada para administrar todos los "
 "documentos relacionados a empleados por departamentos: gastos, partes de "
 "horas, ausencias, días festivos, contrataciones, etc."
 
@@ -1321,12 +1321,12 @@ msgstr "Informará al Jefe de Servicios Profesionales"
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Flectra employee screen, you\n"
 "                can easily find all the information you need for each "
 "person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Con sólo un vistazo rápido en la pantalla empleado Odoo, usted puede "
+"Con sólo un vistazo rápido en la pantalla empleado Flectra, usted puede "
 "encontrar fácilmente toda la información que necesita para cada persona;\n"
 "datos de contacto, puesto de trabajo, disponibilidad, etc."
 

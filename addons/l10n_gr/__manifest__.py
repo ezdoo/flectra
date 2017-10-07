@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2009 P. Christeas <p_christ@hol.gr>. All Rights Reserved
 
 {
     'name': 'Greece - Accounting',
-    'author': 'P. Christeas, OpenERP SA.',
+    'author': 'P. Christeas, OpenERP SA., Flectra',
     'website': 'http://openerp.hellug.gr/',
     'category': 'Localization',
     'description': """

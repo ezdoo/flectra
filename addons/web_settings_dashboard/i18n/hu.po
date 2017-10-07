@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web_settings_dashboard
 # 
 # Translators:
 # krnkris <krnkris@freemail.hu>, 2016
 # Kovács Tibor <kovika@gmail.com>, 2016
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux <mat@flectrahq.com>, 2016
 # Oregional <geza.nagy@oregional.hu>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:50+0000\n"
 "PO-Revision-Date: 2017-02-15 09:50+0000\n"
 "Last-Translator: Oregional <geza.nagy@oregional.hu>, 2017\n"
-"Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
+"Language-Team: Hungarian (https://www.transifex.com/flectra/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -119,10 +119,10 @@ msgstr "E-mail címek begépelése (soronként egyet)"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:94
 #, python-format
-msgid "Follow these implementation guides to get the most out of Odoo."
+msgid "Follow these implementation guides to get the most out of Flectra."
 msgstr ""
 "Ezeket a végrehajtási utasításokat kövesse ahhoz, hogy a legtöbbet "
-"kihozhassa az Odoo rendszerből."
+"kihozhassa az Flectra rendszerből."
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -136,15 +136,15 @@ msgstr "GNU LGPL liszenszelt"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:181
 #, python-format
 msgid "Get more features with the Enterprise Edition!"
-msgstr "Kapjon még több jellemzőt az Odoo Nagyvállalati rendszerrel!"
+msgstr "Kapjon még több jellemzőt az Flectra Nagyvállalati rendszerrel!"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:134
 #, python-format
-msgid "Help us spread the word: Share Odoo's awesomeness with your friends!"
+msgid "Help us spread the word: Share Flectra's awesomeness with your friends!"
 msgstr ""
-"Segíts terjeszteni a világban: Terjeszd a óriási Odoo rendszert a barátaid "
+"Segíts terjeszteni a világban: Terjeszd a óriási Flectra rendszert a barátaid "
 "körében!"
 
 #. module: web_settings_dashboard
@@ -200,22 +200,22 @@ msgstr "Nincs telepített alkalmazás"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:149
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:180
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Nagyvállalati"
+msgid "Flectra Enterprise"
+msgstr "Flectra Nagyvállalati"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:157
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Flectra S.A."
+msgstr "Flectra S.A."
 
 #. module: web_settings_dashboard
 #. openerp-web

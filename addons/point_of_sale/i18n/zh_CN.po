@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
 # Translators:
 # Jeffery CHEN <jeffery9@gmail.com>, 2016
 # Gary Wei <Gary.wei@elico-corp.com>, 2016
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Bo Cao <cao.poobo@hotmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: Bo Cao <cao.poobo@hotmail.com>, 2017\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/flectra/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1284,8 +1284,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:115
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "重要：来自Odoo POS的Bug报告"
+msgid "IMPORTANT: Bug Report From Flectra Point Of Sale"
+msgstr "重要：来自Flectra POS的Bug报告"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_proxy_ip
@@ -3194,9 +3194,9 @@ msgstr "该操作将会损坏存储在本地的所有会话中的未付订单你
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Flectra but you can change it to "
 "customize the reference numbers of your orders."
-msgstr "这个序列号是由Odoo自动产生的，不过你可以自己定义订单的序列号。"
+msgstr "这个序列号是由Flectra自动产生的，不过你可以自己定义订单的序列号。"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_order.py:560

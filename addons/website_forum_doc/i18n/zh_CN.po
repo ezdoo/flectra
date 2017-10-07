@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_forum_doc
 # 
 # Translators:
 # Jeffery CHEN <jeffery9@gmail.com>, 2016
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux <mat@flectrahq.com>, 2016
 # Talway <9010446@qq.com>, 2016
 # liAnGjiA <liangjia@qq.com>, 2016
 # fausthuang <faust_huang@hotmail.com>, 2016
@@ -13,12 +13,12 @@
 # 苏州远鼎 <tiexinliu@126.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:50+0000\n"
 "PO-Revision-Date: 2017-02-15 09:50+0000\n"
 "Last-Translator: 苏州远鼎 <tiexinliu@126.com>, 2016\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/flectra/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -144,13 +144,13 @@ msgstr "错误！您不能创建循环类别。"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to configure Odoo"
-msgstr "讲解怎么配置Odoo"
+msgid "Explain how to configure Flectra"
+msgstr "讲解怎么配置Flectra"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
-msgstr "讲解怎么在Odoo上实施它"
+msgid "Explain how to implement it in Flectra"
+msgstr "讲解怎么在Flectra上实施它"
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_forum_id
@@ -331,8 +331,8 @@ msgstr "阶段名称"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "对于不知道Odoo的人来说答案也得很容易懂"
+msgid "The answer is understandable for someone who does not know Flectra"
+msgstr "对于不知道Flectra的人来说答案也得很容易懂"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question

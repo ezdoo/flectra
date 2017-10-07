@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web
 # 
 # Translators:
 # Bonny Useful <bonny.useful@gmail.com>, 2017
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Rachmat Aditiya <raditiya@me.com>, 2017
 # William Surya Permana <zarambie_game@yahoo.com>, 2017
 # Febrasari Almania <febrasari.almania@gmail.com>, 2017
@@ -19,12 +19,12 @@
 # Muhammad Syarif <mhdsyarif.ms@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Muhammad Syarif <mhdsyarif.ms@gmail.com>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/flectra/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -236,8 +236,8 @@ msgstr "<span class=\"oe_logo_edit\">Sunting data Perusahaan</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>Flectra</span>"
+msgstr "<span>Flectra</span>"
 
 #. module: web
 #. openerp-web
@@ -1223,7 +1223,7 @@ msgstr "Formulir"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1338
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
+msgid "Get this feature and much more with Flectra Enterprise!"
 msgstr ""
 
 #. module: web
@@ -1573,8 +1573,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1323
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Akun Odoo.com saya"
+msgid "My Flectra.com account"
+msgstr "Akun Flectra.com saya"
 
 #. module: web
 #. openerp-web
@@ -1704,14 +1704,14 @@ msgstr "Obyek:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
+msgid "Flectra Apps will be available soon"
 msgstr ""
 
 #. module: web
@@ -1720,28 +1720,28 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
+msgid "Flectra Client Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
+msgid "Flectra Enterprise"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
+msgid "Flectra Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
+msgid "Flectra Session Expired"
 msgstr ""
 
 #. module: web
@@ -1749,7 +1749,7 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
+msgid "Flectra Warning"
 msgstr ""
 
 #. module: web
@@ -1955,7 +1955,7 @@ msgstr "Disajikan oleh"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
+msgid "Powered by <span>Flectra</span>"
 msgstr ""
 
 #. module: web
@@ -2453,7 +2453,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in Flectra is displayed according to your field timezone."
 msgstr ""
 
 #. module: web
@@ -2821,8 +2821,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Sesi Odoo Anda berakhir. Silakan refresh halaman web saat ini."
+msgid "Your Flectra session expired. Please refresh the current web page."
+msgstr "Sesi Flectra Anda berakhir. Silakan refresh halaman web saat ini."
 
 #. module: web
 #. openerp-web

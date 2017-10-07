@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_forum_doc
 #
@@ -6,12 +6,12 @@
 # Rytis Štreimikis <r.streimikis@hotmail.lt>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-06-11 17:17+0000\n"
 "Last-Translator: Rytis Štreimikis <r.streimikis@hotmail.lt>\n"
-"Language-Team: Lithuanian (http://www.transifex.com/odoo/odoo-9/language/"
+"Language-Team: Lithuanian (http://www.transifex.com/flectra/flectra-9/language/"
 "lt/)\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -168,12 +168,12 @@ msgstr "Klaida! Jūs negalite sukurti pasikartojančių kategorijų."
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to configure Odoo"
+msgid "Explain how to configure Flectra"
 msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
+msgid "Explain how to implement it in Flectra"
 msgstr ""
 
 #. module: website_forum_doc
@@ -385,7 +385,7 @@ msgstr "Etapo pavadinimas"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
+msgid "The answer is understandable for someone who does not know Flectra"
 msgstr ""
 
 #. module: website_forum_doc

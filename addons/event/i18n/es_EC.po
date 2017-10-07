@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * event
 #
@@ -9,12 +9,12 @@
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2015-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-02-22 05:01+0000\n"
 "Last-Translator: Rick Hunter <rick_hunter_ec@yahoo.com>\n"
-"Language-Team: Spanish (Ecuador) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Ecuador) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_EC/)\n"
 "Language: es_EC\n"
 "MIME-Version: 1.0\n"
@@ -365,8 +365,8 @@ msgstr "Insignia interior derecha"
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Banner Odoo Image"
-msgstr "Imagen de Odoo del banner"
+msgid "Banner Flectra Image"
+msgstr "Imagen de Flectra del banner"
 
 #. module: event
 #: selection:event.mail,interval_type:0
@@ -1285,25 +1285,25 @@ msgstr "Número de registros"
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Official Website"
-msgstr "Sitio web oficial Odoo"
+msgid "Flectra Official Website"
+msgstr "Sitio web oficial Flectra"
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Web Client"
-msgstr "Cliente Web de Odoo"
+msgid "Flectra Web Client"
+msgstr "Cliente Web de Flectra"
 
 #. module: event
 #: model:ir.actions.act_window,help:event.action_event_view
 msgid ""
-"Odoo helps you schedule and efficiently organize your events:\n"
+"Flectra helps you schedule and efficiently organize your events:\n"
 "    track subscriptions and participations, automate the confirmation "
 "emails,\n"
 "    sell tickets, etc."
 msgstr ""
-"Odoo le ayuda a programar y organizar de manera eficiente sus eventos: "
+"Flectra le ayuda a programar y organizar de manera eficiente sus eventos: "
 "seguimiento de suscripciones y participantes, automatizar los mensajes de "
 "correo electrónico de confirmación, vender entradas, etc."
 
@@ -1851,8 +1851,8 @@ msgstr "aprender <i>desarrollo de aplicaciones de negocio</i>"
 
 #. module: event
 #: model:event.event,description:event.event_0
-msgid "to learn Odoo Programming"
-msgstr "para aprender a programar Odoo"
+msgid "to learn Flectra Programming"
+msgstr "para aprender a programar Flectra"
 
 #. module: event
 #: model:event.event,description:event.event_1

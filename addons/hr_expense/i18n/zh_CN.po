@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * hr_expense
 # 
@@ -6,17 +6,17 @@
 # Jeffery CHEN <jeffery9@gmail.com>, 2016
 # 苏州远鼎 <tiexinliu@126.com>, 2016
 # Gary Wei <Gary.wei@elico-corp.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # waveyeung <waveyeung@qq.com>, 2017
 # liAnGjiA <liangjia@qq.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:49+0000\n"
 "PO-Revision-Date: 2017-02-15 09:49+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2017\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/flectra/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "(e.g. expenses@mycompany.odoo.com)"
+msgid "(e.g. expenses@mycompany.flectrahq.com)"
 msgstr ""
 
 #. module: hr_expense
@@ -543,8 +543,8 @@ msgstr "结束"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Enjoy your Odoo experience,"
-msgstr "好好体验Odoo吧"
+msgid "Enjoy your Flectra experience,"
+msgstr "好好体验Flectra吧"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense
@@ -781,10 +781,10 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the Flectra Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"关于Odoo团队,<br/>\n"
+"关于Flectra团队,<br/>\n"
 "                            Fabien Pinckaers, 创始人F胖子：）"
 
 #. module: hr_expense
@@ -833,7 +833,7 @@ msgstr "HR 部门"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Have a wonderful day,<br/>- The Odoo Team"
+msgid "Have a wonderful day,<br/>- The Flectra Team"
 msgstr ""
 
 #. module: hr_expense
@@ -1461,7 +1461,7 @@ msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "This guide helps you start with Odoo Expenses."
+msgid "This guide helps you start with Flectra Expenses."
 msgstr ""
 
 #. module: hr_expense

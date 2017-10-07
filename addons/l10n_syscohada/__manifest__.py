@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Odoo,Flectra. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2010-2011 BAAMTU SARL (<http://www.baamtu.sn>).
 # contact: leadsn@baamtu.com
 
 {
     'name' : 'OHADA - Accounting',
-    'author' : 'Baamtu Senegal',
+    'author' : 'Baamtu Senegal, Flectra',
     'category': 'Localization',
     'description': """
 This module implements the accounting chart for OHADA area.

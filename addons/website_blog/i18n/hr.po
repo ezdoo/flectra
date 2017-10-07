@@ -1,5 +1,5 @@
-# #-#-#-#-#  hr.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  hr.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_blog
 #
@@ -7,8 +7,8 @@
 # Davor Bojkić <bole@dajmi5.com>, 2015
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2015
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2015
-# #-#-#-#-#  hr.po (Odoo 9.0)  #-#-#-#-#
-# Translation of Odoo Server.
+# #-#-#-#-#  hr.po (Flectra 9.0)  #-#-#-#-#
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * website_blog
 #
@@ -18,20 +18,20 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2015-10-22 13:05+0000\n"
 "Last-Translator: Ivica Dimjašević <ivica.dimjasevic@storm.hr>\n"
-"Language-Team: Croatian (http://www.transifex.com/odoo/odoo-9/language/hr/)\n"
+"Language-Team: Croatian (http://www.transifex.com/flectra/flectra-9/language/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  hr.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  hr.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"#-#-#-#-#  hr.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  hr.po (Flectra 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
@@ -54,7 +54,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo now competes on many fronts, with no real\n"
+"\"Flectra now competes on many fronts, with no real\n"
 "                competition out there to knock them off the top spot.\n"
 "                With the launch of their integrated CMS and Ecommerce\n"
 "                systems,it only elevates their position as one of the "
@@ -68,9 +68,9 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo's latest launch will allow a business to go from\n"
+"\"Flectra's latest launch will allow a business to go from\n"
 "                zero to trading online quicker than ever before,” Stuart\n"
-"                Mackintosh, MD of Open Source specialist and Odoo\n"
+"                Mackintosh, MD of Open Source specialist and Flectra\n"
 "                integration partner, OpusVL, explains. “The investment\n"
 "                required to have a fully automated business system is\n"
 "                dramatically reduced, enabling the small and medium\n"
@@ -82,7 +82,7 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
 "\"This is another clever and highly disruptive move by\n"
-"                Odoo,which will force other technology providers to\n"
+"                Flectra,which will force other technology providers to\n"
 "                take another look at the value they are providing to ensure\n"
 "                that their 'solutions' can still compete.\""
 msgstr ""
@@ -102,7 +102,7 @@ msgstr ""
 msgid ""
 "A mix of push &amp; pull: Today, people\n"
 "                    are victims of what others decide to push to them.\n"
-"                    Odoo differentiates:"
+"                    Flectra differentiates:"
 msgstr ""
 
 #. module: website_blog
@@ -150,7 +150,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
-"At Odoo, we build tools to bring productivity to\n"
+"At Flectra, we build tools to bring productivity to\n"
 "                enterprises. As emails and information flows are one of\n"
 "                the biggest wastes of time in companies, we have to fix\n"
 "                this."
@@ -459,7 +459,7 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
 "Folders and mailing lists are great tools but too\n"
-"                    complex in traditional email clients. In Odoo, a\n"
+"                    complex in traditional email clients. In Flectra, a\n"
 "                    group of contacts that share a discussion can be\n"
 "                    created with one click. Every group should have it's\n"
 "                    own email address."
@@ -502,7 +502,7 @@ msgstr "Grupiraj po"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "Here are the ideas behind the Odoo communication tools:"
+msgid "Here are the ideas behind the Flectra communication tools:"
 msgstr ""
 
 #. module: website_blog
@@ -529,7 +529,7 @@ msgstr "ID"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_1
-msgid "Ideas behind the Odoo communication tools."
+msgid "Ideas behind the Flectra communication tools."
 msgstr ""
 
 #. module: website_blog
@@ -592,7 +592,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Like many modern website editors, with Odoo you can edit\n"
+"Like many modern website editors, with Flectra you can edit\n"
 "                content in-line, enabling you to see exactly what you are\n"
 "                changing and ensure your changes suit the context."
 msgstr ""
@@ -705,15 +705,15 @@ msgstr "Nije objavljeno"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Odoo claims to be 'the Open Source software that makes\n"
+"Flectra claims to be 'the Open Source software that makes\n"
 "                building your company's website and selling your products\n"
 "                online easy'. So how true is this statement?"
 msgstr ""
 
 #. module: website_blog
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
-msgid "Odoo, email"
-msgstr "Odoo, e-mail"
+msgid "Flectra, email"
+msgstr "Flectra, e-mail"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -943,7 +943,7 @@ msgstr "Tehnički"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "The Communication Mechanism of Odoo"
+msgid "The Communication Mechanism of Flectra"
 msgstr ""
 
 #. module: website_blog
@@ -994,7 +994,7 @@ msgstr "Titula"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"To add to an already comprehensive set of Odoo\n"
+"To add to an already comprehensive set of Flectra\n"
 "                    features, a website content management system (CMS\n"
 "                    or WMS) has been developed and a beta release is\n"
 "                    available from today, 31st January 2014."

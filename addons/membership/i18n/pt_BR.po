@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * membership
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux <mat@flectrahq.com>, 2016
 # grazziano <gra.negocia@gmail.com>, 2016
 # Mateus Lopes <mateus1@gmail.com>, 2016
 # falexandresilva <falexandresilva@gmail.com>, 2016
@@ -11,12 +11,12 @@
 # THIAGO MACÊDO <thiago95macedo@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~14\n"
+"Project-Id-Version: Flectra Server 10.saas~14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-15 09:50+0000\n"
 "PO-Revision-Date: 2017-02-15 09:50+0000\n"
 "Last-Translator: THIAGO MACÊDO <thiago95macedo@gmail.com>, 2016\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/flectra/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -519,10 +519,10 @@ msgstr "Nenhum/Cancelado/Antigo/Aguardando"
 #. module: membership
 #: model:ir.actions.act_window,help:membership.action_membership_members
 msgid ""
-"Odoo helps you easily track all activities related to a member: \n"
+"Flectra helps you easily track all activities related to a member: \n"
 "                 Current Membership Status, Discussions and History of Membership, etc."
 msgstr ""
-"Odoo ajuda você a facilmente acompanhar todas as atividades relacionadas a um membro:\n"
+"Flectra ajuda você a facilmente acompanhar todas as atividades relacionadas a um membro:\n"
 "Estado Atual de Membro, Discussões e História do Membro, etc."
 
 #. module: membership

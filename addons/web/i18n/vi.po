@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * web
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # lam nguyen <lamev.inc@gmail.com>, 2017
@@ -12,12 +12,12 @@
 # Hồng Quân Nguyễn <ng.hong.quan@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Hồng Quân Nguyễn <ng.hong.quan@gmail.com>, 2017\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/flectra/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -229,8 +229,8 @@ msgstr "<span class=\"oe_logo_edit\">Sửa thông tin Công ty</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>Flectra</span>"
+msgstr "<span>Flectra</span>"
 
 #. module: web
 #. openerp-web
@@ -1216,9 +1216,9 @@ msgstr "Mẫu"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1338
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
+msgid "Get this feature and much more with Flectra Enterprise!"
 msgstr ""
-"Nhận được tính năng này và nhiều hơn nữa với phiên bản Odoo cho Doanh "
+"Nhận được tính năng này và nhiều hơn nữa với phiên bản Flectra cho Doanh "
 "nghiệp!"
 
 #. module: web
@@ -1567,8 +1567,8 @@ msgstr "Chuyển lên"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1323
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Tài khoản Odoo.com"
+msgid "My Flectra.com account"
+msgstr "Tài khoản Flectra.com"
 
 #. module: web
 #. openerp-web
@@ -1700,15 +1700,15 @@ msgstr "Đối tượng:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo Apps sẽ có mặt sớm"
+msgid "Flectra Apps will be available soon"
+msgstr "Flectra Apps sẽ có mặt sớm"
 
 #. module: web
 #. openerp-web
@@ -1716,28 +1716,28 @@ msgstr "Odoo Apps sẽ có mặt sớm"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
+msgid "Flectra Client Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo cho Doanh nghiệp"
+msgid "Flectra Enterprise"
+msgstr "Flectra cho Doanh nghiệp"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
+msgid "Flectra Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
+msgid "Flectra Session Expired"
 msgstr ""
 
 #. module: web
@@ -1745,7 +1745,7 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
+msgid "Flectra Warning"
 msgstr ""
 
 #. module: web
@@ -1955,8 +1955,8 @@ msgstr "Được hỗ trợ bởi"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Được hỗ trợ bởi <span>Odoo</span>"
+msgid "Powered by <span>Flectra</span>"
+msgstr "Được hỗ trợ bởi <span>Flectra</span>"
 
 #. module: web
 #. openerp-web
@@ -2451,10 +2451,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in Flectra is displayed according to your field timezone."
 msgstr ""
 "Múi giờ không phù hợp : Múi giờ của trình duyệt của bạn không khớp với lựa "
-"chọn. Thời gian trong Odoo được hiển thị theo trường timezone của bạn cài "
+"chọn. Thời gian trong Flectra được hiển thị theo trường timezone của bạn cài "
 "đặt."
 
 #. module: web
@@ -2813,7 +2813,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your Flectra session expired. Please refresh the current web page."
 msgstr "Phiên làm việc của bạn đã hết hạn. Xin hãy nạp lại trang hiện tại."
 
 #. module: web

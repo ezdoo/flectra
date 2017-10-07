@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * analytic
 #
@@ -6,12 +6,12 @@
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2015-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Flectra 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-02-01 03:38+0000\n"
 "Last-Translator: Rick Hunter <rick_hunter_ec@yahoo.com>\n"
-"Language-Team: Spanish (Ecuador) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Ecuador) (http://www.transifex.com/flectra/flectra-9/"
 "language/es_EC/)\n"
 "Language: es_EC\n"
 "MIME-Version: 1.0\n"
@@ -240,12 +240,12 @@ msgstr "ID"
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sale orders and projects are implemented using\n"
+"In Flectra, sale orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to "
 "analyse\n"
 "                your margins easily."
 msgstr ""
-"En Odoo, ordenes de ventas y proyectos son implementados usando\n"
+"En Flectra, ordenes de ventas y proyectos son implementados usando\n"
 "cuentas analíticas. Usted puede analizar costos, ingresos y márgenes\n"
 "facilmente."
 

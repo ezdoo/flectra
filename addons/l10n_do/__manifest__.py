@@ -82,7 +82,7 @@ en Odoo):
 110101- Caja
 11010101 Caja General
     """,
-    'author': 'Gustavo Valverde - iterativo | Consultores de Odoo',
+    'author': 'Gustavo Valverde - iterativo | Consultores de Odoo, Flectra',
     'website': 'http://iterativo.do',
     'depends': ['account',
                 'base_iban'

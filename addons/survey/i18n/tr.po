@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * survey
 # 
@@ -8,12 +8,12 @@
 # Ediz Duman <neps1192@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Flectra Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Ediz Duman <neps1192@gmail.com>, 2017\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/flectra/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -217,8 +217,8 @@ msgstr ""
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "Odoo kullanımı hakkında"
+msgid "About your Flectra usage"
+msgstr "Flectra kullanımı hakkında"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey_active
@@ -293,8 +293,8 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Odoo günlük olarak kullanıyorsunuz?"
+msgid "Are you using Flectra on a daily basis?"
+msgstr "Flectra günlük olarak kullanıyorsunuz?"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_attachment_ids
@@ -660,8 +660,8 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "Nasıl katkıda bulunmak veya Odoo için katkıda bulunmak için plan?"
+msgid "How do you contribute or plan to contribute to Flectra?"
+msgstr "Nasıl katkıda bulunmak veya Flectra için katkıda bulunmak için plan?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -695,7 +695,7 @@ msgstr "Tartışma ve Forumlar katılmak"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Github, like all official Odoo projects"
+msgid "I use Github, like all official Flectra projects"
 msgstr ""
 
 #. module: survey
@@ -705,8 +705,8 @@ msgstr "Kullandığım başka bir depo sistemi (SourceForge...)"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Odoo içerik yardımını kullanma"
+msgid "I use the contextual help in Flectra"
+msgstr "Flectra içerik yardımını kullanma"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -767,7 +767,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "If you do not contribute or develop in Odoo, skip this page."
+msgid "If you do not contribute or develop in Flectra, skip this page."
 msgstr ""
 
 #. module: survey
@@ -1726,7 +1726,7 @@ msgstr "Çok fazla menüler, anlamak için karmaşık"
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
+"These questions relate to the ergonomy and ease of use of Flectra. Try to remind your firsts days on Flectra and\n"
 "what have been your difficulties."
 msgstr ""
 
@@ -1742,7 +1742,7 @@ msgstr "Onlar günlük kullanım üstünde yararlı"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
+msgid "They help new users to understand Flectra"
 msgstr "Kullanıcı tarafından anlaşılabilir olması"
 
 #. module: survey
@@ -1976,7 +1976,7 @@ msgstr "Yapılandırma sihirbazları hakkında ne düşünüyorsun?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.odoo.com?"
+msgid "What do you think about the documentation available on doc.flectrahq.com?"
 msgstr ""
 
 #. module: survey
@@ -1987,10 +1987,10 @@ msgstr "Kullanıcı grupları hakkında ne düşünüyorsun?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of Flectra, available in the web "
 "client ?"
 msgstr ""
-"Odoo, web istemcisinde kullanılabilir işlem sayısı hakkında ne düşünüyorsun?"
+"Flectra, web istemcisinde kullanılabilir işlem sayısı hakkında ne düşünüyorsun?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2027,8 +2027,8 @@ msgstr "Evet, yerel olarak yüklenmiş 7.0 sürümü kullan"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Evet, Odoo çevrimiçi sürümünü kullanın"
+msgid "Yes, I use the online version of Flectra"
+msgstr "Evet, Flectra çevrimiçi sürümünü kullanın"
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_survey_form
