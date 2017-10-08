@@ -1,5 +1,8 @@
+
+[![Build Status](https://travis-ci.org/flectrahq/flectra.svg?branch=master)](https://travis-ci.org/flectrahq/flectra)
+
 Flectra
--------
+=======
 
 Flectra is a suite of web based open source business apps forked from Odoo. 
 
