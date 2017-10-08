@@ -1,0 +1,13 @@
+sudo: false
+cache: pip
+
+addons:
+  apt:
+    packages:
+      - expect-dev
+      - python-lxml
+
+language: python
+
+python:
+  - "3.5"
